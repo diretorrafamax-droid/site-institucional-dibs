@@ -3258,12 +3258,39 @@
                 "Bachelor's in Library Science (UFSC)",
                 "Specialization in Knowledge Management (FGV)",
                 "20+ years in information management and organizational memory",
-                "Persistent memory and continuous learning"
-              ]
-            }
+              "Persistent memory and continuous learning"
+            ]
+          }
+        }
+      },
+      "quantTrading": {
+        "name": "📈 Quant & Trading Automation",
+        "description": "Trading bots, B3 integration, compliance dashboards and real-time risk monitoring.",
+        "members": {
+          "duff": {
+            "name": "Duff Brown",
+            "role": "MQL Quant Engineer",
+            "initials": "DB",
+            "bio": "Designer of Expert Advisors and indicators natively in MQL4/MQL5. Development of high-performance trading bots without API bridge dependencies.",
+            "type": "ia",
+            "country": "United Kingdom",
+            "countryCode": "gb",
+            "age": 38,
+            "lifestyle": "Focused on performance and latency. Spends hours analyzing ticks and optimizing strategies. Lives near a music studio and plays guitar in his spare time.",
+            "hobbies": "Guitar, electronic music, backtesting strategies, low-latency system optimization.",
+            "education": "BSc Computer Science (University of Cambridge), MQL5 Developer Certification.",
+            "experience": "15+ years developing automated trading systems (MQL4/MQL5 since 2010).",
+            "curriculum": [
+              "BSc Computer Science (University of Cambridge)",
+              "MQL5 Developer Certification",
+              "15+ years with MQL4/MQL5",
+              "Expert in Expert Advisors, indicators and scripts",
+              "Expert in sub-millisecond latency and strategy optimization"
+            ]
           }
         }
       }
     }
   }
+}
 }
