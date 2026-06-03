@@ -2956,10 +2956,31 @@
               "education": "Doctorate in Literature (USP), Specialization in Literary Journalism.",
               "experience": "22+ years in editorial direction and content orchestration.",
               "curriculum": [
-                "Doctorate in Literature (USP)",
+                "PhD in Literature (USP)",
                 "Specialization in Literary Journalism",
                 "22+ years in editorial direction",
-                "Editorial workflow orchestrator"
+                "Content workflow orchestrator"
+              ]
+            },
+            "henry": {
+              "name": "Henry Mason",
+              "role": "Prompt Engineer",
+              "initials": "HM",
+              "bio": "Quality supervisor for the multi-agent system prompts. Ensures every prompt is modular, specialized, and oriented to technical decisions.",
+              "type": "ia",
+              "country": "United States",
+              "countryCode": "us",
+              "age": 35,
+              "lifestyle": "Meticulous and technical. Spends hours refining prompts to get the best out of every model. Digital minimalist, clean code, clean prompts.",
+              "hobbies": "Prompt crafting, reading NLP papers, specialty coffee, technical writing.",
+              "education": "BSc in Computer Science (MIT), Specialization in Natural Language Processing (Stanford).",
+              "experience": "10+ years in prompt engineering and multi-agent systems.",
+              "curriculum": [
+                "BSc in Computer Science (MIT)",
+                "Specialization in NLP (Stanford)",
+                "10+ years in prompt engineering",
+                "Expert in Chain-of-Thought, Few-Shot and Role Prompting",
+                "Prompt quality gatekeeper at Dibs Solutions"
               ]
             }
           }

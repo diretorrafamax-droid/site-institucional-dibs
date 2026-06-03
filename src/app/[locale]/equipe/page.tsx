@@ -15,7 +15,7 @@ const memberKeys: string[][] = [
   ['sofia', 'carlos', 'alan', 'arthur', 'igor', 'felipe', 'miguel'],
   ['cesarJunior', 'marioReis'],
   ['davi', 'noah', 'benjamim', 'celia', 'tarsila', 'lis', 'leila', 'valerio'],
-  ['atlas', 'jesus', 'shakespeare'],
+  ['atlas', 'jesus', 'shakespeare', 'henry'],
   ['helena', 'bruno', 'julio'],
   ['gavin', 'vitalik', 'hayden', 'andrew', 'cronje', 'willy', 'illia', 'brendan', 'ameen', 'delton'],
   ['paulo'],

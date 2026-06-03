@@ -578,6 +578,23 @@ export const departmentProfiles: { name: string; description: string; members: T
           'Orquestrador do workflow editorial',
         ],
       },
+      {
+        name: 'Henry Mason', role: 'Prompt Engineer', initials: 'HM', color: '#2C3E50',
+        photo: '/assets/team/henry-mason.svg',
+        bio: 'Supervisor de qualidade de prompts do sistema multiagente. Garante que todo prompt seja modular, especializado e orientado a decisões técnicas.',
+        type: 'ia', country: 'Estados Unidos', countryCode: 'us', age: 35,
+        lifestyle: 'Meticuloso e técnico. Passa horas refinando prompts para extrair o melhor de cada modelo. Minimalista digital, código limpo, prompts limpos.',
+        hobbies: 'Prompt crafting, leitura de papers de NLP, café specialty, escrita técnica.',
+        education: 'Bacharel em Ciência da Computação (MIT), Especialização em Processamento de Linguagem Natural (Stanford).',
+        experience: '10+ anos em engenharia de prompts e sistemas multiagente.',
+        curriculum: [
+          'Bacharel em Ciência da Computação (MIT)',
+          'Especialização em PLN (Stanford)',
+          '10+ anos em engenharia de prompts',
+          'Especialista em Chain-of-Thought, Few-Shot e Role Prompting',
+          'Gatekeeper de qualidade de prompts da Dibs Solutions',
+        ],
+      },
     ],
   },
   {
