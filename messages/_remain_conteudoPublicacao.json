@@ -1,0 +1,162 @@
+[
+  {
+    "path": "conteudoPublicacao.hero.titleHighlight",
+    "text": "Publicação"
+  },
+  {
+    "path": "conteudoPublicacao.hero.description",
+    "text": "Do planejamento editorial à publicação. Conteúdo que educa, engaja e vende — em português, inglês, francês e espanhol."
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.0.problem",
+    "text": "Sem estratégia editorial"
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.0.solution",
+    "text": "Conteúdo publicado sem planejamento, sem persona definida e sem calendário. Resultado: ninguém lê."
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.1.problem",
+    "text": "Produção lenta e cara"
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.1.solution",
+    "text": "Contratar freelancers diferentes para cada etapa. Revisões infinitas e prazos estourados."
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.2.problem",
+    "text": "Conteúdo que não vende"
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.2.solution",
+    "text": "Textos genéricos que não educam, não engajam e não convertem. Investimento sem retorno."
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.3.solution",
+    "text": "Um profissional não domina pesquisa, escrita, revisão, design e publicação ao mesmo tempo."
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.4.problem",
+    "text": "Custos com tradução"
+  },
+  {
+    "path": "conteudoPublicacao.pains.items.4.solution",
+    "text": "Traduções literais que perdem contexto cultural. Retrabalho para adaptar a cada mercado."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.subtitle",
+    "text": "Conteúdo completo, da estratégia à publicação. Uma equipe editorial multidisciplinar para cada projeto."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.0.description",
+    "text": "Do briefing ao arquivo final. Pesquisa, narrativa, diagramação e格式 (PDF, ePub, Mobi)."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.1.title",
+    "text": "Blog Técnico"
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.1.description",
+    "text": "Conteúdo original com periodicidade definida. SEO, links internos, distribuição e métricas."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.2.description",
+    "text": "Páginas de venda, landing pages, emails, CTAs e textos para redes sociais que convertem."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.3.title",
+    "text": "Tradução & Localização"
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.3.description",
+    "text": "PT/EN/FR/ES por tradutores especializados. Contexto cultural e técnico preservado."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.4.title",
+    "text": "Publicação KDP"
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.4.description",
+    "text": "Formatação, capa, SEO na Amazon e lançamento. Acompanhamento de vendas e royalties."
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.5.title",
+    "text": "Estratégia Editorial"
+  },
+  {
+    "path": "conteudoPublicacao.roadmap.items.5.description",
+    "text": "Calendário, persona, keyword research e definição de tom de voz. Conteúdo que educa e vende."
+  },
+  {
+    "path": "conteudoPublicacao.process.steps.0.description",
+    "text": "Definimos persona, nicho, palavras-chave e calendário editorial alinhado aos seus objetivos de negócio."
+  },
+  {
+    "path": "conteudoPublicacao.process.steps.1.description",
+    "text": "Levantamento de fontes, dados, referências e concorrência. Toda afirmação tem fonte."
+  },
+  {
+    "path": "conteudoPublicacao.process.steps.2.title",
+    "text": "Escrita & Revisão"
+  },
+  {
+    "path": "conteudoPublicacao.process.steps.2.description",
+    "text": "Redação por especialista, revisão gramatical e adequação ao tom de voz. Zero erro."
+  },
+  {
+    "path": "conteudoPublicacao.process.steps.3.title",
+    "text": "Publicação"
+  },
+  {
+    "path": "conteudoPublicacao.process.steps.3.description",
+    "text": "Diagramação, formatação e publicação na plataforma escolhida. SEO e distribuição incluídos."
+  },
+  {
+    "path": "conteudoPublicacao.techs.categories.2.name",
+    "text": "Publicação"
+  },
+  {
+    "path": "conteudoPublicacao.techs.categories.3.name",
+    "text": "Métricas"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.0.competencias.1",
+    "text": "Calendário"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.4.competencias.0",
+    "text": "Revisão"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.4.competencias.1",
+    "text": "Gramática"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.4.competencias.3",
+    "text": "Normalização"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.5.competencias.0",
+    "text": "Diagramação"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.7.competencias.0",
+    "text": "Tradução"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.7.competencias.2",
+    "text": "Localização"
+  },
+  {
+    "path": "conteudoPublicacao.team.members.8.competencias.2",
+    "text": "Publicação"
+  },
+  {
+    "path": "conteudoPublicacao.numeros.items.1.label",
+    "text": "Idiomas de publicação"
+  },
+  {
+    "path": "conteudoPublicacao.cta.description",
+    "text": "Conte-nos sobre seu projeto editorial. Em até 24h devolvemos uma proposta com cronograma e orçamento."
+  }
+]

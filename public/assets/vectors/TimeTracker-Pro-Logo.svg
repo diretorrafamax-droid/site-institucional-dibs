@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="400" viewBox="0 0 1400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ttpGradient" x1="40" y1="40" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#19D87D"/>
+      <stop offset="100%" stop-color="#21AA62"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ícone -->
+  <g transform="translate(40,40)">
+    <circle cx="160" cy="160" r="120"
+            stroke="url(#ttpGradient)"
+            stroke-width="12"
+            stroke-linecap="round"
+            fill="none"
+            stroke-dasharray="680 120"/>
+
+    <!-- Cronômetro -->
+    <line x1="160" y1="28" x2="160" y2="8"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+    <line x1="130" y1="8" x2="190" y2="8"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Ponteiros -->
+    <circle cx="160" cy="160" r="10" fill="#19D87D"/>
+    <line x1="160" y1="160" x2="160" y2="90"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+    <line x1="160" y1="160" x2="215" y2="205"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Elemento código -->
+    <path d="M80 125 C60 135,60 185,80 195"
+          stroke="url(#ttpGradient)" stroke-width="12"
+          stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Barras de progresso -->
+    <line x1="10" y1="130" x2="55" y2="130"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+    <line x1="0" y1="160" x2="55" y2="160"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+    <line x1="15" y1="190" x2="55" y2="190"
+          stroke="url(#ttpGradient)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(420,110)">
+    <text x="0" y="110"
+          font-family="Inter, Poppins, Arial, sans-serif"
+          font-size="110"
+          font-weight="700"
+          letter-spacing="-2"
+          fill="#1C1C1C">TimeTracker</text>
+
+    <text x="770" y="110"
+          font-family="Inter, Poppins, Arial, sans-serif"
+          font-size="110"
+          font-weight="400"
+          letter-spacing="-1"
+          fill="#19D87D">Pro</text>
+  </g>
+</svg>

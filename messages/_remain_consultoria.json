@@ -1,0 +1,158 @@
+[
+  {
+    "path": "consultoria.hero.titleHighlight",
+    "text": "Técnica"
+  },
+  {
+    "path": "consultoria.hero.description",
+    "text": "Arquitetura, code review, gestão de escopo e processos. Colocamos seu projeto nos trilhos com método e experiência."
+  },
+  {
+    "path": "consultoria.hero.ctaSecondary",
+    "text": "Ver entregáveis"
+  },
+  {
+    "path": "consultoria.pains.items.0.problem",
+    "text": "Projeto sem direção clara"
+  },
+  {
+    "path": "consultoria.pains.items.1.problem",
+    "text": "Orçamento estourando"
+  },
+  {
+    "path": "consultoria.pains.items.1.solution",
+    "text": "Mudanças de escopo sem controle, estimativas erradas e retrabalho constante. Seu dinheiro indo embora."
+  },
+  {
+    "path": "consultoria.pains.items.2.solution",
+    "text": "Sprints que nunca fecham, dependências não resolvidas e comunicação falha. O projeto nunca parece avançar."
+  },
+  {
+    "path": "consultoria.pains.items.3.solution",
+    "text": "Desenvolvedores acumulando funções de gestão. Decisões técnicas sem visão estratégica. Burnout e turnover altos."
+  },
+  {
+    "path": "consultoria.pains.items.4.problem",
+    "text": "Sem métricas de sucesso"
+  },
+  {
+    "path": "consultoria.pains.items.4.solution",
+    "text": "Entregas sem qualidade definida. Não dá pra saber se o projeto está no caminho certo até que seja tarde demais."
+  },
+  {
+    "path": "consultoria.roadmap.subtitle",
+    "text": "Consultoria completa para destravar seu projeto. Da estratégia à execução, com métricas e governança."
+  },
+  {
+    "path": "consultoria.roadmap.items.0.description",
+    "text": "Desenho arquitetural completo com diagramas, definições de stack, padrões e decisões técnicas documentadas."
+  },
+  {
+    "path": "consultoria.roadmap.items.1.title",
+    "text": "Gestão de Escopo"
+  },
+  {
+    "path": "consultoria.roadmap.items.1.description",
+    "text": "Metodologia para controle de mudanças. Escopo vira contrato, mudanças viram ordens com custo e prazo."
+  },
+  {
+    "path": "consultoria.roadmap.items.2.description",
+    "text": "Análise técnica do código existente: qualidade, performance, segurança e dívida técnica com plano de melhoria."
+  },
+  {
+    "path": "consultoria.roadmap.items.3.description",
+    "text": "Roadmap, sprints, milestones e dependências. Do MVP aos próximos passos com estimativas realistas."
+  },
+  {
+    "path": "consultoria.roadmap.items.4.title",
+    "text": "Otimização de Processos"
+  },
+  {
+    "path": "consultoria.roadmap.items.4.description",
+    "text": "Análise do fluxo de trabalho atual e recomendações para eliminar gargalos e acelerar entregas."
+  },
+  {
+    "path": "consultoria.roadmap.items.5.title",
+    "text": "Métricas & OKRs"
+  },
+  {
+    "path": "consultoria.roadmap.items.5.description",
+    "text": "KPIs do projeto e do produto. Definição de metas, acompanhamento semanal e reports executivos."
+  },
+  {
+    "path": "consultoria.process.steps.0.title",
+    "text": "Diagnóstico"
+  },
+  {
+    "path": "consultoria.process.steps.0.description",
+    "text": "Analisamos o cenário atual: processos, equipe, código, prazos e dores do projeto."
+  },
+  {
+    "path": "consultoria.process.steps.1.title",
+    "text": "Plano de Ação"
+  },
+  {
+    "path": "consultoria.process.steps.1.description",
+    "text": "Recomendações priorizadas por impacto e esforço. Roadmap de curto, médio e longo prazo."
+  },
+  {
+    "path": "consultoria.process.steps.2.title",
+    "text": "Execução"
+  },
+  {
+    "path": "consultoria.process.steps.2.description",
+    "text": "Implementação das recomendações com acompanhamento contínuo e ajustes de rota."
+  },
+  {
+    "path": "consultoria.process.steps.3.title",
+    "text": "Transferência"
+  },
+  {
+    "path": "consultoria.process.steps.3.description",
+    "text": "Capacitação da equipe, documentação final e autonomia para manter o ritmo sem dependência externa."
+  },
+  {
+    "path": "consultoria.techs.categories.1.name",
+    "text": "Práticas"
+  },
+  {
+    "path": "consultoria.techs.categories.3.name",
+    "text": "Gestão"
+  },
+  {
+    "path": "consultoria.team.members.0.competencias.0",
+    "text": "Gestão"
+  },
+  {
+    "path": "consultoria.team.members.1.competencias.2",
+    "text": "Revisão"
+  },
+  {
+    "path": "consultoria.team.members.2.competencias.2",
+    "text": "Governança"
+  },
+  {
+    "path": "consultoria.team.members.3.competencias.0",
+    "text": "Memória"
+  },
+  {
+    "path": "consultoria.team.members.3.competencias.2",
+    "text": "Documentação"
+  },
+  {
+    "path": "consultoria.team.members.4.competencias.0",
+    "text": "Revisão de Código"
+  },
+  {
+    "path": "consultoria.numeros.items.1.label",
+    "text": "Dias para diagnóstico"
+  },
+  {
+    "path": "consultoria.cta.description",
+    "text": "Agende um diagnóstico gratuito de 30 minutos. Apresentamos um raio-X do seu projeto com as primeiras recomendações."
+  },
+  {
+    "path": "consultoria.cta.button",
+    "text": "Agendar diagnóstico →"
+  }
+]

@@ -1,0 +1,28 @@
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+})
+
+export const metadata: Metadata = {
+  title: "Dibs Solutions — Technology Agency",
+  description: "Transformamos ideias em soluções digitais que geram impacto. Software, Design, Conteúdo, Blockchain e Automações Financeiras.",
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{
+          __html: `(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}window.__theme=t;if(t==='dark'){document.documentElement.classList.add('dark')}}catch(e){}})()`
+        }} />
+      </head>
+      <body className={`${inter.variable} font-sans min-h-full flex flex-col antialiased`}>
+        {children}
+      </body>
+    </html>
+  )
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "path": "radarDibs.hero.description",
+    "text": "Antes de investir, valide. Metodologia exclusiva em 4 fases com score Go/No-Go. Análise completa em 5 a 10 dias úteis."
+  },
+  {
+    "path": "radarDibs.pains.items.0.solution",
+    "text": "Milhares gastos em desenvolvimento de um produto que o mercado não quer. 70% dos projetos falham por falta de validação."
+  },
+  {
+    "path": "radarDibs.pains.items.1.problem",
+    "text": "Ideia boa, execução errada"
+  },
+  {
+    "path": "radarDibs.pains.items.1.solution",
+    "text": "Produtos que resolvem o problema errado. Funcionalidades que ninguém usa. Pivotar tarde demais."
+  },
+  {
+    "path": "radarDibs.pains.items.3.problem",
+    "text": "Sem métricas objetivas"
+  },
+  {
+    "path": "radarDibs.pains.items.3.solution",
+    "text": "Decisões baseadas em achismo. Sem score, sem dados, sem critério claro para avançar ou parar."
+  },
+  {
+    "path": "radarDibs.pains.items.4.solution",
+    "text": "Funcionalidades solicitadas por todos os lados. Sem método para separar o essencial do supérfluo."
+  },
+  {
+    "path": "radarDibs.roadmap.subtitle",
+    "text": "Metodologia proprietária que analisa seu projeto sob 4 perspectivas complementares."
+  },
+  {
+    "path": "radarDibs.roadmap.items.0.description",
+    "text": "Análise da jornada do usuário, proposta de valor, adequação ao mercado e diferenciais competitivos."
+  },
+  {
+    "path": "radarDibs.roadmap.items.1.title",
+    "text": "② Técnica"
+  },
+  {
+    "path": "radarDibs.roadmap.items.1.description",
+    "text": "Viabilidade arquitetural, stack tecnológica, segurança, escalabilidade e dívida técnica estimada."
+  },
+  {
+    "path": "radarDibs.roadmap.items.2.description",
+    "text": "Tamanho do mercado, concorrência, barreiras de entrada, canais de aquisição e tendências."
+  },
+  {
+    "path": "radarDibs.roadmap.items.3.title",
+    "text": "④ Econômica"
+  },
+  {
+    "path": "radarDibs.roadmap.items.3.description",
+    "text": "Projeção financeira, ROI estimado, break-even, custos operacionais e fontes de receita."
+  },
+  {
+    "path": "radarDibs.roadmap.items.4.description",
+    "text": "Nota de 0 a 10 com recomendação Go/No-Go. Relatório executivo de 10 páginas com riscos e roadmap."
+  },
+  {
+    "path": "radarDibs.process.steps.0.description",
+    "text": "Alinhamos expectativas, definimos o escopo da análise e coletamos materiais existentes sobre o projeto."
+  },
+  {
+    "path": "radarDibs.process.steps.1.title",
+    "text": "Análise"
+  },
+  {
+    "path": "radarDibs.process.steps.1.description",
+    "text": "Aplicamos as 4 fases do Radar com agentes especialistas em cada dimensão."
+  },
+  {
+    "path": "radarDibs.process.steps.2.description",
+    "text": "Consolidamos os resultados em um score de 0 a 10 com recomendação Go, No-Go ou Pivotar."
+  },
+  {
+    "path": "radarDibs.process.steps.3.title",
+    "text": "Apresentação"
+  },
+  {
+    "path": "radarDibs.process.steps.3.description",
+    "text": "Reunião online para apresentar o relatório, esclarecer dúvidas e definir próximos passos."
+  },
+  {
+    "path": "radarDibs.team.title",
+    "text": "Equipe de Validação"
+  },
+  {
+    "path": "radarDibs.team.members.0.competencias.0",
+    "text": "Gestão"
+  },
+  {
+    "path": "radarDibs.team.members.2.competencias.2",
+    "text": "Governança"
+  },
+  {
+    "path": "radarDibs.numeros.items.0.label",
+    "text": "Fases de análise"
+  },
+  {
+    "path": "radarDibs.numeros.items.1.label",
+    "text": "Páginas de relatório"
+  }
+]

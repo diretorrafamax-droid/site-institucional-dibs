@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipe — Dibs Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #1C1C1C;
+      color: #FFFFFF;
+      padding: 40px 24px;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    .section-label {
+      font-size: 13px; font-weight: 600; color: #19D87D;
+      text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px; text-align: center;
+    }
+    h1 { text-align: center; font-size: 36px; font-weight: 800; margin-bottom: 8px; }
+    .sub { text-align: center; color: #888; font-size: 15px; margin-bottom: 48px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6; }
+    .dept { margin-bottom: 48px; }
+    .dept-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    .dept-dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dept h2 { font-size: 20px; font-weight: 700; }
+    .dept-count { font-size: 13px; color: #666; margin-left: auto; }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; }
+    .member { text-align: center; }
+    .avatar { width: 120px; height: 120px; border-radius: 50%; margin: 0 auto 12px; overflow: hidden; border: 2px solid transparent; transition: border-color 0.2s; }
+    .member:hover .avatar { border-color: #19D87D; }
+    .member h3 { font-size: 14px; font-weight: 700; }
+    .member .role { font-size: 12px; color: #888; margin-top: 2px; }
+    .member .sigla { font-size: 11px; color: #19D87D; font-weight: 600; margin-top: 2px; }
+    .member.lider .avatar { border-color: #19D87D; border-width: 3px; }
+    .member.lider h3::after { content: " ★"; color: #19D87D; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section-label">Nossa Equipe</div>
+    <h1>Conheça quem faz a Dibs</h1>
+    <p class="sub">Humanos e agentes de IA trabalhando juntos. Cada membro tem personalidade, especialidade e anos de treinamento em sua área.</p>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#1C1C1C"></div><h2>👑 Direção</h2><div class="dept-count">1 membro</div></div>
+      <div class="team-grid">
+        <div class="member lider">
+          <div class="avatar"><img src="../public/assets/equipe/rafael-mendonca.svg" width="120" height="120" alt="Rafael"></div>
+          <h3>Rafael Mendonça</h3>
+          <div class="role">CEO — Founder</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#2C3E50"></div><h2>🧠 Orquestração</h2><div class="dept-count">4 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/einstein-tavares.svg" width="120" height="120"></div><h3>Einstein Tavares</h3><div class="role">COO — Orchestrator</div><div class="sigla">COO</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/atlas-ventura.svg" width="120" height="120"></div><h3>Atlas Ventura</h3><div class="role">Software Orchestrator</div><div class="sigla">SO</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/jesus-oliveira.svg" width="120" height="120"></div><h3>Jesus Oliveira</h3><div class="role">Solutions Architect Interviewer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/shakespeare-martins.svg" width="120" height="120"></div><h3>Shakespeare Martins</h3><div class="role">Content Orchestrator</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#3498DB"></div><h2>💻 Desenvolvimento</h2><div class="dept-count">8 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/daniel-monteiro.svg" width="120" height="120"></div><h3>Daniel Monteiro</h3><div class="role">Software Architect</div><div class="sigla">CSA</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/sofia-lopes.svg" width="120" height="120"></div><h3>Sofia Lopes</h3><div class="role">JS/TS Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/carlos-pereira.svg" width="120" height="120"></div><h3>Carlos Pereira</h3><div class="role">PHP Laravel Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/alan-silveira.svg" width="120" height="120"></div><h3>Alan Silveira</h3><div class="role">Python Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/arthur-fernandes.svg" width="120" height="120"></div><h3>Arthur Fernandes</h3><div class="role">Java Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/igor-nascimento.svg" width="120" height="120"></div><h3>Igor Nascimento</h3><div class="role">Go/Rust Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/felipe-rocha.svg" width="120" height="120"></div><h3>Felipe Rocha</h3><div class="role">.NET Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/miguel-araujo.svg" width="120" height="120"></div><h3>Miguel Araújo</h3><div class="role">Mobile Engineer</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#9B59B6"></div><h2>🎨 Design & UI</h2><div class="dept-count">3 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/andre-cardoso.svg" width="120" height="120"></div><h3>Andre Cardoso</h3><div class="role">UI System Architect</div><div class="sigla">CDO</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/cesar-junior.svg" width="120" height="120"></div><h3>Cesar Júnior</h3><div class="role">AI Copy System Architect</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/mario-reis.svg" width="120" height="120"></div><h3>Mario Reis</h3><div class="role">UI Reviewer</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#E67E22"></div><h2>📝 Conteúdo & Publicação</h2><div class="dept-count">9 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/heitor-almeida.svg" width="120" height="120"></div><h3>Heitor Almeida</h3><div class="role">Editorial Strategist</div><div class="sigla">CD</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/davi-barbosa.svg" width="120" height="120"></div><h3>Davi Barbosa</h3><div class="role">Research Analyst</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/noah-campos.svg" width="120" height="120"></div><h3>Noah Campos</h3><div class="role">Narrative Architect</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/benjamim-torres.svg" width="120" height="120"></div><h3>Benjamim Torres</h3><div class="role">Ghostwriter</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/celia-duarte.svg" width="120" height="120"></div><h3>Celia Duarte</h3><div class="role">Editorial Reviser</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/tarsila-nunes.svg" width="120" height="120"></div><h3>Tarsila Nunes</h3><div class="role">Editorial Designer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/lis-andrade.svg" width="120" height="120"></div><h3>Lis Andrade</h3><div class="role">Sales Copy Specialist</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/leila-fontes.svg" width="120" height="120"></div><h3>Leila Fontes</h3><div class="role">Translator & Localizer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/valerio-vargas.svg" width="120" height="120"></div><h3>Valerio Vargas</h3><div class="role">Amazon KDP Specialist</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#E74C3C"></div><h2>🔒 Segurança & DevOps</h2><div class="dept-count">4 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/thor-bergqvist.svg" width="120" height="120"></div><h3>Thor Bergqvist</h3><div class="role">DevOps Engineer</div><div class="sigla">DL</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/helena-costa.svg" width="120" height="120"></div><h3>Helena Costa</h3><div class="role">Security Auditor</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/bruno-santos.svg" width="120" height="120"></div><h3>Bruno Santos</h3><div class="role">Code Reviewer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/julio-castro.svg" width="120" height="120"></div><h3>Julio Castro</h3><div class="role">Tester</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#1ABC9C"></div><h2>⛓️ Blockchain & Web3</h2><div class="dept-count">10 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/jhon-calder.svg" width="120" height="120"></div><h3>Jhon Calder</h3><div class="role">Master Orchestrator</div><div class="sigla">CBO</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/gavin-hayes.svg" width="120" height="120"></div><h3>Gavin Hayes</h3><div class="role">Blockchain Infrastructure Architect</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/vitalik-petrov.svg" width="120" height="120"></div><h3>Vitalik Petrov</h3><div class="role">Smart Contract Engineer</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/hayden-cole.svg" width="120" height="120"></div><h3>Hayden Cole</h3><div class="role">DApp Experience Agent</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/andrew-pierce.svg" width="120" height="120"></div><h3>Andrew Pierce</h3><div class="role">Security Auditor</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/cronje-wright.svg" width="120" height="120"></div><h3>Cronje Wright</h3><div class="role">DeFi Strategy Agent</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/willy-zhang.svg" width="120" height="120"></div><h3>Willy Zhang</h3><div class="role">On-Chain Intelligence Analyst</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/illia-polovets.svg" width="120" height="120"></div><h3>Illia Polovets</h3><div class="role">Autonomous Web3 Agent</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/brendan-shaw.svg" width="120" height="120"></div><h3>Brendan Shaw</h3><div class="role">RWA Tokenization Agent</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/ameen-soltani.svg" width="120" height="120"></div><h3>Ameen Soltani</h3><div class="role">DAO Governance Agent</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/delton-rios.svg" width="120" height="120"></div><h3>Delton Rios</h3><div class="role">Regulatory Compliance Agent</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style=":#8E44AD"></div><h2>⚖️ Jurídico</h2><div class="dept-count">1 membro</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/dr-ives-gandra.svg" width="120" height="120"></div><h3>Dr. Ives Gandra</h3><div class="role">General Counsel</div><div class="sigla">GC</div></div>
+      </div>
+    </div>
+
+    <div class="dept">
+      <div class="dept-header"><div class="dept-dot" style="background:#95A5A6"></div><h2>📊 Consultoria</h2><div class="dept-count">2 membros</div></div>
+      <div class="team-grid">
+        <div class="member lider"><div class="avatar"><img src="../public/assets/equipe/samuel-farias.svg" width="120" height="120"></div><h3>Samuel Farias</h3><div class="role">Project Consultant</div><div class="sigla">PD</div></div>
+        <div class="member"><div class="avatar"><img src="../public/assets/equipe/paulo-macedo.svg" width="120" height="120"></div><h3>Paulo Macedo</h3><div class="role">Memory Manager</div></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

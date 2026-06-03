@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #1C1C1C;
+  --accent: #19D87D;
+  --accent-hover: #21AA62;
+  --surface: #F5F5F5;
+  --muted: #666666;
+  --border: #E5E5E5;
+}
+
+.dark {
+  --background: #1C1C1C;
+  --foreground: #FFFFFF;
+  --accent: #19D87D;
+  --accent-hover: #21AA62;
+  --surface: #2A2A2A;
+  --muted: #888888;
+  --border: #333333;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+@keyframes carousel-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+.animate-carousel {
+  animation: carousel-scroll 40s linear infinite;
+}
+
+.animate-carousel:hover {
+  animation-play-state: paused;
+}
+
+

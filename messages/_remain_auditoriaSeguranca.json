@@ -1,0 +1,134 @@
+[
+  {
+    "path": "auditoriaSeguranca.hero.description",
+    "text": "Auditoria de código, pentest, LGPD e compliance. Detectamos vulnerabilidades antes que os atacantes."
+  },
+  {
+    "path": "auditoriaSeguranca.hero.ctaSecondary",
+    "text": "Ver entregáveis"
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.0.solution",
+    "text": "Falhas em APIs, SQL injection, XSS e configurações incorretas. Dados de clientes e da empresa em risco."
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.1.problem",
+    "text": "Multas e danos à reputação"
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.1.solution",
+    "text": "Vazamentos e não conformidade com LGPD/GDPR geram multas milionárias e perda de confiança do mercado."
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.2.problem",
+    "text": "Código inseguro em produção"
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.2.solution",
+    "text": "Dependências desatualizadas, secrets expostos, permissões frouxas. Um ataque pode parar seu negócio."
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.3.solution",
+    "text": "Sem inventário de ativos, sem testes regulares, sem resposta a incidentes. Você não sabe onde está vulnerável."
+  },
+  {
+    "path": "auditoriaSeguranca.pains.items.4.solution",
+    "text": "Profissionais de segurança são raros e caros. Uma auditoria terceirizada é mais rápida e mais barata."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.subtitle",
+    "text": "Auditoria completa de segurança com relatório detalhado, evidências e plano de remediação."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.0.title",
+    "text": "Auditoria de Código"
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.0.description",
+    "text": "Revisão linha a linha do seu código-fonte. Detectamos vulnerabilidades OWASP Top 10, más práticas e riscos de segurança."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.1.description",
+    "text": "Testes de penetração completos em aplicações web, APIs e infraestrutura. Relatório com evidências e recomendações."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.2.description",
+    "text": "Diagnóstico completo de conformidade com a Lei Geral de Proteção de Dados. Mapeamento de dados e adequação de processos."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.3.description",
+    "text": "Análise de arquitetura de segurança, gestão de identidade, criptografia, logging e monitoramento."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.4.title",
+    "text": "Políticas de Segurança"
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.4.description",
+    "text": "Elaboração de políticas, normas e procedimentos de segurança da informação alinhados com ISO 27001."
+  },
+  {
+    "path": "auditoriaSeguranca.roadmap.items.5.description",
+    "text": "Plano de resposta documentado, playbooks por cenário e simulação de ataques para testar a equipe."
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.0.description",
+    "text": "Definimos o perímetro da auditoria: aplicações, infraestrutura, APIs, processos e targets específicos."
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.1.title",
+    "text": "Análise"
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.1.description",
+    "text": "Aplicamos ferramentas automatizadas + revisão manual. Testes de penetração controlados em ambiente seguro."
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.2.title",
+    "text": "Relatório"
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.2.description",
+    "text": "Documento detalhado com vulnerabilidades encontradas, severidade, evidências e passos para correção."
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.3.title",
+    "text": "Remediação"
+  },
+  {
+    "path": "auditoriaSeguranca.process.steps.3.description",
+    "text": "Acompanhamos a correção das vulnerabilidades e realizamos re-teste para validar a efetividade."
+  },
+  {
+    "path": "auditoriaSeguranca.team.title",
+    "text": "Equipe de Segurança"
+  },
+  {
+    "path": "auditoriaSeguranca.team.members.1.competencias.0",
+    "text": "Revisão de Código"
+  },
+  {
+    "path": "auditoriaSeguranca.team.members.1.competencias.3",
+    "text": "Boas Práticas"
+  },
+  {
+    "path": "auditoriaSeguranca.team.members.2.competencias.0",
+    "text": "Jurídico"
+  },
+  {
+    "path": "auditoriaSeguranca.numeros.title",
+    "text": "Segurança Dibs em números"
+  },
+  {
+    "path": "auditoriaSeguranca.cta.title",
+    "text": "Proteja seu negócio contra ameaças"
+  },
+  {
+    "path": "auditoriaSeguranca.cta.description",
+    "text": "Solicite um diagnóstico gratuito de segurança. Apresentamos um panorama rápido das vulnerabilidades mais críticas."
+  },
+  {
+    "path": "auditoriaSeguranca.cta.button",
+    "text": "Solicitar diagnóstico →"
+  }
+]

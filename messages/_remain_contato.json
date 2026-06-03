@@ -1,0 +1,70 @@
+[
+  {
+    "path": "contato.pageTitle.title",
+    "text": "Como podemos ajudar seu próximo projeto?"
+  },
+  {
+    "path": "contato.pageTitle.subtitle",
+    "text": "Preencha o formulário ou fale diretamente pelo WhatsApp. Respondemos em até 24h úteis."
+  },
+  {
+    "path": "contato.form.servico",
+    "text": "Serviço de interesse *"
+  },
+  {
+    "path": "contato.form.servicoPlaceholder",
+    "text": "Selecione um serviço"
+  },
+  {
+    "path": "contato.form.mensagemPlaceholder",
+    "text": "Conte-nos sobre seu projeto. Qual o objetivo? Qual o prazo ideal? Já tem algo pronto?"
+  },
+  {
+    "path": "contato.form.consent",
+    "text": "Li e concordo com a {link}Política de Privacidade{/link}. Estou ciente de que meus dados serão utilizados para responder minha solicitação e não serão compartilhados com terceiros. *"
+  },
+  {
+    "path": "contato.services.2",
+    "text": "📝 Conteúdo & Publicação"
+  },
+  {
+    "path": "contato.services.4",
+    "text": "📈 Automações Financeiras"
+  },
+  {
+    "path": "contato.services.6",
+    "text": "🔒 Auditoria & Segurança"
+  },
+  {
+    "path": "contato.services.placeholder",
+    "text": "Selecione um serviço"
+  },
+  {
+    "path": "contato.success.description",
+    "text": "Recebemos sua solicitação e responderemos em até 24h úteis. Enquanto isso, que tal conhecer nossos serviços?"
+  },
+  {
+    "path": "contato.success.cta",
+    "text": "Ver serviços"
+  },
+  {
+    "path": "contato.sidebar.reuniao.title",
+    "text": "📅 Reunião online"
+  },
+  {
+    "path": "contato.sidebar.reuniao.description",
+    "text": "Agende pelo formulário ou WhatsApp. Enviamos o link do Google Meet após confirmarmos o horário ideal para você."
+  },
+  {
+    "path": "contato.sidebar.local.description",
+    "text": "Atendemos todo o Brasil de forma remota com agilidade e proximidade de quem está ao lado."
+  },
+  {
+    "path": "contato.sidebar.horario.title",
+    "text": "⏱️ Horário de resposta"
+  },
+  {
+    "path": "contato.sidebar.horario.description",
+    "text": "Segunda a sexta, das 8h às 18h. Respondemos em até 24h úteis."
+  }
+]

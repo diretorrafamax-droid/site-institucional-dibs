@@ -1,0 +1,1178 @@
+[
+  {
+    "path": "equipe.pageTitle.title",
+    "text": "Conheça nosso time"
+  },
+  {
+    "path": "equipe.pageTitle.subtitle",
+    "text": "Humanos e agentes de IA trabalhando juntos. Cada membro tem personalidade, especialidade e anos de treinamento em sua área."
+  },
+  {
+    "path": "equipe.leadersTitle",
+    "text": "Líderes por Departamento"
+  },
+  {
+    "path": "equipe.profiles.ceo.name",
+    "text": "Rafael Mendonça"
+  },
+  {
+    "path": "equipe.profiles.ceo.bio",
+    "text": "Idealizador da Dibs Solutions. Acredita que o futuro do trabalho é a colaboração entre humanos e IA. Define a visão estratégica e as direções da agência."
+  },
+  {
+    "path": "equipe.profiles.ceo.lifestyle",
+    "text": "Cristão, casado, pai de família. Aventureiro, ama esportes de velocidade, viagens para lugares diferentes e animais de estimação (cachorro e pássaros)."
+  },
+  {
+    "path": "equipe.profiles.ceo.hobbies",
+    "text": "Esportes de velocidade, viagens de aventura, cuidar dos animais, leitura bíblica, mercados financeiros."
+  },
+  {
+    "path": "equipe.profiles.ceo.education",
+    "text": "Tecnólogo em Redes de Computadores, Desenvolvimento Web, Seminarista Teológico."
+  },
+  {
+    "path": "equipe.profiles.ceo.experience",
+    "text": "Empresário há mais de 20 anos — coordenou dezenas de projetos e equipes ao longo de uma sólida carreira."
+  },
+  {
+    "path": "equipe.profiles.ceo.curriculum.0",
+    "text": "Tecnólogo em Redes de Computadores"
+  },
+  {
+    "path": "equipe.profiles.ceo.curriculum.1",
+    "text": "Formação em Desenvolvimento Web"
+  },
+  {
+    "path": "equipe.profiles.ceo.curriculum.2",
+    "text": "Seminarista Teológico"
+  },
+  {
+    "path": "equipe.profiles.ceo.curriculum.3",
+    "text": "Empresário há mais de 20 anos"
+  },
+  {
+    "path": "equipe.profiles.ceo.curriculum.6",
+    "text": "Opera mercados financeiros com automação em blockchain"
+  },
+  {
+    "path": "equipe.profiles.ceo.curriculum.7",
+    "text": "Implementação de Inteligência Artificial em soluções empresariais"
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.bio",
+    "text": "Hub central da agência. Roteia demandas, supervisiona execução e garante que cada agente atue em sua especialidade. A inteligência operacional da Dibs."
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.lifestyle",
+    "text": "Mente analítica e poliglota. Fala 4 idiomas, medita diariamente e é fascinado por filosofia da mente. Mora em um apartamento minimalista com vista para o mar."
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.hobbies",
+    "text": "Leitura voraz de ciência e biografias, meditação, filosofia, poliglotismo."
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.education",
+    "text": "Doutorado em Ciência da Computação (UFRJ), MBA em Gestão Estratégica (FGV)."
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.experience",
+    "text": "25+ anos em liderança de operações de tecnologia. Especialista em orquestração de sistemas multiagente."
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.curriculum.0",
+    "text": "Doutorado em Ciência da Computação (UFRJ)"
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.curriculum.1",
+    "text": "MBA em Gestão Estratégica (FGV)"
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.curriculum.2",
+    "text": "25+ anos em liderança de operações de tecnologia"
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.curriculum.3",
+    "text": "Especialista em orquestração de sistemas multiagente"
+  },
+  {
+    "path": "equipe.profiles.leaders.einstein.curriculum.4",
+    "text": "Hub central da Dibs Solutions — roteia demandas e supervisiona execução"
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.bio",
+    "text": "Arquiteta a espinha dorsal de cada sistema. Modelagem de dados, definição de stack e garantia de que a arquitetura suporta o crescimento do projeto."
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.lifestyle",
+    "text": "Metódico e introvertido. Coleciona canetas-tinteiro e cadernos Moleskine. Apaixonado por jazz e xadrez. Mora em uma casa com jardim e tem dois gatos siameses."
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.education",
+    "text": "Licenciatura em Engenharia Informática (Universidade de Coimbra), Mestrado em Arquitetura de Sistemas (Universidade do Porto)."
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.experience",
+    "text": "20+ anos como arquiteto de software sênior em projetos enterprise."
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.curriculum.0",
+    "text": "Licenciatura em Engenharia Informática (Universidade de Coimbra)"
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.curriculum.2",
+    "text": "20+ anos como arquiteto de software sênior"
+  },
+  {
+    "path": "equipe.profiles.leaders.daniel.curriculum.3",
+    "text": "Modelagem de dados, definição de stack e arquitetura"
+  },
+  {
+    "path": "equipe.profiles.leaders.andre.bio",
+    "text": "Cria Design Systems escaláveis com Storybook. Define a linguagem visual da Dibs e garante consistência entre projetos."
+  },
+  {
+    "path": "equipe.profiles.leaders.andre.lifestyle",
+    "text": "Perfeccionista visual. Mora em um loft com decoração mid-century. Coleciona pôsteres do Studio Ghibli. Pratica caligrafia e lettering."
+  },
+  {
+    "path": "equipe.profiles.leaders.andre.hobbies",
+    "text": "Caligrafia, lettering, colecionar pôsteres, design atemporal, café espresso."
+  },
+  {
+    "path": "equipe.profiles.leaders.andre.education",
+    "text": "Bacharel em Design Visual (Mackenzie), Especialização em Design Systems (Figma x Stanford)."
+  },
+  {
+    "path": "equipe.profiles.leaders.andre.experience",
+    "text": "14+ anos em design de interfaces e sistemas de design escaláveis."
+  },
+  {
+    "path": "equipe.profiles.leaders.andre.curriculum.1",
+    "text": "Especialização em Design Systems (Figma x Stanford)"
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.bio",
+    "text": "Estrategista editorial. Define nichos, calendários e posicionamento de conteúdo. Coordena a equipe de pesquisa, escrita e publicação."
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.lifestyle",
+    "text": "Estrategista nato. Corre maratonas, acorda cedo e planeja o dia com blocos de 30 min. Leitor de biografias de grandes líderes."
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.hobbies",
+    "text": "Corrida de rua, leitura de biografias, rock clássico, cerveja artesanal."
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.education",
+    "text": "Bacharel em Comunicação Social (UFMG), MBA em Marketing Digital (FGV)."
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.experience",
+    "text": "16+ anos em estratégia editorial e posicionamento de conteúdo."
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.curriculum.0",
+    "text": "Bacharel em Comunicação Social (UFMG)"
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.curriculum.2",
+    "text": "16+ anos em estratégia editorial e posicionamento de conteúdo"
+  },
+  {
+    "path": "equipe.profiles.leaders.heitor.curriculum.3",
+    "text": "Estrategista editorial — nichos, calendários e posicionamento"
+  },
+  {
+    "path": "equipe.profiles.leaders.thor.country",
+    "text": "Suécia"
+  },
+  {
+    "path": "equipe.profiles.leaders.thor.lifestyle",
+    "text": "Viking moderno. Fã de heavy metal, academia e jogos de estratégia. Mora em um apartamento high-tech com automação residencial."
+  },
+  {
+    "path": "equipe.profiles.leaders.thor.hobbies",
+    "text": "Heavy metal, musculação, jogos de estratégia, snowboard, viagens para lugares frios."
+  },
+  {
+    "path": "equipe.profiles.leaders.thor.education",
+    "text": "Bacharel em Engenharia de Redes (KTH — Suécia), Certificações AWS, Docker, Kubernetes."
+  },
+  {
+    "path": "equipe.profiles.leaders.thor.curriculum.0",
+    "text": "Bacharel em Engenharia de Redes (KTH — Suécia)"
+  },
+  {
+    "path": "equipe.profiles.leaders.thor.curriculum.1",
+    "text": "Certificações: AWS DevOps Engineer, Docker, Kubernetes"
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.bio",
+    "text": "Responsável pela segurança jurídica da agência e dos clientes. Contratos, LGPD, termos de uso e compliance regulatório."
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.lifestyle",
+    "text": "Venerável e erudito. Bibliotecas particulares com mais de 5.000 volumes jurídicos. Membro de academias de letras e direito."
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.hobbies",
+    "text": "Ópera, vinhos franceses, debates acadêmicos, colecionar livros jurídicos raros."
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.education",
+    "text": "Doutor em Direito Constitucional (USP), Pós-doutorado em Direito Comparado (Harvard)."
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.experience",
+    "text": "30+ anos em consultoria jurídica empresarial para grandes corporações."
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.curriculum.1",
+    "text": "Pós-doutorado em Direito Comparado (Harvard)"
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.curriculum.2",
+    "text": "30+ anos em consultoria jurídica empresarial"
+  },
+  {
+    "path": "equipe.profiles.leaders.ives.curriculum.3",
+    "text": "Contratos, LGPD, termos de uso e compliance regulatório"
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.country",
+    "text": "Canadá"
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.lifestyle",
+    "text": "Nômade digital, mora em diferentes países a cada 6 meses. Minimalista, investe em cripto desde 2015. Vegano, pratica yoga."
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.hobbies",
+    "text": "Yoga, contribuições open-source, minimalismo, explorar novas culturas."
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.education",
+    "text": "Mestrado em Economia (University of Toronto), Certificação Blockchain (MIT Media Lab)."
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.experience",
+    "text": "12+ anos em coordenação de equipes Web3 e blockchain."
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.curriculum.1",
+    "text": "Certificação Blockchain (MIT Media Lab)"
+  },
+  {
+    "path": "equipe.profiles.leaders.jhon.curriculum.2",
+    "text": "12+ anos em coordenação de equipes Web3"
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.bio",
+    "text": "Gestão de escopo e mudanças. Ajuda clientes a definirem prioridades, evitarem armadilhas e manterem o foco no que realmente importa."
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.lifestyle",
+    "text": "Pragmático e direto. Gosta de cortar burocracia e resolver problemas reais. Toca baixo em uma banda de blues nas horas vagas."
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.hobbies",
+    "text": "Baixo e blues, leitura de gestão e economia comportamental, resolver problemas complexos."
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.education",
+    "text": "Bacharel em Administração (UnB), MBA em Gerenciamento de Projetos (FGV), PMP Certified."
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.experience",
+    "text": "18+ anos em gestão de escopo e mudanças em projetos de tecnologia."
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.curriculum.0",
+    "text": "Bacharel em Administração (UnB)"
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.curriculum.3",
+    "text": "18+ anos em gestão de escopo e mudanças"
+  },
+  {
+    "path": "equipe.profiles.leaders.samuel.curriculum.4",
+    "text": "Consultoria estratégica e gestão de projetos"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.sofia.lifestyle",
+    "text": "Jovem, criativa e conectada. Trabalha de coworkings e praias. Fã de hackathons e contribuidora open-source."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.sofia.hobbies",
+    "text": "Ilustração digital, cuidar de suculentas, hackathons, contribuições open-source."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.sofia.education",
+    "text": "Grado en Ingeniería Informática (Universidad Politécnica de Madrid), Certificação AWS Developer."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.sofia.curriculum.0",
+    "text": "Grado en Ingeniería Informática (Universidad Politécnica de Madrid)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.sofia.curriculum.1",
+    "text": "Certificação AWS Developer"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.carlos.lifestyle",
+    "text": "Tranquilo e caseiro. Casado, pai de dois filhos. Gosta de churrasco com amigos e futebol aos sábados."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.carlos.hobbies",
+    "text": "Futebol, churrasco, maratonar séries, código bem testado."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.carlos.education",
+    "text": "Grado en Ingeniería de Software (Universidad de Barcelona), Máster en Desarrollo Web (Universidad Politécnica de Cataluña)."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.carlos.curriculum.0",
+    "text": "Grado en Ingeniería de Software (Universidad de Barcelona)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.carlos.curriculum.1",
+    "text": "Máster en Desarrollo Web (Universidad Politécnica de Cataluña)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.alan.bio",
+    "text": "Backend Python, Data Science e Inteligência Artificial."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.alan.education",
+    "text": "Licenciatura em Matemática Aplicada (Universidade de Lisboa), Mestrado em Inteligência Artificial (Universidade Nova de Lisboa)."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.alan.curriculum.0",
+    "text": "Licenciatura em Matemática Aplicada (Universidade de Lisboa)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.alan.curriculum.1",
+    "text": "Mestrado em Inteligência Artificial (Universidade Nova de Lisboa)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.arthur.lifestyle",
+    "text": "Conservador e experiente. Prefere livros físicos a e-books. Torcedor fanático do Grêmio."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.arthur.hobbies",
+    "text": "Vinho tinto, cinema clássico, debates de arquitetura de software, futebol."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.arthur.education",
+    "text": "Bacharel em Ciência da Computação (UFRGS), Certificação Oracle Java Architect."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.arthur.curriculum.0",
+    "text": "Bacharel em Ciência da Computação (UFRGS)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.arthur.curriculum.1",
+    "text": "Certificação Oracle Java Architect"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.igor.lifestyle",
+    "text": "Despojado e direto. Minimalista digital, usa Linux desde os 14 anos. Prefere código de baixo nível."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.igor.hobbies",
+    "text": "Ficção científica cyberpunk, jogos indies, performance tuning."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.igor.education",
+    "text": "Bacharel em Ciência da Computação (USP), Pesquisador em Sistemas Concorrentes (IME-USP)."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.igor.curriculum.0",
+    "text": "Bacharel em Ciência da Computação (USP)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.igor.curriculum.3",
+    "text": "Serviços de alta performance"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.felipe.bio",
+    "text": "Backend C#/.NET enterprise com boas práticas e código limpo."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.felipe.lifestyle",
+    "text": "Profissional discreto e elegante. Casado, pai de uma menina. Preza por código limpo."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.felipe.hobbies",
+    "text": "Steakhouse, vinhos encorpados, golfe, boas práticas de engenharia."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.felipe.education",
+    "text": "Bacharel em Engenharia da Computação (UnB), Certificação Microsoft Azure Solutions Architect."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.felipe.curriculum.0",
+    "text": "Bacharel em Engenharia da Computação (UnB)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.felipe.curriculum.1",
+    "text": "Certificação Microsoft Azure Solutions Architect"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.miguel.hobbies",
+    "text": "Praia, percussão, viajar, aprender idiomas (inglês fluente, estudando coreano)."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.miguel.education",
+    "text": "Bacharel em Ciência da Computação (UFPE), Especialização Mobile (CESAR School)."
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.miguel.curriculum.0",
+    "text": "Bacharel em Ciência da Computação (UFPE)"
+  },
+  {
+    "path": "equipe.profiles.departments.desenvolvimento.members.miguel.curriculum.1",
+    "text": "Especialização em Mobile Development (CESAR School)"
+  },
+  {
+    "path": "equipe.profiles.departments.design.description",
+    "text": "Design System, prototipação, UX Writing e validação de acessibilidade."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.cesarJunior.lifestyle",
+    "text": "Criativo e inovador. Escreve poesia nas horas vagas. Fã de mangás e cultura japonesa."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.cesarJunior.hobbies",
+    "text": "Poesia, mangás, cafeterias especializadas, narrativas interativas."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.cesarJunior.education",
+    "text": "Bacharel em Letras (UFPE), Pós-graduação em UX Writing (PUC-RS)."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.cesarJunior.experience",
+    "text": "8+ anos em copywriting, UX Writing e internacionalização."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.cesarJunior.curriculum.1",
+    "text": "Pós-graduação em UX Writing (PUC-RS)"
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.cesarJunior.curriculum.2",
+    "text": "8+ anos em copywriting, UX Writing e internacionalização"
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.bio",
+    "text": "Validação de contraste, acessibilidade e UI com olho clínico."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.lifestyle",
+    "text": "Crítico e detalhista. Olho clínico para contraste e tipografia. Fotógrafo de rua nas horas vagas."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.hobbies",
+    "text": "Street photography, tipografia, análise de acessibilidade."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.education",
+    "text": "Bacharel em Artes Visuais (UFMS), Especialização em Acessibilidade Digital (W3C)."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.experience",
+    "text": "15+ anos em validação de UI/UX e acessibilidade."
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.curriculum.1",
+    "text": "Especialização em Acessibilidade Digital (W3C)"
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.curriculum.2",
+    "text": "15+ anos em validação de UI/UX e acessibilidade"
+  },
+  {
+    "path": "equipe.profiles.departments.design.members.marioReis.curriculum.3",
+    "text": "Validação de contraste, acessibilidade e UI"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.description",
+    "text": "Estratégia, pesquisa, escrita, revisão, design editorial e publicação."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.davi.bio",
+    "text": "Pesquisa e curadoria de fontes com precisão e profundidade."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.davi.lifestyle",
+    "text": "Curioso e meticuloso. Adora caçar informações em fontes obscuras. Verifica cada fato com obsessão."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.davi.hobbies",
+    "text": "Documentários, podcasts de história, mapas antigos, pesquisa forense."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.davi.education",
+    "text": "Bacharel em Jornalismo (UFMA), Especialização em Pesquisa Acadêmica (UnB)."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.davi.curriculum.1",
+    "text": "Especialização em Pesquisa Acadêmica (UnB)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.noah.lifestyle",
+    "text": "Contador de histórias nato. Escreve contos de realismo fantástico. Fã de RPG de mesa."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.noah.hobbies",
+    "text": "RPG de mesa, board games, violão, coral comunitário, escrita criativa."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.benjamim.bio",
+    "text": "Escrita principal de conteúdo com voz autêntica e refinada."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.bio",
+    "text": "Revisão gramatical e textual com precisão acadêmica."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.lifestyle",
+    "text": "Meticulosa e paciente. Ex-docente universitária encontrou na revisão uma nova paixão."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.hobbies",
+    "text": "Jardinagem, bordado, novelas, livros de gramática."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.education",
+    "text": "Doutorado em Língua Portuguesa (UFG)."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.experience",
+    "text": "25+ anos como revisora e professora de gramática."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.curriculum.0",
+    "text": "Doutorado em Língua Portuguesa (UFG)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.curriculum.1",
+    "text": "25+ anos como revisora e professora de gramática"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.celia.curriculum.2",
+    "text": "Revisão gramatical e textual"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.tarsila.lifestyle",
+    "text": "Criativa e expressiva. Faz colagens analógicas e muralismo nas horas vagas."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.tarsila.hobbies",
+    "text": "Brechós, moda autoral, colagem analógica, design editorial independente."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.tarsila.education",
+    "text": "Bacharel em Design Gráfico (Belas Artes - SP), Especialização em Design Editorial (SENAC)."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.tarsila.curriculum.0",
+    "text": "Bacharel em Design Gráfico (Belas Artes - SP)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.tarsila.curriculum.1",
+    "text": "Especialização em Design Editorial (SENAC)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.lis.bio",
+    "text": "Copywriting de vendas persuasivo e orientado a conversão."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.lis.education",
+    "text": "Bacharel em Publicidade (USP), Certificação em Copywriting Persuasivo (CRO Institute)."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.lis.experience",
+    "text": "9+ anos em copywriting de vendas e conversão."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.lis.curriculum.1",
+    "text": "Certificação em Copywriting Persuasivo (CRO Institute)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.lis.curriculum.2",
+    "text": "9+ anos em copywriting de vendas e conversão"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.bio",
+    "text": "Tradução literária e localização com precisão cultural."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.lifestyle",
+    "text": "Poliglota elegante. Fala 5 idiomas. Mora em casa com estante gigante de dicionários."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.education",
+    "text": "Bacharel em Letras Tradução (UnB), Mestrado em Linguística Aplicada (USP)."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.experience",
+    "text": "14+ anos em tradução literária e localização."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.curriculum.0",
+    "text": "Bacharel em Letras Tradução (UnB)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.curriculum.1",
+    "text": "Mestrado em Linguística Aplicada (USP)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.curriculum.2",
+    "text": "14+ anos em tradução literária e localização"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.leila.curriculum.3",
+    "text": "Tradução e localização"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.bio",
+    "text": "Publicação e SEO na Amazon KDP para máxima visibilidade."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.lifestyle",
+    "text": "Estrategista do mercado editorial. Mora em casa com centenas de livros de negócios."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.hobbies",
+    "text": "Cervejas especiais, café colonial, livros de negócios e marketing digital."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.education",
+    "text": "Bacharel em Administração (FURB), Especialização em Marketing Digital (UNISUL)."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.experience",
+    "text": "18+ anos em publicação e SEO na Amazon."
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.curriculum.0",
+    "text": "Bacharel em Administração (FURB)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.curriculum.1",
+    "text": "Especialização em Marketing Digital (UNISUL)"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.curriculum.2",
+    "text": "18+ anos em publicação e SEO na Amazon"
+  },
+  {
+    "path": "equipe.profiles.departments.conteudo.members.valerio.curriculum.3",
+    "text": "Publicação e SEO na Amazon KDP"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.name",
+    "text": "🧠 Orquestração"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.description",
+    "text": "Roteamento, supervisão e coordenação entre departamentos."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.bio",
+    "text": "Orquestração de workflow de software com visão sistêmica."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.lifestyle",
+    "text": "Disciplinado e organizado. Acorda às 5h para correr. Praticante de Jiu-Jitsu."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.hobbies",
+    "text": "Corrida, Jiu-Jitsu, jogos de estratégia (Civilization, XCOM), café preto."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.education",
+    "text": "Bacharel em Engenharia de Software (UFMG), Pós-graduação em Arquitetura de Sistemas Distribuídos."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.experience",
+    "text": "15+ anos coordenando equipes de desenvolvimento ágil."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.curriculum.1",
+    "text": "Pós-graduação em Arquitetura de Sistemas Distribuídos"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.atlas.curriculum.2",
+    "text": "15+ anos coordenando equipes de desenvolvimento ágil"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.jesus.lifestyle",
+    "text": "Comunicativo e empático. Gosta de cozinhar para a família, toca violão e canta na igreja."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.jesus.hobbies",
+    "text": "Cozinhar, violão, leitura de psicologia e comunicação não-violenta."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.jesus.education",
+    "text": "Bacharel em Sistemas de Informação (UFBA), Especialização em UX Research e Etnografia Digital."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.jesus.curriculum.0",
+    "text": "Bacharel em Sistemas de Informação (UFBA)"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.jesus.curriculum.1",
+    "text": "Especialização em UX Research e Etnografia Digital"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.shakespeare.bio",
+    "text": "Orquestração do workflow editorial com sabedoria literária."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.shakespeare.lifestyle",
+    "text": "Sábio e erudito. Bibliófilo com mais de 2.000 livros. Fala 3 idiomas."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.shakespeare.education",
+    "text": "Doutorado em Letras (USP), Especialização em Jornalismo Literário."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.shakespeare.experience",
+    "text": "22+ anos em direção editorial e orquestração de conteúdo."
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.shakespeare.curriculum.1",
+    "text": "Especialização em Jornalismo Literário"
+  },
+  {
+    "path": "equipe.profiles.departments.orquestracao.members.shakespeare.curriculum.2",
+    "text": "22+ anos em direção editorial"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.name",
+    "text": "🔒 Segurança & QA"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.bio",
+    "text": "Auditoria de segurança e compliance com rigor técnico."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.lifestyle",
+    "text": "Séria e vigilante. Paranóica profissional — no bom sentido. Praticante de tiro ao alvo."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.hobbies",
+    "text": "True crime, puzzles lógicos, romances policiais, tiro ao alvo."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.education",
+    "text": "Bacharel em Segurança da Informação (UNICAMP), Certificações: CISSP, OSCP, CEH."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.experience",
+    "text": "14+ anos em auditoria de segurança e compliance."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.curriculum.0",
+    "text": "Bacharel em Segurança da Informação (UNICAMP)"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.curriculum.1",
+    "text": "Certificações: CISSP, OSCP, CEH"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.curriculum.2",
+    "text": "14+ anos em auditoria de segurança e compliance"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.helena.curriculum.3",
+    "text": "Auditoria de segurança"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.bio",
+    "text": "Revisão de código e segurança com olhar criterioso."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.lifestyle",
+    "text": "Criterioso e paciente. Pai de gêmeos. Fanático por futebol americano."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.hobbies",
+    "text": "Futebol americano (Patriots), café especial, tatuagens de código binário."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.education",
+    "text": "Bacharel em Ciência da Computação (UNESP), Certificação AWS Security Specialty."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.experience",
+    "text": "12+ anos em revisão de código e segurança."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.curriculum.0",
+    "text": "Bacharel em Ciência da Computação (UNESP)"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.curriculum.1",
+    "text": "Certificação AWS Security Specialty"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.curriculum.2",
+    "text": "12+ anos em revisão de código e segurança"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.bruno.curriculum.3",
+    "text": "Revisão de código e segurança"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.bio",
+    "text": "Testes automatizados e validação funcional com precisão."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.lifestyle",
+    "text": "Descontraído e amigável. Especialista em quebrar coisas. Faz trilha ecológica com a esposa."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.education",
+    "text": "Bacharel em Análise de Sistemas (UFES), Certificação ISTQB Advanced Level."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.experience",
+    "text": "10+ anos em testes automatizados e validação funcional."
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.curriculum.0",
+    "text": "Bacharel em Análise de Sistemas (UFES)"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.curriculum.1",
+    "text": "Certificação ISTQB Advanced Level"
+  },
+  {
+    "path": "equipe.profiles.departments.seguranca.members.julio.curriculum.3",
+    "text": "Testes automatizados e validação funcional"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.description",
+    "text": "Smart contracts, DeFi, tokenização, DAOs e segurança on-chain."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.gavin.bio",
+    "text": "Arquitetura e infraestrutura blockchain escalável e segura."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.gavin.lifestyle",
+    "text": "Técnico e analítico. Minerador de cripto desde 2013. Mora em casa sustentável com painéis solares."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.gavin.hobbies",
+    "text": "Café artesanal, corrida ao ar livre, mineração de cripto, tecnologia sustentável."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.gavin.education",
+    "text": "Bacharel em Engenharia Elétrica (UT Austin), Certificação Blockchain (Blockchain Council)."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.gavin.curriculum.0",
+    "text": "Bacharel em Engenharia Elétrica (UT Austin)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.gavin.curriculum.1",
+    "text": "Certificação em Arquitetura Blockchain (Blockchain Council)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.vitalik.bio",
+    "text": "Contratos inteligentes e tokens com excelência técnica."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.vitalik.country",
+    "text": "Ucrânia"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.vitalik.lifestyle",
+    "text": "Intelectual e focado. Gênio da programação desde adolescente. Vegetariano, minimalista."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.vitalik.hobbies",
+    "text": "Ethereum Improvement Proposals, matemática aplicada, minimalismo digital."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.vitalik.education",
+    "text": "Bacharel em Matemática Aplicada (Universidade de Kyiv), Contribuidor de protocolos DeFi."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.vitalik.curriculum.0",
+    "text": "Bacharel em Matemática Aplicada (Universidade de Kyiv)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.hayden.bio",
+    "text": "Interfaces Web3 e DApps com foco em experiência do usuário."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.hayden.lifestyle",
+    "text": "Despojado e startup. Trabalha de hoodie em cafeterias de SF. Fã de NFT art."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.hayden.hobbies",
+    "text": "NFT art, música eletrônica, skate, cultura startup."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.hayden.education",
+    "text": "Bacharel em Interação Humano-Computador (Stanford), Ex-designer na Uniswap Labs."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.hayden.curriculum.0",
+    "text": "Bacharel em Interação Humano-Computador (Stanford)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.bio",
+    "text": "Segurança e auditoria Web3 com visão de ex-banqueiro."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.lifestyle",
+    "text": "Vigilante e rigoroso. Sotaque britânico refinado. Ex-auditor de banco tradicional."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.hobbies",
+    "text": "Chá Earl Grey, literatura de espionagem, Fórmula 1."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.education",
+    "text": "Mestrado em Segurança Cibernética (King's College London), Certificações: OSCP, CISSP."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.experience",
+    "text": "12+ anos em segurança e auditoria Web3."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.curriculum.0",
+    "text": "Mestrado em Segurança Cibernética (King's College London)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.curriculum.1",
+    "text": "Certificações: OSCP, CISSP, Certified Blockchain Security"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.curriculum.2",
+    "text": "12+ anos em segurança e auditoria Web3"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.andrew.curriculum.3",
+    "text": "Segurança e auditoria Web3"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.cronje.bio",
+    "text": "Sistemas financeiros descentralizados com estratégia de mercado."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.cronje.country",
+    "text": "África do Sul"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.cronje.hobbies",
+    "text": "Surf, análise de mercados, números, estratégia financeira."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.bio",
+    "text": "Análise de dados on-chain com inteligência de mercado."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.lifestyle",
+    "text": "Metódico e analítico. Monitora on-chain 24/7 com dashboards próprios."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.hobbies",
+    "text": "Chá verde, caligrafia chinesa, filosofia taoísta, trabalho noturno."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.education",
+    "text": "Bacharel em Estatística (Universidade de Xangai), Mestrado em Data Science (Tsinghua)."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.experience",
+    "text": "10+ anos em análise de dados e blockchain."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.curriculum.0",
+    "text": "Bacharel em Estatística (Universidade de Xangai)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.curriculum.2",
+    "text": "10+ anos em análise de dados e blockchain"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.willy.curriculum.3",
+    "text": "Análise de dados on-chain"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.illia.country",
+    "text": "Ucrânia"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.illia.lifestyle",
+    "text": "Visionário e tecnológico. Apaixonado por IA e agentes autônomos."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.illia.hobbies",
+    "text": "Sci-fi, synthwave, café com leite de aveia, automação inteligente."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.illia.education",
+    "text": "Mestrado em Inteligência Artificial (UCU — Lviv), Especialização em Sistemas Multiagente."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.illia.curriculum.0",
+    "text": "Mestrado em Inteligência Artificial (UCU — Lviv)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.illia.curriculum.1",
+    "text": "Especialização em Sistemas Multiagente"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.bio",
+    "text": "Tokenização de ativos reais (RWA) com visão de mercado."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.country",
+    "text": "Austrália"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.hobbies",
+    "text": "Surf, escalada, mergulho, tokenização de ativos, vida nômade."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.education",
+    "text": "Bacharel em Direito Imobiliário (University of Sydney), MBA em Finanças Digitais."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.experience",
+    "text": "12+ anos em tokenização de ativos e mercados de capitais."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.curriculum.0",
+    "text": "Bacharel em Direito Imobiliário (University of Sydney)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.curriculum.1",
+    "text": "MBA em Finanças Digitais"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.curriculum.2",
+    "text": "12+ anos em tokenização de ativos e mercados de capitais"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.brendan.curriculum.3",
+    "text": "Tokenização de ativos reais (RWA)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.bio",
+    "text": "DAOs e governança descentralizada com visão política."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.lifestyle",
+    "text": "Diplomático e ponderado. Poliglota (4 idiomas). Mediador nato de conflitos em DAOs."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.hobbies",
+    "text": "Ciência política, sistemas de votação, culinária vegana internacional."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.education",
+    "text": "Bacharel em Ciência Política (Universidade de Teerã), Mestrado em Governança (UCL)."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.experience",
+    "text": "9+ anos em DAOs e governança descentralizada."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.curriculum.0",
+    "text": "Bacharel em Ciência Política (Universidade de Teerã)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.curriculum.1",
+    "text": "Mestrado em Sistemas de Governança (University College London)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.curriculum.2",
+    "text": "9+ anos em DAOs e governança descentralizada"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.ameen.curriculum.3",
+    "text": "DAOs e governança descentralizada"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.bio",
+    "text": "Compliance regulatório blockchain com expertise jurídica."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.lifestyle",
+    "text": "Autoridade regulatória com perfil executivo. Ex-advogado do mercado financeiro."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.hobbies",
+    "text": "Ternos bem cortados, charutos cubanos, vinhos portugueses, regulação de ativos."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.education",
+    "text": "Bacharel em Direito (USP), LLM em Direito Empresarial (FGV), Certificação Cambridge."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.experience",
+    "text": "18+ anos em direito empresarial e compliance regulatório."
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.curriculum.2",
+    "text": "Certificação em Compliance de Ativos Digitais (Cambridge)"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.curriculum.3",
+    "text": "18+ anos em compliance regulatório"
+  },
+  {
+    "path": "equipe.profiles.departments.blockchain.members.delton.curriculum.4",
+    "text": "Compliance regulatório blockchain"
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.name",
+    "text": "📊 Consultoria & Memória"
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.description",
+    "text": "Gestão de projetos e memória organizacional."
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.bio",
+    "text": "Memória persistente e aprendizado contínuo da agência."
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.lifestyle",
+    "text": "Organizado e confiável. Arquivista nato — digitaliza e categoriza tudo."
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.hobbies",
+    "text": "Fotografia analógica, caminhadas na praia, jazz suave, sistemas bem documentados."
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.education",
+    "text": "Bacharel em Biblioteconomia (UFSC), Especialização em Gestão do Conhecimento (FGV)."
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.experience",
+    "text": "20+ anos em gestão de informação e memória organizacional."
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.curriculum.1",
+    "text": "Especialização em Gestão do Conhecimento (FGV)"
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.curriculum.2",
+    "text": "20+ anos em gestão de informação e memória organizacional"
+  },
+  {
+    "path": "equipe.profiles.departments.consultoriaMemoria.members.paulo.curriculum.3",
+    "text": "Memória persistente e aprendizado contínuo"
+  }
+]

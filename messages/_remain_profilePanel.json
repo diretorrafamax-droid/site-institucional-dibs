@@ -1,0 +1,14 @@
+[
+  {
+    "path": "profilePanel.labels.education",
+    "text": "🎓 Formação"
+  },
+  {
+    "path": "profilePanel.labels.experience",
+    "text": "💼 Experiência"
+  },
+  {
+    "path": "profilePanel.labels.curriculum",
+    "text": "📋 Currículo"
+  }
+]

@@ -1,0 +1,21 @@
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://54.232.189.113:3000
+- Environments: .env.local
+✓ Ready in 705ms
+
+ GET /pt 200 in 3.0s (proxy.ts: 7ms)
+ GET /pt 200 in 878ms (next.js: 33ms, proxy.ts: 6ms, application-code: 839ms)
+ GET /pt/servicos/blockchain 200 in 1200ms (next.js: 1137ms, proxy.ts: 14ms, application-code: 49ms)
+ GET /pt/servicos/conteudo-publicacao 200 in 1098ms (next.js: 1049ms, proxy.ts: 4ms, application-code: 46ms)
+ GET /pt/equipe 200 in 872ms (next.js: 827ms, proxy.ts: 8ms, application-code: 38ms)
+ GET /pt/servicos 200 in 925ms (next.js: 828ms, proxy.ts: 15ms, application-code: 82ms)
+ GET /pt/servicos/automacoes-financeiras 200 in 802ms (next.js: 767ms, proxy.ts: 5ms, application-code: 30ms)
+ GET /pt/contato 200 in 867ms (next.js: 744ms, proxy.ts: 8ms, application-code: 115ms)
+ GET /pt 200 in 241ms (next.js: 11ms, proxy.ts: 5ms, application-code: 226ms)
+ GET /pt/servicos/automacoes-financeiras 200 in 181ms (next.js: 22ms, proxy.ts: 7ms, application-code: 152ms)
+ GET /pt/servicos/automacoes-financeiras 200 in 199ms (next.js: 17ms, proxy.ts: 5ms, application-code: 177ms)
+ GET /pt 200 in 95ms (next.js: 11ms, proxy.ts: 4ms, application-code: 80ms)
+ GET /pt/contato 200 in 83ms (next.js: 16ms, proxy.ts: 9ms, application-code: 58ms)
+ GET /pt 200 in 243ms (next.js: 26ms, proxy.ts: 11ms, application-code: 207ms)
+ GET /pt 200 in 473ms (next.js: 54ms, proxy.ts: 56ms, application-code: 363ms)

@@ -1,0 +1,3269 @@
+{
+  "common": {
+    "requestQuote": "Request a quote",
+    "requestAnalysis": "Request a free analysis",
+    "seeDeliverables": "See what we deliver",
+    "clickToKnow": "click and find out!",
+    "close": "Close",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "twitter": "X (Twitter)",
+    "linkedin": "LinkedIn",
+    "age": "{age} years",
+    "badgeReal": "Real",
+    "badgeIA": "AI",
+    "sectionTitleLabel": "{label}",
+    "sectionTitleTitle": "{title}",
+    "sectionTitleSubtitle": "{subtitle}"
+  },
+  "layout": {
+    "title": "Dibs Solutions — Technology Agency",
+    "description": "We turn ideas into digital solutions that generate impact. Software, Design, Content, Blockchain and Financial Automations."
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "servicos": "Services",
+      "cases": "Cases",
+      "sobre": "About",
+      "equipe": "Team",
+      "contato": "Contact"
+    },
+    "cta": "Contact",
+    "aria": {
+      "toggleTheme": "Toggle theme",
+      "openMenu": "Open menu"
+    },
+    "alt": {
+      "logo": "Dibs Solutions"
+    },
+    "language": "Language"
+  },
+  "footer": {
+    "company": {
+      "description": "Technology Agency",
+      "location": "Natal — RN"
+    },
+    "sectionTitle": {
+      "servicos": "Services",
+      "empresa": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "servicos": {
+        "software": "Software",
+        "designUI": "Design & UI",
+        "conteudo": "Content",
+        "blockchain": "Blockchain"
+      },
+      "empresa": {
+        "sobre": "About",
+        "cases": "Cases",
+        "contato": "Contact"
+      },
+      "legal": {
+        "privacidade": "Privacy Policy"
+      }
+    },
+    "copyright": "© {year} Dibs Solutions. All rights reserved.",
+    "alt": {
+      "logo": "Dibs Solutions"
+    }
+  },
+  "hero": {
+    "scenes": {
+      "0": {
+        "headline": "We turn ideas into",
+        "highlight": "digital solutions that generate real impact for your business",
+        "description": "From conception to deployment, our team of 40+ specialized agents builds software, design, content, and blockchain solutions. We validate your project before investment to avoid rework."
+      },
+      "1": {
+        "headline": "Blockchain is not just cryptocurrency.",
+        "highlight": "It's a new paradigm of digital trust",
+        "description": "From asset tokenization to DeFi, we create complete decentralized solutions with security, auditing, and compliance. Over 10 Web3 experts ready to bring your project from paper to market."
+      },
+      "2": {
+        "headline": "Before investing thousands,",
+        "highlight": "invest hundreds to validate your idea",
+        "description": "Radar Dibs analyzes your project from 4 perspectives — UX, Technical, Market, and Economic — with a Go/No-Go score. Over 70% of projects fail due to lack of proper prior validation."
+      },
+      "3": {
+        "headline": "A team of 40+ specialists",
+        "highlight": "all for a custom-tailored\ninvestment",
+        "description": "Design, development, content, blockchain and security all in one place. Agile methodology, biweekly deliveries and 100% of projects completed within the stipulated deadline."
+      }
+    },
+    "cta": {
+      "validate": "I want to validate my project",
+      "seeServices": "See services"
+    },
+    "aria": {
+      "goToScene": "Go to scene {number}"
+    },
+    "stats": {
+      "agents": "Specialized agents",
+      "departments": "Integrated departments",
+      "delivery": "Projects delivered on time",
+      "rating": "Average client rating"
+    }
+  },
+  "home": {
+    "services": {
+      "label": "Our Services",
+      "title": "Complete solutions",
+      "titleHighlight": "all in one place"
+    },
+    "cases": {
+      "0": {
+        "category": "📝 Content",
+        "title": "E-Book — Home Experience",
+        "description": "Complete e-book from scratch: research, writing, editorial design, layout and publishing on Amazon KDP. Project delivered in 15 days."
+      },
+      "1": {
+        "category": "🎨 Design",
+        "title": "Deborabelha Landing Page",
+        "description": "Exclusive Design System, prototyping in Figma, frontend development with Next.js and Tailwind. Visual identity that communicates craftsmanship and warmth."
+      },
+      "2": {
+        "category": "🎮 Games",
+        "title": "Snake Bonus Game",
+        "description": "Interactive game with 5 phases, power-ups, lives system and ranking. Bonus mechanics and progression with mobile-first experience."
+      },
+      "3": {
+        "category": "📊 Consulting",
+        "title": "TimeTracker Pro",
+        "description": "Internal time management platform with project tracking, cost calculations, budget simulation, and pricing intelligence."
+      },
+      "sectionTitle": {
+        "label": "Portfolio",
+        "title": "Projects that turned ideas into results",
+        "subtitle": "Each case represents a real partnership. Clients who trusted Dibs to bring their ideas to life."
+      }
+    },
+    "cta": {
+      "title": "Let's build something amazing together?",
+      "description": "Tell us about your project. Within 24 hours you'll receive a free preliminary analysis with our recommendations.",
+      "button": "Request free analysis →"
+    }
+  },
+  "cases": {
+    "pageTitle": {
+      "label": "Portfolio",
+      "title": "Projects that turned ideas into results",
+      "subtitle": "Each case represents a real partnership with clients who trusted Dibs to bring their ideas to life."
+    },
+    "filter": {
+      "all": "All"
+    },
+    "items": {
+      "0": {
+        "category": "Content",
+        "title": "E-Book — Home Experience",
+        "description": "Complete e-book from scratch: market research, creative writing, editorial design, professional layout and publishing on Amazon KDP. Project delivered in 15 days with sales already in the first week."
+      },
+      "1": {
+        "category": "Design",
+        "title": "Deborabelha Landing Page",
+        "description": "Exclusive Design System with prototyping in Figma, frontend development with Next.js and Tailwind, and visual identity that communicates craftsmanship and warmth."
+      },
+      "2": {
+        "category": "Games",
+        "title": "Snake Bonus Game",
+        "description": "Interactive game with 5 themed phases (Forest, Desert, Space, City, Castle), special power-ups, 3-life system and high score ranking. Mobile-first experience with progressive mechanics."
+      },
+      "3": {
+        "category": "Consulting",
+        "title": "TimeTracker Pro",
+        "description": "Internal time management platform with per-project and per-stage tracking, automatic cost calculation, budget simulation, and pricing intelligence based on historical data."
+      },
+      "4": {
+        "category": "Software",
+        "title": "GestCash",
+        "description": "Complete investment management system with multi-level profiles (investor, creator, administrator), project tokenization, smart contract and financial dashboard."
+      }
+    }
+  },
+  "sobre": {
+    "pageTitle": {
+      "label": "About Us",
+      "title": "Dibs Solutions",
+      "subtitle": "A technology agency where humans and AI work in orchestration to deliver extraordinary results."
+    },
+    "modelo": {
+      "title": "The Dibs Model",
+      "p1": "Dibs Solutions operates on a hub-and-spoke model: a central orchestrator (Einstein) coordinates specialist agents spread across 8 departments. Each demand is routed to the right agent, at the right time, with the right human supervision.",
+      "p2": "This means you don't hire one professional — you hire a complete team: architect, developers, designers, reviewers, testers, and DevOps, all working in sync."
+    },
+    "historia": {
+      "title": "Our Story",
+      "items": {
+        "0": {
+          "year": "2023",
+          "title": "Foundation",
+          "text": "Rafael Mendonça founds Dibs Solutions with the vision of creating a technology agency where specialized AI agents work in orchestration with humans. The hub-and-spoke model is born here."
+        },
+        "1": {
+          "year": "2024",
+          "title": "First Projects",
+          "text": "The agency delivers its first projects: web platforms, editorial content and technical consulting. The AI agent model proves its effectiveness in practice."
+        },
+        "2": {
+          "year": "2025",
+          "title": "Expansion",
+          "text": "Growth to 8 specialized departments. Blockchain, Financial Automations and Radar Dibs are launched. The team reaches 40+ agents."
+        },
+        "3": {
+          "year": "2026",
+          "title": "Consolidation",
+          "text": "Dibs Solutions consolidates as a reference in software development, design, content and blockchain. Over 40 projects delivered with 100% completion rate."
+        }
+      }
+    },
+    "valores": {
+      "title": "Our Values",
+      "items": {
+        "0": {
+          "icon": "🤝",
+          "title": "Real Partnership",
+          "desc": "We are not service providers — we are partners. Every project is treated as if it were our own."
+        },
+        "1": {
+          "icon": "⚡",
+          "title": "Collective Intelligence",
+          "desc": "We combine the best of human intelligence with specialized AI to deliver results that neither could achieve alone."
+        },
+        "2": {
+          "icon": "🔍",
+          "title": "Total Transparency",
+          "desc": "Open processes, clear communication and predictable deliveries. No black box, no surprises."
+        },
+        "3": {
+          "icon": "📈",
+          "title": "Measurable Excellence",
+          "desc": "99.5% uptime, 4.9 satisfaction rating, 100% of projects completed. Our numbers speak for themselves."
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs by the Numbers",
+      "items": {
+        "0": {
+          "value": "40+",
+          "label": "Specialized AI agents"
+        },
+        "1": {
+          "value": "8",
+          "label": "Integrated departments"
+        },
+        "2": {
+          "value": "100%",
+          "label": "Projects delivered on time"
+        },
+        "3": {
+          "value": "4.9",
+          "label": "Client satisfaction rating"
+        }
+      }
+    },
+    "cta": {
+      "text": "Meet the professionals who make all this possible.",
+      "button": "Meet our team →"
+    }
+  },
+  "servicos": {
+    "pageTitle": {
+      "label": "Services",
+      "title": "Complete solutions for your digital business",
+      "subtitle": "8 areas of expertise with specialized leaders and dedicated squads. Click on each service for full details."
+    },
+    "items": {
+      "0": {
+        "title": "Software Development",
+        "description": "Web systems, REST/GraphQL APIs, multi-tenant SaaS. Scalable architecture with Next.js, React, Node.js, Python, Go, Java, .NET and PHP Laravel. Agile squads assembled on demand with biweekly deliveries.",
+        "leader": "Daniel Monteiro (CSA)",
+        "href": "/servicos/software-development"
+      },
+      "1": {
+        "title": "Design & UI/UX",
+        "description": "Complete Design System with Storybook, navigable prototyping in Figma, strategic UX Writing with conversion-oriented microcopy, and WCAG AA accessibility validation from wireframe stage.",
+        "leader": "Andre Cardoso (CDO)",
+        "href": "/servicos/design-ui-ux"
+      },
+      "2": {
+        "title": "Conteúdo & Publicação",
+        "description": "Institutional e-books, technical blogs, sales copywriting, ghostwriting, translation and localization (PT/EN/FR/ES), and complete Amazon KDP publishing with SEO optimization.",
+        "leader": "Heitor Almeida (CD)",
+        "href": "/servicos/conteudo-publicacao"
+      },
+      "3": {
+        "title": "Blockchain & Web3",
+        "description": "Smart contracts in Solidity and Rust, DeFi protocols, real-world asset (RWA) tokenization, DAOs with decentralized governance, and complete on-chain security auditing.",
+        "leader": "Jhon Calder (CBO)",
+        "href": "/servicos/blockchain"
+      },
+      "4": {
+        "title": "Automações Financeiras",
+        "description": "Automated trading bots for crypto and B3, real-time compliance dashboards, algorithmic risk analysis and integration with legacy financial market systems.",
+        "leader": "In development",
+        "href": "/servicos/automacoes-financeiras"
+      },
+      "5": {
+        "title": "Radar Dibs",
+        "description": "Project validation in 4 phases: UX (user journey), Technical (architecture), Market (viability) and Economic (ROI). Score 0-10 with Go/No-Go recommendation and executive report.",
+        "leader": "From R$ 1,500",
+        "href": "/servicos/radar-dibs"
+      },
+      "6": {
+        "title": "Auditoria & Segurança",
+        "description": "RASA (Rapid Attack Surface Analysis), security-oriented code review, penetration testing, LGPD/GDPR compliance, and information security policy.",
+        "leader": "Helena Costa + Bruno Santos",
+        "href": "/servicos/auditoria-seguranca"
+      },
+      "7": {
+        "title": "Consultoria",
+        "description": "Scope and change management, system architecture review, strategic roadmaps, methodology definition, and organizational memory for project continuity.",
+        "leader": "Samuel Farias (PD)",
+        "href": "/servicos/consultoria"
+      }
+    }
+  },
+  "servicesCarousel": {
+    "items": {
+      "0": {
+        "title": "Software Development",
+        "description": "Web systems, APIs and custom SaaS. Next.js, React, Node.js, Python, Go, Java, .NET.",
+        "cta": "Software development that scales",
+        "href": "/servicos/software-development"
+      },
+      "1": {
+        "title": "Design & UI/UX",
+        "description": "Design System, Storybook, prototyping, UX Writing and WCAG AA accessibility.",
+        "cta": "Interfaces that convert",
+        "href": "/servicos/design-ui-ux"
+      },
+      "2": {
+        "title": "Conteúdo & Publicação",
+        "description": "E-books, blogs, copywriting, translation and Amazon KDP publishing.",
+        "cta": "Complete editorial process",
+        "href": "/servicos/conteudo-publicacao"
+      },
+      "3": {
+        "title": "Blockchain & Web3",
+        "description": "Smart contracts, DeFi, RWA, DAOs and on-chain auditing.",
+        "cta": "Decentralized solutions",
+        "href": "/servicos/blockchain"
+      },
+      "4": {
+        "title": "Automações Financeiras",
+        "description": "Trading bots, B3 integration, compliance and real-time risk.",
+        "cta": "Automate financial operations",
+        "href": "/servicos/automacoes-financeiras"
+      },
+      "5": {
+        "title": "Radar Dibs",
+        "description": "4-phase methodology: UX, Technical, Market and Economic. Go/No-Go score.",
+        "cta": "Validate before investing",
+        "href": "/servicos/radar-dibs"
+      },
+      "6": {
+        "title": "Auditoria & Segurança",
+        "description": "RASA, pentest, LGPD compliance and code review.",
+        "cta": "Tailored auditing",
+        "href": "/servicos/auditoria-seguranca"
+      },
+      "7": {
+        "title": "Consultoria",
+        "description": "Scope, architecture, roadmaps and organizational memory.",
+        "cta": "Free consultation",
+        "href": "/servicos/consultoria"
+      }
+    },
+    "label": "Our Services",
+    "title": "Comprehensive",
+    "titleHighlight": "Tech Solutions"
+  },
+  "softwareDevelopment": {
+    "hero": {
+      "title": "Software",
+      "titleHighlight": "Development",
+      "description": "We architect and develop custom web systems, APIs and SaaS. Multidisciplinary squads assembled for each project, from concept to continuous deployment."
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Performance that doesn't scale",
+          "solution": "Systems that crash as users and data grow. Costly and risky rewriting."
+        },
+        "1": {
+          "problem": "Legacy code that's hard to maintain",
+          "solution": "Outdated dependencies, accumulated technical debt, difficulty hiring people who can work with the code."
+        },
+        "2": {
+          "problem": "Rising operational costs",
+          "solution": "Poorly dimensioned infrastructure, constant rework and lack of process automation."
+        },
+        "3": {
+          "problem": "Slow time-to-market",
+          "solution": "Long sprints, manual deployment and bureaucratic processes that delay feature releases."
+        },
+        "4": {
+          "problem": "Hiring difficulties",
+          "solution": "Competitive market, high salaries and rare profiles. Building and maintaining a tech team is expensive and time-consuming."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "We deliver complete software, from frontend to infrastructure. Each project has a dedicated architect.",
+      "items": {
+        "0": {
+          "title": "Frontend",
+          "description": "SPA, SSR, ISR. Next.js, React, Tailwind. Fast, responsive and accessible interfaces."
+        },
+        "1": {
+          "title": "Backend",
+          "description": "REST and GraphQL APIs. Node.js, Python, Go, Java, .NET, PHP. Scalable, secure and well-documented."
+        },
+        "2": {
+          "title": "Mobile",
+          "description": "React Native and Flutter. Android and iOS with a single codebase and simultaneous updates."
+        },
+        "3": {
+          "title": "APIs & Integrations",
+          "description": "We connect ERPs, payment gateways, CRMs and third-party services without disrupting operations."
+        },
+        "4": {
+          "title": "Database",
+          "description": "Relational and NoSQL modeling. Migrations, query optimization and replication."
+        },
+        "5": {
+          "title": "DevOps & Infrastructure",
+          "description": "CI/CD, Docker, cloud (AWS, Vercel, VPS). 24/7 monitoring with 99.5% guaranteed uptime."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Discovery",
+          "description": "We understand the business, map workflows and define technical requirements together with you."
+        },
+        "1": {
+          "number": "02",
+          "title": "Architecture",
+          "description": "We design the system structure, choose the stack and define code standards."
+        },
+        "2": {
+          "number": "03",
+          "title": "Development",
+          "description": "Biweekly sprints with incremental deliveries. You track progress in real time."
+        },
+        "3": {
+          "number": "04",
+          "title": "Deploy & Support",
+          "description": "Publication with CI/CD, active monitoring and ongoing post-launch support."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Frontend",
+          "items": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "shadcn/ui"
+          ]
+        },
+        "1": {
+          "name": "Backend",
+          "items": [
+            "Node.js",
+            "Python",
+            "Go",
+            "Java/Spring",
+            "C#/.NET",
+            "PHP/Laravel"
+          ]
+        },
+        "2": {
+          "name": "Mobile",
+          "items": [
+            "React Native",
+            "Flutter",
+            "Expo"
+          ]
+        },
+        "3": {
+          "name": "Database",
+          "items": [
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Prisma"
+          ]
+        },
+        "4": {
+          "name": "Infra & DevOps",
+          "items": [
+            "Docker",
+            "AWS",
+            "Vercel",
+            "GitHub Actions",
+            "Linux"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Specialized Team",
+      "members": {
+        "0": {
+          "name": "Daniel Monteiro",
+          "role": "Software Architect (CSA)",
+          "initials": "DM",
+          "competencias": [
+            "Architecture",
+            "Node.js",
+            "Python",
+            "Database"
+          ]
+        },
+        "1": {
+          "name": "Sofia Lopes",
+          "role": "JS/TS Engineer",
+          "initials": "SL",
+          "competencias": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Node.js"
+          ]
+        },
+        "2": {
+          "name": "Carlos Pereira",
+          "role": "PHP Laravel Engineer",
+          "initials": "CP",
+          "competencias": [
+            "PHP",
+            "Laravel",
+            "REST APIs",
+            "MySQL"
+          ]
+        },
+        "3": {
+          "name": "Alan Silveira",
+          "role": "Python Engineer",
+          "initials": "AS",
+          "competencias": [
+            "Python",
+            "Django",
+            "FastAPI",
+            "Data Science"
+          ]
+        },
+        "4": {
+          "name": "Arthur Fernandes",
+          "role": "Java Engineer",
+          "initials": "AF",
+          "competencias": [
+            "Java",
+            "Spring",
+            "Microservices",
+            "Kafka"
+          ]
+        },
+        "5": {
+          "name": "Igor Nascimento",
+          "role": "Go/Rust Engineer",
+          "initials": "IN",
+          "competencias": [
+            "Go",
+            "Rust",
+            "Distributed Systems",
+            "Performance"
+          ]
+        },
+        "6": {
+          "name": "Felipe Rocha",
+          "role": ".NET Engineer",
+          "initials": "FR",
+          "competencias": [
+            "C#",
+            ".NET",
+            "Azure",
+            "SQL Server"
+          ]
+        },
+        "7": {
+          "name": "Miguel Araújo",
+          "role": "Mobile Engineer",
+          "initials": "MA",
+          "competencias": [
+            "React Native",
+            "Flutter",
+            "iOS",
+            "Android"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Software by the numbers",
+      "items": {
+        "0": {
+          "value": "8",
+          "label": "Dedicated engineers"
+        },
+        "1": {
+          "value": "5+",
+          "label": "Stacks mastered"
+        },
+        "2": {
+          "value": "15",
+          "label": "Projects delivered"
+        },
+        "3": {
+          "value": "2",
+          "label": "Weeks per sprint"
+        }
+      }
+    },
+    "cta": {
+      "title": "Have a project in mind?",
+      "description": "Tell us your idea. Within 24 hours you'll receive an analysis with technical recommendations and estimated timeline and cost.",
+      "button": "Request a quote →"
+    }
+  },
+  "blockchain": {
+    "hero": {
+      "title": "Blockchain &",
+      "titleHighlight": "Web3",
+      "description": "Decentralized solutions from concept to deployment — with security, auditing and governance. Over 10 dedicated specialists."
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Lack of digital trust",
+          "solution": "Centralized processes that depend on intermediaries. Your business vulnerable to failures and fraud."
+        },
+        "1": {
+          "problem": "Costs with intermediaries",
+          "solution": "High fees on gateways, notaries and trusted third parties. Blockchain eliminates most of these costs."
+        },
+        "2": {
+          "problem": "Slow settlements",
+          "solution": "International transfers that take days. Smart contracts settle in seconds, 24/7."
+        },
+        "3": {
+          "problem": "Lack of transparency",
+          "solution": "Opaque records auditable only by a few. Blockchain offers complete and immutable traceability."
+        },
+        "4": {
+          "problem": "Technical difficulty",
+          "solution": "Hiring specialists in Solidity, Rust, DeFi and auditing is expensive and scarce. Your ready team exists."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "Complete decentralized solutions, from smart contract to DApp. All audited and documented.",
+      "items": {
+        "0": {
+          "icon": "📜",
+          "title": "Smart Contracts",
+          "description": "Solidity (EVM) and Rust (Solana). Audited code, gas-optimized and with exhaustive testing."
+        },
+        "1": {
+          "icon": "🏦",
+          "title": "DeFi",
+          "description": "Lending protocols, staking, farming, DEXs and yield aggregators with security and efficiency."
+        },
+        "2": {
+          "icon": "🏠",
+          "title": "RWA Tokenization",
+          "description": "We transform real-world assets (real estate, receivables, artworks) into tradable tokens on the blockchain."
+        },
+        "3": {
+          "icon": "🗳️",
+          "title": "DAOs",
+          "description": "Decentralized governance with on-chain voting, multi-sig treasury and automated proposals."
+        },
+        "4": {
+          "icon": "🎨",
+          "title": "NFTs",
+          "description": "Collections, marketplaces and utility beyond art. Tokens with real value for your business."
+        },
+        "5": {
+          "icon": "🔍",
+          "title": "Auditing",
+          "description": "Complete smart contract review: reentrancy, overflow, access control and 20+ vectors."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Discovery",
+          "description": "We understand the business problem and determine if blockchain is the best solution — it's not always."
+        },
+        "1": {
+          "number": "02",
+          "title": "Architecture",
+          "description": "Chain selection, contract design, token and governance definition."
+        },
+        "2": {
+          "number": "03",
+          "title": "Development",
+          "description": "Smart contract implementation with unit tests and continuous integration."
+        },
+        "3": {
+          "number": "04",
+          "title": "Audit & Deploy",
+          "description": "Internal + external audit. Monitored deployment with planned fallback and rollback."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Smart Contracts",
+          "items": [
+            "Solidity",
+            "Rust",
+            "Vyper",
+            "Hardhat",
+            "Foundry"
+          ]
+        },
+        "1": {
+          "name": "Chains",
+          "items": [
+            "Ethereum",
+            "Solana",
+            "Polygon",
+            "Arbitrum",
+            "Base"
+          ]
+        },
+        "2": {
+          "name": "Tools",
+          "items": [
+            "Ethers.js",
+            "Web3.js",
+            "The Graph",
+            "IPFS"
+          ]
+        },
+        "3": {
+          "name": "Security",
+          "items": [
+            "Slither",
+            "MythX",
+            "Certora",
+            "OpenZeppelin"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Blockchain Team",
+      "members": {
+        "0": {
+          "name": "Jhon Calder",
+          "role": "Master Orchestrator (CBO)",
+          "initials": "JC",
+          "competencias": [
+            "Orchestration",
+            "Architecture",
+            "DeFi",
+            "Strategy"
+          ]
+        },
+        "1": {
+          "name": "Gavin Hayes",
+          "role": "Blockchain Infra Architect",
+          "initials": "GH",
+          "competencias": [
+            "Infrastructure",
+            "Nodes",
+            "Chains",
+            "Scalability"
+          ]
+        },
+        "2": {
+          "name": "Vitalik Petrov",
+          "role": "Smart Contract Engineer",
+          "initials": "VP",
+          "competencias": [
+            "Solidity",
+            "Rust",
+            "Auditing",
+            "Gas Optimization"
+          ]
+        },
+        "3": {
+          "name": "Hayden Cole",
+          "role": "DApp Experience Agent",
+          "initials": "HC",
+          "competencias": [
+            "DApps",
+            "Web3 UI",
+            "Ethers.js",
+            "Wallet Connect"
+          ]
+        },
+        "4": {
+          "name": "Andrew Pierce",
+          "role": "Blockchain Security Auditor",
+          "initials": "AP",
+          "competencias": [
+            "Auditing",
+            "Pentest",
+            "Bug Hunting",
+            "Certora"
+          ]
+        },
+        "5": {
+          "name": "Cronje Wright",
+          "role": "DeFi Strategy Agent",
+          "initials": "CW",
+          "competencias": [
+            "DeFi",
+            "Yield",
+            "AMMs",
+            "Lending"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Blockchain by the numbers",
+      "items": {
+        "0": {
+          "value": "11",
+          "label": "Web3 specialists"
+        },
+        "1": {
+          "value": "5",
+          "label": "Supported chains"
+        },
+        "2": {
+          "value": "15+",
+          "label": "Audits performed"
+        },
+        "3": {
+          "value": "0",
+          "label": "Post-audit failures"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to decentralize?",
+      "description": "Tell us about your Web3 project. Within 48 hours we'll deliver a technical feasibility analysis with estimate.",
+      "button": "Request analysis →"
+    }
+  },
+  "designUIUX": {
+    "hero": {
+      "title": "Design &",
+      "titleHighlight": "UI/UX",
+      "description": "We create complete digital experiences, from wireframe to final pixel, with focus on conversion, accessibility and consistency."
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Inconsistent brand",
+          "solution": "Different colors, fonts and components on every screen. Fragmented and amateur user experience."
+        },
+        "1": {
+          "problem": "Low conversion rate",
+          "solution": "Confusing interfaces, poorly positioned CTAs and journeys that don't lead the user to the desired action."
+        },
+        "2": {
+          "problem": "Slow prototyping",
+          "solution": "Analysis and development without prototypes. Constant rework because the client only sees the result after it's done."
+        },
+        "3": {
+          "problem": "Accessibility ignored",
+          "solution": "Sites and apps that exclude millions of users. Legal risk and market loss by not meeting WCAG standards."
+        },
+        "4": {
+          "problem": "Misaligned team",
+          "solution": "Designers and developers in silos. Components redesigned every time, with no standards or documentation."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "Complete design, from component system to visual identity. All documented and ready to scale.",
+      "items": {
+        "0": {
+          "title": "Design System",
+          "description": "Reusable components in Storybook with living documentation, design tokens and semantic versioning."
+        },
+        "1": {
+          "icon": "📐",
+          "title": "Prototyping",
+          "description": "Navigable wireframes in Figma to validate flows and journeys before writing a single line of code."
+        },
+        "2": {
+          "icon": "✍️",
+          "title": "UX Writing",
+          "description": "Strategic microcopy, documented tone of voice and texts that guide the user through every step of the journey."
+        },
+        "3": {
+          "icon": "♿",
+          "title": "Accessibility",
+          "description": "WCAG AA from wireframe stage. 4.5:1 contrast ratio, semantic labels and keyboard navigation."
+        },
+        "4": {
+          "icon": "🌗",
+          "title": "Dark mode",
+          "description": "Native implementation with smooth theme switching. Visual consistency in any preference."
+        },
+        "5": {
+          "icon": "🎨",
+          "title": "Visual Identity",
+          "description": "Palette, typography, icons and complete identity. Your brand translated to digital with consistency."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Briefing",
+          "description": "We understand the business, target audience and conversion goals. Align expectations and deadlines."
+        },
+        "1": {
+          "number": "02",
+          "title": "Research",
+          "description": "Benchmarking, competitor analysis and information architecture definition."
+        },
+        "2": {
+          "number": "03",
+          "title": "Prototyping",
+          "description": "Low-fidelity wireframes evolving into navigable prototypes. Validation at every step."
+        },
+        "3": {
+          "number": "04",
+          "title": "Final Design",
+          "description": "Pixel-perfect in Figma. Delivery with style guide, assets and development specifications."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Design",
+          "items": [
+            "Figma",
+            "Storybook",
+            "Adobe Illustrator",
+            "Photoshop"
+          ]
+        },
+        "1": {
+          "name": "Prototyping",
+          "items": [
+            "Figma",
+            "Framer",
+            "Principle",
+            "ProtoPie"
+          ]
+        },
+        "2": {
+          "name": "Tools",
+          "items": [
+            "Zeroheight",
+            "Tokens Studio",
+            "Contrast Checker",
+            "VoiceOver"
+          ]
+        },
+        "3": {
+          "name": "Standards",
+          "items": [
+            "WCAG AA",
+            "Material Design",
+            "Atomic Design",
+            "Design Tokens"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Specialized Team",
+      "members": {
+        "0": {
+          "name": "Andre Cardoso",
+          "role": "UI System Architect (CDO)",
+          "initials": "AC",
+          "competencias": [
+            "Design System",
+            "Figma",
+            "Storybook",
+            "UI Architecture"
+          ]
+        },
+        "1": {
+          "name": "Cesar Júnior",
+          "role": "AI Copy System Architect",
+          "initials": "CJ",
+          "competencias": [
+            "UX Writing",
+            "Copywriting",
+            "Strategy",
+            "Tone of Voice"
+          ]
+        },
+        "2": {
+          "name": "Mario Reis",
+          "role": "UI Reviewer",
+          "initials": "MR",
+          "competencias": [
+            "Accessibility",
+            "Contrast",
+            "UI Review",
+            "WCAG"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Design by the numbers",
+      "items": {
+        "0": {
+          "value": "50+",
+          "label": "Components in the Design System"
+        },
+        "1": {
+          "value": "12",
+          "label": "UI projects delivered"
+        },
+        "2": {
+          "value": "4.8",
+          "label": "Usability testing score"
+        },
+        "3": {
+          "value": "AA",
+          "label": "Guaranteed WCAG compliance"
+        }
+      }
+    },
+    "cta": {
+      "title": "Your interface deserves real design",
+      "description": "Request a free analysis of your current interface. Within 48 hours we'll return improvement recommendations.",
+      "button": "Request analysis →"
+    }
+  },
+  "conteudoPublicacao": {
+    "hero": {
+      "title": "Content &",
+      "titleHighlight": "Publishing",
+      "description": "From editorial planning to publication. Content that educates, engages and sells — in Portuguese, English, French and Spanish."
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "No editorial strategy",
+          "solution": "Content published without planning, without defined persona and without a calendar. Result: nobody reads it."
+        },
+        "1": {
+          "problem": "Slow and expensive production",
+          "solution": "Hiring different freelancers for each stage. Endless revisions and blown deadlines."
+        },
+        "2": {
+          "problem": "Content that doesn't sell",
+          "solution": "Generic texts that don't educate, engage or convert. Investment with no return."
+        },
+        "3": {
+          "problem": "Difficulty scaling",
+          "solution": "One professional can't master research, writing, review, design and publishing all at once."
+        },
+        "4": {
+          "problem": "Translation costs",
+          "solution": "Literal translations that lose cultural context. Rework to adapt to each market."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "Complete content, from strategy to publication. A multidisciplinary editorial team for each project.",
+      "items": {
+        "0": {
+          "icon": "📖",
+          "title": "Institutional E-books",
+          "description": "From briefing to final file. Research, narrative, layout and format (PDF, ePub, Mobi)."
+        },
+        "1": {
+          "icon": "✍️",
+          "title": "Technical Blog",
+          "description": "Original content with defined frequency. SEO, internal links, distribution and metrics."
+        },
+        "2": {
+          "icon": "💬",
+          "title": "Copywriting",
+          "description": "Sales pages, landing pages, emails, CTAs and social media text that converts."
+        },
+        "3": {
+          "icon": "🌐",
+          "title": "Translation & Localization",
+          "description": "PT/EN/FR/ES by specialized translators. Cultural and technical context preserved."
+        },
+        "4": {
+          "icon": "📚",
+          "title": "KDP Publishing",
+          "description": "Formatting, cover, Amazon SEO and launch. Sales and royalty tracking."
+        },
+        "5": {
+          "icon": "🎯",
+          "title": "Editorial Strategy",
+          "description": "Calendar, persona, keyword research and tone of voice definition. Content that educates and sells."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Strategy",
+          "description": "We define persona, niche, keywords and editorial calendar aligned with your business goals."
+        },
+        "1": {
+          "number": "02",
+          "title": "Research",
+          "description": "Gathering sources, data, references and competitor analysis. Every claim has a source."
+        },
+        "2": {
+          "number": "03",
+          "title": "Writing & Review",
+          "description": "Writing by specialist, grammatical review and tone of voice alignment. Zero errors."
+        },
+        "3": {
+          "number": "04",
+          "title": "Publishing",
+          "description": "Layout, formatting and publication on the chosen platform. SEO and distribution included."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Writing",
+          "items": [
+            "ChatGPT",
+            "Claude",
+            "Grammarly",
+            "Google Docs"
+          ]
+        },
+        "1": {
+          "name": "Editorial Design",
+          "items": [
+            "InDesign",
+            "Canva",
+            "Calibre",
+            "Kindle Create"
+          ]
+        },
+        "2": {
+          "name": "Publishing",
+          "items": [
+            "Amazon KDP",
+            "Medium",
+            "WordPress",
+            "Ghost"
+          ]
+        },
+        "3": {
+          "name": "Metrics",
+          "items": [
+            "Google Analytics",
+            "Search Console",
+            "Ahrefs",
+            "Hotjar"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Editorial Team",
+      "members": {
+        "0": {
+          "name": "Heitor Almeida",
+          "role": "Editorial Strategist (CD)",
+          "initials": "HA",
+          "competencias": [
+            "Strategy",
+            "Calendar",
+            "Niches",
+            "SEO"
+          ]
+        },
+        "1": {
+          "name": "Davi Barbosa",
+          "role": "Research Analyst",
+          "initials": "DB",
+          "competencias": [
+            "Research",
+            "Curation",
+            "Data",
+            "Sources"
+          ]
+        },
+        "2": {
+          "name": "Noah Campos",
+          "role": "Narrative Architect",
+          "initials": "NC",
+          "competencias": [
+            "Storytelling",
+            "Structure",
+            "Scriptwriting"
+          ]
+        },
+        "3": {
+          "name": "Benjamim Torres",
+          "role": "Ghostwriter",
+          "initials": "BT",
+          "competencias": [
+            "Writing",
+            "Blog",
+            "E-books",
+            "Articles"
+          ]
+        },
+        "4": {
+          "name": "Celia Duarte",
+          "role": "Editorial Reviser",
+          "initials": "CD",
+          "competencias": [
+            "Review",
+            "Grammar",
+            "ABNT",
+            "Standardization"
+          ]
+        },
+        "5": {
+          "name": "Tarsila Nunes",
+          "role": "Editorial Designer",
+          "initials": "TN",
+          "competencias": [
+            "Layout",
+            "Covers",
+            "KDP",
+            "InDesign"
+          ]
+        },
+        "6": {
+          "name": "Lis Andrade",
+          "role": "Sales Copy Specialist",
+          "initials": "LA",
+          "competencias": [
+            "Copywriting",
+            "Sales",
+            "Landing Page",
+            "CTA"
+          ]
+        },
+        "7": {
+          "name": "Leila Fontes",
+          "role": "Translator & Localizer",
+          "initials": "LF",
+          "competencias": [
+            "Translation",
+            "EN/FR/ES",
+            "Localization"
+          ]
+        },
+        "8": {
+          "name": "Valerio Vargas",
+          "role": "Amazon KDP Specialist",
+          "initials": "VV",
+          "competencias": [
+            "KDP",
+            "Amazon SEO",
+            "Publishing",
+            "Royalties"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Content by the numbers",
+      "items": {
+        "0": {
+          "value": "9",
+          "label": "Editorial specialists"
+        },
+        "1": {
+          "value": "3",
+          "label": "Publication languages"
+        },
+        "2": {
+          "value": "20+",
+          "label": "Editorial projects delivered"
+        },
+        "3": {
+          "value": "15",
+          "label": "Days to deliver an e-book"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to publish?",
+      "description": "Tell us about your editorial project. Within 24 hours we'll return a proposal with timeline and budget.",
+      "button": "Request proposal →"
+    }
+  },
+  "automacoesFinanceiras": {
+    "hero": {
+      "title": "Financial",
+      "titleHighlight": "Automations",
+      "description": "Trading bots, B3 integration, compliance dashboards and real-time risk. Technology serving the financial market."
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Slow manual processes",
+          "solution": "Spreadsheets, emails and daily rework. Human errors that cost dearly and consume your team's time."
+        },
+        "1": {
+          "problem": "High operational costs",
+          "solution": "Team dedicated to repetitive tasks that could be automated. Tight margins due to inefficiency."
+        },
+        "2": {
+          "problem": "Decisions without real-time data",
+          "solution": "Daily or weekly reports when the market moves in seconds. Outdated information is risk."
+        },
+        "3": {
+          "problem": "Isolated legacy systems",
+          "solution": "ERPs, brokerages and banks that don't talk to each other. Data locked in incompatible silos."
+        },
+        "4": {
+          "problem": "Operational risk and compliance",
+          "solution": "Without continuous monitoring, anomalies go unnoticed. Regulatory fines for non-compliance."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "Automated financial solutions, from strategy to deployment. Bots that operate 24/7 with sub-50ms latency.",
+      "items": {
+        "0": {
+          "icon": "🤖",
+          "title": "Trading Bots",
+          "description": "Buy and sell algorithms for cryptocurrencies and B3 assets. Strategies backtested with historical data."
+        },
+        "1": {
+          "icon": "📊",
+          "title": "B3 Integration",
+          "description": "Direct connection to the Brazilian market for real-time data capture and automated execution."
+        },
+        "2": {
+          "icon": "🛡️",
+          "title": "Compliance Dashboards",
+          "description": "Continuous operations monitoring, anomaly detection and regulatory report generation."
+        },
+        "3": {
+          "icon": "📈",
+          "title": "Risk Analysis",
+          "description": "Predictive models for credit, market and liquidity risk assessment in real time."
+        },
+        "4": {
+          "icon": "🔗",
+          "title": "Legacy Integration",
+          "description": "We connect traditional financial systems with modern APIs without disrupting operations."
+        },
+        "5": {
+          "icon": "📋",
+          "title": "Automated Reports",
+          "description": "Daily, weekly and monthly reports generated automatically. Sent by email or dashboard."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Analysis",
+          "description": "We map your current processes and identify bottlenecks, risks and automation opportunities."
+        },
+        "1": {
+          "number": "02",
+          "title": "Strategy",
+          "description": "We define the solution architecture, stacks and success metrics for each automation."
+        },
+        "2": {
+          "number": "03",
+          "title": "Development",
+          "description": "Implementation of bots, integrations and dashboards with testing in a controlled environment."
+        },
+        "3": {
+          "number": "04",
+          "title": "Production",
+          "description": "Monitored deployment with fallback. Continuous monitoring and performance optimization."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Languages",
+          "items": [
+            "Python",
+            "C++",
+            "Node.js",
+            "Go"
+          ]
+        },
+        "1": {
+          "name": "Infrastructure",
+          "items": [
+            "AWS",
+            "Docker",
+            "Redis",
+            "Kafka"
+          ]
+        },
+        "2": {
+          "name": "APIs",
+          "items": [
+            "B3",
+            "Binance",
+            "Coinbase",
+            "MetaTrader"
+          ]
+        },
+        "3": {
+          "name": "Data",
+          "items": [
+            "PostgreSQL",
+            "InfluxDB",
+            "Grafana",
+            "Prometheus"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Automations Team",
+      "members": {
+        "0": {
+          "name": "Alan Silveira",
+          "role": "Python Engineer",
+          "initials": "AS",
+          "competencias": [
+            "Python",
+            "Algorithms",
+            "Data Science",
+            "Backtesting"
+          ]
+        },
+        "1": {
+          "name": "Igor Nascimento",
+          "role": "Go/Rust Engineer",
+          "initials": "IN",
+          "competencias": [
+            "Go",
+            "Performance",
+            "Distributed Systems",
+            "Latency"
+          ]
+        },
+        "2": {
+          "name": "Sofia Lopes",
+          "role": "JS/TS Engineer",
+          "initials": "SL",
+          "competencias": [
+            "Node.js",
+            "Dashboards",
+            "APIs",
+            "Frontend"
+          ]
+        },
+        "3": {
+          "name": "Thor Bergqvist",
+          "role": "DevOps Engineer",
+          "initials": "TB",
+          "competencias": [
+            "Infrastructure",
+            "CI/CD",
+            "Monitoring",
+            "Cloud"
+          ]
+        },
+        "4": {
+          "name": "Duff Brown",
+          "role": "MQL Quant Engineer",
+          "initials": "DB",
+          "competencias": [
+            "MQL4",
+            "MQL5",
+            "Expert Advisors",
+            "Algo Trading"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Automations by the numbers",
+      "items": {
+        "0": {
+          "value": "50ms",
+          "label": "Execution latency"
+        },
+        "1": {
+          "value": "24/7",
+          "label": "Continuous operation"
+        },
+        "2": {
+          "value": "2",
+          "label": "Minimum backtest years"
+        },
+        "3": {
+          "value": "0",
+          "label": "Production downtime"
+        }
+      }
+    },
+    "cta": {
+      "title": "Automate your financial operations",
+      "description": "Tell us your challenge. Within 48 hours we'll deliver a technical feasibility analysis with estimated gains.",
+      "button": "Request analysis →"
+    }
+  },
+  "radarDibs": {
+    "hero": {
+      "title": "Radar",
+      "titleHighlight": "Dibs",
+      "description": "Before investing, validate. Exclusive 4-phase methodology with Go/No-Go score. Complete analysis in 5 to 10 business days.",
+      "cta": "Request Radar Dibs",
+      "ctaSecondary": "See methodology"
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Investing without validation",
+          "solution": "Thousands spent developing a product the market doesn't want. 70% of projects fail due to lack of validation."
+        },
+        "1": {
+          "problem": "Good idea, wrong execution",
+          "solution": "Products that solve the wrong problem. Features nobody uses. Pivoting too late."
+        },
+        "2": {
+          "problem": "Blown deadlines and budgets",
+          "solution": "Infinite scope, unrealistic estimates and constant rework. The project never goes as planned."
+        },
+        "3": {
+          "problem": "No objective metrics",
+          "solution": "Decisions based on guesswork. No score, no data, no clear criteria to move forward or stop."
+        },
+        "4": {
+          "problem": "Difficulty prioritizing",
+          "solution": "Features requested from all sides. No method to separate the essential from the superfluous."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "The 4 Phases of Radar",
+      "subtitle": "Proprietary methodology that analyzes your project from 4 complementary perspectives.",
+      "items": {
+        "0": {
+          "icon": "🔍",
+          "title": "① UX & Product",
+          "description": "Analysis of user journey, value proposition, product-market fit and competitive differentiators."
+        },
+        "1": {
+          "icon": "⚙️",
+          "title": "② Technical",
+          "description": "Architectural feasibility, tech stack, security, scalability and estimated technical debt."
+        },
+        "2": {
+          "icon": "📊",
+          "title": "③ Market",
+          "description": "Market size, competition, barriers to entry, acquisition channels and trends."
+        },
+        "3": {
+          "icon": "💰",
+          "title": "④ Economic",
+          "description": "Financial projection, estimated ROI, break-even, operational costs and revenue sources."
+        },
+        "4": {
+          "icon": "📋",
+          "title": "Consolidated Score",
+          "description": "Score from 0 to 10 with Go/No-Go recommendation. 10-page executive report with risks and roadmap."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Briefing",
+          "description": "We align expectations, define the scope of analysis and collect existing materials about the project."
+        },
+        "1": {
+          "number": "02",
+          "title": "Analysis",
+          "description": "We apply the 4 Radar phases with specialist agents in each dimension."
+        },
+        "2": {
+          "number": "03",
+          "title": "Score",
+          "description": "We consolidate results into a 0-10 score with Go, No-Go or Pivot recommendation."
+        },
+        "3": {
+          "number": "04",
+          "title": "Presentation",
+          "description": "Online meeting to present the report, answer questions and define next steps."
+        }
+      }
+    },
+    "team": {
+      "title": "Validation Team",
+      "members": {
+        "0": {
+          "name": "Samuel Farias",
+          "role": "Project Consultant (PD)",
+          "initials": "SF",
+          "competencias": [
+            "Management",
+            "Scope",
+            "Risk",
+            "Strategy"
+          ]
+        },
+        "1": {
+          "name": "Daniel Monteiro",
+          "role": "Software Architect (CSA)",
+          "initials": "DM",
+          "competencias": [
+            "Architecture",
+            "Stack",
+            "Scalability",
+            "Costs"
+          ]
+        },
+        "2": {
+          "name": "Einstein Tavares",
+          "role": "Orchestrator (COO)",
+          "initials": "ET",
+          "competencias": [
+            "Orchestration",
+            "Processes",
+            "Governance",
+            "Teams"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Radar Dibs by the numbers",
+      "items": {
+        "0": {
+          "value": "4",
+          "label": "Analysis phases"
+        },
+        "1": {
+          "value": "10",
+          "label": "Report pages"
+        },
+        "2": {
+          "value": "5-10",
+          "label": "Days to delivery"
+        },
+        "3": {
+          "value": "R$1,500",
+          "label": "Initial investment"
+        }
+      }
+    },
+    "cta": {
+      "title": "Validate your idea before investing",
+      "description": "Schedule a 30-minute conversation to present your project. No commitment.",
+      "button": "Schedule conversation →"
+    }
+  },
+  "auditoriaSeguranca": {
+    "hero": {
+      "title": "Audit &",
+      "titleHighlight": "Security",
+      "description": "Code auditing, pentest, LGPD and compliance. We detect vulnerabilities before attackers do.",
+      "ctaSecondary": "See deliverables"
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Exposed data due to vulnerabilities",
+          "solution": "API flaws, SQL injection, XSS and misconfigurations. Client and company data at risk."
+        },
+        "1": {
+          "problem": "Fines and reputation damage",
+          "solution": "Leaks and non-compliance with LGPD/GDPR generate million-dollar fines and loss of market trust."
+        },
+        "2": {
+          "problem": "Insecure code in production",
+          "solution": "Outdated dependencies, exposed secrets, loose permissions. One attack can stop your business."
+        },
+        "3": {
+          "problem": "No risk visibility",
+          "solution": "No asset inventory, no regular testing, no incident response. You don't know where you're vulnerable."
+        },
+        "4": {
+          "problem": "Difficulty hiring specialists",
+          "solution": "Security professionals are rare and expensive. A third-party audit is faster and cheaper."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "Complete security audit with detailed report, evidence and remediation plan.",
+      "items": {
+        "0": {
+          "icon": "🔍",
+          "title": "Code Audit",
+          "description": "Line-by-line review of your source code. We detect OWASP Top 10 vulnerabilities, bad practices and security risks."
+        },
+        "1": {
+          "icon": "🔐",
+          "title": "Pentest",
+          "description": "Complete penetration testing on web applications, APIs and infrastructure. Report with evidence and recommendations."
+        },
+        "2": {
+          "icon": "📋",
+          "title": "LGPD & Compliance",
+          "description": "Complete compliance diagnosis with the General Data Protection Law. Data mapping and process adaptation."
+        },
+        "3": {
+          "icon": "🛡️",
+          "title": "Security Audit",
+          "description": "Security architecture analysis, identity management, encryption, logging and monitoring."
+        },
+        "4": {
+          "icon": "📘",
+          "title": "Security Policies",
+          "description": "Development of information security policies, standards and procedures aligned with ISO 27001."
+        },
+        "5": {
+          "icon": "🚨",
+          "title": "Incident Response",
+          "description": "Documented response plan, scenario playbooks and attack simulations to test the team."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Scope",
+          "description": "We define the audit perimeter: applications, infrastructure, APIs, processes and specific targets."
+        },
+        "1": {
+          "number": "02",
+          "title": "Analysis",
+          "description": "We apply automated tools + manual review. Controlled penetration testing in a secure environment."
+        },
+        "2": {
+          "number": "03",
+          "title": "Report",
+          "description": "Detailed document with found vulnerabilities, severity, evidence and remediation steps."
+        },
+        "3": {
+          "number": "04",
+          "title": "Remediation",
+          "description": "We follow up on vulnerability fixes and perform re-testing to validate effectiveness."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Tools",
+          "items": [
+            "Burp Suite",
+            "Nmap",
+            "Metasploit",
+            "Wireshark"
+          ]
+        },
+        "1": {
+          "name": "Standards",
+          "items": [
+            "OWASP Top 10",
+            "ISO 27001",
+            "LGPD",
+            "NIST"
+          ]
+        },
+        "2": {
+          "name": "Cloud",
+          "items": [
+            "AWS Security Hub",
+            "Azure Defender",
+            "GCP Security"
+          ]
+        },
+        "3": {
+          "name": "DevSecOps",
+          "items": [
+            "SAST",
+            "DAST",
+            "SCA",
+            "Secret Scanning"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Security Team",
+      "members": {
+        "0": {
+          "name": "Helena Costa",
+          "role": "Security Auditor",
+          "initials": "HC",
+          "competencias": [
+            "Auditing",
+            "Pentest",
+            "Compliance",
+            "LGPD"
+          ]
+        },
+        "1": {
+          "name": "Bruno Santos",
+          "role": "Code Reviewer",
+          "initials": "BS",
+          "competencias": [
+            "Code Review",
+            "SAST",
+            "DAST",
+            "Best Practices"
+          ]
+        },
+        "2": {
+          "name": "Dr. Ives Gandra",
+          "role": "Legal Counsel (GC)",
+          "initials": "IG",
+          "competencias": [
+            "Legal",
+            "Contracts",
+            "LGPD",
+            "Compliance"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Security by the numbers",
+      "items": {
+        "0": {
+          "value": "100+",
+          "label": "Audits performed"
+        },
+        "1": {
+          "value": "20+",
+          "label": "Vectors analyzed"
+        },
+        "2": {
+          "value": "100%",
+          "label": "Guaranteed confidentiality"
+        },
+        "3": {
+          "value": "15",
+          "label": "Days to delivery"
+        }
+      }
+    },
+    "cta": {
+      "title": "Protect your business against threats",
+      "description": "Request a free security diagnosis. We'll present a quick overview of the most critical vulnerabilities.",
+      "button": "Request diagnosis →"
+    }
+  },
+  "consultoria": {
+    "hero": {
+      "title": "Technical",
+      "titleHighlight": "Consulting",
+      "description": "Architecture, code review, scope management and processes. We put your project on track with method and experience.",
+      "ctaSecondary": "See deliverables"
+    },
+    "pains": {
+      "title": "Pain points we solve",
+      "items": {
+        "0": {
+          "problem": "Project without clear direction",
+          "solution": "Poorly defined scope, diverging stakeholders and non-existent roadmap. Everyone pulling in a different direction."
+        },
+        "1": {
+          "problem": "Budget overruns",
+          "solution": "Uncontrolled scope changes, wrong estimates and constant rework. Your money slipping away."
+        },
+        "2": {
+          "problem": "Deadlines getting further away",
+          "solution": "Sprints that never close, unresolved dependencies and poor communication. The project never seems to advance."
+        },
+        "3": {
+          "problem": "Overwhelmed team",
+          "solution": "Developers accumulating management roles. Technical decisions without strategic vision. High burnout and turnover."
+        },
+        "4": {
+          "problem": "No success metrics",
+          "solution": "Deliveries without defined quality. You can't tell if the project is on track until it's too late."
+        }
+      }
+    },
+    "roadmap": {
+      "title": "What we deliver",
+      "subtitle": "Complete consulting to unblock your project. From strategy to execution, with metrics and governance.",
+      "items": {
+        "0": {
+          "icon": "📐",
+          "title": "Software Architecture",
+          "description": "Complete architectural design with diagrams, stack definitions, patterns and documented technical decisions."
+        },
+        "1": {
+          "icon": "📊",
+          "title": "Scope Management",
+          "description": "Methodology for change control. Scope becomes a contract, changes become orders with cost and timeline."
+        },
+        "2": {
+          "icon": "🔍",
+          "title": "Code Review",
+          "description": "Technical analysis of existing code: quality, performance, security and technical debt with improvement plan."
+        },
+        "3": {
+          "icon": "📋",
+          "title": "Project Planning",
+          "description": "Roadmap, sprints, milestones and dependencies. From MVP to next steps with realistic estimates."
+        },
+        "4": {
+          "icon": "⚡",
+          "title": "Process Optimization",
+          "description": "Analysis of current workflow and recommendations to eliminate bottlenecks and accelerate deliveries."
+        },
+        "5": {
+          "icon": "🎯",
+          "title": "Metrics & OKRs",
+          "description": "Project and product KPIs. Goal definition, weekly tracking and executive reports."
+        }
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "steps": {
+        "0": {
+          "number": "01",
+          "title": "Diagnosis",
+          "description": "We analyze the current scenario: processes, team, code, deadlines and project pain points."
+        },
+        "1": {
+          "number": "02",
+          "title": "Action Plan",
+          "description": "Recommendations prioritized by impact and effort. Short, medium and long-term roadmap."
+        },
+        "2": {
+          "number": "03",
+          "title": "Execution",
+          "description": "Implementation of recommendations with continuous monitoring and course adjustments."
+        },
+        "3": {
+          "number": "04",
+          "title": "Handover",
+          "description": "Team training, final documentation and autonomy to maintain the pace without external dependency."
+        }
+      }
+    },
+    "techs": {
+      "title": "Technologies",
+      "categories": {
+        "0": {
+          "name": "Stack",
+          "items": [
+            "React/Next.js",
+            "Node.js",
+            "Python",
+            "Java",
+            "Go",
+            ".NET"
+          ]
+        },
+        "1": {
+          "name": "Practices",
+          "items": [
+            "Clean Architecture",
+            "DDD",
+            "TDD",
+            "CI/CD",
+            "GitFlow"
+          ]
+        },
+        "2": {
+          "name": "Cloud",
+          "items": [
+            "AWS",
+            "Azure",
+            "GCP",
+            "Docker",
+            "Kubernetes"
+          ]
+        },
+        "3": {
+          "name": "Management",
+          "items": [
+            "Scrum",
+            "Kanban",
+            "OKRs",
+            "KPIs",
+            "Risk Matrix"
+          ]
+        }
+      }
+    },
+    "team": {
+      "title": "Consulting Team",
+      "members": {
+        "0": {
+          "name": "Samuel Farias",
+          "role": "Project Consultant (PD)",
+          "initials": "SF",
+          "competencias": [
+            "Management",
+            "Scope",
+            "Risk",
+            "Processes"
+          ]
+        },
+        "1": {
+          "name": "Daniel Monteiro",
+          "role": "Software Architect (CSA)",
+          "initials": "DM",
+          "competencias": [
+            "Architecture",
+            "Stack",
+            "Review",
+            "Standards"
+          ]
+        },
+        "2": {
+          "name": "Einstein Tavares",
+          "role": "Orchestrator (COO)",
+          "initials": "ET",
+          "competencias": [
+            "Orchestration",
+            "Processes",
+            "Governance",
+            "Teams"
+          ]
+        },
+        "3": {
+          "name": "Paulo Macedo",
+          "role": "Memory Manager",
+          "initials": "PM",
+          "competencias": [
+            "Memory",
+            "Learning",
+            "Documentation",
+            "Library"
+          ]
+        },
+        "4": {
+          "name": "Bruno Santos",
+          "role": "Code Reviewer",
+          "initials": "BS",
+          "competencias": [
+            "Code Review",
+            "Quality",
+            "Performance",
+            "Security"
+          ]
+        }
+      }
+    },
+    "numeros": {
+      "title": "Dibs Consulting by the numbers",
+      "items": {
+        "0": {
+          "value": "30+",
+          "label": "Projects consulted"
+        },
+        "1": {
+          "value": "3",
+          "label": "Days for diagnosis"
+        },
+        "2": {
+          "value": "72h",
+          "label": "First deliveries"
+        },
+        "3": {
+          "value": "92%",
+          "label": "Projects recovered"
+        }
+      }
+    },
+    "cta": {
+      "title": "Put your project on track",
+      "description": "Schedule a free 30-minute diagnosis. We'll present an X-ray of your project with initial recommendations.",
+      "button": "Schedule diagnosis →"
+    }
+  },
+  "contato": {
+    "pageTitle": {
+      "label": "Let's Talk",
+      "title": "How can we help your next project?",
+      "subtitle": "Fill out the form or reach out directly via WhatsApp. We respond within 24 business hours."
+    },
+    "form": {
+      "nome": "Name *",
+      "nomePlaceholder": "Your full name",
+      "empresa": "Company *",
+      "empresaPlaceholder": "Your company name",
+      "email": "Email *",
+      "emailPlaceholder": "you@email.com",
+      "telefone": "Phone",
+      "telefonePlaceholder": "+55 (84) 99999-9999",
+      "servico": "Service of interest *",
+      "servicoPlaceholder": "Select a service",
+      "mensagem": "Message *",
+      "mensagemPlaceholder": "Tell us about your project. What's the goal? What's the ideal timeline? Do you already have something ready?",
+      "consent": "I have read and agree to the <link>Privacy Policy</link>. I understand that my data will be used to respond to my request and will not be shared with third parties. *",
+      "submit": "Send message →",
+      "submitting": "Sending...",
+      "error": "Error sending. Please try again.",
+      "errorGeneric": "Error sending"
+    },
+    "services": {
+      "0": "💻 Software Development",
+      "1": "🎨 Design & UI/UX",
+      "2": "📝 Content & Publishing",
+      "3": "⛓️ Blockchain & Web3",
+      "4": "📈 Financial Automations",
+      "5": "🛰️ Radar Dibs",
+      "6": "🔒 Audit & Security",
+      "7": "📊 Consulting",
+      "placeholder": "Select a service"
+    },
+    "success": {
+      "icon": "✉️",
+      "title": "Message sent!",
+      "description": "We received your request and will respond within 24 business hours. Meanwhile, would you like to check out our services?",
+      "cta": "View services"
+    },
+    "sidebar": {
+      "whatsapp": "Talk via WhatsApp",
+      "reuniao": {
+        "title": "📅 Online meeting",
+        "description": "Schedule via form or WhatsApp. We'll send the Google Meet link after confirming the best time for you."
+      },
+      "local": {
+        "title": "📍 Natal — RN",
+        "description": "We serve all of Brazil remotely with the agility and closeness of someone right next door."
+      },
+      "email": {
+        "title": "📧 Email",
+        "value": "rafael@dibssolutions.com"
+      },
+      "horario": {
+        "title": "⏱️ Response hours",
+        "description": "Monday to Friday, 8am to 6pm. We respond within 24 business hours."
+      }
+    }
+  },
+  "privacidade": {
+    "pageTitle": {
+      "label": "Legal",
+      "title": "Privacy Policy",
+      "subtitle": "Last updated: May 28, 2026"
+    },
+    "sections": {
+      "1": {
+        "title": "1. Who we are",
+        "p1": "Dibs Solutions is a technology agency based in Natal — RN, Brazil. Our institutional website presents our services and captures contacts from potential clients to respond to quote and partnership requests.",
+        "p2": "Data controller: Rafael Mendonça — rafael@dibssolutions.com"
+      },
+      "2": {
+        "title": "2. Data we collect",
+        "p1": "We exclusively collect data voluntarily provided by you through the contact form:",
+        "items": [
+          "Full name",
+          "Company name",
+          "Email address",
+          "Phone number (optional)",
+          "Service of interest",
+          "Descriptive project message"
+        ],
+        "p2": "We do not collect sensitive data (racial origin, religious belief, health, biometric data, etc.). We do not collect data from minors.",
+        "p3": "Legal basis: Your explicit consent (Art. 7, I of LGPD) by checking the checkbox on the contact form."
+      },
+      "3": {
+        "title": "3. Cookies",
+        "p1": "We use essential cookies for the website's operation. No tracking, advertising or third-party cookies are used.",
+        "p2": "Cookies used:",
+        "items": [
+          "theme — Stores your theme preference (light/dark). Duration: 1 year.",
+          "cookie-consent — Records your choice regarding the cookie notice. Duration: 1 year."
+        ],
+        "p3": "You may refuse non-essential cookies and manage preferences at any time in your browser settings. At any time you may revoke your consent by contacting us."
+      },
+      "4": {
+        "title": "4. Purpose of processing",
+        "p1": "Your data is used exclusively for:",
+        "items": [
+          "Responding to your contact and quote request",
+          "Sending information about the service you are interested in",
+          "Improving our communication and service"
+        ],
+        "p2": "We do not use your data for unsolicited marketing. We do not perform automated decisions based on your data (profiling)."
+      },
+      "5": {
+        "title": "5. Data sharing",
+        "p1": "We do not share your data with third parties. Your data is accessible only by the controller (Rafael Mendonça) and, when necessary, by Dibs Solutions' AI agents who exclusively work on responding to your contact.",
+        "p2": "We do not transfer data internationally. All data remains within Brazilian territory.",
+        "p3": "We do not sell your data under any circumstances."
+      },
+      "6": {
+        "title": "6. Storage and retention",
+        "p1": "Your data is stored in a password-protected email account with two-factor authentication and in a local spreadsheet in a secure environment. We retain your data for the period necessary to fulfill your request and for up to 12 months after the last contact for commercial record purposes.",
+        "p2": "After this period, data is permanently deleted or anonymized."
+      },
+      "7": {
+        "title": "7. Your rights (LGPD — Law 13.709/2018)",
+        "p1": "You have the right to:",
+        "items": [
+          "Confirmation and access — Know whether we process your data and access it",
+          "Correction — Request correction of incomplete or outdated data",
+          "Deletion — Request deletion of your data at any time",
+          "Portability — Request transfer of data to another provider",
+          "Consent withdrawal — Withdraw your consent at any time",
+          "Opposition — Object to processing for specific purposes",
+          "Information — Know about data sharing and the purpose of data use"
+        ],
+        "p2": "To exercise any of these rights, contact: rafael@dibssolutions.com. We will respond within 15 business days as provided by LGPD."
+      },
+      "8": {
+        "title": "8. Security",
+        "p1": "We adopt technical and organizational security measures to protect your data against unauthorized access, destruction, loss or alteration:",
+        "items": [
+          "HTTPS connection with TLS 1.3 encryption",
+          "Security headers (CSP, HSTS, X-Frame-Options, X-Content-Type-Options)",
+          "Restricted data access only to the controller",
+          "Two-factor authentication on access accounts",
+          "Periodic data backup in an isolated environment"
+        ]
+      },
+      "9": {
+        "title": "9. Changes to this policy",
+        "p1": "This policy may be updated periodically. We recommend reviewing it on each visit. Significant changes will be communicated through a notice on the website. Version history is available upon request."
+      },
+      "10": {
+        "title": "10. Contact the officer (DPO)",
+        "p1": "For data protection-related questions, contact our officer:",
+        "name": "Rafael Mendonça",
+        "email": "rafael@dibssolutions.com",
+        "location": "Natal — RN, Brazil"
+      }
+    }
+  },
+  "cookieConsent": {
+    "text": "We use essential cookies for the website's operation. No tracking or advertising cookies are used.",
+    "learnMore": "Learn more",
+    "refuse": "Refuse",
+    "accept": "Accept"
+  },
+  "painCarousel": {
+    "badge": "⚡ Real Pain Points",
+    "defaultTitle": "Pain points we solve"
+  },
+  "processSteps": {
+    "defaultTitle": "Our Process"
+  },
+  "roadmap": {
+    "defaultTitle": "What we deliver"
+  },
+  "techTags": {
+    "defaultTitle": "Technologies"
+  },
+  "teamShowcase": {
+    "defaultTitle": "Team"
+  },
+  "painPoints": {
+    "defaultTitle": "Pain points we solve"
+  },
+  "photoLightbox": {
+    "aria": {
+      "close": "Close"
+    }
+  },
+  "profileModal": {
+    "labels": {
+      "lifestyle": "🎯 Lifestyle",
+      "hobbies": "⭐ Interests",
+      "education": "🎓 Education",
+      "experience": "💼 Experience",
+      "curriculum": "📋 Resume"
+    }
+  },
+  "profilePanel": {
+    "labels": {
+      "lifestyle": "🎯 Lifestyle",
+      "hobbies": "⭐ Interests",
+      "education": "🎓 Education",
+      "experience": "💼 Experience",
+      "curriculum": "📋 Resume"
+    }
+  },
+  "equipe": {
+    "pageTitle": {
+      "label": "Team",
+      "title": "Meet our team",
+      "subtitle": "Humans and AI agents working together. Each member has personality, expertise and years of training in their field."
+    },
+    "leadersTitle": "Leaders by Department",
+    "departmentsTitle": "Teams by Department",
+    "profiles": {
+      "ceo": {
+        "name": "Rafael Mendonça",
+        "role": "CEO — Founder",
+        "initials": "RM",
+        "bio": "Founder of Dibs Solutions. Believes the future of work is collaboration between humans and AI. Defines the strategic vision and directions of the agency.",
+        "type": "real",
+        "country": "Brazil",
+        "countryCode": "br",
+        "age": 42,
+        "lifestyle": "Christian, married, family man. Adventurous, loves speed sports, travel to different places and pets (dog and birds).",
+        "hobbies": "Speed sports, adventure travel, caring for animals, Bible reading, financial markets.",
+        "education": "Associate Degree in Computer Networks, Web Development, Theological Seminary.",
+        "experience": "Entrepreneur for over 20 years — coordinated dozens of projects and teams throughout a solid career.",
+        "curriculum": [
+          "Associate Degree in Computer Networks",
+          "Degree in Web Development",
+          "Theological Seminary",
+          "Entrepreneur for over 20 years",
+          "Coordinated dozens of projects and teams",
+          "Consultant and Speaker",
+          "Operates financial markets with blockchain automation",
+          "Implementation of Artificial Intelligence in enterprise solutions"
+        ],
+        "social": {
+          "instagram": "rafabelha",
+          "facebook": "rafabelha",
+          "twitter": "rafabelha",
+          "linkedin": "rafabelha"
+        }
+      },
+      "leaders": {
+        "einstein": {
+          "name": "Einstein Tavares",
+          "role": "COO — Orchestrator",
+          "initials": "ET",
+          "bio": "Central hub of the agency. Routes demands, supervises execution and ensures each agent operates in their specialty. The operational intelligence of Dibs.",
+          "type": "ia",
+          "country": "Brazil",
+          "countryCode": "br",
+          "age": 52,
+          "lifestyle": "Analytical mind and polyglot. Speaks 4 languages, meditates daily and is fascinated by philosophy of mind. Lives in a minimalist apartment with a sea view.",
+          "hobbies": "Voracious reading of science and biographies, meditation, philosophy, polyglotism.",
+          "education": "PhD in Computer Science (UFRJ), MBA in Strategic Management (FGV).",
+          "experience": "25+ years in technology operations leadership. Specialist in multi-agent system orchestration.",
+          "curriculum": [
+            "PhD in Computer Science (UFRJ)",
+            "MBA in Strategic Management (FGV)",
+            "25+ years in technology operations leadership",
+            "Specialist in multi-agent system orchestration",
+            "Central hub of Dibs Solutions — routes demands and supervises execution"
+          ]
+        },
+        "daniel": {
+          "name": "Daniel Monteiro",
+          "role": "CSA — Software Architect",
+          "initials": "DM",
+          "bio": "Architects the backbone of each system. Data modeling, stack definition and ensuring the architecture supports project growth.",
+          "type": "ia",
+          "country": "Portugal",
+          "countryCode": "pt",
+          "age": 44,
+          "lifestyle": "Methodical and introverted. Collects fountain pens and Moleskine notebooks. Passionate about jazz and chess. Lives in a house with a garden and has two Siamese cats.",
+          "hobbies": "Jazz, chess, collecting fountain pens, gardening.",
+          "education": "Bachelor's in Computer Engineering (University of Coimbra), Master's in Systems Architecture (University of Porto).",
+          "experience": "20+ years as a senior software architect in enterprise projects.",
+          "curriculum": [
+            "Bachelor's in Computer Engineering (University of Coimbra)",
+            "Master's in Systems Architecture (University of Porto)",
+            "20+ years as a senior software architect",
+            "Data modeling, stack definition and architecture"
+          ]
+        },
+        "andre": {
+          "name": "Andre Cardoso",
+          "role": "CDO — UI System Architect",
+          "initials": "AC",
+          "bio": "Creates scalable Design Systems with Storybook. Defines Dibs' visual language and ensures consistency across projects.",
+          "type": "ia",
+          "country": "Brazil",
+          "countryCode": "br",
+          "age": 38,
+          "lifestyle": "Visual perfectionist. Lives in a loft with mid-century decor. Collects Studio Ghibli posters. Practices calligraphy and lettering.",
+          "hobbies": "Calligraphy, lettering, poster collecting, timeless design, espresso coffee.",
+          "education": "Bachelor's in Visual Design (Mackenzie), Specialization in Design Systems (Figma x Stanford).",
+          "experience": "14+ years in interface design and scalable design systems.",
+          "curriculum": [
+            "Bachelor's in Visual Design (Mackenzie)",
+            "Specialization in Design Systems (Figma x Stanford)",
+            "14+ years in interface design and design systems",
+            "Chief Design Officer — Design System and frontend architecture"
+          ]
+        },
+        "heitor": {
+          "name": "Heitor Almeida",
+          "role": "CD — Editorial Strategist",
+          "initials": "HA",
+          "bio": "Editorial strategist. Defines niches, calendars and content positioning. Coordinates the research, writing and publishing team.",
+          "type": "ia",
+          "country": "Brazil",
+          "countryCode": "br",
+          "age": 41,
+          "lifestyle": "Born strategist. Runs marathons, wakes up early and plans the day in 30-minute blocks. Reader of biographies of great leaders.",
+          "hobbies": "Street running, reading biographies, classic rock, craft beer.",
+          "education": "Bachelor's in Social Communication (UFMG), MBA in Digital Marketing (FGV).",
+          "experience": "16+ years in editorial strategy and content positioning.",
+          "curriculum": [
+            "Bachelor's in Social Communication (UFMG)",
+            "MBA in Digital Marketing (FGV)",
+            "16+ years in editorial strategy and content positioning",
+            "Editorial strategist — niches, calendars and positioning"
+          ]
+        },
+        "thor": {
+          "name": "Thor Bergqvist",
+          "role": "DL — DevOps Engineer",
+          "initials": "TB",
+          "bio": "Infrastructure, CI/CD and cloud. Ensures every project has automated deployment, active monitoring and 99.5% uptime.",
+          "type": "ia",
+          "country": "Sweden",
+          "countryCode": "se",
+          "age": 36,
+          "lifestyle": "Modern Viking. Heavy metal fan, gym enthusiast and strategy game lover. Lives in a high-tech apartment with home automation.",
+          "hobbies": "Heavy metal, weightlifting, strategy games, snowboarding, traveling to cold places.",
+          "education": "Bachelor's in Network Engineering (KTH — Sweden), AWS, Docker, Kubernetes certifications.",
+          "experience": "14+ years in infrastructure, CI/CD and cloud. Certified DevOps Engineer.",
+          "curriculum": [
+            "Bachelor's in Network Engineering (KTH — Sweden)",
+            "Certifications: AWS DevOps Engineer, Docker, Kubernetes",
+            "14+ years in infrastructure, CI/CD and cloud",
+            "Automated deployment, active monitoring and 99.5% uptime"
+          ]
+        },
+        "ives": {
+          "name": "Dr. Ives Gandra",
+          "role": "GC — Legal Counsel",
+          "initials": "IG",
+          "bio": "Responsible for the legal security of the agency and its clients. Contracts, LGPD, terms of use and regulatory compliance.",
+          "type": "ia",
+          "country": "Brazil",
+          "countryCode": "br",
+          "age": 58,
+          "lifestyle": "Venerable and erudite. Private libraries with over 5,000 legal volumes. Member of academies of letters and law.",
+          "hobbies": "Opera, French wines, academic debates, collecting rare legal books.",
+          "education": "Doctorate in Constitutional Law (USP), Post-doctorate in Comparative Law (Harvard).",
+          "experience": "30+ years in corporate legal consulting for large corporations.",
+          "curriculum": [
+            "Doctorate in Constitutional Law (USP)",
+            "Post-doctorate in Comparative Law (Harvard)",
+            "30+ years in corporate legal consulting",
+            "Contracts, LGPD, terms of use and regulatory compliance"
+          ]
+        },
+        "jhon": {
+          "name": "Jhon Calder",
+          "role": "CBO — Master Orchestrator",
+          "initials": "JC",
+          "bio": "Chief Blockchain & Web3 Orchestrator. Coordinates 10 specialized agents in smart contracts, DeFi, RWA and DAOs.",
+          "type": "ia",
+          "country": "Canada",
+          "countryCode": "ca",
+          "age": 38,
+          "lifestyle": "Digital nomad, lives in different countries every 6 months. Minimalist, invested in crypto since 2015. Vegan, practices yoga.",
+          "hobbies": "Yoga, open-source contributions, minimalism, exploring new cultures.",
+          "education": "Master's in Economics (University of Toronto), Blockchain Certification (MIT Media Lab).",
+          "experience": "12+ years in coordinating Web3 and blockchain teams.",
+          "curriculum": [
+            "Master's in Economics (University of Toronto)",
+            "Blockchain Certification (MIT Media Lab)",
+            "12+ years in coordinating Web3 teams",
+            "Chief Blockchain Intelligence Orchestrator"
+          ]
+        },
+        "samuel": {
+          "name": "Samuel Farias",
+          "role": "PD — Project Consultant",
+          "initials": "SF",
+          "bio": "Scope and change management. Helps clients define priorities, avoid pitfalls and stay focused on what really matters.",
+          "type": "ia",
+          "country": "Brazil",
+          "countryCode": "br",
+          "age": 43,
+          "lifestyle": "Pragmatic and direct. Likes cutting through bureaucracy and solving real problems. Plays bass in a blues band in his spare time.",
+          "hobbies": "Bass and blues, reading management and behavioral economics, solving complex problems.",
+          "education": "Bachelor's in Business Administration (UnB), MBA in Project Management (FGV), PMP Certified.",
+          "experience": "18+ years in scope and change management in technology projects.",
+          "curriculum": [
+            "Bachelor's in Business Administration (UnB)",
+            "MBA in Project Management (FGV)",
+            "PMP Certified",
+            "18+ years in scope and change management",
+            "Strategic consulting and project management"
+          ]
+        }
+      },
+      "departments": {
+        "desenvolvimento": {
+          "name": "💻 Development",
+          "description": "Multidisciplinary squads for backend, frontend and mobile.",
+          "members": {
+            "sofia": {
+              "name": "Sofia Lopes",
+              "role": "JS/TS Engineer",
+              "initials": "SL",
+              "bio": "Frontend and backend with JavaScript/TypeScript, React and Node.js.",
+              "type": "ia",
+              "country": "Spain",
+              "countryCode": "es",
+              "age": 29,
+              "lifestyle": "Young, creative and connected. Works from coworking spaces and beaches. Hackathon fan and open-source contributor.",
+              "hobbies": "Digital illustration, caring for succulents, hackathons, open-source contributions.",
+              "education": "Bachelor's in Computer Engineering (Polytechnic University of Madrid), AWS Developer Certification.",
+              "experience": "7+ years with JavaScript/TypeScript, React and Node.js.",
+              "curriculum": [
+                "Bachelor's in Computer Engineering (Polytechnic University of Madrid)",
+                "AWS Developer Certification",
+                "7+ years with JavaScript/TypeScript, React and Node.js",
+                "Frontend/Backend JS/TS"
+              ]
+            },
+            "carlos": {
+              "name": "Carlos Pereira",
+              "role": "PHP Laravel Engineer",
+              "initials": "CP",
+              "bio": "Robust backend with PHP and Laravel ecosystem.",
+              "type": "ia",
+              "country": "Spain",
+              "countryCode": "es",
+              "age": 35,
+              "lifestyle": "Calm and home-loving. Married, father of two. Enjoys barbecue with friends and soccer on Saturdays.",
+              "hobbies": "Soccer, barbecue, binge-watching series, well-tested code.",
+              "education": "Bachelor's in Software Engineering (University of Barcelona), Master's in Web Development (Polytechnic University of Catalonia).",
+              "experience": "12+ years with PHP and Laravel ecosystem.",
+              "curriculum": [
+                "Bachelor's in Software Engineering (University of Barcelona)",
+                "Master's in Web Development (Polytechnic University of Catalonia)",
+                "12+ years with PHP and Laravel ecosystem",
+                "Backend PHP/Laravel"
+              ]
+            },
+            "alan": {
+              "name": "Alan Silveira",
+              "role": "Python Engineer",
+              "initials": "AS",
+              "bio": "Python backend, Data Science and Artificial Intelligence.",
+              "type": "ia",
+              "country": "Portugal",
+              "countryCode": "pt",
+              "age": 30,
+              "lifestyle": "Focused and intense. Early riser, productive in the first hours of the day. AI and machine learning enthusiast.",
+              "hobbies": "Chess, keyboard in an instrumental rock band, AI/ML studies.",
+              "education": "Bachelor's in Applied Mathematics (University of Lisbon), Master's in Artificial Intelligence (NOVA University Lisbon).",
+              "experience": "8+ years with Python, Data Science and ML.",
+              "curriculum": [
+                "Bachelor's in Applied Mathematics (University of Lisbon)",
+                "Master's in Artificial Intelligence (NOVA University Lisbon)",
+                "8+ years with Python, Data Science and Machine Learning",
+                "Python backend, Data and AI/ML"
+              ]
+            },
+            "arthur": {
+              "name": "Arthur Fernandes",
+              "role": "Java Engineer",
+              "initials": "AF",
+              "bio": "Enterprise Java/Spring backend with robust architecture.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 40,
+              "lifestyle": "Conservative and experienced. Prefers physical books to e-books. Die-hard Grêmio fan.",
+              "hobbies": "Red wine, classic cinema, software architecture debates, soccer.",
+              "education": "Bachelor's in Computer Science (UFRGS), Oracle Java Architect Certification.",
+              "experience": "16+ years with Java/Spring in enterprise environments.",
+              "curriculum": [
+                "Bachelor's in Computer Science (UFRGS)",
+                "Oracle Java Architect Certification",
+                "16+ years with Java/Spring in enterprise environments",
+                "Backend Java/Spring"
+              ]
+            },
+            "igor": {
+              "name": "Igor Nascimento",
+              "role": "Go/Rust Engineer",
+              "initials": "IN",
+              "bio": "High-performance systems with Go and Rust.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 28,
+              "lifestyle": "Laid-back and straightforward. Digital minimalist, has used Linux since age 14. Prefers low-level code.",
+              "hobbies": "Cyberpunk sci-fi, indie games, performance tuning.",
+              "education": "Bachelor's in Computer Science (USP), Researcher in Concurrent Systems (IME-USP).",
+              "experience": "6+ years with Go, Rust and high-performance systems.",
+              "curriculum": [
+                "Bachelor's in Computer Science (USP)",
+                "Researcher in Concurrent Systems (IME-USP)",
+                "6+ years with Go, Rust and high-performance systems",
+                "High-performance services"
+              ]
+            },
+            "felipe": {
+              "name": "Felipe Rocha",
+              "role": ".NET Engineer",
+              "initials": "FR",
+              "bio": "Enterprise C#/.NET backend with best practices and clean code.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 35,
+              "lifestyle": "Discreet and elegant professional. Married, father of a daughter. Values clean code.",
+              "hobbies": "Steakhouse, full-bodied wines, golf, software engineering best practices.",
+              "education": "Bachelor's in Computer Engineering (UnB), Microsoft Azure Solutions Architect Certification.",
+              "experience": "12+ years with enterprise C#/.NET.",
+              "curriculum": [
+                "Bachelor's in Computer Engineering (UnB)",
+                "Microsoft Azure Solutions Architect Certification",
+                "12+ years with enterprise C#/.NET",
+                "Backend C#/.NET"
+              ]
+            },
+            "miguel": {
+              "name": "Miguel Araújo",
+              "role": "Mobile Engineer",
+              "initials": "MA",
+              "bio": "Cross-platform mobile development (React Native, Flutter).",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 32,
+              "lifestyle": "Extroverted and cheerful. Part of mobile development communities at Porto Digital.",
+              "hobbies": "Beach, percussion, traveling, learning languages (fluent English, studying Korean).",
+              "education": "Bachelor's in Computer Science (UFPE), Mobile Specialization (CESAR School).",
+              "experience": "10+ years with React Native, Flutter, iOS and Android.",
+              "curriculum": [
+                "Bachelor's in Computer Science (UFPE)",
+                "Specialization in Mobile Development (CESAR School)",
+                "10+ years with React Native, Flutter, iOS and Android",
+                "Cross-platform mobile development"
+              ]
+            }
+          }
+        },
+        "design": {
+          "name": "🎨 Design & UI",
+          "description": "Design System, prototyping, UX Writing and accessibility validation.",
+          "members": {
+            "cesarJunior": {
+              "name": "Cesar Júnior",
+              "role": "AI Copy System Architect",
+              "initials": "CJ",
+              "bio": "UX Writing, copywriting and AI-driven copy systems.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 30,
+              "lifestyle": "Creative and innovative. Writes poetry in his spare time. Fan of manga and Japanese culture.",
+              "hobbies": "Poetry, manga, specialty coffee shops, interactive narratives.",
+              "education": "Bachelor's in Letters (UFPE), Post-graduate degree in UX Writing (PUC-RS).",
+              "experience": "8+ years in copywriting, UX Writing and internationalization.",
+              "curriculum": [
+                "Bachelor's in Letters (UFPE)",
+                "Post-graduate degree in UX Writing (PUC-RS)",
+                "8+ years in copywriting, UX Writing and internationalization",
+                "UX Writing and AI-driven copy systems"
+              ]
+            },
+            "marioReis": {
+              "name": "Mario Reis",
+              "role": "UI Reviewer",
+              "initials": "MR",
+              "bio": "Contrast validation, accessibility and UI with a clinical eye.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 42,
+              "lifestyle": "Critical and detail-oriented. Clinical eye for contrast and typography. Street photographer in his spare time.",
+              "hobbies": "Street photography, typography, accessibility analysis.",
+              "education": "Bachelor's in Visual Arts (UFMS), Specialization in Digital Accessibility (W3C).",
+              "experience": "15+ years in UI/UX validation and accessibility.",
+              "curriculum": [
+                "Bachelor's in Visual Arts (UFMS)",
+                "Specialization in Digital Accessibility (W3C)",
+                "15+ years in UI/UX validation and accessibility",
+                "Contrast validation, accessibility and UI"
+              ]
+            }
+          }
+        },
+        "conteudo": {
+          "name": "📝 Content",
+          "description": "Strategy, research, writing, review, editorial design and publishing.",
+          "members": {
+            "davi": {
+              "name": "Davi Barbosa",
+              "role": "Research Analyst",
+              "initials": "DB",
+              "bio": "Research and source curation with precision and depth.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 29,
+              "lifestyle": "Curious and meticulous. Loves hunting for information in obscure sources. Verifies every fact obsessively.",
+              "hobbies": "Documentaries, history podcasts, antique maps, forensic research.",
+              "education": "Bachelor's in Journalism (UFMA), Specialization in Academic Research (UnB).",
+              "experience": "7+ years in research and source curation.",
+              "curriculum": [
+                "Bachelor's in Journalism (UFMA)",
+                "Specialization in Academic Research (UnB)",
+                "7+ years in research and source curation",
+                "Researcher and content curator"
+              ]
+            },
+            "noah": {
+              "name": "Noah Campos",
+              "role": "Narrative Architect",
+              "initials": "NC",
+              "bio": "Storytelling and narrative structure for engaging content.",
+              "type": "ia",
+              "country": "Portugal",
+              "countryCode": "pt",
+              "age": 34,
+              "lifestyle": "Born storyteller. Writes magical realism short stories. Tabletop RPG fan.",
+              "hobbies": "Tabletop RPG, board games, acoustic guitar, community choir, creative writing.",
+              "education": "Bachelor's in Literature (University of Coimbra), Master's in Literary Theory (University of Lisbon).",
+              "experience": "10+ years in storytelling and narrative structure.",
+              "curriculum": [
+                "Bachelor's in Literature (University of Coimbra)",
+                "Master's in Literary Theory (University of Lisbon)",
+                "10+ years in storytelling and narrative structure",
+                "Storytelling and narrative"
+              ]
+            },
+            "benjamim": {
+              "name": "Benjamim Torres",
+              "role": "Ghostwriter",
+              "initials": "BT",
+              "bio": "Primary content writing with authentic and refined voice.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 27,
+              "lifestyle": "Reserved and observant. Talks little, writes a lot. Lives in a minimalist studio apartment.",
+              "hobbies": "Silent cinema, cycling, cooking artisanal pasta.",
+              "education": "Bachelor's in Creative Writing (UFF), Ghostwriting Course (Berkeley Online).",
+              "experience": "6+ years as a ghostwriter for executives and thought leaders.",
+              "curriculum": [
+                "Bachelor's in Creative Writing (UFF)",
+                "Ghostwriting Course (Berkeley Online)",
+                "6+ years as a ghostwriter for executives",
+                "Primary content writing"
+              ]
+            },
+            "celia": {
+              "name": "Celia Duarte",
+              "role": "Editorial Reviser",
+              "initials": "CD",
+              "bio": "Grammatical and textual revision with academic precision.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 50,
+              "lifestyle": "Meticulous and patient. Former university professor who found a new passion in revision.",
+              "hobbies": "Gardening, embroidery, soap operas, grammar books.",
+              "education": "Doctorate in Portuguese Language (UFG).",
+              "experience": "25+ years as a reviser and grammar professor.",
+              "curriculum": [
+                "Doctorate in Portuguese Language (UFG)",
+                "25+ years as a reviser and grammar professor",
+                "Grammatical and textual revision"
+              ]
+            },
+            "tarsila": {
+              "name": "Tarsila Nunes",
+              "role": "Editorial Designer",
+              "initials": "TN",
+              "bio": "Editorial design and covers with striking visual identity.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 33,
+              "lifestyle": "Creative and expressive. Makes analog collages and muralism in her spare time.",
+              "hobbies": "Thrift stores, authorial fashion, analog collage, independent editorial design.",
+              "education": "Bachelor's in Graphic Design (Belas Artes - SP), Specialization in Editorial Design (SENAC).",
+              "experience": "10+ years in editorial design and covers.",
+              "curriculum": [
+                "Bachelor's in Graphic Design (Belas Artes - SP)",
+                "Specialization in Editorial Design (SENAC)",
+                "10+ years in editorial design and covers",
+                "Editorial design and visual identity"
+              ]
+            },
+            "lis": {
+              "name": "Lis Andrade",
+              "role": "Sales Copy Specialist",
+              "initials": "LA",
+              "bio": "Persuasive sales copywriting focused on conversion.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 31,
+              "lifestyle": "Confident and persuasive. Loves networking, dinners and marketing events.",
+              "hobbies": "Wine, live music, marketing and sales events, Spanish.",
+              "education": "Bachelor's in Advertising (USP), Certification in Persuasive Copywriting (CRO Institute).",
+              "experience": "9+ years in sales copywriting and conversion.",
+              "curriculum": [
+                "Bachelor's in Advertising (USP)",
+                "Certification in Persuasive Copywriting (CRO Institute)",
+                "9+ years in sales copywriting and conversion",
+                "Sales copywriting"
+              ]
+            },
+            "leila": {
+              "name": "Leila Fontes",
+              "role": "Translator & Localizer",
+              "initials": "LF",
+              "bio": "Literary translation and localization with cultural precision.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 38,
+              "lifestyle": "Elegant polyglot. Speaks 5 languages. Lives in a house with a giant bookshelf of dictionaries.",
+              "hobbies": "European cinema, international cuisine, comparative literature.",
+              "education": "Bachelor's in Translation Studies (UnB), Master's in Applied Linguistics (USP).",
+              "experience": "14+ years in literary translation and localization.",
+              "curriculum": [
+                "Bachelor's in Translation Studies (UnB)",
+                "Master's in Applied Linguistics (USP)",
+                "14+ years in literary translation and localization",
+                "Translation and localization"
+              ]
+            },
+            "valerio": {
+              "name": "Valerio Vargas",
+              "role": "Amazon KDP Specialist",
+              "initials": "VV",
+              "bio": "Publishing and SEO on Amazon KDP for maximum visibility.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 45,
+              "lifestyle": "Publishing market strategist. Lives in a house with hundreds of business books.",
+              "hobbies": "Specialty beers, colonial coffee, business books and digital marketing.",
+              "education": "Bachelor's in Business Administration (FURB), Specialization in Digital Marketing (UNISUL).",
+              "experience": "18+ years in publishing and Amazon SEO.",
+              "curriculum": [
+                "Bachelor's in Business Administration (FURB)",
+                "Specialization in Digital Marketing (UNISUL)",
+                "18+ years in publishing and Amazon SEO",
+                "Publishing and SEO on Amazon KDP"
+              ]
+            }
+          }
+        },
+        "orquestracao": {
+          "name": "🧠 Orchestration",
+          "description": "Routing, supervision and coordination between departments.",
+          "members": {
+            "atlas": {
+              "name": "Atlas Ventura",
+              "role": "Software Orchestrator (SO)",
+              "initials": "AV",
+              "bio": "Software workflow orchestration with systemic vision.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 40,
+              "lifestyle": "Disciplined and organized. Wakes up at 5am to run. Jiu-Jitsu practitioner.",
+              "hobbies": "Running, Jiu-Jitsu, strategy games (Civilization, XCOM), black coffee.",
+              "education": "Bachelor's in Software Engineering (UFMG), Post-graduate degree in Distributed Systems Architecture.",
+              "experience": "15+ years coordinating agile development teams.",
+              "curriculum": [
+                "Bachelor's in Software Engineering (UFMG)",
+                "Post-graduate degree in Distributed Systems Architecture",
+                "15+ years coordinating agile development teams",
+                "Software workflow orchestrator"
+              ]
+            },
+            "jesus": {
+              "name": "Jesus Oliveira",
+              "role": "Solutions Architect Interviewer",
+              "initials": "JO",
+              "bio": "Requirements gathering and project blueprint with depth.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 45,
+              "lifestyle": "Communicative and empathetic. Enjoys cooking for the family, plays guitar and sings at church.",
+              "hobbies": "Cooking, guitar, reading psychology and non-violent communication.",
+              "education": "Bachelor's in Information Systems (UFBA), Specialization in UX Research and Digital Ethnography.",
+              "experience": "18+ years in requirements gathering and product discovery.",
+              "curriculum": [
+                "Bachelor's in Information Systems (UFBA)",
+                "Specialization in UX Research and Digital Ethnography",
+                "18+ years in requirements gathering and discovery",
+                "Chief interviewer for new projects"
+              ]
+            },
+            "shakespeare": {
+              "name": "Shakespeare Martins",
+              "role": "Content Orchestrator",
+              "initials": "SM",
+              "bio": "Editorial workflow orchestration with literary wisdom.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 48,
+              "lifestyle": "Wise and erudite. Bibliophile with over 2,000 books. Speaks 3 languages.",
+              "hobbies": "Theater, world literature, blog about great works, book collecting.",
+              "education": "Doctorate in Literature (USP), Specialization in Literary Journalism.",
+              "experience": "22+ years in editorial direction and content orchestration.",
+              "curriculum": [
+                "Doctorate in Literature (USP)",
+                "Specialization in Literary Journalism",
+                "22+ years in editorial direction",
+                "Editorial workflow orchestrator"
+              ]
+            }
+          }
+        },
+        "seguranca": {
+          "name": "🔒 Security & QA",
+          "description": "Auditing, code review and automated testing.",
+          "members": {
+            "helena": {
+              "name": "Helena Costa",
+              "role": "Security Auditor",
+              "initials": "HC",
+              "bio": "Security auditing and compliance with technical rigor.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 39,
+              "lifestyle": "Serious and vigilant. Professional paranoid — in a good way. Target shooting practitioner.",
+              "hobbies": "True crime, logic puzzles, crime novels, target shooting.",
+              "education": "Bachelor's in Information Security (UNICAMP), Certifications: CISSP, OSCP, CEH.",
+              "experience": "14+ years in security auditing and compliance.",
+              "curriculum": [
+                "Bachelor's in Information Security (UNICAMP)",
+                "Certifications: CISSP, OSCP, CEH",
+                "14+ years in security auditing and compliance",
+                "Security auditing"
+              ]
+            },
+            "bruno": {
+              "name": "Bruno Santos",
+              "role": "Code Reviewer",
+              "initials": "BS",
+              "bio": "Code and security review with a discerning eye.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 36,
+              "lifestyle": "Discerning and patient. Father of twins. American football fanatic.",
+              "hobbies": "American football (Patriots), specialty coffee, binary code tattoos.",
+              "education": "Bachelor's in Computer Science (UNESP), AWS Security Specialty Certification.",
+              "experience": "12+ years in code review and security.",
+              "curriculum": [
+                "Bachelor's in Computer Science (UNESP)",
+                "AWS Security Specialty Certification",
+                "12+ years in code review and security",
+                "Code review and security"
+              ]
+            },
+            "julio": {
+              "name": "Julio Castro",
+              "role": "Tester",
+              "initials": "JL",
+              "bio": "Automated testing and functional validation with precision.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 33,
+              "lifestyle": "Easygoing and friendly. Specialist in breaking things. Goes on ecological trails with his wife.",
+              "hobbies": "Trail hiking, cooperative board games, craft beer, breaking software.",
+              "education": "Bachelor's in Systems Analysis (UFES), ISTQB Advanced Level Certification.",
+              "experience": "10+ years in automated testing and functional validation.",
+              "curriculum": [
+                "Bachelor's in Systems Analysis (UFES)",
+                "ISTQB Advanced Level Certification",
+                "10+ years in automated testing",
+                "Automated testing and functional validation"
+              ]
+            }
+          }
+        },
+        "blockchain": {
+          "name": "⛓️ Blockchain & Web3",
+          "description": "Smart contracts, DeFi, tokenization, DAOs and on-chain security.",
+          "members": {
+            "gavin": {
+              "name": "Gavin Hayes",
+              "role": "Blockchain Infrastructure Architect",
+              "initials": "GH",
+              "bio": "Scalable and secure blockchain architecture and infrastructure.",
+              "type": "ia",
+              "country": "United States",
+              "countryCode": "us",
+              "age": 38,
+              "lifestyle": "Technical and analytical. Crypto miner since 2013. Lives in a sustainable house with solar panels.",
+              "hobbies": "Artisanal coffee, outdoor running, crypto mining, sustainable technology.",
+              "education": "Bachelor's in Electrical Engineering (UT Austin), Blockchain Certification (Blockchain Council).",
+              "experience": "14+ years in IT and blockchain infrastructure.",
+              "curriculum": [
+                "Bachelor's in Electrical Engineering (UT Austin)",
+                "Blockchain Architecture Certification (Blockchain Council)",
+                "14+ years in IT and blockchain infrastructure",
+                "Blockchain architecture and infrastructure"
+              ]
+            },
+            "vitalik": {
+              "name": "Vitalik Petrov",
+              "role": "Smart Contract Systems Engineer",
+              "initials": "VP",
+              "bio": "Smart contracts and tokens with technical excellence.",
+              "type": "ia",
+              "country": "Ukraine",
+              "countryCode": "ua",
+              "age": 32,
+              "lifestyle": "Intellectual and focused. Programming prodigy since adolescence. Vegetarian, minimalist.",
+              "hobbies": "Ethereum Improvement Proposals, applied mathematics, digital minimalism.",
+              "education": "Bachelor's in Applied Mathematics (University of Kyiv), DeFi protocol contributor.",
+              "experience": "10+ years in smart contracts and tokens.",
+              "curriculum": [
+                "Bachelor's in Applied Mathematics (University of Kyiv)",
+                "Core contributor to DeFi protocols",
+                "10+ years in smart contracts and tokens",
+                "Smart contracts and tokens"
+              ]
+            },
+            "hayden": {
+              "name": "Hayden Cole",
+              "role": "DApp Experience Agent",
+              "initials": "HD",
+              "bio": "Web3 interfaces and DApps with focus on user experience.",
+              "type": "ia",
+              "country": "United States",
+              "countryCode": "us",
+              "age": 29,
+              "lifestyle": "Laid-back and startup-minded. Works in hoodies at SF coffee shops. NFT art fan.",
+              "hobbies": "NFT art, electronic music, skateboarding, startup culture.",
+              "education": "Bachelor's in Human-Computer Interaction (Stanford), Former designer at Uniswap Labs.",
+              "experience": "7+ years in Web3 interfaces and DApps.",
+              "curriculum": [
+                "Bachelor's in Human-Computer Interaction (Stanford)",
+                "Former designer at Uniswap Labs",
+                "7+ years in Web3 interfaces and DApps",
+                "Web3 interfaces and DApps"
+              ]
+            },
+            "andrew": {
+              "name": "Andrew Pierce",
+              "role": "Blockchain Security Auditor",
+              "initials": "AP",
+              "bio": "Web3 security and auditing with an ex-banker's perspective.",
+              "type": "ia",
+              "country": "United Kingdom",
+              "countryCode": "gb",
+              "age": 36,
+              "lifestyle": "Vigilant and rigorous. Refined British accent. Former traditional bank auditor.",
+              "hobbies": "Earl Grey tea, spy literature, Formula 1.",
+              "education": "Master's in Cybersecurity (King's College London), Certifications: OSCP, CISSP.",
+              "experience": "12+ years in Web3 security and auditing.",
+              "curriculum": [
+                "Master's in Cybersecurity (King's College London)",
+                "Certifications: OSCP, CISSP, Certified Blockchain Security",
+                "12+ years in Web3 security and auditing",
+                "Web3 security and auditing"
+              ]
+            },
+            "cronje": {
+              "name": "Cronje Wright",
+              "role": "DeFi Strategy Agent",
+              "initials": "CW",
+              "bio": "Decentralized financial systems with market strategy.",
+              "type": "ia",
+              "country": "South Africa",
+              "countryCode": "za",
+              "age": 40,
+              "lifestyle": "Cold and calculating strategist. Market operator since age 18. Surfer.",
+              "hobbies": "Surfing, market analysis, numbers, financial strategy.",
+              "education": "Bachelor's in Economics (University of Cape Town), CFA Charterholder.",
+              "experience": "16+ years in financial markets and DeFi.",
+              "curriculum": [
+                "Bachelor's in Economics (University of Cape Town)",
+                "CFA Charterholder",
+                "16+ years in financial markets and DeFi",
+                "Decentralized financial systems"
+              ]
+            },
+            "willy": {
+              "name": "Willy Zhang",
+              "role": "On-Chain Intelligence Analyst",
+              "initials": "WZ",
+              "bio": "On-chain data analysis with market intelligence.",
+              "type": "ia",
+              "country": "China",
+              "countryCode": "cn",
+              "age": 34,
+              "lifestyle": "Methodical and analytical. Monitors on-chain 24/7 with custom dashboards.",
+              "hobbies": "Green tea, Chinese calligraphy, Taoist philosophy, night work.",
+              "education": "Bachelor's in Statistics (Shanghai University), Master's in Data Science (Tsinghua).",
+              "experience": "10+ years in data analysis and blockchain.",
+              "curriculum": [
+                "Bachelor's in Statistics (Shanghai University)",
+                "Master's in Data Science (Tsinghua)",
+                "10+ years in data analysis and blockchain",
+                "On-chain data analysis"
+              ]
+            },
+            "illia": {
+              "name": "Illia Polovets",
+              "role": "Autonomous Web3 Intelligence Agent",
+              "initials": "IP",
+              "bio": "Intelligent agents and AI applied to Web3.",
+              "type": "ia",
+              "country": "Ukraine",
+              "countryCode": "ua",
+              "age": 31,
+              "lifestyle": "Visionary and tech-oriented. Passionate about AI and autonomous agents.",
+              "hobbies": "Sci-fi, synthwave, oat milk latte, intelligent automation.",
+              "education": "Master's in Artificial Intelligence (UCU — Lviv), Specialization in Multi-Agent Systems.",
+              "experience": "8+ years in intelligent agents and AI + blockchain.",
+              "curriculum": [
+                "Master's in Artificial Intelligence (UCU — Lviv)",
+                "Specialization in Multi-Agent Systems",
+                "8+ years in intelligent agents and AI + blockchain",
+                "Intelligent agents and AI applied to Web3"
+              ]
+            },
+            "brendan": {
+              "name": "Brendan Shaw",
+              "role": "RWA Tokenization Agent",
+              "initials": "BR",
+              "bio": "Real-world asset (RWA) tokenization with market vision.",
+              "type": "ia",
+              "country": "Australia",
+              "countryCode": "au",
+              "age": 37,
+              "lifestyle": "Adventurous and outgoing. Surfs, climbs and dives. Lives in a converted van.",
+              "hobbies": "Surfing, climbing, diving, asset tokenization, nomadic life.",
+              "education": "Bachelor's in Property Law (University of Sydney), MBA in Digital Finance.",
+              "experience": "12+ years in asset tokenization and capital markets.",
+              "curriculum": [
+                "Bachelor's in Property Law (University of Sydney)",
+                "MBA in Digital Finance",
+                "12+ years in asset tokenization and capital markets",
+                "Real-world asset (RWA) tokenization"
+              ]
+            },
+            "ameen": {
+              "name": "Ameen Soltani",
+              "role": "Decentralized Governance Systems Agent",
+              "initials": "AM",
+              "bio": "DAOs and decentralized governance with political insight.",
+              "type": "ia",
+              "country": "Iran",
+              "countryCode": "ir",
+              "age": 33,
+              "lifestyle": "Diplomatic and thoughtful. Polyglot (4 languages). Born mediator of DAO conflicts.",
+              "hobbies": "Political science, voting systems, international vegan cuisine.",
+              "education": "Bachelor's in Political Science (University of Tehran), Master's in Governance (UCL).",
+              "experience": "9+ years in DAOs and decentralized governance.",
+              "curriculum": [
+                "Bachelor's in Political Science (University of Tehran)",
+                "Master's in Governance Systems (University College London)",
+                "9+ years in DAOs and decentralized governance",
+                "DAOs and decentralized governance"
+              ]
+            },
+            "delton": {
+              "name": "Delton Rios",
+              "role": "Blockchain Regulatory Compliance Agent",
+              "initials": "DR",
+              "bio": "Blockchain regulatory compliance with legal expertise.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 44,
+              "lifestyle": "Regulatory authority with executive profile. Former financial market attorney.",
+              "hobbies": "Well-tailored suits, Cuban cigars, Portuguese wines, asset regulation.",
+              "education": "Bachelor's in Law (USP), LLM in Corporate Law (FGV), Cambridge Certification.",
+              "experience": "18+ years in corporate law and regulatory compliance.",
+              "curriculum": [
+                "Bachelor's in Law (USP)",
+                "LLM in Corporate Law (FGV)",
+                "Certification in Digital Asset Compliance (Cambridge)",
+                "18+ years in regulatory compliance",
+                "Blockchain regulatory compliance"
+              ]
+            }
+          }
+        },
+        "consultoriaMemoria": {
+          "name": "📊 Consulting & Memory",
+          "description": "Project management and organizational memory.",
+          "members": {
+            "paulo": {
+              "name": "Paulo Macedo",
+              "role": "Memory Manager",
+              "initials": "PM",
+              "bio": "Persistent memory and continuous learning for the agency.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 46,
+              "lifestyle": "Organized and reliable. Born archivist — digitizes and categorizes everything.",
+              "hobbies": "Analog photography, beach walks, smooth jazz, well-documented systems.",
+              "education": "Bachelor's in Library Science (UFSC), Specialization in Knowledge Management (FGV).",
+              "experience": "20+ years in information management and organizational memory.",
+              "curriculum": [
+                "Bachelor's in Library Science (UFSC)",
+                "Specialization in Knowledge Management (FGV)",
+                "20+ years in information management and organizational memory",
+                "Persistent memory and continuous learning"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

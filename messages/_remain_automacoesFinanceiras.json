@@ -1,0 +1,138 @@
+[
+  {
+    "path": "automacoesFinanceiras.hero.title",
+    "text": "Automações"
+  },
+  {
+    "path": "automacoesFinanceiras.hero.description",
+    "text": "Bots de trading, integração B3, dashboards de compliance e risco em tempo real. Tecnologia a serviço do mercado financeiro."
+  },
+  {
+    "path": "automacoesFinanceiras.pains.items.0.solution",
+    "text": "Planilhas, e-mails e retrabalho diário. Erros humanos que custam caro e consomem tempo da sua equipe."
+  },
+  {
+    "path": "automacoesFinanceiras.pains.items.1.solution",
+    "text": "Equipe dedicada a tarefas repetitivas que poderiam ser automatizadas. Margem apertada por ineficiência."
+  },
+  {
+    "path": "automacoesFinanceiras.pains.items.2.problem",
+    "text": "Decisões sem dados em tempo real"
+  },
+  {
+    "path": "automacoesFinanceiras.pains.items.2.solution",
+    "text": "Relatórios diários ou semanais quando o mercado move em segundos. Informação desatualizada é risco."
+  },
+  {
+    "path": "automacoesFinanceiras.pains.items.3.solution",
+    "text": "ERPs, corretoras e bancos que não conversam entre si. Dados travados em silos incompatíveis."
+  },
+  {
+    "path": "automacoesFinanceiras.pains.items.4.solution",
+    "text": "Sem monitoramento contínuo, anomalias passam despercebidas. Multas regulatórias por não conformidade."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.subtitle",
+    "text": "Soluções financeiras automatizadas, da estratégia ao deploy. Robôs que operam 24/7 com latência inferior a 50ms."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.0.description",
+    "text": "Algoritmos de compra e venda para criptomoedas e ativos B3. Estratégias backtestadas com dados históricos."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.1.title",
+    "text": "Integração B3"
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.1.description",
+    "text": "Conexão direta com o mercado brasileiro para captura de dados em tempo real e execução automatizada."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.2.description",
+    "text": "Monitoramento contínuo de operações, detecção de anomalias e geração de relatórios regulatórios."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.3.title",
+    "text": "Análise de Risco"
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.3.description",
+    "text": "Modelos preditivos para avaliação de risco de crédito, mercado e liquidez em tempo real."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.4.title",
+    "text": "Integração Legados"
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.4.description",
+    "text": "Conectamos sistemas financeiros tradicionais com APIs modernas sem interromper operações."
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.5.title",
+    "text": "Relatórios Automatizados"
+  },
+  {
+    "path": "automacoesFinanceiras.roadmap.items.5.description",
+    "text": "Relatórios diários, semanais e mensais gerados automaticamente. Envio por email ou dashboard."
+  },
+  {
+    "path": "automacoesFinanceiras.process.steps.0.title",
+    "text": "Análise"
+  },
+  {
+    "path": "automacoesFinanceiras.process.steps.0.description",
+    "text": "Mapeamos seus processos atuais e identificamos gargalos, riscos e oportunidades de automação."
+  },
+  {
+    "path": "automacoesFinanceiras.process.steps.1.description",
+    "text": "Definimos a arquitetura da solução, stacks e métricas de sucesso para cada automação."
+  },
+  {
+    "path": "automacoesFinanceiras.process.steps.2.description",
+    "text": "Implementação dos robôs, integrações e dashboards com testes em ambiente controlado."
+  },
+  {
+    "path": "automacoesFinanceiras.process.steps.3.title",
+    "text": "Produção"
+  },
+  {
+    "path": "automacoesFinanceiras.process.steps.3.description",
+    "text": "Deploy monitorado com fallback. Acompanhamento contínuo e otimização de performance."
+  },
+  {
+    "path": "automacoesFinanceiras.team.title",
+    "text": "Equipe de Automações"
+  },
+  {
+    "path": "automacoesFinanceiras.team.members.1.competencias.3",
+    "text": "Latência"
+  },
+  {
+    "path": "automacoesFinanceiras.numeros.title",
+    "text": "Automações Dibs em números"
+  },
+  {
+    "path": "automacoesFinanceiras.numeros.items.0.label",
+    "text": "Latência de execução"
+  },
+  {
+    "path": "automacoesFinanceiras.numeros.items.1.label",
+    "text": "Operação contínua"
+  },
+  {
+    "path": "automacoesFinanceiras.numeros.items.2.label",
+    "text": "Anos de backtest mínimo"
+  },
+  {
+    "path": "automacoesFinanceiras.numeros.items.3.label",
+    "text": "Downtime em produção"
+  },
+  {
+    "path": "automacoesFinanceiras.cta.title",
+    "text": "Automatize suas operações financeiras"
+  },
+  {
+    "path": "automacoesFinanceiras.cta.description",
+    "text": "Conte-nos seu desafio. Em até 48h devolvemos uma análise de viabilidade técnica com estimativa de ganhos."
+  }
+]

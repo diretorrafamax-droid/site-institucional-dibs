@@ -1,0 +1,1025 @@
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/servicos" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+⨯ The requested resource isn't a valid image for /assets/team/samuel-farias.png received null
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/equipe" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at dispatchEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:13021:174)
+    at dispatchDiscreteEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:12984:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ The requested resource isn't a valid image for /assets/cases/ebook-experiencia-do-lar.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/game-snake-bonus.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/landing-page-deborabelha.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/timetracker-pro.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/gestcash.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/landing-page-deborabelha.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/game-snake-bonus.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/timetracker-pro.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/gestcash.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/ebook-experiencia-do-lar.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/landing-page-deborabelha.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/game-snake-bonus.webp received null
+⨯ The requested resource isn't a valid image for /assets/cases/timetracker-pro.webp received null
+[browser] Uncaught ReferenceError: Flag is not defined
+    at Equipe (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_09c3o6c._.js?id=%255Bproject%255D%252Fsrc%252Fapp%252Fequipe%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:196:252)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10200:106)
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10274:158)
+    at ClientPageRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_12hkmjb._.js:5333:50)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: Flag is not defined
+    at <unknown> (src\app\equipe\page.tsx:105:22)
+    at Array.map (<anonymous>)
+    at Equipe (src\app\equipe\page.tsx:95:27)
+  103 |                   <div className="flex items-center gap-2">
+  104 |                     <h4 className="text-base font-bold">{p.name}</h4>
+> 105 |                     <Flag code={p.countryCode} />
+      |                      ^
+  106 |                   </div>
+  107 |                   <p className="text-xs text-accent">{p.role}</p>
+  108 |                   <p className="mt-2 text-sm leading-relaxed text-muted">{p.bio}</p> {
+  digest: '2351796090'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Uncaught ReferenceError: Flag is not defined
+    at ProfilePanel (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_0~vk5g2._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FProfilePanel.tsx+%255Bapp-client%255D+%2528ecmascript%2529:325:240)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at processRootScheduleInMicrotask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10200:106)
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10274:158)
+    at Equipe (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_0~vk5g2._.js:3178:393)
+    at ClientPageRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_12hkmjb._.js:5333:50)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/equipe" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/equipe" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+⨯ ReferenceError: expanded is not defined
+    at <unknown> (src\app\equipe\page.tsx:117:22)
+    at Array.map (<anonymous>)
+    at Equipe (src\app\equipe\page.tsx:99:27)
+  115 |                     className="mt-2 text-xs font-medium text-accent transition-colors hov...
+  116 |                   >
+> 117 |                     {expanded === p.name ? '▲ Fechar perfil' : '▼ Quem é?'}
+      |                      ^
+  118 |                   </button>
+  119 |                 </div>
+  120 |               </div> {
+  digest: '2275560400'
+}
+[browser] Uncaught ReferenceError: expanded is not defined
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_010htmh._.js:3334:63)
+    at Array.map (<anonymous>)
+    at Equipe (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_010htmh._.js:3246:180)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64)
+    at ClientPageRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_12hkmjb._.js:5333:50)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: expanded is not defined
+    at <unknown> (src\app\equipe\page.tsx:113:22)
+    at Array.map (<anonymous>)
+    at Equipe (src\app\equipe\page.tsx:95:27)
+  111 |                     className="mt-2 text-xs font-medium text-accent transition-colors hov...
+  112 |                   >
+> 113 |                     {expanded === p.name ? '▲ Fechar perfil' : '▼ Quem é?'}
+      |                      ^
+  114 |                   </button>
+  115 |                 </div>
+  116 |               </div> {
+  digest: '2757463605'
+}
+[browser] Uncaught ReferenceError: expanded is not defined
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_010htmh._.js:3330:63)
+    at Array.map (<anonymous>)
+    at Equipe (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_010htmh._.js:3242:180)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64)
+    at ClientPageRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_12hkmjb._.js:5333:50)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/equipe" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] Uncaught ReferenceError: dimsRef is not defined
+    at resize (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FHeroBackground.tsx+%255Bapp-client%255D+%2528ecmascript%2529:59:17)
+    at HeroBackground.useEffect (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FHeroBackground.tsx+%255Bapp-client%255D+%2528ecmascript%2529:67:13)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15087:22)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at commitHookEffectListMount (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:7255:167)
+    at commitHookPassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:7290:60)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8689:33)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at Home (src\app\page.tsx:18:7)
+  16 |   return (
+  17 |     <>
+> 18 |       <HeroBackground />
+     |       ^
+  19 |       <HeroRotator />
+  20 |
+  21 |       <ServiceCarousel />
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Uncaught ReferenceError: dimsRef is not defined
+    at resize (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FHeroBackground.tsx+%255Bapp-client%255D+%2528ecmascript%2529:59:17)
+    at HeroBackground.useEffect (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FHeroBackground.tsx+%255Bapp-client%255D+%2528ecmascript%2529:67:13)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15087:22)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at commitHookEffectListMount (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:7255:167)
+    at commitHookPassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:7290:60)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8689:33)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at Home (src\app\page.tsx:18:7)
+  16 |   return (
+  17 |     <>
+> 18 |       <HeroBackground />
+     |       ^
+  19 |       <HeroRotator />
+  20 |
+  21 |       <ServiceCarousel />
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] Uncaught ReferenceError: dimsRef is not defined
+    at resize (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js:5799:17)
+    at HeroBackground.useEffect (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js:5807:13)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15087:22)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at commitHookEffectListMount (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:7255:167)
+    at commitHookPassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:7290:60)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8689:33)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8693:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at commitPassiveMountOnFiber (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:8676:316)
+    at Home (src\app\page.tsx:18:7)
+  16 |   return (
+  17 |     <>
+> 18 |       <HeroBackground />
+     |       ^
+  19 |       <HeroRotator />
+  20 |
+  21 |       <ServiceCarousel />
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at dispatchEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:13021:174)
+    at dispatchDiscreteEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:12984:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at dispatchEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:13021:174)
+    at dispatchDiscreteEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:12984:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: []
+Incoming: [true] 
+    at areHookInputsEqual (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4604:56)
+    at updateEffectImpl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:5300:50)
+    at Object.useEffect (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15568:13)
+    at exports.useEffect (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1722:36)
+    at HeroBackground (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/src_components_12jqlyh._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FHeroBackground.tsx+%255Bapp-client%255D+%2528ecmascript%2529:62:180)
+    at Object.react_stack_bottom_frame (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooksAgain (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4675:24)
+    at renderWithHooks (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4626:28)
+    at updateFunctionComponent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at flushSyncWork$1 (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9230:86)
+    at Object.scheduleRefresh (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:299:13)
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:391:33)
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:384:38)
+    at applyUpdate (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:878:31)
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:886:13) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4604:56)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:186)
+    at performSyncWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at dispatchEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:13021:174)
+    at dispatchDiscreteEvent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:12984:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="pt-BR" suppressHydrationWarning={true}>
+                          <body
+                            className="inter_fe8b9d92-module__LINzvG__variable font-sans min-h-full flex flex-col anti..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+    at <unknown> (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at emitPendingHydrationWarnings (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3438:13)
+    at completeWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6885:102)
+    at runWithFiberInDEV (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:131)
+    at completeUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9622:23)
+    at performUnitOfWork (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9557:28)
+    at workLoopConcurrentByScheduler (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9551:58)
+    at renderRootConcurrent (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9534:71)
+    at performWorkOnRoot (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:2647:64) (file://C:/DIBS SOLUTIONS/jobs/site-institucional-dibs-solutions/frontend/.next/dev/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:3439:25)

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços Preview — Dibs Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #FFFFFF;
+      color: #1C1C1C;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 24px;
+    }
+    .toggle-bar {
+      width: 100%; max-width: 1200px;
+      padding: 8px 24px;
+      background: #F5F5F5;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      font-size: 13px;
+      color: #888;
+      border-radius: 8px;
+      margin-bottom: 40px;
+    }
+    .toggle-bar button {
+      background: none; border: 1px solid #ddd; color: #666;
+      padding: 4px 16px; border-radius: 4px; cursor: pointer; font-size: 12px;
+    }
+    .toggle-bar button.active { background: #19D87D; color: #1C1C1C; border-color: #19D87D; }
+    .section-label {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: #19D87D;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      text-align: center;
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      text-align: center;
+      color: #666;
+      font-size: 16px;
+      max-width: 520px;
+      margin: 0 auto 48px;
+      line-height: 1.6;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      width: 100%;
+    }
+    .service-card {
+      background: #F5F5F5;
+      border-radius: 16px;
+      padding: 32px 24px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      border-color: #19D87D;
+    }
+    .card-icon {
+      width: 48px; height: 48px;
+      background: rgba(25,216,125,0.1);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .service-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
+    .service-card p { font-size: 14px; color: #666; line-height: 1.5; }
+    .card-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      color: #19D87D;
+      background: rgba(25,216,125,0.1);
+      padding: 4px 10px;
+      border-radius: 100px;
+      margin-top: 16px;
+    }
+    body.dark {
+      background: #1C1C1C; color: #FFFFFF;
+    }
+    body.dark .service-card { background: #2A2A2A; }
+    body.dark .service-card p { color: #AAAAAA; }
+    body.dark .section-sub { color: #888; }
+    body.dark .toggle-bar { background: #222; color: #888; }
+    body.dark .toggle-bar button { border-color: #444; color: #aaa; }
+    body.dark .service-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+  </style>
+</head>
+<body>
+  <div class="toggle-bar">
+    <span>🌓 Alternar modo:</span>
+    <button id="modeDark" class="active" onclick="setMode('dark')">Dark</button>
+    <button id="modeLight" onclick="setMode('light')">Light</button>
+  </div>
+
+  <section style="width: 100%; max-width: 1200px;">
+    <div class="section-label">Nossas Competências</div>
+    <h2 class="section-title">Soluções completas para<br>seu negócio digital</h2>
+    <p class="section-sub">Da estratégia ao código, cada departamento tem um líder especializado e uma equipe de agentes prontos para entregar.</p>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="card-icon">💻</div>
+        <h3>Software Development</h3>
+        <p>Web apps, APIs, SaaS. Stack moderna com squads ágeis sob demanda.</p>
+        <div class="card-tag">Líder: Daniel Monteiro</div>
+      </div>
+      <div class="service-card">
+        <div class="card-icon">🎨</div>
+        <h3>Design & UI/UX</h3>
+        <p>Design System, prototipação, UX Writing e validação de acessibilidade.</p>
+        <div class="card-tag">Líder: Andre Cardoso</div>
+      </div>
+      <div class="service-card">
+        <div class="card-icon">📝</div>
+        <h3>Conteúdo & Publicação</h3>
+        <p>E-books, blogs, copywriting, tradução e publicação KDP.</p>
+        <div class="card-tag">Líder: Heitor Almeida</div>
+      </div>
+      <div class="service-card">
+        <div class="card-icon">⛓️</div>
+        <h3>Blockchain & Web3</h3>
+        <p>Smart contracts, DeFi, tokenização de ativos, DAOs e audit.</p>
+        <div class="card-tag">Líder: Jhon Calder</div>
+      </div>
+      <div class="service-card">
+        <div class="card-icon">📈</div>
+        <h3>Automações Financeiras</h3>
+        <p>Bots de trading, integração B3, análise de risco e compliance.</p>
+        <div class="card-tag">Em desenvolvimento</div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function setMode(mode) {
+      if (mode === 'dark') { document.body.className = 'dark'; } else { document.body.className = ''; }
+      document.getElementById('modeDark').className = mode === 'dark' ? 'active' : '';
+      document.getElementById('modeLight').className = mode === 'light' ? 'active' : '';
+    }
+  </script>
+</body>
+</html>

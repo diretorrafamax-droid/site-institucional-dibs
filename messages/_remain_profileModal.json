@@ -1,0 +1,14 @@
+[
+  {
+    "path": "profileModal.labels.education",
+    "text": "🎓 Formação"
+  },
+  {
+    "path": "profileModal.labels.experience",
+    "text": "💼 Experiência"
+  },
+  {
+    "path": "profileModal.labels.curriculum",
+    "text": "📋 Currículo"
+  }
+]

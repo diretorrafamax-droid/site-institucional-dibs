@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato Preview — Dibs Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #FFFFFF;
+      color: #1C1C1C;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 24px;
+    }
+    .toggle-bar {
+      width: 100%; max-width: 1200px;
+      padding: 8px 24px;
+      background: #F5F5F5;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      font-size: 13px;
+      color: #888;
+      border-radius: 8px;
+      margin-bottom: 40px;
+    }
+    .toggle-bar button {
+      background: none; border: 1px solid #ddd; color: #666;
+      padding: 4px 16px; border-radius: 4px; cursor: pointer; font-size: 12px;
+    }
+    .toggle-bar button.active { background: #19D87D; color: #1C1C1C; border-color: #19D87D; }
+    .section-label {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: #19D87D;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      text-align: center;
+      font-size: clamp(28px, 4vw, 40px);
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+    .section-sub {
+      text-align: center;
+      color: #666;
+      font-size: 16px;
+      max-width: 520px;
+      margin: 0 auto 48px;
+      line-height: 1.6;
+    }
+    .contact-wrapper {
+      display: flex;
+      gap: 48px;
+      max-width: 1000px;
+      width: 100%;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .contact-form {
+      flex: 1;
+      min-width: 300px;
+    }
+    .form-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .form-group {
+      flex: 1;
+      min-width: 200px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #555;
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      transition: border-color 0.2s;
+      background: #fff;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none;
+      border-color: #19D87D;
+    }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .btn-submit {
+      background: #19D87D;
+      color: #1C1C1C;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 14px 40px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      transition: background 0.2s;
+      margin-top: 8px;
+    }
+    .btn-submit:hover { background: #21AA62; }
+    .contact-info {
+      flex: 0 0 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .info-card {
+      background: #F5F5F5;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .info-card h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+    .info-card p { font-size: 14px; color: #666; line-height: 1.5; }
+    .info-card .highlight { color: #19D87D; font-weight: 600; }
+    .whatsapp-float {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #25D366;
+      color: #fff;
+      padding: 16px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: opacity 0.2s;
+    }
+    .whatsapp-float:hover { opacity: 0.9; }
+    .whatsapp-float span { font-size: 24px; }
+    body.dark {
+      background: #1C1C1C; color: #FFFFFF;
+    }
+    body.dark .section-sub { color: #888; }
+    body.dark .info-card { background: #2A2A2A; }
+    body.dark .info-card p { color: #AAAAAA; }
+    body.dark .form-group label { color: #aaa; }
+    body.dark .form-group input, body.dark .form-group select, body.dark .form-group textarea {
+      background: #2A2A2A; border-color: #444; color: #fff;
+    }
+    body.dark .toggle-bar { background: #222; color: #888; }
+    body.dark .toggle-bar button { border-color: #444; color: #aaa; }
+  </style>
+</head>
+<body>
+  <div class="toggle-bar">
+    <span>🌓 Alternar modo:</span>
+    <button id="modeDark" class="active" onclick="setMode('dark')">Dark</button>
+    <button id="modeLight" onclick="setMode('light')">Light</button>
+  </div>
+
+  <section style="width: 100%; max-width: 1200px;">
+    <div class="section-label">Vamos Conversar</div>
+    <h2 class="section-title">Como podemos ajudar<br>seu próximo projeto?</h2>
+    <p class="section-sub">Preencha o formulário ou fale diretamente conosco pelo WhatsApp. Respondemos em até 24h.</p>
+
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nome</label>
+            <input type="text" placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label>Empresa</label>
+            <input type="text" placeholder="Sua empresa">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>E-mail</label>
+            <input type="email" placeholder="seu@email.com">
+          </div>
+          <div class="form-group">
+            <label>Telefone</label>
+            <input type="tel" placeholder="(84) 99999-9999">
+          </div>
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label>Serviço de interesse</label>
+          <select>
+            <option>Selecione um serviço</option>
+            <option>💻 Desenvolvimento de Software</option>
+            <option>🎨 Design & UI/UX</option>
+            <option>📝 Conteúdo & Publicação</option>
+            <option>⛓️ Blockchain & Web3</option>
+            <option>📈 Automações Financeiras</option>
+            <option>🛰️ Radar Dibs — Validação</option>
+            <option>🔒 Auditoria & Segurança</option>
+            <option>📊 Consultoria</option>
+          </select>
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label>Mensagem</label>
+          <textarea placeholder="Conte-nos sobre seu projeto..."></textarea>
+        </div>
+        <button class="btn-submit">Enviar mensagem →</button>
+        <p style="text-align: center; font-size: 12px; color: #888; margin-top: 12px;">
+          Ao enviar, você concorda com nossa <a href="#" style="color: #19D87D;">Política de Privacidade</a>
+        </p>
+      </div>
+
+      <div class="contact-info">
+        <a class="whatsapp-float" href="#">
+          <span>💬</span> Fale pelo WhatsApp
+        </a>
+        <div class="info-card">
+          <h4>📅 Reunião online</h4>
+          <p>Agende uma call pelo formulário ou WhatsApp. Enviamos o link do Google Meet após confirmarmos o horário.</p>
+        </div>
+        <div class="info-card">
+          <h4>📍 Natal — RN</h4>
+          <p>Atendemos todo o Brasil de forma remota.</p>
+        </div>
+        <div class="info-card">
+          <h4>📧 E-mail</h4>
+          <p>rafael@dibssolutions.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function setMode(mode) {
+      if (mode === 'dark') { document.body.className = 'dark'; } else { document.body.className = ''; }
+      document.getElementById('modeDark').className = mode === 'dark' ? 'active' : '';
+      document.getElementById('modeLight').className = mode === 'light' ? 'active' : '';
+    }
+  </script>
+</body>
+</html>
