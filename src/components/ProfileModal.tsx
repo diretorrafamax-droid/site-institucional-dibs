@@ -103,7 +103,24 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
           <div className="flex shrink-0 items-start justify-center p-6 pb-0 md:p-8 md:pb-8">
             <div className="relative">
               <div className="overflow-hidden rounded-2xl shadow-lg">
-                <Image src={profile.photo} alt={profile.name} width={200} height={200} className="h-[180px] w-[180px] object-cover md:h-[220px] md:w-[220px]" />
+                {profile.photo ? (
+                  <Image src={profile.photo} alt={profile.name} width={200} height={200} className="h-[180px] w-[180px] object-cover md:h-[220px] md:w-[220px]" />
+                ) : (
+                  <div className="flex h-[180px] w-[180px] items-center justify-center bg-surface md:h-[220px] md:w-[220px]">
+                    <svg width="120" height="120" viewBox="0 0 400 400">
+                      <defs>
+                        <linearGradient id={`g-${profile.initials}`} x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stopColor={profile.color} />
+                          <stop offset="100%" stopColor="#000" />
+                        </linearGradient>
+                      </defs>
+                      <rect width="400" height="400" rx="200" fill={`url(#g-${profile.initials})`} />
+                      <text x="200" y="220" fontFamily="Inter, sans-serif" fontSize="120" fontWeight="700" fill="white" textAnchor="middle" dominantBaseline="middle">
+                        {profile.initials}
+                      </text>
+                    </svg>
+                  </div>
+                )}
               </div>
               <div className="absolute -bottom-2 -right-2">
                 <Badge type={profile.type} t={tc} />

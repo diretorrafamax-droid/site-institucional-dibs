@@ -9,17 +9,17 @@ import { ProfileModal } from '@/components/ProfileModal'
 import { ceoProfile, leaderProfiles, departmentProfiles, TeamProfile } from '@/data/team-profiles'
 import { FlagIcon } from '@/components/FlagIcon'
 
-const leaderKeys = ['einstein', 'daniel', 'andre', 'heitor', 'thor', 'ives', 'jhon', 'samuel']
-const deptKeys = ['desenvolvimento', 'design', 'conteudo', 'orquestracao', 'seguranca', 'blockchain', 'consultoriaMemoria', 'quantTrading']
+const leaderKeys = ['einstein', 'daniel', 'andre', 'heitor', 'thor', 'ives', 'jhon', 'samuel', 'lucas', 'amanda']
+const deptKeys = ['desenvolvimento', 'design', 'conteudo', 'orquestracao', 'seguranca', 'blockchain', 'consultoriaMemoria', 'quantTrading', 'comercial', 'marketing']
 const memberKeys: string[][] = [
   ['sofia', 'carlos', 'alan', 'arthur', 'igor', 'felipe', 'miguel'],
   ['cesarJunior', 'marioReis'],
   ['davi', 'noah', 'benjamim', 'celia', 'tarsila', 'lis', 'leila', 'valerio'],
-  ['atlas', 'jesus', 'shakespeare', 'henry'],
-  ['helena', 'bruno', 'julio'],
+  ['atlas', 'jesus', 'shakespeare', 'henry', 'luciano'],
+  ['helena', 'bruno', 'julio', 'helenaMendes', 'jamesCarter', 'sophieMueller', 'carlosMendoza', 'emilyChen', 'robertBlack', 'mariaSantos', 'alexanderRisk'],
   ['gavin', 'vitalik', 'hayden', 'andrew', 'cronje', 'willy', 'illia', 'brendan', 'ameen', 'delton'],
   ['paulo'],
-  ['duff'],
+  ['duff', 'otto'],
 ]
 
 const badgeClasses = 'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold'
@@ -65,7 +65,7 @@ export default function Equipe() {
             className="group flex cursor-pointer flex-col rounded-xl border border-border bg-surface p-6 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-md md:p-8"
           >
             <div className="flex flex-1 items-center gap-6">
-              <div className="relative shrink-0" onClick={e => { e.stopPropagation(); setLightbox({ src: ceoProfile.photo, name: ceoProfile.name }) }}>
+              <div className="relative shrink-0" onClick={e => { e.stopPropagation(); if (ceoProfile.photo) setLightbox({ src: ceoProfile.photo, name: ceoProfile.name }) }}>
                 <Avatar initials={ceoProfile.initials} color={ceoProfile.color} photo={ceoProfile.photo} size={120} />
                 <div className="absolute -bottom-1 -right-1"><Badge type={ceoProfile.type} /></div>
               </div>
@@ -116,7 +116,7 @@ export default function Equipe() {
                 className="group flex cursor-pointer flex-col rounded-xl border border-border bg-surface p-5 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-md"
               >
                 <div className="flex flex-1 items-center gap-5">
-                  <div className="relative shrink-0" onClick={e => { e.stopPropagation(); setLightbox({ src: p.photo, name: p.name }) }}>
+                  <div className="relative shrink-0" onClick={e => { e.stopPropagation(); if (p.photo) setLightbox({ src: p.photo, name: p.name }) }}>
                     <Avatar initials={p.initials} color={p.color} photo={p.photo} size={80} />
                     <div className="absolute -bottom-1 -right-1"><Badge type={p.type} /></div>
                   </div>
@@ -157,7 +157,7 @@ export default function Equipe() {
                       className="group flex cursor-pointer flex-col rounded-xl border border-border bg-surface p-3 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-sm"
                     >
                       <div className="flex flex-1 items-center gap-3">
-                        <div className="relative shrink-0" onClick={e => { e.stopPropagation(); setLightbox({ src: m.photo, name: m.name }) }}>
+                        <div className="relative shrink-0" onClick={e => { e.stopPropagation(); if (m.photo) setLightbox({ src: m.photo, name: m.name }) }}>
                           <Avatar initials={m.initials} color={m.color} photo={m.photo} size={56} />
                           <div className="absolute -bottom-1 -right-1"><Badge type={m.type} /></div>
                         </div>

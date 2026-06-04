@@ -11,11 +11,11 @@ import { TeamShowcase } from '@/components/TeamShowcase'
 
 const painIllustrations = [PainPerformance, PainCosts, PainTime, PainLegacy, PainHiring]
 const teamMeta = [
-  { initials: 'SF', color: '#95A5A6', photo: '/assets/team/samuel-farias.png' },
-  { initials: 'DM', color: '#3498DB', photo: '/assets/team/daniel-monteiro.png' },
-  { initials: 'ET', color: '#2C3E50', photo: '/assets/team/einstein-tavares.png' },
-  { initials: 'PM', color: '#1ABC9C', photo: '/assets/team/paulo-macedo.png' },
-  { initials: 'BS', color: '#3498DB', photo: '/assets/team/bruno-santos.png' },
+  { initials: 'SF', color: '#95A5A6', photo: '/assets/team/samuel-farias.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'DM', color: '#3498DB', photo: '/assets/team/daniel-monteiro.png', countryCode: 'pt', type: 'ia' as const },
+  { initials: 'ET', color: '#2C3E50', photo: '/assets/team/einstein-tavares.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'PM', color: '#1ABC9C', photo: '/assets/team/paulo-macedo.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'BS', color: '#3498DB', photo: '/assets/team/bruno-santos.png', countryCode: 'br', type: 'ia' as const },
 ]
 
 export default function ConsultoriaPage() {
@@ -52,6 +52,8 @@ export default function ConsultoriaPage() {
     initials: teamMeta[i].initials,
     color: teamMeta[i].color,
     photo: teamMeta[i].photo,
+    countryCode: teamMeta[i].countryCode,
+    type: teamMeta[i].type,
     competencias: t.raw(`team.members.${i}.competencias`) as string[],
   }))
 

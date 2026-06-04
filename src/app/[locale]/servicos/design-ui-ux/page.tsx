@@ -11,9 +11,9 @@ import { TeamShowcase } from '@/components/TeamShowcase'
 
 const painIllustrations = [PainLegacy, PainConversion, PainTime, PainAccessibility, PainCosts]
 const teamMeta = [
-  { initials: 'AC', color: '#9B59B6', photo: '/assets/team/andre-cardoso.png' },
-  { initials: 'CJ', color: '#E67E22', photo: '/assets/team/cesar-junior.png' },
-  { initials: 'MR', color: '#2ECC71', photo: '/assets/team/mario-reis.png' },
+  { initials: 'YM', color: '#9B59B6', photo: '/assets/team/yuri-mendonca.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'CJ', color: '#E67E22', photo: '/assets/team/cesar-junior.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'MR', color: '#2ECC71', photo: '/assets/team/mario-reis.png', countryCode: 'br', type: 'ia' as const },
 ]
 
 export default function DesignUIUXPage() {
@@ -52,6 +52,8 @@ export default function DesignUIUXPage() {
     initials: teamMeta[i].initials,
     color: teamMeta[i].color,
     photo: teamMeta[i].photo,
+    countryCode: teamMeta[i].countryCode,
+    type: teamMeta[i].type,
     competencias: t.raw(`team.members.${i}.competencias`) as string[],
   }))
 

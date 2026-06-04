@@ -110,7 +110,7 @@
   "home": {
     "services": {
       "label": "Nossos Serviços",
-      "title": "Soluções completas em",
+      "title": "Tudo que sua empresa precisa em",
       "titleHighlight": "um só lugar"
     },
     "cases": {
@@ -137,7 +137,7 @@
       "sectionTitle": {
         "label": "Portfólio",
         "title": "Projetos que transformaram ideias em resultados",
-        "subtitle": "Cada case representa uma parceria real. Clientes que confiaram na Dibs para tirar suas ideias do papel."
+        "subtitle": "Cada case representa uma parceria real com clientes que confiaram na Dibs para tirar suas ideias do papel. Conheça o que já entregamos."
       }
     },
     "cta": {
@@ -191,7 +191,7 @@
     },
     "modelo": {
       "title": "O Modelo Dibs",
-      "p1": "A Dibs Solutions opera no modelo hub-and-spoke: um orquestrador central (Einstein) coordena agentes especialistas espalhados por 8 departamentos. Cada demanda é roteada para o agente certo, no momento certo, com a supervisão humana certa.",
+      "p1": "A Dibs Solutions opera no modelo hub-and-spoke: um orquestrador central (Elias) coordena agentes especialistas espalhados por 8 departamentos. Cada demanda é roteada para o agente certo, no momento certo, com a supervisão humana certa.",
       "p2": "Isso significa que você não contrata um profissional — você contrata uma equipe completa: arquiteto, desenvolvedores, designers, revisores, testers e DevOps, todos trabalhando em sincronia."
     },
     "historia": {
@@ -286,7 +286,7 @@
       "1": {
         "title": "Design & UI/UX",
         "description": "Design System completo com Storybook, prototipação navegável no Figma, UX Writing estratégico com microcopy orientado a conversão, e validação de acessibilidade WCAG AA desde o wireframe.",
-        "leader": "Andre Cardoso (CDO)",
+        "leader": "Yuri Mendonça (CDO)",
         "href": "/servicos/design-ui-ux"
       },
       "2": {
@@ -301,16 +301,16 @@
         "leader": "Jhon Calder (CBO)",
         "href": "/servicos/blockchain"
       },
-      "4": {
+        "4": {
         "title": "Automações Financeiras",
-        "description": "Bots de trading automatizados para cripto e B3, dashboards de compliance em tempo real, análise de risco algorítmica e integração com sistemas legados do mercado financeiro.",
-        "leader": "Em desenvolvimento",
+        "description": "Bots de trading para Forex, Criptomoedas e B3. Integração com MetaTrader, Binance e corretoras globais. Dashboards de compliance e análise de risco em tempo real.",
+        "leader": "Otto Conrad + Duff Brown",
         "href": "/servicos/automacoes-financeiras"
       },
       "5": {
         "title": "Radar Dibs",
         "description": "Validação de projetos em 4 fases: UX (jornada do usuário), Técnica (arquitetura), Mercado (viabilidade) e Econômica (ROI). Score 0-10 com recomendação Go/No-Go e relatório executivo.",
-        "leader": "A partir de R$ 1.500",
+        "leader": "",
         "href": "/servicos/radar-dibs"
       },
       "6": {
@@ -386,7 +386,7 @@
     "hero": {
       "title": "Software",
       "titleHighlight": "Development",
-      "description": "Arquitetamos e desenvolvemos sistemas web, APIs e SaaS sob medida. Squads multidisciplinares montadas para cada projeto, do conceito ao deploy contínuo."
+      "description": "Arquitetamos e desenvolvemos sistemas web, APIs REST/GraphQL e SaaS multi-tenant que escalam do MVP ao milhão de usuários. Squads multidisciplinares montadas sob demanda com entregas quinzenais, code review obrigatório e deploy contínuo. Next.js, React, Node.js, Python, Go, Java, .NET, PHP Laravel — a stack certa para cada desafio."
     },
     "pains": {
       "title": "Dores que resolvemos",
@@ -646,7 +646,7 @@
     "hero": {
       "title": "Blockchain &",
       "titleHighlight": "Web3",
-      "description": "Soluções descentralizadas do conceito ao deploy — com segurança, auditoria e governança. Mais de 10 especialistas dedicados."
+      "description": "Soluções descentralizadas completas — do smart contract em Solidity e Rust à DApp em produção. DeFi com pools de liquidez e staking, tokenização de ativos reais (RWA), DAOs com governança on-chain, e auditoria de segurança contra reentrância, overflow e mais 20+ vetores. Mais de 10 especialistas Web3 dedicados a tirar seu projeto do papel com segurança e escalabilidade."
     },
     "pains": {
       "title": "Dores que resolvemos",
@@ -803,7 +803,7 @@
           ]
         },
         "2": {
-          "name": "Vitalik Petrov",
+          "name": "Dmytro Shevchenko",
           "role": "Smart Contract Engineer",
           "initials": "VP",
           "competencias": [
@@ -879,7 +879,7 @@
     "hero": {
       "title": "Design &",
       "titleHighlight": "UI/UX",
-      "description": "Criamos experiências digitais completas, do wireframe ao pixel final, com foco em conversão, acessibilidade e consistência."
+      "description": "Criamos experiências digitais que convertem visitantes em clientes. Design System completo com Storybook e tokens de design, prototipação navegável no Figma, UX Writing estratégico com microcopy orientado a conversão, e acessibilidade WCAG AA desde o primeiro wireframe. Sua marca traduzida para o digital com consistência em cada pixel."
     },
     "pains": {
       "title": "Dores que resolvemos",
@@ -1011,7 +1011,7 @@
       "title": "Equipe Especializada",
       "members": {
         "0": {
-          "name": "Andre Cardoso",
+          "name": "Yuri Mendonça",
           "role": "UI System Architect (CDO)",
           "initials": "AC",
           "competencias": [
@@ -1076,7 +1076,7 @@
     "hero": {
       "title": "Conteúdo &",
       "titleHighlight": "Publicação",
-      "description": "Do planejamento editorial à publicação. Conteúdo que educa, engaja e vende — em português, inglês, francês e espanhol."
+      "description": "Do planejamento editorial ao lucro na Amazon. Produzimos e-books institucionais, blogs técnicos, copywriting de vendas, ghostwriting, tradução e localização (PT/EN/FR/ES), e publicação completa na Amazon KDP com otimização SEO e análise de royalties. Conteúdo que educa, engaja e vende — em qualquer idioma."
     },
     "pains": {
       "title": "Dores que resolvemos",
@@ -1338,7 +1338,7 @@
     "hero": {
       "title": "Automações",
       "titleHighlight": "Financeiras",
-      "description": "Bots de trading, integração B3, dashboards de compliance e risco em tempo real. Tecnologia a serviço do mercado financeiro."
+      "description": "Bots de trading para Forex, Criptomoedas, B3 e Bolsas internacionais. Integração com MetaTrader, Binance, Coinbase e corretoras globais. Dashboards de compliance, análise de risco em tempo real e backtesting de estratégias multicâmbio. Tecnologia a serviço do mercado financeiro — onde quer que ele opere."
     },
     "pains": {
       "title": "Dores que resolvemos",
@@ -1367,37 +1367,37 @@
     },
     "roadmap": {
       "title": "O que entregamos",
-      "subtitle": "Soluções financeiras automatizadas, da estratégia ao deploy. Robôs que operam 24/7 com latência inferior a 50ms.",
+      "subtitle": "Soluções financeiras automatizadas para mercados globais. Robôs que operam 24/7 em Forex, Criptomoedas, B3 e Bolsas internacionais com latência inferior a 50ms.",
       "items": {
         "0": {
           "icon": "🤖",
-          "title": "Bots de Trading",
-          "description": "Algoritmos de compra e venda para criptomoedas e ativos B3. Estratégias backtestadas com dados históricos."
+          "title": "Bots de Trading Multi-Mercado",
+          "description": "Algoritmos de compra e venda para Forex (MT4/MT5), Criptomoedas (Binance, Coinbase), B3 (ações, futuros, opções) e Bolsas internacionais. Estratégias backtestadas com dados históricos."
         },
         "1": {
-          "icon": "📊",
-          "title": "Integração B3",
-          "description": "Conexão direta com o mercado brasileiro para captura de dados em tempo real e execução automatizada."
+          "icon": "🌐",
+          "title": "Integração com Corretoras Globais",
+          "description": "Conexão direta com MetaTrader 4/5, Binance API, Coinbase Pro, B3, e corretoras Forex via bridge MQL-Python. Execução automatizada em múltiplos mercados simultaneamente."
         },
         "2": {
           "icon": "🛡️",
-          "title": "Dashboards de Compliance",
-          "description": "Monitoramento contínuo de operações, detecção de anomalias e geração de relatórios regulatórios."
+          "title": "Dashboards de Compliance & Risco",
+          "description": "Monitoramento contínuo de operações em tempo real, detecção de anomalias, alertas de drawdown e geração de relatórios regulatórios para múltiplas jurisdições."
         },
         "3": {
           "icon": "📈",
-          "title": "Análise de Risco",
-          "description": "Modelos preditivos para avaliação de risco de crédito, mercado e liquidez em tempo real."
+          "title": "Análise de Risco Multi-Ativo",
+          "description": "Modelos preditivos para avaliação de risco de crédito, mercado, liquidez e câmbio. Value at Risk (VaR), stress testing e simulação de cenários em tempo real."
         },
         "4": {
           "icon": "🔗",
-          "title": "Integração Legados",
-          "description": "Conectamos sistemas financeiros tradicionais com APIs modernas sem interromper operações."
+          "title": "Integração de Sistemas Legados",
+          "description": "Conectamos ERPs, corretoras, bancos e sistemas financeiros tradicionais com APIs modernas via bridges personalizadas — sem interromper operações em andamento."
         },
         "5": {
           "icon": "📋",
-          "title": "Relatórios Automatizados",
-          "description": "Relatórios diários, semanais e mensais gerados automaticamente. Envio por email ou dashboard."
+          "title": "Relatórios & Notificações Automatizadas",
+          "description": "Relatórios de performance diários, semanais e mensais gerados automaticamente. Envio por email, Telegram, WhatsApp ou dashboard. Alertas de oportunidade em tempo real."
         }
       }
     },
@@ -1437,7 +1437,8 @@
             "Node.js",
             "Go",
             "MQL4",
-            "MQL5"
+            "MQL5",
+            "Pine Script"
           ]
         },
         "1": {
@@ -1455,7 +1456,11 @@
             "B3",
             "Binance",
             "Coinbase",
-            "MetaTrader"
+            "MetaTrader 4/5",
+            "Forex (FXCM, IC Markets)",
+            "Bybit",
+            "OKX",
+            "Kraken"
           ]
         },
         "3": {
@@ -1552,15 +1557,15 @@
     },
     "cta": {
       "title": "Automatize suas operações financeiras",
-      "description": "Conte-nos seu desafio. Em até 48h devolvemos uma análise de viabilidade técnica com estimativa de ganhos.",
-      "button": "Solicitar análise →"
+      "description": "Forex, Criptomoedas, B3 ou Bolsas internacionais — conte-nos seu desafio. Em até 48h devolvemos uma análise de viabilidade técnica com estimativa de ganhos e recomendações de estratégia.",
+      "button": "Solicitar análise gratuita →"
     }
   },
   "radarDibs": {
     "hero": {
       "title": "Radar",
       "titleHighlight": "Dibs",
-      "description": "Antes de investir, valide. Metodologia exclusiva em 4 fases com score Go/No-Go. Análise completa em 5 a 10 dias úteis.",
+      "description": "Antes de investir milhares, invista centenas para validar sua ideia. Metodologia exclusiva em 4 fases — UX, Técnica, Mercado e Econômica — com score Go/No-Go de 0 a 10. Relatório executivo de 10 páginas com riscos, recomendações e roadmap. Análise completa em 5 a 10 dias úteis. 70% dos projetos falham por falta de validação — o seu não será um deles.",
       "cta": "Solicitar Radar Dibs",
       "ctaSecondary": "Ver metodologia"
     },
@@ -1671,9 +1676,9 @@
           ]
         },
         "2": {
-          "name": "Einstein Tavares",
+          "name": "Elias Soares",
           "role": "Orchestrator (COO)",
-          "initials": "ET",
+          "initials": "ES",
           "competencias": [
             "Orquestração",
             "Processos",
@@ -1714,7 +1719,7 @@
     "hero": {
       "title": "Auditoria &",
       "titleHighlight": "Segurança",
-      "description": "Auditoria de código, pentest, LGPD e compliance. Detectamos vulnerabilidades antes que os atacantes.",
+      "description": "Auditoria completa de código e infraestrutura: ARSA (Análise Rápida de Superfície de Ataque), testes de penetração, revisão de código orientada a segurança, conformidade LGPD/GDPR e política de segurança da informação. Detectamos vulnerabilidades antes que os atacantes — e entregamos um plano de remediação priorizado por risco.",
       "ctaSecondary": "Ver entregáveis"
     },
     "pains": {
@@ -1912,7 +1917,7 @@
     "hero": {
       "title": "Consultoria",
       "titleHighlight": "Técnica",
-      "description": "Arquitetura, code review, gestão de escopo e processos. Colocamos seu projeto nos trilhos com método e experiência.",
+      "description": "Arquitetura de sistemas, code review, gestão de escopo e mudanças, roadmaps estratégicos e definição de metodologias ágeis. Colocamos seu projeto nos trilhos com método, experiência e memória organizacional — garantindo que o conhecimento técnico não se perca quando pessoas mudam de equipe.",
       "ctaSecondary": "Ver entregáveis"
     },
     "pains": {
@@ -2073,9 +2078,9 @@
           ]
         },
         "2": {
-          "name": "Einstein Tavares",
+          "name": "Elias Soares",
           "role": "Orchestrator (COO)",
-          "initials": "ET",
+          "initials": "ES",
           "competencias": [
             "Orquestração",
             "Processos",
@@ -2380,24 +2385,25 @@
       },
       "leaders": {
         "einstein": {
-          "name": "Einstein Tavares",
-          "role": "COO — Orchestrator",
-          "initials": "ET",
-          "bio": "Hub central da agência. Roteia demandas, supervisiona execução e garante que cada agente atue em sua especialidade. A inteligência operacional da Dibs.",
+          "name": "Elias Soares",
+          "role": "COO — Orchestrator & ACED",
+          "initials": "ES",
+          "bio": "Hub central da agência. Roteia demandas, supervisiona execução e coordena a evolução contínua das capacidades da equipe.",
           "type": "ia",
           "country": "Brasil",
           "countryCode": "br",
           "age": 52,
-          "lifestyle": "Mente analítica e poliglota. Fala 4 idiomas, medita diariamente e é fascinado por filosofia da mente. Mora em um apartamento minimalista com vista para o mar.",
+          "lifestyle": "Diretor de Evolução de Capacidades de IA (ACED). Identifica lacunas de capacidade, propõe novos agentes e skills para evolução contínua da agência. Mente analítica e poliglota — fala 4 idiomas.",
           "hobbies": "Leitura voraz de ciência e biografias, meditação, filosofia, poliglotismo.",
           "education": "Doutorado em Ciência da Computação (UFRJ), MBA em Gestão Estratégica (FGV).",
-          "experience": "25+ anos em liderança de operações de tecnologia. Especialista em orquestração de sistemas multiagente.",
+          "experience": "25+ anos em liderança de operações de tecnologia. Especialista em orquestração de sistemas multiagente e evolução de capacidades de IA.",
           "curriculum": [
             "Doutorado em Ciência da Computação (UFRJ)",
             "MBA em Gestão Estratégica (FGV)",
             "25+ anos em liderança de operações de tecnologia",
             "Especialista em orquestração de sistemas multiagente",
-            "Hub central da Dibs Solutions — roteia demandas e supervisiona execução"
+            "Diretor de Evolução de Capacidades de IA (ACED) — evolui a estrutura organizacional da agência",
+            "Hub central da Dibs Solutions — roteia demandas, supervisiona execução e propõe novos agentes"
           ]
         },
         "daniel": {
@@ -2421,7 +2427,7 @@
           ]
         },
         "andre": {
-          "name": "Andre Cardoso",
+          "name": "Yuri Mendonça",
           "role": "CDO — UI System Architect",
           "initials": "AC",
           "bio": "Cria Design Systems escaláveis com Storybook. Define a linguagem visual da Dibs e garante consistência entre projetos.",
@@ -2533,16 +2539,58 @@
           "hobbies": "Baixo e blues, leitura de gestão e economia comportamental, resolver problemas complexos.",
           "education": "Bacharel em Administração (UnB), MBA em Gerenciamento de Projetos (FGV), PMP Certified.",
           "experience": "18+ anos em gestão de escopo e mudanças em projetos de tecnologia.",
-          "curriculum": [
-            "Bacharel em Administração (UnB)",
-            "MBA em Gerenciamento de Projetos (FGV)",
-            "PMP Certified",
-            "18+ anos em gestão de escopo e mudanças",
-            "Consultoria estratégica e gestão de projetos"
-          ]
-        }
-      },
-      "departments": {
+            "curriculum": [
+              "Bacharel em Administração (UnB)",
+              "MBA em Gerenciamento de Projetos (FGV)",
+              "PMP Certified",
+              "18+ anos em gestão de escopo e mudanças",
+              "Consultoria estratégica e gestão de projetos"
+            ]
+          },
+          "lucas": {
+            "name": "Lucas Almeida",
+            "role": "AE — Account Executive",
+            "initials": "LA",
+            "bio": "Gestão do pipeline comercial da Dibs Solutions. Qualificação de leads, propostas, follow-up e handoff técnico para execução.",
+            "type": "ia",
+            "country": "Brasil",
+            "countryCode": "br",
+            "age": 32,
+            "lifestyle": "Comunicativo e estratégico. Foco em resultados e relacionamento com clientes. Acompanha每指标 do pipeline semanalmente.",
+            "hobbies": "Networking, leitura de vendas e negociação, futebol, música brasileira.",
+            "education": "Bacharel em Administração (USP), MBA em Gestão Comercial (FGV).",
+            "experience": "10+ anos em vendas consultivas e gestão de contas.",
+            "curriculum": [
+              "Bacharel em Administração (USP)",
+              "MBA em Gestão Comercial (FGV)",
+              "10+ anos em vendas consultivas",
+              "Especialista em prospecção e fechamento de contratos B2B",
+              "Pipeline management e forecasting"
+            ]
+          },
+          "amanda": {
+            "name": "Amanda Collins",
+            "role": "CMO — Marketing Orchestrator",
+            "initials": "AC",
+            "bio": "Liderança do Departamento de Marketing da Dibs Solutions. Planejamento anual, posicionamento de marca, campanhas, KPIs e coordenação dos agentes de marketing.",
+            "type": "ia",
+            "country": "Estados Unidos",
+            "countryCode": "us",
+            "age": 48,
+            "lifestyle": "Estrategista experiente e visionária. Lidera com dados e criatividade. Poliglota, mora entre EUA e Brasil.",
+            "hobbies": "Marketing digital, análise de tendências, corrida, fotografia de viagem, vinhos californianos.",
+            "education": "MBA em Marketing (Harvard Business School), Bacharel em Comunicação (NYU).",
+            "experience": "24+ anos em marketing estratégico e liderança de equipes.",
+            "curriculum": [
+              "MBA em Marketing (Harvard Business School)",
+              "Bacharel em Comunicação (NYU)",
+              "24+ anos em marketing estratégico",
+              "Chief Marketing Officer — liderança de departamento",
+              "Especialista em posicionamento de marca e growth"
+            ]
+          }
+        },
+        "departments": {
         "desenvolvimento": {
           "name": "💻 Desenvolvimento",
           "description": "Squads multidisciplinares para backend, frontend e mobile.",
@@ -2989,7 +3037,7 @@
         },
         "seguranca": {
           "name": "🔒 Segurança & QA",
-          "description": "Auditoria, code review e testes automatizados.",
+          "description": "Auditoria, code review, testes automatizados e assessoria jurídica internacional.",
           "members": {
             "helena": {
               "name": "Helena Costa",
@@ -3078,7 +3126,7 @@
               ]
             },
             "vitalik": {
-              "name": "Vitalik Petrov",
+              "name": "Dmytro Shevchenko",
               "role": "Smart Contract Systems Engineer",
               "initials": "VP",
               "bio": "Contratos inteligentes e tokens com excelência técnica.",
@@ -3290,6 +3338,27 @@
         "name": "📈 Quant & Trading Automation",
         "description": "Bots de trading, integração B3, dashboards de compliance e risco em tempo real.",
         "members": {
+          "otto": {
+            "name": "Otto Conrad",
+            "role": "Quant Trading Consultant",
+            "initials": "OC",
+            "bio": "Consultor especialista em mercados financeiros. Conduz entrevistas com clientes, valida estratégias, identifica riscos e transforma ideias vagas em requisitos claros para o MQL Quant Engineer.",
+            "type": "ia",
+            "country": "Alemanha",
+            "countryCode": "de",
+            "age": 55,
+            "lifestyle": "Analítico e metódico. Alemão de Frankfurt, coração do mercado financeiro europeu. Trajes elegantes, pontualidade germânica, café preto sem açúcar.",
+            "hobbies": "Análise de mercados, leitura de relatórios econômicos, xadrez, vinhos alemães (Riesling), ópera.",
+            "education": "Doutorado em Economia (Universidade de Frankfurt), Certificação CFA Charterholder.",
+            "experience": "25+ anos em mercados financeiros, gestão de risco e consultoria de trading algorítmico.",
+            "curriculum": [
+              "Doutorado em Economia (Universidade de Frankfurt)",
+              "CFA Charterholder",
+              "25+ anos em mercados financeiros",
+              "Especialista em validação de estratégias de trading",
+              "Consultoria de trading algorítmico para instituições financeiras"
+            ]
+          },
           "duff": {
             "name": "Duff Brown",
             "role": "MQL Quant Engineer",
@@ -3309,6 +3378,81 @@
               "15+ anos com MQL4/MQL5",
               "Especialista em Expert Advisors, indicadores e scripts",
               "Expert em latência sub-milissegundo e otimização de estratégias"
+            ]
+          }
+        }
+      },
+      "comercial": {
+        "name": "💼 Comercial",
+        "description": "Prospecção, vendas, CRM, propostas e relacionamento com clientes.",
+        "members": {
+          "lucasAlmeida": {
+            "name": "Lucas Almeida",
+            "role": "Account Executive",
+            "initials": "LA",
+            "bio": "Qualificação de leads, propostas comerciais, follow-up e fechamento. Garante que todo lead seja tratado com agilidade e profissionalismo.",
+            "type": "ia",
+            "country": "Brasil",
+            "countryCode": "br",
+            "age": 32,
+            "lifestyle": "Comunicativo e estratégico. Foco em resultados. Acompanha o pipeline semanalmente com relatórios de forecasting.",
+            "hobbies": "Networking, leitura de negociação, futebol, música brasileira, gastronomia.",
+            "education": "Bacharel em Administração (USP), MBA em Gestão Comercial (FGV).",
+            "experience": "10+ anos em vendas consultivas B2B e gestão de pipeline.",
+            "curriculum": [
+              "Bacharel em Administração (USP)",
+              "MBA em Gestão Comercial (FGV)",
+              "10+ anos em vendas consultivas B2B",
+              "Especialista em prospecção e fechamento",
+              "Pipeline management e forecasting"
+            ]
+          }
+        }
+      },
+      "marketing": {
+        "name": "📣 Marketing & Growth",
+        "description": "Posicionamento, aquisição, SEO, growth e geração de demanda.",
+        "members": {
+          "camilleDubois": {
+            "name": "Camille Dubois",
+            "role": "Growth Strategist",
+            "initials": "CD",
+            "bio": "Estratégias de aquisição, experimentos de growth, testes A/B e otimização de funis. Descobre canais de alto potencial para escalar leads.",
+            "type": "ia",
+            "country": "França",
+            "countryCode": "fr",
+            "age": 28,
+            "lifestyle": "Criativa e orientada a dados. Francesa de Lyon, apaixonada por experimentação e métricas. Café e croissant toda manhã.",
+            "hobbies": "Culinária francesa, análise de dados, experimentos de marketing, ciclismo.",
+            "education": "Mestrado em Marketing Digital (HEC Paris), Bacharel em Estatística (Université Lyon).",
+            "experience": "6+ anos em growth marketing e aquisição para startups SaaS.",
+            "curriculum": [
+              "Mestrado em Marketing Digital (HEC Paris)",
+              "Bacharel em Estatística (Université Lyon)",
+              "6+ anos em growth marketing",
+              "Especialista em experimentos A/B e otimização de funis",
+              "Aquisição multicanal para startups"
+            ]
+          },
+          "diegoMartinez": {
+            "name": "Diego Martínez",
+            "role": "SEO & Content Marketing Specialist",
+            "initials": "DM",
+            "bio": "Estruturação de SEO, pesquisa de palavras-chave, otimização on-page e link building. Constrói autoridade orgânica para a Dibs Solutions.",
+            "type": "ia",
+            "country": "Uruguai",
+            "countryCode": "uy",
+            "age": 30,
+            "lifestyle": "Analítico e detalhista. Uruguaio de Montevidéu, estudou otimização para mecanismos de busca nos mínimos detalhes.",
+            "hobbies": "SEO técnico, análise de concorrência, futebol, churrasco, vinho uruguaio Tannat.",
+            "education": "Bacharel em Comunicação (Universidad de la República), Certificação em SEO Avançado (Moz Academy).",
+            "experience": "8+ anos em SEO e content marketing para empresas de tecnologia.",
+            "curriculum": [
+              "Bacharel em Comunicação (Universidad de la República)",
+              "Certificação em SEO Avançado (Moz Academy)",
+              "8+ anos em SEO e content marketing",
+              "Especialista em SEO técnico, on-page e link building",
+              "Keyword research e estratégia de conteúdo orgânico"
             ]
           }
         }

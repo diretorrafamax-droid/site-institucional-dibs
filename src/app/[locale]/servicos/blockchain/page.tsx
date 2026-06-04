@@ -11,12 +11,12 @@ import { TeamShowcase } from '@/components/TeamShowcase'
 
 const painIllustrations = [PainTrust, PainCosts, PainTime, PainTransparency, PainHiring]
 const teamMeta = [
-  { initials: 'JC', color: '#1ABC9C', photo: '/assets/team/jhon-calder.png' },
-  { initials: 'GH', color: '#3498DB', photo: '/assets/team/gavin-hayes.png' },
-  { initials: 'VP', color: '#9B59B6', photo: '/assets/team/vitalik-petrov.png' },
-  { initials: 'HC', color: '#E67E22', photo: '/assets/team/hayden-cole.png' },
-  { initials: 'AP', color: '#E74C3C', photo: '/assets/team/andrew-pierce.png' },
-  { initials: 'CW', color: '#2ECC71', photo: '/assets/team/cronje-wright.png' },
+  { initials: 'JC', color: '#1ABC9C', photo: '/assets/team/jhon-calder.png', countryCode: 'ca', type: 'ia' as const },
+  { initials: 'GH', color: '#3498DB', photo: '/assets/team/gavin-hayes.png', countryCode: 'us', type: 'ia' as const },
+  { initials: 'DS', color: '#9B59B6', photo: '/assets/team/dmytro-shevchenko.png', countryCode: 'ua', type: 'ia' as const },
+  { initials: 'HC', color: '#E67E22', photo: '/assets/team/hayden-cole.png', countryCode: 'us', type: 'ia' as const },
+  { initials: 'AP', color: '#E74C3C', photo: '/assets/team/andrew-pierce.png', countryCode: 'gb', type: 'ia' as const },
+  { initials: 'CW', color: '#2ECC71', photo: '/assets/team/cronje-wright.png', countryCode: 'za', type: 'ia' as const },
 ]
 
 export default function BlockchainPage() {
@@ -53,6 +53,8 @@ export default function BlockchainPage() {
     initials: teamMeta[i].initials,
     color: teamMeta[i].color,
     photo: teamMeta[i].photo,
+    countryCode: teamMeta[i].countryCode,
+    type: teamMeta[i].type,
     competencias: t.raw(`team.members.${i}.competencias`) as string[],
   }))
 

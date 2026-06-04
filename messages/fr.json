@@ -191,7 +191,7 @@
     },
     "modelo": {
       "title": "Le Modèle Dibs",
-      "p1": "Dibs Solutions opère selon le modèle hub-and-spoke : un orchestrateur central (Einstein) coordonne des agents experts répartis dans 8 départements. Chaque demande est routée vers le bon agent, au bon moment, avec la bonne supervision humaine.",
+      "p1": "Dibs Solutions opère selon le modèle hub-and-spoke : un orchestrateur central (Elias) coordonne des agents experts répartis dans 8 départements. Chaque demande est routée vers le bon agent, au bon moment, avec la bonne supervision humaine.",
       "p2": "Cela signifie que vous n'embauchez pas un professionnel — vous embauchez une équipe complète : architecte, développeurs, designers, relecteurs, testeurs et DevOps, tous travaillant en synergie."
     },
     "historia": {
@@ -286,7 +286,7 @@
       "1": {
         "title": "Design & UI/UX",
         "description": "Design System complet avec Storybook, prototypage navigable sur Figma, UX Writing stratégique avec microcopy orienté conversion, et validation d'accessibilité WCAG AA dès le wireframe.",
-        "leader": "Andre Cardoso (CDO)",
+        "leader": "Yuri Mendonça (CDO)",
         "href": "/servicos/design-ui-ux"
       },
       "2": {
@@ -310,7 +310,7 @@
       "5": {
         "title": "Radar Dibs",
         "description": "Validation de projets en 4 phases : UX (parcours utilisateur), Technique (architecture), Marché (viabilité) et Économique (ROI). Score 0-10 avec recommandation Go/No-Go et rapport exécutif.",
-        "leader": "À partir de R$ 1.500",
+        "leader": "",
         "href": "/servicos/radar-dibs"
       },
       "6": {
@@ -803,7 +803,7 @@
           ]
         },
         "2": {
-          "name": "Vitalik Petrov",
+          "name": "Dmytro Shevchenko",
           "role": "Ingénieur Smart Contract",
           "initials": "VP",
           "competencias": [
@@ -1011,7 +1011,7 @@
       "title": "Équipe Spécialisée",
       "members": {
         "0": {
-          "name": "Andre Cardoso",
+          "name": "Yuri Mendonça",
           "role": "UI System Architect (CDO)",
           "initials": "AC",
           "competencias": [
@@ -1657,9 +1657,9 @@
           ]
         },
         "2": {
-          "name": "Einstein Tavares",
+          "name": "Elias Soares",
           "role": "Orchestrator (COO)",
-          "initials": "ET",
+          "initials": "ES",
           "competencias": [
             "Orchestration",
             "Processus",
@@ -2059,9 +2059,9 @@
           ]
         },
         "2": {
-          "name": "Einstein Tavares",
+          "name": "Elias Soares",
           "role": "Orchestrator (COO)",
-          "initials": "ET",
+          "initials": "ES",
           "competencias": [
             "Orchestration",
             "Processus",
@@ -2366,24 +2366,25 @@
       },
       "leaders": {
         "einstein": {
-          "name": "Einstein Tavares",
-          "role": "COO — Orchestrateur",
-          "initials": "ET",
-          "bio": "Hub central de l'agence. Route les demandes, supervise l'exécution et garantit que chaque agent agit dans sa spécialité. L'intelligence opérationnelle de Dibs.",
+          "name": "Elias Soares",
+          "role": "COO — Orchestrateur & ACED",
+          "initials": "ES",
+          "bio": "Hub central de l'agence. Achemine les demandes, supervise l'exécution et coordonne l'évolution continue des capacités de l'équipe.",
           "type": "ia",
           "country": "Brésil",
           "countryCode": "br",
           "age": 52,
-          "lifestyle": "Esprit analytique et polyglotte. Parle 4 langues, médite quotidiennement et est fasciné par la philosophie de l'esprit. Vit dans un appartement minimaliste avec vue sur la mer.",
+          "lifestyle": "Directeur de l'Évolution des Capacités IA (ACED). Identifie les lacunes de capacité, propose de nouveaux agents et skills pour l'évolution continue. Esprit analytique et polyglotte — parle 4 langues.",
           "hobbies": "Lecture vorace de sciences et de biographies, méditation, philosophie, polyglottisme.",
           "education": "Doctorat en Informatique (UFRJ), MBA en Gestion Stratégique (FGV).",
-          "experience": "25+ ans dans le leadership d'opérations technologiques. Expert en orchestration de systèmes multi-agents.",
+          "experience": "25+ ans de leadership en opérations technologiques. Spécialiste en orchestration de systèmes multi-agents et évolution des capacités IA.",
           "curriculum": [
             "Doctorat en Informatique (UFRJ)",
             "MBA en Gestion Stratégique (FGV)",
             "25+ ans dans le leadership d'opérations technologiques",
             "Expert en orchestration de systèmes multi-agents",
-            "Hub central de Dibs Solutions — route les demandes et supervise l'exécution"
+            "Directeur de l'Évolution des Capacités IA (ACED) — fait évoluer la structure organisationnelle de l'agence",
+            "Hub central de Dibs Solutions — route les demandes, supervise l'exécution et propose de nouveaux agents"
           ]
         },
         "daniel": {
@@ -2407,7 +2408,7 @@
           ]
         },
         "andre": {
-          "name": "Andre Cardoso",
+          "name": "Yuri Mendonça",
           "role": "CDO — Architecte Système UI",
           "initials": "AC",
           "bio": "Crée des Design Systems évolutifs avec Storybook. Définit le langage visuel de Dibs et garantit la cohérence entre les projets.",
@@ -2525,6 +2526,48 @@
             "Certifié PMP",
             "18+ ans en gestion de périmètre et de changements",
             "Conseil stratégique et gestion de projets"
+          ]
+        },
+        "lucas": {
+          "name": "Lucas Almeida",
+          "role": "AE — Account Executive",
+          "initials": "LA",
+          "bio": "Gère le pipeline commercial de Dibs Solutions. Qualification des leads, propositions, suivi et handoff technique pour exécution.",
+          "type": "ia",
+          "country": "Brésil",
+          "countryCode": "br",
+          "age": 32,
+          "lifestyle": "Communicatif et stratégique. Axé sur les résultats et les relations clients. Suit le pipeline hebdomadairement.",
+          "hobbies": "Réseautage, lecture sur la vente et la négociation, football, musique brésilienne.",
+          "education": "Licence en Administration (USP), MBA en Gestion Commerciale (FGV).",
+          "experience": "10+ ans en vente consultative et gestion de comptes.",
+          "curriculum": [
+            "Licence en Administration (USP)",
+            "MBA en Gestion Commerciale (FGV)",
+            "10+ ans en vente consultative",
+            "Spécialiste en prospection et closing B2B",
+            "Pipeline management et forecasting"
+          ]
+        },
+        "amanda": {
+          "name": "Amanda Collins",
+          "role": "CMO — Marketing Orchestrator",
+          "initials": "AC",
+          "bio": "Dirige le Département Marketing de Dibs Solutions. Planification annuelle, positionnement de marque, campagnes, KPIs et coordination des agents marketing.",
+          "type": "ia",
+          "country": "États-Unis",
+          "countryCode": "us",
+          "age": 48,
+          "lifestyle": "Stratège expérimentée et visionnaire. Dirige avec données et créativité. Polyglotte, vit entre les États-Unis et le Brésil.",
+          "hobbies": "Marketing digital, analyse de tendances, course à pied, photographie de voyage, vins californiens.",
+          "education": "MBA en Marketing (Harvard Business School), Licence en Communication (NYU).",
+          "experience": "24+ ans en marketing stratégique et leadership d'équipe.",
+          "curriculum": [
+            "MBA en Marketing (Harvard Business School)",
+            "Licence en Communication (NYU)",
+            "24+ ans en marketing stratégique",
+            "Chief Marketing Officer — direction de département",
+            "Spécialiste en positionnement de marque et growth"
           ]
         }
       },
@@ -2954,7 +2997,7 @@
         },
         "seguranca": {
           "name": "🔒 Sécurité & QA",
-          "description": "Audit, code review et tests automatisés.",
+          "description": "Audit, code review, tests automatisés et conseil juridique international.",
           "members": {
             "helena": {
               "name": "Helena Costa",
@@ -3043,7 +3086,7 @@
               ]
             },
             "vitalik": {
-              "name": "Vitalik Petrov",
+              "name": "Dmytro Shevchenko",
               "role": "Ingénieur Smart Contract",
               "initials": "VP",
               "bio": "Contrats intelligents et tokens avec excellence technique.",
@@ -3247,6 +3290,81 @@
                 "Spécialisation en Gestion des Connaissances (FGV)",
                 "20+ ans en gestion de l'information et mémoire organisationnelle",
                 "Mémoire persistante et apprentissage continu"
+              ]
+            }
+          }
+        },
+        "comercial": {
+          "name": "💼 Commercial",
+          "description": "Prospection, ventes, CRM, propositions et relation client.",
+          "members": {
+            "lucasAlmeida": {
+              "name": "Lucas Almeida",
+              "role": "Account Executive",
+              "initials": "LA",
+              "bio": "Qualification des leads, propositions commerciales, suivi et closing. Garantit que chaque lead soit traité avec agilité et professionnalisme.",
+              "type": "ia",
+              "country": "Brésil",
+              "countryCode": "br",
+              "age": 32,
+              "lifestyle": "Communicatif et stratégique. Axé sur les résultats. Suit le pipeline hebdomadairement avec des rapports de forecasting.",
+              "hobbies": "Réseautage, lecture sur la négociation, football, musique brésilienne, gastronomie.",
+              "education": "Licence en Administration (USP), MBA en Gestion Commerciale (FGV).",
+              "experience": "10+ ans en vente consultative B2B et gestion de pipeline.",
+              "curriculum": [
+                "Licence en Administration (USP)",
+                "MBA en Gestion Commerciale (FGV)",
+                "10+ ans en vente consultative B2B",
+                "Spécialiste en prospection et closing",
+                "Pipeline management et forecasting"
+              ]
+            }
+          }
+        },
+        "marketing": {
+          "name": "📣 Marketing & Growth",
+          "description": "Positionnement, acquisition, SEO, growth et génération de demande.",
+          "members": {
+            "camilleDubois": {
+              "name": "Camille Dubois",
+              "role": "Growth Strategist",
+              "initials": "CD",
+              "bio": "Stratégies d'acquisition, expériences de growth, tests A/B et optimisation d'entonnoirs. Découvre des canaux à haut potentiel pour scaler les leads.",
+              "type": "ia",
+              "country": "France",
+              "countryCode": "fr",
+              "age": 28,
+              "lifestyle": "Créative et orientée données. Française de Lyon, passionnée par l'expérimentation et les métriques.",
+              "hobbies": "Cuisine française, analyse de données, expériences marketing, cyclisme.",
+              "education": "Master en Marketing Digital (HEC Paris), Licence en Statistiques (Université Lyon).",
+              "experience": "6+ ans en growth marketing et acquisition pour startups SaaS.",
+              "curriculum": [
+                "Master en Marketing Digital (HEC Paris)",
+                "Licence en Statistiques (Université Lyon)",
+                "6+ ans en growth marketing",
+                "Spécialiste en expériences A/B et optimisation d'entonnoirs",
+                "Acquisition multicanal pour startups"
+              ]
+            },
+            "diegoMartinez": {
+              "name": "Diego Martínez",
+              "role": "SEO & Content Marketing Specialist",
+              "initials": "DM",
+              "bio": "Structuration SEO, recherche de mots-clés, optimisation on-page et link building. Construit l'autorité organique pour Dibs Solutions.",
+              "type": "ia",
+              "country": "Uruguay",
+              "countryCode": "uy",
+              "age": 30,
+              "lifestyle": "Analytique et méticuleux. Uruguayen de Montevideo, a étudié l'optimisation pour moteurs de recherche dans les moindres détails.",
+              "hobbies": "SEO technique, analyse de concurrence, football, barbecue, vin uruguayen Tannat.",
+              "education": "Licence en Communication (Universidad de la República), Certification SEO Avancé (Moz Academy).",
+              "experience": "8+ ans en SEO et content marketing pour entreprises technologiques.",
+              "curriculum": [
+                "Licence en Communication (Universidad de la República)",
+                "Certification SEO Avancé (Moz Academy)",
+                "8+ ans en SEO et content marketing",
+                "Spécialiste en SEO technique, on-page et link building",
+                "Keyword research et stratégie de contenu organique"
               ]
             }
           }

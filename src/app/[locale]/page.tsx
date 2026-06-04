@@ -3,12 +3,19 @@ import { Link } from '@/i18n/navigation'
 import { SectionTitle } from '@/components/SectionTitle'
 import { ServiceCarousel } from '@/components/ServiceCarousel'
 import { CaseCard } from '@/components/CaseCard'
+import { TestimonialCarousel } from '@/components/TestimonialCarousel'
 import { HeroRotator } from '@/components/HeroRotator'
 import { HeroBackground } from '@/components/HeroBackground'
 import { AiLogos } from '@/components/AiLogos'
 import { TechStack } from '@/components/TechStack'
 
 const caseKeys = [0, 1, 2, 3]
+const homeCaseImages = [
+  '/assets/cases/ebook-experiencia-do-lar.webp',
+  '/assets/cases/landing-page-deborabelha.webp',
+  '/assets/cases/game-snake-bonus.webp',
+  '/assets/cases/timetracker-pro.webp',
+]
 
 export default async function Home() {
   const t = await getTranslations('home')
@@ -35,11 +42,14 @@ export default async function Home() {
                 category={t(`cases.${i}.category`)}
                 title={t(`cases.${i}.title`)}
                 description={t(`cases.${i}.description`)}
+                image={homeCaseImages[i]}
               />
             ))}
           </div>
         </div>
       </section>
+
+      <TestimonialCarousel />
 
       <AiLogos />
 

@@ -18,7 +18,7 @@ export function Avatar({ initials, color, photo, size = 120, onClick }: AvatarPr
         className={`overflow-hidden rounded-full shrink-0 ${onClick ? 'cursor-pointer transition-transform hover:scale-105' : ''}`}
         style={{ width: size, height: size }}
       >
-        <Image src={photo} alt={initials} width={size} height={size} className="h-full w-full object-cover" />
+        <Image src={photo} alt={initials} width={size} height={size} className="h-full w-full object-cover" unoptimized />
       </Wrapper>
     )
   }

@@ -12,14 +12,14 @@ import { TeamShowcase } from '@/components/TeamShowcase'
 const painIllustrations = [PainPerformance, PainLegacy, PainCosts, PainTime, PainHiring]
 const deliverableIllustrations = [RoadFrontend, RoadBackend, RoadMobile, RoadApi, RoadDatabase, RoadDevops]
 const teamMeta = [
-  { initials: 'DM', color: '#3498DB', photo: '/assets/team/daniel-monteiro.png' },
-  { initials: 'SL', color: '#E67E22', photo: '/assets/team/sofia-lopes.png' },
-  { initials: 'CP', color: '#9B59B6', photo: '/assets/team/carlos-pereira.png' },
-  { initials: 'AS', color: '#2ECC71', photo: '/assets/team/alan-silveira.png' },
-  { initials: 'AF', color: '#E74C3C', photo: '/assets/team/arthur-fernandes.png' },
-  { initials: 'IN', color: '#1ABC9C', photo: '/assets/team/igor-nascimento.png' },
-  { initials: 'FR', color: '#8E44AD', photo: '/assets/team/felipe-rocha.png' },
-  { initials: 'MA', color: '#F39C12', photo: '/assets/team/miguel-araujo.png' },
+  { initials: 'DM', color: '#3498DB', photo: '/assets/team/daniel-monteiro.png', countryCode: 'pt', type: 'ia' as const },
+  { initials: 'SL', color: '#E67E22', photo: '/assets/team/sofia-lopes.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'CP', color: '#9B59B6', photo: '/assets/team/carlos-pereira.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'AS', color: '#2ECC71', photo: '/assets/team/alan-silveira.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'AF', color: '#E74C3C', photo: '/assets/team/arthur-fernandes.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'IN', color: '#1ABC9C', photo: '/assets/team/igor-nascimento.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'FR', color: '#8E44AD', photo: '/assets/team/felipe-rocha.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'MA', color: '#F39C12', photo: '/assets/team/miguel-araujo.png', countryCode: 'br', type: 'ia' as const },
 ]
 
 export default function SoftwareDevelopmentPage() {
@@ -56,6 +56,8 @@ export default function SoftwareDevelopmentPage() {
     initials: teamMeta[i].initials,
     color: teamMeta[i].color,
     photo: teamMeta[i].photo,
+    countryCode: teamMeta[i].countryCode,
+    type: teamMeta[i].type,
     competencias: t.raw(`team.members.${i}.competencias`) as string[],
   }))
 

@@ -11,9 +11,9 @@ import { TeamShowcase } from '@/components/TeamShowcase'
 
 const painIllustrations = [PainTime, PainCosts, PainPerformance, PainLegacy, PainHiring]
 const teamMeta = [
-  { initials: 'HC', color: '#E74C3C', photo: '/assets/team/helena-costa.png' },
-  { initials: 'BS', color: '#3498DB', photo: '/assets/team/bruno-santos.png' },
-  { initials: 'IG', color: '#2C3E50', photo: '/assets/team/dr-ives-gandra.png' },
+  { initials: 'HC', color: '#E74C3C', photo: '/assets/team/helena-costa.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'BS', color: '#3498DB', photo: '/assets/team/bruno-santos.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'IG', color: '#2C3E50', photo: '/assets/team/dr-ives-gandra.png', countryCode: 'br', type: 'ia' as const },
 ]
 
 export default function AuditoriaSegurancaPage() {
@@ -50,6 +50,8 @@ export default function AuditoriaSegurancaPage() {
     initials: teamMeta[i].initials,
     color: teamMeta[i].color,
     photo: teamMeta[i].photo,
+    countryCode: teamMeta[i].countryCode,
+    type: teamMeta[i].type,
     competencias: t.raw(`team.members.${i}.competencias`) as string[],
   }))
 

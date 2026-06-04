@@ -5,22 +5,27 @@ import { useTranslations } from 'next-intl'
 import { SectionTitle } from '@/components/SectionTitle'
 import { CaseCard } from '@/components/CaseCard'
 
+const caseMeta = [
+  { image: '/assets/cases/ebook-experiencia-do-lar.webp', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
+  { image: '/assets/cases/landing-page-deborabelha.webp', metric: 'Design System', techs: ['Figma', 'Next.js', 'Tailwind', 'UX Writing'] },
+  { image: '/assets/cases/game-snake-bonus.webp', metric: '5 fases', techs: ['Canvas API', 'Mobile-first', 'Ranking'] },
+  { image: '/assets/cases/timetracker-pro.webp', metric: 'Gestão de Tempo', techs: ['Next.js', 'Dashboard', 'Simulação'] },
+  { image: '/assets/cases/gestcash.webp', metric: 'Blockchain', techs: ['Smart Contract', 'Tokenização', 'Finanças'] },
+]
+
 export default function Cases() {
   const t = useTranslations("cases")
+  const [filter, setFilter] = useState(t("filterAll"))
 
-  const allCases = [
-    { category: t("items.0.category"), title: t("items.0.title"), description: t("items.0.description"), image: '/assets/cases/ebook-experiencia-do-lar.webp' },
-    { category: t("items.1.category"), title: t("items.1.title"), description: t("items.1.description"), image: '/assets/cases/landing-page-deborabelha.webp' },
-    { category: t("items.2.category"), title: t("items.2.title"), description: t("items.2.description"), image: '/assets/cases/game-snake-bonus.webp' },
-    { category: t("items.3.category"), title: t("items.3.title"), description: t("items.3.description"), image: '/assets/cases/timetracker-pro.webp' },
-    { category: t("items.4.category"), title: t("items.4.title"), description: t("items.4.description"), image: '/assets/cases/gestcash.webp' },
-  ]
+  const allCases = [0, 1, 2, 3, 4].map(i => ({
+    category: t(`items.${i}.category`),
+    title: t(`items.${i}.title`),
+    description: t(`items.${i}.description`),
+    ...caseMeta[i],
+  }))
 
-  const filterAll = t("filterAll")
-  const categories = [filterAll, ...new Set(allCases.map(c => c.category))]
-
-  const [filter, setFilter] = useState(filterAll)
-  const filtered = filter === filterAll ? allCases : allCases.filter(c => c.category === filter)
+  const categories = [t("filterAll"), ...new Set(allCases.map(c => c.category))]
+  const filtered = filter === t("filterAll") ? allCases : allCases.filter(c => c.category === filter)
 
   return (
     <section className="py-20">
@@ -38,7 +43,7 @@ export default function Cases() {
           ))}
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {filtered.map(c => <CaseCard key={c.title} category={c.category} title={c.title} description={c.description} image={c.image} />)}
+          {filtered.map(c => <CaseCard key={c.title} {...c} />)}
         </div>
       </div>
     </section>

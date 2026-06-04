@@ -153,6 +153,23 @@ export function FlagIcon({ code, className = '' }: FlagIconProps) {
           <path d="M8 8 Q10 8.5 12 8" stroke="#DA0000" strokeWidth="0.3" fill="none" />
         </svg>
       )
+    case 'mx':
+      return (
+        <svg className={className} width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="20" height="14" rx="1" fill="#006847" />
+          <rect x="6.67" width="6.66" height="14" fill="#FFFFFF" />
+          <rect x="13.33" width="6.67" height="14" rx="1" fill="#CE1126" />
+          <circle cx="10" cy="7" r="2" fill="#006847" />
+        </svg>
+      )
+    case 'ch':
+      return (
+        <svg className={className} width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="20" height="14" rx="1" fill="#FF0000" />
+          <rect x="7.5" y="4" width="5" height="6" fill="#FFFFFF" />
+          <rect x="9" y="2" width="2" height="10" fill="#FFFFFF" />
+        </svg>
+      )
     default:
       return (
         <svg className={className} width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">

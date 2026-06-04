@@ -8,11 +8,12 @@ const hrefs = ['/servicos/software-development', '/servicos/design-ui-ux', '/ser
 
 export default async function ServicosPage() {
   const t = await getTranslations('servicos')
+  const tc = await getTranslations('common')
   const services = Array.from({ length: 8 }, (_, i) => ({
     Illustration: illustrations[i],
     title: t(`items.${i}.title`),
     description: t(`items.${i}.description`),
-    leader: t(`items.${i}.leader`),
+    hoverText: tc('clickToKnow'),
     href: hrefs[i],
   }))
 
@@ -21,7 +22,7 @@ export default async function ServicosPage() {
       <div className="mx-auto max-w-6xl px-6">
         <SectionTitle label={t('pageTitle.label')} title={t('pageTitle.title')} subtitle={t('pageTitle.subtitle')} />
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {services.map(s => <ServiceCard key={s.title} Illustration={s.Illustration} title={s.title} description={s.description} leader={s.leader} href={s.href} />)}
+          {services.map(s => <ServiceCard key={s.title} Illustration={s.Illustration} title={s.title} description={s.description} hoverText={s.hoverText} href={s.href} />)}
         </div>
       </div>
     </section>

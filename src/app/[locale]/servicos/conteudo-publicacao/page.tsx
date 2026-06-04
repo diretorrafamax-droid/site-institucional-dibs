@@ -11,15 +11,15 @@ import { TeamShowcase } from '@/components/TeamShowcase'
 
 const painIllustrations = [PainStrategy, PainTime, PainNoSales, PainHiring, PainCosts]
 const teamMeta = [
-  { initials: 'HA', color: '#E67E22', photo: '/assets/team/heitor-almeida.png' },
-  { initials: 'DB', color: '#3498DB', photo: '/assets/team/davi-barbosa.png' },
-  { initials: 'NC', color: '#9B59B6', photo: '/assets/team/noah-campos.png' },
-  { initials: 'BT', color: '#2ECC71', photo: '/assets/team/benjamim-torres.png' },
-  { initials: 'CD', color: '#E74C3C', photo: '/assets/team/celia-duarte.png' },
-  { initials: 'TN', color: '#F39C12', photo: '/assets/team/tarsila-nunes.png' },
-  { initials: 'LA', color: '#1ABC9C', photo: '/assets/team/lis-andrade.png' },
-  { initials: 'LF', color: '#8E44AD', photo: '/assets/team/leila-fontes.png' },
-  { initials: 'VV', color: '#2C3E50', photo: '/assets/team/valerio-vargas.png' },
+  { initials: 'HA', color: '#E67E22', photo: '/assets/team/heitor-almeida.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'DB', color: '#3498DB', photo: '/assets/team/davi-barbosa.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'NC', color: '#9B59B6', photo: '/assets/team/noah-campos.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'BT', color: '#2ECC71', photo: '/assets/team/benjamim-torres.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'CD', color: '#E74C3C', photo: '/assets/team/celia-duarte.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'TN', color: '#F39C12', photo: '/assets/team/tarsila-nunes.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'LA', color: '#1ABC9C', photo: '/assets/team/lis-andrade.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'LF', color: '#8E44AD', photo: '/assets/team/leila-fontes.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'VV', color: '#2C3E50', photo: '/assets/team/valerio-vargas.png', countryCode: 'br', type: 'ia' as const },
 ]
 
 export default function ConteudoPublicacaoPage() {
@@ -56,6 +56,8 @@ export default function ConteudoPublicacaoPage() {
     initials: teamMeta[i].initials,
     color: teamMeta[i].color,
     photo: teamMeta[i].photo,
+    countryCode: teamMeta[i].countryCode,
+    type: teamMeta[i].type,
     competencias: t.raw(`team.members.${i}.competencias`) as string[],
   }))
 
