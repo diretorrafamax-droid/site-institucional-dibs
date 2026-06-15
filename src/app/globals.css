@@ -39,16 +39,29 @@ body {
   font-family: var(--font-inter), Arial, Helvetica, sans-serif;
 }
 
-@keyframes carousel-scroll {
+@keyframes carousel-scroll-left {
   0% { transform: translateX(0); }
   100% { transform: translateX(-33.333%); }
 }
 
-.animate-carousel {
-  animation: carousel-scroll 40s linear infinite;
+@keyframes carousel-scroll-right {
+  0% { transform: translateX(-33.333%); }
+  100% { transform: translateX(0); }
 }
 
-.animate-carousel:hover {
+.animate-carousel-left {
+  animation: carousel-scroll-left 40s linear infinite;
+}
+
+.animate-carousel-left:hover {
+  animation-play-state: paused;
+}
+
+.animate-carousel-right {
+  animation: carousel-scroll-right 40s linear infinite;
+}
+
+.animate-carousel-right:hover {
   animation-play-state: paused;
 }
 

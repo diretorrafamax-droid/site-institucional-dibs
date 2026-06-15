@@ -194,8 +194,8 @@ Yuri Mendonça (CDO)
 Andrew Pierce
 Android
 Anos de backtest mínimo
-Antes de investir milhares,
-Antes de investir, valide. Metodologia exclusiva em 4 fases com score Go/No-Go. Análise completa em 5 a 10 dias úteis.
+Antes de investir alto,
+Antes de investir alto, invista na validação de sua ideia. Metodologia exclusiva em 4 fases com score Go/No-Go. Análise completa em 5 a 10 dias úteis.
 Análise
 Análise da jornada do usuário, proposta de valor, adequação ao mercado e diferenciais competitivos.
 Análise de Risco
@@ -479,7 +479,7 @@ Contratos inteligentes e tokens
 Contratos inteligentes e tokens com excelência técnica.
 Contratos, LGPD, termos de uso e compliance regulatório
 Contribuidor principal de protocolos DeFi
-Controladora dos dados: Rafael Mendonça — rafael@dibssolutions.com
+Controladora dos dados: Rafael Mendonça — rafael@dibs.solutions
 Cookies utilizados:
 Coordenou dezenas de projetos e equipes
 Copywriting
@@ -1002,7 +1002,7 @@ PMP Certified
 PT/EN/FR/ES por tradutores especializados. Contexto cultural e técnico preservado.
 Padrões
 Paleta, tipografia, ícones e identidade completa. Sua marca traduzida para o digital com consistência.
-Para exercer qualquer um desses direitos, entre em contato: rafael@dibssolutions.com. Responderemos em até 15 dias úteis conforme previsto na LGPD.
+Para exercer qualquer um desses direitos, entre em contato: rafael@dibs.solutions. Responderemos em até 15 dias úteis conforme previsto na LGPD.
 Para questões relacionadas à proteção de dados, entre em contato com nosso encarregado:
 Parceria Real
 Paulo Macedo
@@ -1366,7 +1366,7 @@ ir
 pt
 pt-BR
 rafabelha
-rafael@dibssolutions.com
+rafael@dibs.solutions
 real
 se
 seu@email.com

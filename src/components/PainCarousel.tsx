@@ -32,7 +32,7 @@ export function PainCarousel({ title: _title, pains }: PainCarouselProps) {
         </h2>
       </div>
 
-      <div className="flex animate-carousel gap-6" style={{ width: 'max-content' }}>
+      <div className="flex animate-carousel-right gap-6" style={{ width: 'max-content' }}>
         {[...pains, ...pains, ...pains].map((p, i) => (
           <PainCard key={`${p.problem}-${i}`} pain={p} />
         ))}

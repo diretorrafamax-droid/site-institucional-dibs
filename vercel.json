@@ -23,6 +23,6 @@
     }
   ],
   "redirects": [
-    { "source": "/", "destination": "/pt", "permanent": true }
+    { "source": "/", "destination": "/en", "permanent": true }
   ]
 }

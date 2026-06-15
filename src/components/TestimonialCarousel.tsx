@@ -1,14 +1,25 @@
 'use client'
 
-import Image from 'next/image'
+function Stars({ rating = 5 }: { rating?: number }) {
+  return (
+    <div className="flex gap-0.5">
+      {Array.from({ length: 5 }, (_, i) => (
+        <svg key={i} width="10" height="10" viewBox="0 0 24 24" fill={i < rating ? '#facc15' : 'none'} stroke={i < rating ? '#facc15' : '#d1d5db'} strokeWidth="2" className="shrink-0">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+        </svg>
+      ))}
+    </div>
+  )
+}
 
 const testimonials = [
   {
-    quote: 'A Dibs transformou minha ideia em um e-book completo em apenas 15 dias. A qualidade do design e da escrita superou minhas expectativas — e já está vendendo na Amazon.',
+    quote: 'A Dibs transformou minha ideia em um e-book completo em apenas 5 dias. A qualidade do design e da escrita superou minhas expectativas.',
     name: 'Débora Mendonça',
     project: 'E-Book Experiência do Lar',
-    tags: '15 dias • 42 páginas • vendas na 1ª semana',
+    tags: '5 dias • 42 páginas • vendas na 1ª semana',
     photo: '/assets/testimonials/debora-mendonca.png',
+    rating: 5,
   },
   {
     quote: 'Precisava de um jogo simples e divertido para entreter meus clientes enquanto aguardam atendimento. A Dibs entregou um snake completo com fases, power-ups e ranking em tempo recorde.',
@@ -16,6 +27,7 @@ const testimonials = [
     project: 'Game Snake Bonus',
     tags: '5 fases • power-ups • mobile-first • ranking',
     photo: '/assets/testimonials/guilherme-amado.png',
+    rating: 5,
   },
   {
     quote: 'A Dibs automatizou minha estratégia de trading com resultados financeiros reais. A precisão dos bots e a transparência das análises me deram confiança para operar no mercado.',
@@ -23,6 +35,7 @@ const testimonials = [
     project: 'Automação de Estratégia Financeira',
     tags: 'automação real • resultados mensuráveis',
     photo: '/assets/testimonials/daniel-dias.png',
+    rating: 5,
   },
   {
     quote: 'Conhecemos o trabalho da Dibs antes mesmo da agência existir. O site que fizeram para a Top5Trades foi profissional e entregue no prazo — agora vamos refazer com a estrutura nova.',
@@ -30,15 +43,16 @@ const testimonials = [
     project: 'Website Institucional',
     tags: 'projeto anterior • refazendo com nova identidade',
     photo: '/assets/testimonials/top5trades.png',
+    rating: 5,
   },
 ]
 
 function TestimonialCard({ t: _t }: { t: typeof testimonials[number] }) {
   return (
     <div className="flex w-[380px] shrink-0 flex-col rounded-2xl border border-border bg-background sm:w-[460px]">
-      <div className="flex gap-4 p-6 pb-4">
-        <div className="flex flex-col items-center gap-2">
-          <Image
+      <div className="flex gap-6 p-6 pb-4">
+        <div className="flex shrink-0 flex-col items-center gap-2">
+          <img
             src={_t.photo}
             alt={_t.name}
             width={64}
@@ -46,6 +60,7 @@ function TestimonialCard({ t: _t }: { t: typeof testimonials[number] }) {
             className="h-16 w-16 shrink-0 rounded-full object-cover"
           />
           <p className="text-center text-xs font-semibold leading-tight">{_t.name}</p>
+          <Stars rating={_t.rating} />
         </div>
         <div className="flex flex-col">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="-ml-1 mb-1 text-accent/40">
@@ -78,7 +93,7 @@ export function TestimonialCarousel() {
         </h2>
       </div>
 
-      <div className="flex animate-carousel gap-6" style={{ width: 'max-content' }}>
+      <div className="flex animate-carousel-left gap-6" style={{ width: 'max-content' }}>
         {[...testimonials, ...testimonials, ...testimonials].map((t, i) => (
           <TestimonialCard key={`${t.name}-${i}`} t={t} />
         ))}

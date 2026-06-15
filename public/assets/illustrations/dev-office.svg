@@ -1,0 +1,89 @@
+<svg viewBox="0 0 520 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="520" height="400" rx="16" fill="var(--surface, #F5F5F5)"/>
+  
+  <!-- Window -->
+  <rect x="340" y="30" width="150" height="120" rx="8" fill="var(--background, #fff)" stroke="var(--border, #E5E5E5)" stroke-width="2"/>
+  <line x1="415" y1="30" x2="415" y2="150" stroke="var(--border, #E5E5E5)" stroke-width="2"/>
+  <line x1="340" y1="90" x2="490" y2="90" stroke="var(--border, #E5E5E5)" stroke-width="2"/>
+  
+  <!-- Sky through window -->
+  <rect x="342" y="32" width="146" height="116" rx="6" fill="#E8F4FD"/>
+  <circle cx="440" cy="55" r="14" fill="#FFD93D" opacity="0.7"/>
+  
+  <!-- Desk 1 (left) -->
+  <rect x="30" y="240" width="200" height="12" rx="4" fill="var(--accent, #19D87D)" opacity="0.3"/>
+  <rect x="40" y="252" width="8" height="40" fill="var(--muted, #999)" opacity="0.3"/>
+  <rect x="212" y="252" width="8" height="40" fill="var(--muted, #999)" opacity="0.3"/>
+  
+  <!-- Monitor 1 -->
+  <rect x="80" y="190" width="100" height="50" rx="4" fill="var(--muted, #666)" opacity="0.15"/>
+  <rect x="85" y="195" width="90" height="38" rx="2" fill="var(--accent, #19D87D)" opacity="0.08"/>
+  <rect x="123" y="240" width="14" height="8" rx="2" fill="var(--muted, #999)" opacity="0.2"/>
+  
+  <!-- Developer 1 (sitting at desk 1) -->
+  <!-- Head -->
+  <circle cx="130" cy="198" r="14" fill="var(--foreground, #1C1C1C)" opacity="0.15"/>
+  <!-- Body -->
+  <ellipse cx="130" cy="228" rx="18" ry="12" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  
+  <!-- Keyboard 1 -->
+  <rect x="90" y="235" width="60" height="6" rx="2" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  
+  <!-- Desk 2 (center-right) -->
+  <rect x="290" y="260" width="180" height="12" rx="4" fill="var(--accent, #19D87D)" opacity="0.25"/>
+  <rect x="300" y="272" width="8" height="40" fill="var(--muted, #999)" opacity="0.3"/>
+  <rect x="454" y="272" width="8" height="40" fill="var(--muted, #999)" opacity="0.3"/>
+  
+  <!-- Monitor 2 (ultrawide) -->
+  <rect x="325" y="200" width="110" height="60" rx="4" fill="var(--muted, #666)" opacity="0.15"/>
+  <rect x="330" y="205" width="100" height="48" rx="2" fill="var(--accent, #19D87D)" opacity="0.08"/>
+  <rect x="373" y="260" width="14" height="8" rx="2" fill="var(--muted, #999)" opacity="0.2"/>
+  
+  <!-- Developer 2 (sitting at desk 2) -->
+  <circle cx="380" cy="210" r="14" fill="var(--foreground, #1C1C1C)" opacity="0.15"/>
+  <ellipse cx="380" cy="245" rx="18" ry="12" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  
+  <!-- Keyboard 2 -->
+  <rect x="340" y="255" width="55" height="6" rx="2" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  
+  <!-- Developer 3 (standing, pointing at screen on wall) -->
+  <circle cx="240" cy="120" r="13" fill="var(--foreground, #1C1C1C)" opacity="0.15"/>
+  <ellipse cx="240" cy="148" rx="16" ry="10" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  <rect x="236" y="155" width="8" height="35" rx="3" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  <rect x="232" y="185" width="16" height="6" rx="3" fill="var(--foreground, #1C1C1C)" opacity="0.1"/>
+  
+  <!-- Arm pointing -->
+  <line x1="252" y1="142" x2="278" y2="118" stroke="var(--foreground, #1C1C1C)" stroke-width="3" stroke-linecap="round" opacity="0.15"/>
+  
+  <!-- Whiteboard/screen on wall -->
+  <rect x="30" y="50" width="160" height="100" rx="6" fill="var(--background, #fff)" stroke="var(--border, #E5E5E5)" stroke-width="2"/>
+  <!-- Code lines on whiteboard -->
+  <rect x="45" y="65" width="60" height="4" rx="2" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <rect x="45" y="77" width="45" height="4" rx="2" fill="var(--accent, #19D87D)" opacity="0.15"/>
+  <rect x="55" y="89" width="50" height="4" rx="2" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <rect x="55" y="101" width="35" height="4" rx="2" fill="var(--accent, #19D87D)" opacity="0.15"/>
+  <rect x="45" y="113" width="55" height="4" rx="2" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <rect x="45" y="125" width="40" height="4" rx="2" fill="var(--accent, #19D87D)" opacity="0.15"/>
+  
+  <!-- Coffee cup on desk 1 -->
+  <rect x="40" y="225" width="12" height="14" rx="2" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <path d="M52 230 Q58 230 58 235 Q58 240 52 240" stroke="var(--accent, #19D87D)" stroke-width="1.5" fill="none" opacity="0.2"/>
+  
+  <!-- Plant -->
+  <rect x="470" y="280" width="20" height="25" rx="4" fill="var(--muted, #999)" opacity="0.15"/>
+  <circle cx="478" cy="272" r="10" fill="var(--accent, #19D87D)" opacity="0.15"/>
+  <circle cx="468" cy="278" r="8" fill="var(--accent, #19D87D)" opacity="0.1"/>
+  <circle cx="488" cy="278" r="8" fill="var(--accent, #19D87D)" opacity="0.1"/>
+  
+  <!-- Decorative dots -->
+  <circle cx="50" cy="330" r="3" fill="var(--accent, #19D87D)" opacity="0.08"/>
+  <circle cx="70" cy="340" r="2" fill="var(--accent, #19D87D)" opacity="0.06"/>
+  <circle cx="460" cy="340" r="3" fill="var(--accent, #19D87D)" opacity="0.08"/>
+  <circle cx="480" cy="350" r="2" fill="var(--accent, #19D87D)" opacity="0.06"/>
+  <circle cx="260" cy="350" r="4" fill="var(--accent, #19D87D)" opacity="0.06"/>
+  
+  <!-- Chat bubbles collaboration -->
+  <rect x="155" y="170" width="35" height="18" rx="6" fill="var(--accent, #19D87D)" opacity="0.08"/>
+  <rect x="185" y="175" width="40" height="18" rx="6" fill="var(--accent, #19D87D)" opacity="0.06"/>
+</svg>

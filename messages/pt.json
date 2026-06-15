@@ -75,7 +75,7 @@
       "0": {
         "headline": "Transformamos ideias em",
         "highlight": "soluções digitais que geram impacto real no seu negócio",
-        "description": "Da concepção ao deploy, nossa equipe de 40+ agentes especializados constrói software, design, conteúdo e blockchain. Validamos seu projeto antes do investimento para evitar retrabalho."
+        "description": "Da concepção ao deploy, nossa equipe de 60+ agentes especializados constrói software, design, conteúdo e blockchain. Validamos seu projeto antes do investimento para evitar retrabalho."
       },
       "1": {
         "headline": "Blockchain não é só criptomoeda.",
@@ -83,12 +83,12 @@
         "description": "Da tokenização de ativos ao DeFi, criamos soluções descentralizadas completas com segurança, auditoria e compliance. Mais de 10 especialistas Web3 prontos para tirar seu projeto do papel e levar ao mercado."
       },
       "2": {
-        "headline": "Antes de investir milhares,",
-        "highlight": "invista centenas para validar sua ideia",
+        "headline": "Antes de investir alto,",
+        "highlight": "invista na validação de sua ideia",
         "description": "O Radar Dibs analisa seu projeto sob 4 perspectivas — UX, Técnica, Mercado e Econômica — com score Go/No-Go. Mais de 70% dos projetos falham por não haver validação prévia adequada."
       },
       "3": {
-        "headline": "Uma equipe com 40+ especialistas",
+        "headline": "Uma equipe com 60+ especialistas",
         "highlight": "tudo por um investimento\nsob medida",
         "description": "Design, desenvolvimento, conteúdo, blockchain e segurança reunidos em um só lugar. Metodologia ágil, entregas quinzenais e 100% dos projetos concluídos dentro do prazo estipulado."
       }
@@ -210,7 +210,7 @@
         "2": {
           "year": "2025",
           "title": "Expansão",
-          "text": "Crescimento para 8 departamentos especializados. Blockchain, Automações Financeiras e o Radar Dibs são lançados. A equipe chega a 40+ agentes."
+          "text": "Crescimento para 8 departamentos especializados. Blockchain, Automações Financeiras e o Radar Dibs são lançados. A equipe chega a 60+ agentes."
         },
         "3": {
           "year": "2026",
@@ -248,7 +248,7 @@
       "title": "Dibs em Números",
       "items": {
         "0": {
-          "value": "40+",
+          "value": "60+",
           "label": "Agentes de IA especializados"
         },
         "1": {
@@ -1565,7 +1565,7 @@
     "hero": {
       "title": "Radar",
       "titleHighlight": "Dibs",
-      "description": "Antes de investir milhares, invista centenas para validar sua ideia. Metodologia exclusiva em 4 fases — UX, Técnica, Mercado e Econômica — com score Go/No-Go de 0 a 10. Relatório executivo de 10 páginas com riscos, recomendações e roadmap. Análise completa em 5 a 10 dias úteis. 70% dos projetos falham por falta de validação — o seu não será um deles.",
+      "description": "Antes de investir alto, invista na validação de sua ideia. Metodologia exclusiva em 4 fases — UX, Técnica, Mercado e Econômica — com score Go/No-Go de 0 a 10. Relatório executivo de 10 páginas com riscos, recomendações e roadmap. Análise completa em 5 a 10 dias úteis. 70% dos projetos falham por falta de validação — o seu não será um deles.",
       "cta": "Solicitar Radar Dibs",
       "ctaSecondary": "Ver metodologia"
     },
@@ -2193,7 +2193,7 @@
       },
       "email": {
         "title": "📧 E-mail",
-        "value": "rafael@dibssolutions.com"
+        "value": "rafael@dibs.solutions"
       },
       "horario": {
         "title": "⏱️ Horário de resposta",
@@ -2211,7 +2211,7 @@
       "1": {
         "title": "1. Quem somos",
         "p1": "A Dibs Solutions é uma agência de tecnologia sediada em Natal — RN. Nosso site institucional apresenta nossos serviços e capta contatos de potenciais clientes para responder solicitações de orçamento e parceria.",
-        "p2": "Controladora dos dados: Rafael Mendonça — rafael@dibssolutions.com"
+        "p2": "Controladora dos dados: Rafael Mendonça — rafael@dibs.solutions"
       },
       "2": {
         "title": "2. Dados que coletamos",
@@ -2270,7 +2270,7 @@
           "Oposição — Opor-se ao tratamento para finalidades específicas",
           "Informação — Saber sobre o compartilhamento e a finalidade do uso dos dados"
         ],
-        "p2": "Para exercer qualquer um desses direitos, entre em contato: rafael@dibssolutions.com. Responderemos em até 15 dias úteis conforme previsto na LGPD."
+        "p2": "Para exercer qualquer um desses direitos, entre em contato: rafael@dibs.solutions. Responderemos em até 15 dias úteis conforme previsto na LGPD."
       },
       "8": {
         "title": "8. Segurança",
@@ -2291,7 +2291,7 @@
         "title": "10. Contato do encarregado (DPO)",
         "p1": "Para questões relacionadas à proteção de dados, entre em contato com nosso encarregado:",
         "name": "Rafael Mendonça",
-        "email": "rafael@dibssolutions.com",
+        "email": "rafael@dibs.solutions",
         "location": "Natal — RN, Brasil"
       }
     }

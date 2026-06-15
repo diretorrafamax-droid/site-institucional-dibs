@@ -1,0 +1,62 @@
+<svg viewBox="0 0 520 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="400" rx="16" fill="var(--surface, #F5F5F5)"/>
+
+  <!-- Radar circles -->
+  <circle cx="260" cy="200" r="140" fill="none" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.08"/>
+  <circle cx="260" cy="200" r="105" fill="none" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.12"/>
+  <circle cx="260" cy="200" r="70" fill="none" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.15"/>
+  <circle cx="260" cy="200" r="35" fill="none" stroke="var(--accent, #19D87D)" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Cross lines -->
+  <line x1="120" y1="200" x2="400" y2="200" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.1"/>
+  <line x1="260" y1="60" x2="260" y2="340" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.1"/>
+  <line x1="161" y1="101" x2="359" y2="299" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.08"/>
+  <line x1="359" y1="101" x2="161" y2="299" stroke="var(--accent, #19D87D)" stroke-width="1" opacity="0.08"/>
+
+  <!-- Radar sweep (green wedge) -->
+  <path d="M260 200 L320 90 A140 140 0 0 1 400 200 Z" fill="var(--accent, #19D87D)" opacity="0.06"/>
+
+  <!-- 4 Quadrant labels -->
+  <!-- UX - Top left -->
+  <rect x="148" y="78" width="85" height="28" rx="6" fill="var(--background, #fff)" stroke="var(--border, #E5E5E5)" stroke-width="1.5"/>
+  <text x="190" y="96" text-anchor="middle" font-size="11" font-weight="700" fill="var(--accent, #19D87D)" font-family="sans-serif">UX</text>
+
+  <!-- Técnica - Top right -->
+  <rect x="287" y="78" width="85" height="28" rx="6" fill="var(--background, #fff)" stroke="var(--border, #E5E5E5)" stroke-width="1.5"/>
+  <text x="330" y="96" text-anchor="middle" font-size="11" font-weight="700" fill="var(--accent, #19D87D)" font-family="sans-serif">TÉCNICA</text>
+
+  <!-- Mercado - Bottom left -->
+  <rect x="148" y="294" width="85" height="28" rx="6" fill="var(--background, #fff)" stroke="var(--border, #E5E5E5)" stroke-width="1.5"/>
+  <text x="190" y="312" text-anchor="middle" font-size="11" font-weight="700" fill="var(--muted, #888)" font-family="sans-serif">MERCADO</text>
+
+  <!-- Econômica - Bottom right -->
+  <rect x="287" y="294" width="85" height="28" rx="6" fill="var(--background, #fff)" stroke="var(--border, #E5E5E5)" stroke-width="1.5"/>
+  <text x="330" y="312" text-anchor="middle" font-size="11" font-weight="700" fill="var(--muted, #888)" font-family="sans-serif">ECONÔMICA</text>
+
+  <!-- Score needle -->
+  <g transform="rotate(-35, 260, 200)">
+    <line x1="260" y1="200" x2="260" y2="90" stroke="var(--accent, #19D87D)" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="260" cy="200" r="6" fill="var(--accent, #19D87D)" opacity="0.8"/>
+    <circle cx="260" cy="200" r="3" fill="var(--background, #fff)"/>
+  </g>
+
+  <!-- Data dots scatter -->
+  <circle cx="190" cy="150" r="4" fill="var(--accent, #19D87D)" opacity="0.25"/>
+  <circle cx="320" cy="140" r="4" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <circle cx="210" cy="260" r="4" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <circle cx="340" cy="260" r="4" fill="var(--accent, #19D87D)" opacity="0.25"/>
+  <circle cx="280" cy="170" r="4" fill="var(--accent, #19D87D)" opacity="0.3"/>
+  <circle cx="230" cy="230" r="4" fill="var(--accent, #19D87D)" opacity="0.2"/>
+  <circle cx="300" cy="220" r="4" fill="var(--accent, #19D87D)" opacity="0.25"/>
+  <circle cx="250" cy="140" r="4" fill="var(--accent, #19D87D)" opacity="0.2"/>
+
+  <!-- Score badge -->
+  <rect x="340" y="340" width="130" height="36" rx="18" fill="var(--accent, #19D87D)" opacity="0.12"/>
+  <text x="405" y="363" text-anchor="middle" font-size="13" font-weight="800" fill="var(--accent, #19D87D)" font-family="sans-serif">GO → Score 8.4/10</text>
+
+  <!-- Subtle pulse rings -->
+  <circle cx="260" cy="200" r="70" fill="none" stroke="var(--accent, #19D87D)" stroke-width="2" opacity="0.06">
+    <animate attributeName="r" values="70;90;70" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.06;0;0.06" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

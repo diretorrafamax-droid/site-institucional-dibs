@@ -42,7 +42,7 @@ export function ServiceCarousel() {
         </h2>
       </div>
 
-      <div className="flex animate-carousel gap-6" style={{ width: 'max-content' }}>
+      <div className="flex animate-carousel-left gap-6" style={{ width: 'max-content' }}>
         {[...serviceKeys, ...serviceKeys, ...serviceKeys].map((k, i) => (
           <CarouselCard key={`${k}-${i}`} index={k} />
         ))}

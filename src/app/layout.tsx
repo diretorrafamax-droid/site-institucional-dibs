@@ -15,13 +15,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <Script id="theme-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{
           __html: `(function(){try{var t=localStorage.getItem('theme');if(!t){t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'}window.__theme=t;if(t==='dark'){document.documentElement.classList.add('dark')}}catch(e){}})()`
         }} />
       </head>
-      <body className={`${inter.variable} font-sans min-h-full flex flex-col antialiased`}>
+      <body className={`${inter.variable} font-sans min-h-full flex flex-col antialiased`} suppressHydrationWarning>
         {children}
       </body>
     </html>

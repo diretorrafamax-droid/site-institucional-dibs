@@ -31,7 +31,7 @@ function buildEmailHtml(data: ContactData): string {
     <h3>Mensagem</h3>
     <p style="background:#f5f5f5;padding:16px;border-radius:8px">${data.mensagem.replace(/\n/g, '<br>')}</p>
     <hr>
-    <p style="font-size:12px;color:#666">Enviado via dibssolutions.com/contato</p>
+    <p style="font-size:12px;color:#666">Enviado via dibs.solutions/contato</p>
   `
 }
 
@@ -60,7 +60,7 @@ export async function sendContactEmail(data: ContactData): Promise<void> {
     },
   })
 
-  const to = process.env.CONTACT_EMAIL || 'rafael@dibssolutions.com'
+  const to = process.env.CONTACT_EMAIL || 'hello@dibs.solutions'
 
   await transporter.sendMail({
     from: `"${data.nome}" <${process.env.SMTP_USER}>`,

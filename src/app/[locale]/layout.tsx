@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
 import { CookieConsent } from "@/components/CookieConsent"
+import { LocaleBanner } from "@/components/LocaleBanner"
 import { notFound } from "next/navigation"
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -38,6 +39,7 @@ export default async function LocaleLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <CookieConsent />
+        <LocaleBanner />
       </ThemeProvider>
     </NextIntlClientProvider>
   )

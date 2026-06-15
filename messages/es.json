@@ -75,7 +75,7 @@
       "0": {
         "headline": "Transformamos ideas en",
         "highlight": "soluciones digitales que generan impacto real en tu negocio",
-        "description": "De la concepción al deploy, nuestro equipo de más de 40 agentes especializados construye software, diseño, contenido y blockchain. Validamos tu proyecto antes de la inversión para evitar retrabajo."
+        "description": "De la concepción al deploy, nuestro equipo de más de 60 agentes especializados construye software, diseño, contenido y blockchain. Validamos tu proyecto antes de la inversión para evitar retrabajo."
       },
       "1": {
         "headline": "Blockchain no es solo criptomoneda.",
@@ -83,12 +83,12 @@
         "description": "De la tokenización de activos al DeFi, creamos soluciones descentralizadas completas con seguridad, auditoría y compliance. Más de 10 expertos Web3 listos para sacar tu proyecto del papel y llevarlo al mercado."
       },
       "2": {
-        "headline": "Antes de invertir miles,",
-        "highlight": "invierte cientos para validar tu idea",
+        "headline": "Antes de invertir mucho,",
+        "highlight": "invierte en la validación de tu idea",
         "description": "El Radar Dibs analiza tu proyecto desde 4 perspectivas — UX, Técnica, Mercado y Económica — con score Go/No-Go. Más del 70% de los proyectos fracasan por no contar con una validación previa adecuada."
       },
       "3": {
-        "headline": "Uma equipe com 40+ especialistas",
+        "headline": "Uma equipe com 60+ especialistas",
         "highlight": "tudo por um investimento\nsob medida",
         "description": "Diseño, desarrollo, contenido, blockchain y seguridad reunidos en un solo lugar. Metodología ágil, entregas quincenales y 100% de los proyectos concluidos dentro del plazo estipulado."
       }
@@ -210,7 +210,7 @@
         "2": {
           "year": "2025",
           "title": "Expansión",
-          "text": "Crecimiento a 8 departamentos especializados. Blockchain, Automatizaciones Financieras y el Radar Dibs son lanzados. El equipo llega a 40+ agentes."
+          "text": "Crecimiento a 8 departamentos especializados. Blockchain, Automatizaciones Financieras y el Radar Dibs son lanzados. El equipo llega a 60+ agentes."
         },
         "3": {
           "year": "2026",
@@ -248,7 +248,7 @@
       "title": "Dibs em Números",
       "items": {
         "0": {
-          "value": "40+",
+          "value": "60+",
           "label": "Agentes de IA especializados"
         },
         "1": {
@@ -1558,7 +1558,7 @@
     "hero": {
       "title": "Radar",
       "titleHighlight": "Dibs",
-      "description": "Before investing, validate. Exclusive 4-phase methodology with Go/No-Go score. Complete analysis in 5 to 10 business days.",
+      "description": "Antes de invertir mucho, invierte en la validación de tu idea. Metodología exclusiva en 4 fases con score Go/No-Go. Análisis completo en 5 a 10 días hábiles.",
       "cta": "Request Radar Dibs",
       "ctaSecondary": "See methodology"
     },
@@ -2186,7 +2186,7 @@
       },
       "email": {
         "title": "📧 Email",
-        "value": "rafael@dibssolutions.com"
+        "value": "rafael@dibs.solutions"
       },
       "horario": {
         "title": "⏱️ Response hours",
@@ -2204,7 +2204,7 @@
       "1": {
         "title": "1. Who we are",
         "p1": "Dibs Solutions is a technology agency based in Natal — RN, Brazil. Our institutional website presents our services and captures contacts from potential clients to respond to quote and partnership requests.",
-        "p2": "Data controller: Rafael Mendonça — rafael@dibssolutions.com"
+        "p2": "Data controller: Rafael Mendonça — rafael@dibs.solutions"
       },
       "2": {
         "title": "2. Data we collect",
@@ -2263,7 +2263,7 @@
           "Opposition — Object to processing for specific purposes",
           "Information — Know about data sharing and the purpose of data use"
         ],
-        "p2": "To exercise any of these rights, contact: rafael@dibssolutions.com. We will respond within 15 business days as provided by LGPD."
+        "p2": "To exercise any of these rights, contact: rafael@dibs.solutions. We will respond within 15 business days as provided by LGPD."
       },
       "8": {
         "title": "8. Security",
@@ -2284,7 +2284,7 @@
         "title": "10. Contact the officer (DPO)",
         "p1": "For data protection-related questions, contact our officer:",
         "name": "Rafael Mendonça",
-        "email": "rafael@dibssolutions.com",
+        "email": "rafael@dibs.solutions",
         "location": "Natal — RN, Brazil"
       }
     }
