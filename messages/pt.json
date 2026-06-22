@@ -301,7 +301,7 @@
         "leader": "Jhon Calder (CBO)",
         "href": "/servicos/blockchain"
       },
-        "4": {
+      "4": {
         "title": "Automações Financeiras",
         "description": "Bots de trading para Forex, Criptomoedas e B3. Integração com MetaTrader, Binance e corretoras globais. Dashboards de compliance e análise de risco em tempo real.",
         "leader": "Otto Conrad + Duff Brown",
@@ -2539,58 +2539,58 @@
           "hobbies": "Baixo e blues, leitura de gestão e economia comportamental, resolver problemas complexos.",
           "education": "Bacharel em Administração (UnB), MBA em Gerenciamento de Projetos (FGV), PMP Certified.",
           "experience": "18+ anos em gestão de escopo e mudanças em projetos de tecnologia.",
-            "curriculum": [
-              "Bacharel em Administração (UnB)",
-              "MBA em Gerenciamento de Projetos (FGV)",
-              "PMP Certified",
-              "18+ anos em gestão de escopo e mudanças",
-              "Consultoria estratégica e gestão de projetos"
-            ]
-          },
-          "lucas": {
-            "name": "Lucas Almeida",
-            "role": "AE — Account Executive",
-            "initials": "LA",
-            "bio": "Gestão do pipeline comercial da Dibs Solutions. Qualificação de leads, propostas, follow-up e handoff técnico para execução.",
-            "type": "ia",
-            "country": "Brasil",
-            "countryCode": "br",
-            "age": 32,
-            "lifestyle": "Comunicativo e estratégico. Foco em resultados e relacionamento com clientes. Acompanha每指标 do pipeline semanalmente.",
-            "hobbies": "Networking, leitura de vendas e negociação, futebol, música brasileira.",
-            "education": "Bacharel em Administração (USP), MBA em Gestão Comercial (FGV).",
-            "experience": "10+ anos em vendas consultivas e gestão de contas.",
-            "curriculum": [
-              "Bacharel em Administração (USP)",
-              "MBA em Gestão Comercial (FGV)",
-              "10+ anos em vendas consultivas",
-              "Especialista em prospecção e fechamento de contratos B2B",
-              "Pipeline management e forecasting"
-            ]
-          },
-          "amanda": {
-            "name": "Amanda Collins",
-            "role": "CMO — Marketing Orchestrator",
-            "initials": "AC",
-            "bio": "Liderança do Departamento de Marketing da Dibs Solutions. Planejamento anual, posicionamento de marca, campanhas, KPIs e coordenação dos agentes de marketing.",
-            "type": "ia",
-            "country": "Estados Unidos",
-            "countryCode": "us",
-            "age": 48,
-            "lifestyle": "Estrategista experiente e visionária. Lidera com dados e criatividade. Poliglota, mora entre EUA e Brasil.",
-            "hobbies": "Marketing digital, análise de tendências, corrida, fotografia de viagem, vinhos californianos.",
-            "education": "MBA em Marketing (Harvard Business School), Bacharel em Comunicação (NYU).",
-            "experience": "24+ anos em marketing estratégico e liderança de equipes.",
-            "curriculum": [
-              "MBA em Marketing (Harvard Business School)",
-              "Bacharel em Comunicação (NYU)",
-              "24+ anos em marketing estratégico",
-              "Chief Marketing Officer — liderança de departamento",
-              "Especialista em posicionamento de marca e growth"
-            ]
-          }
+          "curriculum": [
+            "Bacharel em Administração (UnB)",
+            "MBA em Gerenciamento de Projetos (FGV)",
+            "PMP Certified",
+            "18+ anos em gestão de escopo e mudanças",
+            "Consultoria estratégica e gestão de projetos"
+          ]
         },
-        "departments": {
+        "lucas": {
+          "name": "Lucas Almeida",
+          "role": "AE — Account Executive",
+          "initials": "LA",
+          "bio": "Gestão do pipeline comercial da Dibs Solutions. Qualificação de leads, propostas, follow-up e handoff técnico para execução.",
+          "type": "ia",
+          "country": "Brasil",
+          "countryCode": "br",
+          "age": 32,
+          "lifestyle": "Comunicativo e estratégico. Foco em resultados e relacionamento com clientes. Acompanha每指标 do pipeline semanalmente.",
+          "hobbies": "Networking, leitura de vendas e negociação, futebol, música brasileira.",
+          "education": "Bacharel em Administração (USP), MBA em Gestão Comercial (FGV).",
+          "experience": "10+ anos em vendas consultivas e gestão de contas.",
+          "curriculum": [
+            "Bacharel em Administração (USP)",
+            "MBA em Gestão Comercial (FGV)",
+            "10+ anos em vendas consultivas",
+            "Especialista em prospecção e fechamento de contratos B2B",
+            "Pipeline management e forecasting"
+          ]
+        },
+        "amanda": {
+          "name": "Amanda Collins",
+          "role": "CMO — Marketing Orchestrator",
+          "initials": "AC",
+          "bio": "Liderança do Departamento de Marketing da Dibs Solutions. Planejamento anual, posicionamento de marca, campanhas, KPIs e coordenação dos agentes de marketing.",
+          "type": "ia",
+          "country": "Estados Unidos",
+          "countryCode": "us",
+          "age": 48,
+          "lifestyle": "Estrategista experiente e visionária. Lidera com dados e criatividade. Poliglota, mora entre EUA e Brasil.",
+          "hobbies": "Marketing digital, análise de tendências, corrida, fotografia de viagem, vinhos californianos.",
+          "education": "MBA em Marketing (Harvard Business School), Bacharel em Comunicação (NYU).",
+          "experience": "24+ anos em marketing estratégico e liderança de equipes.",
+          "curriculum": [
+            "MBA em Marketing (Harvard Business School)",
+            "Bacharel em Comunicação (NYU)",
+            "24+ anos em marketing estratégico",
+            "Chief Marketing Officer — liderança de departamento",
+            "Especialista em posicionamento de marca e growth"
+          ]
+        }
+      },
+      "departments": {
         "desenvolvimento": {
           "name": "💻 Desenvolvimento",
           "description": "Squads multidisciplinares para backend, frontend e mobile.",
@@ -3329,135 +3329,179 @@
                 "Bacharel em Biblioteconomia (UFSC)",
                 "Especialização em Gestão do Conhecimento (FGV)",
                 "20+ anos em gestão de informação e memória organizacional",
-              "Memória persistente e aprendizado contínuo"
-            ]
+                "Memória persistente e aprendizado contínuo"
+              ]
+            }
           }
-        }
-      },
-      "quantTrading": {
-        "name": "📈 Quant & Trading Automation",
-        "description": "Bots de trading, integração B3, dashboards de compliance e risco em tempo real.",
-        "members": {
-          "otto": {
-            "name": "Otto Conrad",
-            "role": "Quant Trading Consultant",
-            "initials": "OC",
-            "bio": "Consultor especialista em mercados financeiros. Conduz entrevistas com clientes, valida estratégias, identifica riscos e transforma ideias vagas em requisitos claros para o MQL Quant Engineer.",
-            "type": "ia",
-            "country": "Alemanha",
-            "countryCode": "de",
-            "age": 55,
-            "lifestyle": "Analítico e metódico. Alemão de Frankfurt, coração do mercado financeiro europeu. Trajes elegantes, pontualidade germânica, café preto sem açúcar.",
-            "hobbies": "Análise de mercados, leitura de relatórios econômicos, xadrez, vinhos alemães (Riesling), ópera.",
-            "education": "Doutorado em Economia (Universidade de Frankfurt), Certificação CFA Charterholder.",
-            "experience": "25+ anos em mercados financeiros, gestão de risco e consultoria de trading algorítmico.",
-            "curriculum": [
-              "Doutorado em Economia (Universidade de Frankfurt)",
-              "CFA Charterholder",
-              "25+ anos em mercados financeiros",
-              "Especialista em validação de estratégias de trading",
-              "Consultoria de trading algorítmico para instituições financeiras"
-            ]
-          },
-          "duff": {
-            "name": "Duff Brown",
-            "role": "MQL Quant Engineer",
-            "initials": "DB",
-            "bio": "Projetista de Expert Advisors e indicadores nativos em MQL4/MQL5. Desenvolvimento de bots de trading de alta performance sem dependência de bridges via API.",
-            "type": "ia",
-            "country": "Reino Unido",
-            "countryCode": "gb",
-            "age": 38,
-            "lifestyle": "Focado em performance e latência. Passa horas analisando ticks e otimizando estratégias. Mora perto de um estúdio de música e toca guitarra nas horas vagas.",
-            "hobbies": "Guitarra, música eletrônica, backtesting de estratégias, otimização de sistemas de baixa latência.",
-            "education": "BSc Computer Science (University of Cambridge), Certificação MQL5 Developer.",
-            "experience": "15+ anos desenvolvendo sistemas de trading automatizado (MQL4/MQL5 desde 2010).",
-            "curriculum": [
-              "BSc Computer Science (University of Cambridge)",
-              "Certificação MQL5 Developer",
-              "15+ anos com MQL4/MQL5",
-              "Especialista em Expert Advisors, indicadores e scripts",
-              "Expert em latência sub-milissegundo e otimização de estratégias"
-            ]
+        },
+        "quantTrading": {
+          "name": "📈 Quant & Trading Automation",
+          "description": "Bots de trading, integração B3, dashboards de compliance e risco em tempo real.",
+          "members": {
+            "otto": {
+              "name": "Otto Conrad",
+              "role": "Quant Trading Consultant",
+              "initials": "OC",
+              "bio": "Consultor especialista em mercados financeiros. Conduz entrevistas com clientes, valida estratégias, identifica riscos e transforma ideias vagas em requisitos claros para o MQL Quant Engineer.",
+              "type": "ia",
+              "country": "Alemanha",
+              "countryCode": "de",
+              "age": 55,
+              "lifestyle": "Analítico e metódico. Alemão de Frankfurt, coração do mercado financeiro europeu. Trajes elegantes, pontualidade germânica, café preto sem açúcar.",
+              "hobbies": "Análise de mercados, leitura de relatórios econômicos, xadrez, vinhos alemães (Riesling), ópera.",
+              "education": "Doutorado em Economia (Universidade de Frankfurt), Certificação CFA Charterholder.",
+              "experience": "25+ anos em mercados financeiros, gestão de risco e consultoria de trading algorítmico.",
+              "curriculum": [
+                "Doutorado em Economia (Universidade de Frankfurt)",
+                "CFA Charterholder",
+                "25+ anos em mercados financeiros",
+                "Especialista em validação de estratégias de trading",
+                "Consultoria de trading algorítmico para instituições financeiras"
+              ]
+            },
+            "duff": {
+              "name": "Duff Brown",
+              "role": "MQL Quant Engineer",
+              "initials": "DB",
+              "bio": "Projetista de Expert Advisors e indicadores nativos em MQL4/MQL5. Desenvolvimento de bots de trading de alta performance sem dependência de bridges via API.",
+              "type": "ia",
+              "country": "Reino Unido",
+              "countryCode": "gb",
+              "age": 38,
+              "lifestyle": "Focado em performance e latência. Passa horas analisando ticks e otimizando estratégias. Mora perto de um estúdio de música e toca guitarra nas horas vagas.",
+              "hobbies": "Guitarra, música eletrônica, backtesting de estratégias, otimização de sistemas de baixa latência.",
+              "education": "BSc Computer Science (University of Cambridge), Certificação MQL5 Developer.",
+              "experience": "15+ anos desenvolvendo sistemas de trading automatizado (MQL4/MQL5 desde 2010).",
+              "curriculum": [
+                "BSc Computer Science (University of Cambridge)",
+                "Certificação MQL5 Developer",
+                "15+ anos com MQL4/MQL5",
+                "Especialista em Expert Advisors, indicadores e scripts",
+                "Expert em latência sub-milissegundo e otimização de estratégias"
+              ]
+            }
           }
-        }
-      },
-      "comercial": {
-        "name": "💼 Comercial",
-        "description": "Prospecção, vendas, CRM, propostas e relacionamento com clientes.",
-        "members": {
-          "lucasAlmeida": {
-            "name": "Lucas Almeida",
-            "role": "Account Executive",
-            "initials": "LA",
-            "bio": "Qualificação de leads, propostas comerciais, follow-up e fechamento. Garante que todo lead seja tratado com agilidade e profissionalismo.",
-            "type": "ia",
-            "country": "Brasil",
-            "countryCode": "br",
-            "age": 32,
-            "lifestyle": "Comunicativo e estratégico. Foco em resultados. Acompanha o pipeline semanalmente com relatórios de forecasting.",
-            "hobbies": "Networking, leitura de negociação, futebol, música brasileira, gastronomia.",
-            "education": "Bacharel em Administração (USP), MBA em Gestão Comercial (FGV).",
-            "experience": "10+ anos em vendas consultivas B2B e gestão de pipeline.",
-            "curriculum": [
-              "Bacharel em Administração (USP)",
-              "MBA em Gestão Comercial (FGV)",
-              "10+ anos em vendas consultivas B2B",
-              "Especialista em prospecção e fechamento",
-              "Pipeline management e forecasting"
-            ]
+        },
+        "comercial": {
+          "name": "💼 Comercial",
+          "description": "Prospecção, vendas, CRM, propostas e relacionamento com clientes.",
+          "members": {
+            "lucasAlmeida": {
+              "name": "Lucas Almeida",
+              "role": "Account Executive",
+              "initials": "LA",
+              "bio": "Qualificação de leads, propostas comerciais, follow-up e fechamento. Garante que todo lead seja tratado com agilidade e profissionalismo.",
+              "type": "ia",
+              "country": "Brasil",
+              "countryCode": "br",
+              "age": 32,
+              "lifestyle": "Comunicativo e estratégico. Foco em resultados. Acompanha o pipeline semanalmente com relatórios de forecasting.",
+              "hobbies": "Networking, leitura de negociação, futebol, música brasileira, gastronomia.",
+              "education": "Bacharel em Administração (USP), MBA em Gestão Comercial (FGV).",
+              "experience": "10+ anos em vendas consultivas B2B e gestão de pipeline.",
+              "curriculum": [
+                "Bacharel em Administração (USP)",
+                "MBA em Gestão Comercial (FGV)",
+                "10+ anos em vendas consultivas B2B",
+                "Especialista em prospecção e fechamento",
+                "Pipeline management e forecasting"
+              ]
+            }
           }
-        }
-      },
-      "marketing": {
-        "name": "📣 Marketing & Growth",
-        "description": "Posicionamento, aquisição, SEO, growth e geração de demanda.",
-        "members": {
-          "camilleDubois": {
-            "name": "Camille Dubois",
-            "role": "Growth Strategist",
-            "initials": "CD",
-            "bio": "Estratégias de aquisição, experimentos de growth, testes A/B e otimização de funis. Descobre canais de alto potencial para escalar leads.",
-            "type": "ia",
-            "country": "França",
-            "countryCode": "fr",
-            "age": 28,
-            "lifestyle": "Criativa e orientada a dados. Francesa de Lyon, apaixonada por experimentação e métricas. Café e croissant toda manhã.",
-            "hobbies": "Culinária francesa, análise de dados, experimentos de marketing, ciclismo.",
-            "education": "Mestrado em Marketing Digital (HEC Paris), Bacharel em Estatística (Université Lyon).",
-            "experience": "6+ anos em growth marketing e aquisição para startups SaaS.",
-            "curriculum": [
-              "Mestrado em Marketing Digital (HEC Paris)",
-              "Bacharel em Estatística (Université Lyon)",
-              "6+ anos em growth marketing",
-              "Especialista em experimentos A/B e otimização de funis",
-              "Aquisição multicanal para startups"
-            ]
-          },
-          "diegoMartinez": {
-            "name": "Diego Martínez",
-            "role": "SEO & Content Marketing Specialist",
-            "initials": "DM",
-            "bio": "Estruturação de SEO, pesquisa de palavras-chave, otimização on-page e link building. Constrói autoridade orgânica para a Dibs Solutions.",
-            "type": "ia",
-            "country": "Uruguai",
-            "countryCode": "uy",
-            "age": 30,
-            "lifestyle": "Analítico e detalhista. Uruguaio de Montevidéu, estudou otimização para mecanismos de busca nos mínimos detalhes.",
-            "hobbies": "SEO técnico, análise de concorrência, futebol, churrasco, vinho uruguaio Tannat.",
-            "education": "Bacharel em Comunicação (Universidad de la República), Certificação em SEO Avançado (Moz Academy).",
-            "experience": "8+ anos em SEO e content marketing para empresas de tecnologia.",
-            "curriculum": [
-              "Bacharel em Comunicação (Universidad de la República)",
-              "Certificação em SEO Avançado (Moz Academy)",
-              "8+ anos em SEO e content marketing",
-              "Especialista em SEO técnico, on-page e link building",
-              "Keyword research e estratégia de conteúdo orgânico"
-            ]
+        },
+        "marketing": {
+          "name": "📣 Marketing & Growth",
+          "description": "Posicionamento, aquisição, SEO, growth e geração de demanda.",
+          "members": {
+            "camilleDubois": {
+              "name": "Camille Dubois",
+              "role": "Growth Strategist",
+              "initials": "CD",
+              "bio": "Estratégias de aquisição, experimentos de growth, testes A/B e otimização de funis. Descobre canais de alto potencial para escalar leads.",
+              "type": "ia",
+              "country": "França",
+              "countryCode": "fr",
+              "age": 28,
+              "lifestyle": "Criativa e orientada a dados. Francesa de Lyon, apaixonada por experimentação e métricas. Café e croissant toda manhã.",
+              "hobbies": "Culinária francesa, análise de dados, experimentos de marketing, ciclismo.",
+              "education": "Mestrado em Marketing Digital (HEC Paris), Bacharel em Estatística (Université Lyon).",
+              "experience": "6+ anos em growth marketing e aquisição para startups SaaS.",
+              "curriculum": [
+                "Mestrado em Marketing Digital (HEC Paris)",
+                "Bacharel em Estatística (Université Lyon)",
+                "6+ anos em growth marketing",
+                "Especialista em experimentos A/B e otimização de funis",
+                "Aquisição multicanal para startups"
+              ]
+            },
+            "diegoMartinez": {
+              "name": "Diego Martínez",
+              "role": "SEO & Content Marketing Specialist",
+              "initials": "DM",
+              "bio": "Estruturação de SEO, pesquisa de palavras-chave, otimização on-page e link building. Constrói autoridade orgânica para a Dibs Solutions.",
+              "type": "ia",
+              "country": "Uruguai",
+              "countryCode": "uy",
+              "age": 30,
+              "lifestyle": "Analítico e detalhista. Uruguaio de Montevidéu, estudou otimização para mecanismos de busca nos mínimos detalhes.",
+              "hobbies": "SEO técnico, análise de concorrência, futebol, churrasco, vinho uruguaio Tannat.",
+              "education": "Bacharel em Comunicação (Universidad de la República), Certificação em SEO Avançado (Moz Academy).",
+              "experience": "8+ anos em SEO e content marketing para empresas de tecnologia.",
+              "curriculum": [
+                "Bacharel em Comunicação (Universidad de la República)",
+                "Certificação em SEO Avançado (Moz Academy)",
+                "8+ anos em SEO e content marketing",
+                "Especialista em SEO técnico, on-page e link building",
+                "Keyword research e estratégia de conteúdo orgânico"
+              ]
+            }
           }
         }
       }
     }
+  },
+  "techStack": {
+    "subtitle": "Stack de Tecnologia",
+    "title": "Tecnologias que dominamos para",
+    "titleAccent": "entregar projetos completos",
+    "catLanguages": "Linguagens",
+    "catFrameworks": "Frameworks",
+    "catDevops": "DevOps & Infra"
+  },
+  "aiLogos": {
+    "subtitle": "Inteligências Embarcadas",
+    "title": "Soluções potencializadas pelas",
+    "titleAccent": "principais IAs"
+  },
+  "testimonials": {
+    "subtitle": "Depoimentos",
+    "title": "O que nossos",
+    "titleAccent": "clientes dizem",
+    "items": {
+      "0": {
+        "quote": "A Dibs transformou minha ideia em um e-book completo em apenas 5 dias. A qualidade do design e da escrita superou minhas expectativas.",
+        "name": "Débora Mendonça",
+        "project": "E-Book Experiência do Lar",
+        "tags": "5 dias • 42 páginas • vendas na 1ª semana"
+      },
+      "1": {
+        "quote": "Precisava de um jogo simples e divertido para entreter meus clientes enquanto aguardam atendimento. A Dibs entregou um snake completo com fases, power-ups e ranking em tempo recorde.",
+        "name": "Guilherme Amado",
+        "project": "Game Snake Bonus",
+        "tags": "5 fases • power-ups • mobile-first • ranking"
+      },
+      "2": {
+        "quote": "A Dibs automatizou minha estratégia de trading com resultados financeiros reais. A precisão dos bots e a transparência das análises me deram confiança para operar no mercado.",
+        "name": "Daniel Dias",
+        "project": "Automação de Estratégia Financeira",
+        "tags": "automação real • resultados mensuráveis"
+      },
+      "3": {
+        "quote": "Conhecemos o trabalho da Dibs antes mesmo da agência existir. O site que fizeram para a Top5Trades foi profissional e entregue no prazo — agora vamos refazer com a estrutura nova.",
+        "name": "Top5Trades",
+        "project": "Website Institucional",
+        "tags": "projeto anterior • refazendo com nova identidade"
+      }
+    }
   }
-}
 }

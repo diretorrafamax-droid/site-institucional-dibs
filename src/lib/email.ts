@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer'
+import sgMail from '@sendgrid/mail'
 import fs from 'fs'
 import path from 'path'
 
@@ -10,6 +11,14 @@ export interface ContactData {
   servico_interesse: string
   mensagem: string
   origem?: string
+}
+
+const FROM_EMAIL = 'hello@dibs.solutions'
+const CONTACT_EMAIL = process.env.CONTACT_EMAIL || FROM_EMAIL
+
+function isSendGridConfigured(): boolean {
+  const key = process.env.SENDGRID_API_KEY
+  return !!key && !key.includes('placeholder') && !key.includes('SUA')
 }
 
 function isSmtpConfigured(): boolean {
@@ -44,14 +53,21 @@ function saveContactLocally(data: ContactData): void {
   console.log(`[Lead salvo localmente] ${filepath}`)
 }
 
-export async function sendContactEmail(data: ContactData): Promise<void> {
-  if (!isSmtpConfigured()) {
-    saveContactLocally(data)
-    return
-  }
+async function sendViaSendGrid(data: ContactData): Promise<void> {
+  sgMail.setApiKey(process.env.SENDGRID_API_KEY!)
 
+  await sgMail.send({
+    to: CONTACT_EMAIL,
+    from: FROM_EMAIL,
+    replyTo: data.email,
+    subject: `[Dibs Solutions] Novo contato de ${data.nome} — ${data.empresa}`,
+    html: buildEmailHtml(data),
+  })
+}
+
+async function sendViaSmtp(data: ContactData): Promise<void> {
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST || 'smtp.gmail.com',
+    host: process.env.SMTP_HOST || 'mail.dibs.solutions',
     port: Number(process.env.SMTP_PORT) || 587,
     secure: process.env.SMTP_SECURE === 'true',
     auth: {
@@ -60,13 +76,25 @@ export async function sendContactEmail(data: ContactData): Promise<void> {
     },
   })
 
-  const to = process.env.CONTACT_EMAIL || 'hello@dibs.solutions'
-
   await transporter.sendMail({
     from: `"${data.nome}" <${process.env.SMTP_USER}>`,
     replyTo: data.email,
-    to,
+    to: CONTACT_EMAIL,
     subject: `[Dibs Solutions] Novo contato de ${data.nome} — ${data.empresa}`,
     html: buildEmailHtml(data),
   })
+}
+
+export async function sendContactEmail(data: ContactData): Promise<void> {
+  if (isSendGridConfigured()) {
+    await sendViaSendGrid(data)
+    return
+  }
+
+  if (isSmtpConfigured()) {
+    await sendViaSmtp(data)
+    return
+  }
+
+  saveContactLocally(data)
 }

@@ -9,7 +9,7 @@ interface PainPointsProps {
   points: PainPoint[]
 }
 
-export function PainPoints({ title = 'Dores que resolvemos', points }: PainPointsProps) {
+export function PainPoints({ title = 'Pain points we solve', points }: PainPointsProps) {
   return (
     <div className="rounded-xl border border-border bg-surface p-8">
       <h3 className="mb-6 text-xl font-bold">{title}</h3>

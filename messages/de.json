@@ -3420,5 +3420,49 @@
         }
       }
     }
+  },
+  "techStack": {
+    "subtitle": "Tech-Stack",
+    "title": "Technologien, die wir beherrschen, um",
+    "titleAccent": "komplette Projekte zu liefern",
+    "catLanguages": "Sprachen",
+    "catFrameworks": "Frameworks",
+    "catDevops": "DevOps & Infra"
+  },
+  "aiLogos": {
+    "subtitle": "Eingebettete Intelligenzen",
+    "title": "Lösungen unterstützt durch die",
+    "titleAccent": "führenden KIs"
+  },
+  "testimonials": {
+    "subtitle": "Erfahrungsberichte",
+    "title": "Was unsere",
+    "titleAccent": "Kunden sagen",
+    "items": {
+      "0": {
+        "quote": "Dibs hat meine Idee in nur 5 Tagen in ein komplettes E-Book verwandelt. Die Qualität des Designs und des Schreibens hat meine Erwartungen übertroffen.",
+        "name": "Débora Mendonça",
+        "project": "E-Book Wohnerlebnis",
+        "tags": "5 Tage • 42 Seiten • Verkäufe in Woche 1"
+      },
+      "1": {
+        "quote": "Ich brauchte ein einfaches, unterhaltsames Spiel, um meine Kunden während der Wartezeit zu unterhalten. Dibs lieferte ein komplettes Snake-Spiel mit Phasen, Power-Ups und Rangliste in Rekordzeit.",
+        "name": "Guilherme Amado",
+        "project": "Snake Bonus Spiel",
+        "tags": "5 Phasen • Power-Ups • mobile-first • Rangliste"
+      },
+      "2": {
+        "quote": "Dibs hat meine Trading-Strategie mit echten finanziellen Ergebnissen automatisiert. Die Präzision der Bots und die Transparenz der Analysen gaben mir Vertrauen, am Markt zu agieren.",
+        "name": "Daniel Dias",
+        "project": "Finanzstrategie-Automatisierung",
+        "tags": "echte Automatisierung • messbare Ergebnisse"
+      },
+      "3": {
+        "quote": "Wir kannten Dibs Arbeit, bevor die Agentur überhaupt existierte. Die Website, die sie für Top5Trades erstellten, war professionell und termingerecht — jetzt bauen wir mit der neuen Struktur neu auf.",
+        "name": "Top5Trades",
+        "project": "Institutionelle Website",
+        "tags": "vorheriges Projekt • Neubau mit neuer Identität"
+      }
+    }
   }
 }

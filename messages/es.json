@@ -3327,7 +3327,6 @@
             }
           }
         },
-
         "comercial": {
           "name": "💼 Comercial",
           "description": "Prospección, ventas, CRM, propuestas y relación con clientes.",
@@ -3403,6 +3402,50 @@
             }
           }
         }
+      }
+    }
+  },
+  "techStack": {
+    "subtitle": "Stack Tecnológico",
+    "title": "Tecnologías que dominamos para",
+    "titleAccent": "entregar proyectos completos",
+    "catLanguages": "Lenguajes",
+    "catFrameworks": "Frameworks",
+    "catDevops": "DevOps & Infra"
+  },
+  "aiLogos": {
+    "subtitle": "Inteligencias Integradas",
+    "title": "Soluciones potenciadas por las",
+    "titleAccent": "principales IAs"
+  },
+  "testimonials": {
+    "subtitle": "Testimonios",
+    "title": "Lo que nuestros",
+    "titleAccent": "clientes dicen",
+    "items": {
+      "0": {
+        "quote": "Dibs transformó mi idea en un e-book completo en solo 5 días. La calidad del diseño y la redacción superaron mis expectativas.",
+        "name": "Débora Mendonça",
+        "project": "E-Book Experiencia del Hogar",
+        "tags": "5 días • 42 páginas • ventas en la 1ª semana"
+      },
+      "1": {
+        "quote": "Necesitaba un juego simple y divertido para entretener a mis clientes mientras esperan. Dibs entregó un snake completo con fases, power-ups y ranking en tiempo récord.",
+        "name": "Guilherme Amado",
+        "project": "Juego Snake Bonus",
+        "tags": "5 fases • power-ups • mobile-first • ranking"
+      },
+      "2": {
+        "quote": "Dibs automatizó mi estrategia de trading con resultados financieros reales. La precisión de los bots y la transparencia de los análisis me dieron confianza para operar en el mercado.",
+        "name": "Daniel Dias",
+        "project": "Automatización de Estrategia Financiera",
+        "tags": "automatización real • resultados medibles"
+      },
+      "3": {
+        "quote": "Conocimos el trabajo de Dibs antes de que la agencia existiera. El sitio que hicieron para Top5Trades fue profesional y entregado a tiempo — ahora lo reharemos con la nueva estructura.",
+        "name": "Top5Trades",
+        "project": "Sitio Web Institucional",
+        "tags": "proyecto anterior • reconstruyendo con nueva identidad"
       }
     }
   }

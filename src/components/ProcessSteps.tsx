@@ -9,7 +9,7 @@ interface ProcessStepsProps {
   steps: Step[]
 }
 
-export function ProcessSteps({ title = 'Nosso Processo', steps }: ProcessStepsProps) {
+export function ProcessSteps({ title = 'Our Process', steps }: ProcessStepsProps) {
   return (
     <div>
       <h3 className="mb-8 text-xl font-bold">{title}</h3>

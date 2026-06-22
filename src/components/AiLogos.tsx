@@ -1,3 +1,5 @@
+import { useTranslations } from 'next-intl'
+
 interface AiLogoProps {
   name: string
   children: React.ReactNode
@@ -84,6 +86,7 @@ const logos = [
 ]
 
 export function AiLogos() {
+  const t = useTranslations('aiLogos')
   const duplicated = [...logos, ...logos, ...logos]
 
   return (
@@ -92,9 +95,9 @@ export function AiLogos() {
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-32 bg-gradient-to-l from-surface to-transparent" />
 
       <div className="mx-auto mb-10 max-w-6xl px-6 text-center">
-        <p className="mb-2 text-sm text-muted">Inteligências Embarcadas</p>
+        <p className="mb-2 text-sm text-muted">{t('subtitle')}</p>
         <h2 className="text-3xl font-extrabold md:text-4xl">
-          Soluções potencializadas pelas <span className="text-accent">principais IAs</span>
+          {t('title')} <span className="text-accent">{t('titleAccent')}</span>
         </h2>
       </div>
 

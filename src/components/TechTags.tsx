@@ -3,7 +3,7 @@ interface TechTagsProps {
   categories: { name: string; items: string[] }[]
 }
 
-export function TechTags({ title = 'Tecnologias', categories }: TechTagsProps) {
+export function TechTags({ title = 'Technologies', categories }: TechTagsProps) {
   return (
     <div>
       <h3 className="mb-6 text-xl font-bold">{title}</h3>

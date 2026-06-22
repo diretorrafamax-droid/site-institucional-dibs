@@ -3371,5 +3371,49 @@
         }
       }
     }
+  },
+  "techStack": {
+    "subtitle": "Stack Technique",
+    "title": "Les technologies que nous maîtrisons pour",
+    "titleAccent": "livrer des projets complets",
+    "catLanguages": "Langages",
+    "catFrameworks": "Frameworks",
+    "catDevops": "DevOps & Infra"
+  },
+  "aiLogos": {
+    "subtitle": "Intelligences Intégrées",
+    "title": "Solutions propulsées par les",
+    "titleAccent": "principales IA"
+  },
+  "testimonials": {
+    "subtitle": "Témoignages",
+    "title": "Ce que nos",
+    "titleAccent": "clients disent",
+    "items": {
+      "0": {
+        "quote": "Dibs a transformé mon idée en un e-book complet en seulement 5 jours. La qualité du design et de l'écriture a dépassé mes attentes.",
+        "name": "Débora Mendonça",
+        "project": "E-Book Expérience du Foyer",
+        "tags": "5 jours • 42 pages • ventes en 1ère semaine"
+      },
+      "1": {
+        "quote": "J'avais besoin d'un jeu simple et amusant pour divertir mes clients en attendant. Dibs a livré un snake complet avec phases, power-ups et classement en un temps record.",
+        "name": "Guilherme Amado",
+        "project": "Jeu Snake Bonus",
+        "tags": "5 phases • power-ups • mobile-first • classement"
+      },
+      "2": {
+        "quote": "Dibs a automatisé ma stratégie de trading avec des résultats financiers réels. La précision des bots et la transparence des analyses m'ont donné confiance pour opérer sur le marché.",
+        "name": "Daniel Dias",
+        "project": "Automatisation de Stratégie Financière",
+        "tags": "automatisation réelle • résultats mesurables"
+      },
+      "3": {
+        "quote": "Nous connaissions le travail de Dibs avant même que l'agence n'existe. Le site qu'ils ont créé pour Top5Trades était professionnel et livré à temps — maintenant nous le referons avec la nouvelle structure.",
+        "name": "Top5Trades",
+        "project": "Site Web Institutionnel",
+        "tags": "projet précédent • reconstruction avec nouvelle identité"
+      }
+    }
   }
 }

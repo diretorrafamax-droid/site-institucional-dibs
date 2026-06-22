@@ -12,7 +12,7 @@ interface RoadmapProps {
   items: RoadmapItem[]
 }
 
-export function Roadmap({ title = 'O que entregamos', subtitle, items }: RoadmapProps) {
+export function Roadmap({ title = 'What we deliver', subtitle, items }: RoadmapProps) {
   return (
     <div>
       <h3 className="mb-2 text-xl font-bold">{title}</h3>

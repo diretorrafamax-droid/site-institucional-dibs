@@ -3322,135 +3322,179 @@
                 "Bachelor's in Library Science (UFSC)",
                 "Specialization in Knowledge Management (FGV)",
                 "20+ years in information management and organizational memory",
-              "Persistent memory and continuous learning"
-            ]
+                "Persistent memory and continuous learning"
+              ]
+            }
           }
-        }
-      },
-      "quantTrading": {
-        "name": "📈 Quant & Trading Automation",
-        "description": "Trading bots, B3 integration, compliance dashboards and real-time risk monitoring.",
-        "members": {
-          "otto": {
-            "name": "Otto Conrad",
-            "role": "Quant Trading Consultant",
-            "initials": "OC",
-            "bio": "Specialist consultant in financial markets. Conducts client interviews, validates strategies, identifies risks and transforms vague ideas into clear requirements for the MQL Quant Engineer.",
-            "type": "ia",
-            "country": "Germany",
-            "countryCode": "de",
-            "age": 55,
-            "lifestyle": "Analytical and methodical. German from Frankfurt, heart of the European financial market. Elegant attire, German punctuality, black coffee with no sugar.",
-            "hobbies": "Market analysis, reading economic reports, chess, German wines (Riesling), opera.",
-            "education": "PhD in Economics (University of Frankfurt), CFA Charterholder.",
-            "experience": "25+ years in financial markets, risk management and algorithmic trading consulting.",
-            "curriculum": [
-              "PhD in Economics (University of Frankfurt)",
-              "CFA Charterholder",
-              "25+ years in financial markets",
-              "Specialist in trading strategy validation",
-              "Algorithmic trading consulting for financial institutions"
-            ]
-          },
-          "duff": {
-            "name": "Duff Brown",
-            "role": "MQL Quant Engineer",
-            "initials": "DB",
-            "bio": "Designer of Expert Advisors and indicators natively in MQL4/MQL5. Development of high-performance trading bots without API bridge dependencies.",
-            "type": "ia",
-            "country": "United Kingdom",
-            "countryCode": "gb",
-            "age": 38,
-            "lifestyle": "Focused on performance and latency. Spends hours analyzing ticks and optimizing strategies. Lives near a music studio and plays guitar in his spare time.",
-            "hobbies": "Guitar, electronic music, backtesting strategies, low-latency system optimization.",
-            "education": "BSc Computer Science (University of Cambridge), MQL5 Developer Certification.",
-            "experience": "15+ years developing automated trading systems (MQL4/MQL5 since 2010).",
-            "curriculum": [
-              "BSc Computer Science (University of Cambridge)",
-              "MQL5 Developer Certification",
-              "15+ years with MQL4/MQL5",
-              "Expert in Expert Advisors, indicators and scripts",
-              "Expert in sub-millisecond latency and strategy optimization"
-            ]
+        },
+        "quantTrading": {
+          "name": "📈 Quant & Trading Automation",
+          "description": "Trading bots, B3 integration, compliance dashboards and real-time risk monitoring.",
+          "members": {
+            "otto": {
+              "name": "Otto Conrad",
+              "role": "Quant Trading Consultant",
+              "initials": "OC",
+              "bio": "Specialist consultant in financial markets. Conducts client interviews, validates strategies, identifies risks and transforms vague ideas into clear requirements for the MQL Quant Engineer.",
+              "type": "ia",
+              "country": "Germany",
+              "countryCode": "de",
+              "age": 55,
+              "lifestyle": "Analytical and methodical. German from Frankfurt, heart of the European financial market. Elegant attire, German punctuality, black coffee with no sugar.",
+              "hobbies": "Market analysis, reading economic reports, chess, German wines (Riesling), opera.",
+              "education": "PhD in Economics (University of Frankfurt), CFA Charterholder.",
+              "experience": "25+ years in financial markets, risk management and algorithmic trading consulting.",
+              "curriculum": [
+                "PhD in Economics (University of Frankfurt)",
+                "CFA Charterholder",
+                "25+ years in financial markets",
+                "Specialist in trading strategy validation",
+                "Algorithmic trading consulting for financial institutions"
+              ]
+            },
+            "duff": {
+              "name": "Duff Brown",
+              "role": "MQL Quant Engineer",
+              "initials": "DB",
+              "bio": "Designer of Expert Advisors and indicators natively in MQL4/MQL5. Development of high-performance trading bots without API bridge dependencies.",
+              "type": "ia",
+              "country": "United Kingdom",
+              "countryCode": "gb",
+              "age": 38,
+              "lifestyle": "Focused on performance and latency. Spends hours analyzing ticks and optimizing strategies. Lives near a music studio and plays guitar in his spare time.",
+              "hobbies": "Guitar, electronic music, backtesting strategies, low-latency system optimization.",
+              "education": "BSc Computer Science (University of Cambridge), MQL5 Developer Certification.",
+              "experience": "15+ years developing automated trading systems (MQL4/MQL5 since 2010).",
+              "curriculum": [
+                "BSc Computer Science (University of Cambridge)",
+                "MQL5 Developer Certification",
+                "15+ years with MQL4/MQL5",
+                "Expert in Expert Advisors, indicators and scripts",
+                "Expert in sub-millisecond latency and strategy optimization"
+              ]
+            }
           }
-        }
-      },
-      "comercial": {
-        "name": "💼 Commercial",
-        "description": "Prospecting, sales, CRM, proposals and client relationship.",
-        "members": {
-          "lucasAlmeida": {
-            "name": "Lucas Almeida",
-            "role": "Account Executive",
-            "initials": "LA",
-            "bio": "Lead qualification, commercial proposals, follow-up and closing. Ensures every lead is handled with agility and professionalism.",
-            "type": "ia",
-            "country": "Brazil",
-            "countryCode": "br",
-            "age": 32,
-            "lifestyle": "Communicative and strategic. Focus on results. Monitors the pipeline weekly with forecasting reports.",
-            "hobbies": "Networking, negotiation reading, soccer, Brazilian music, gastronomy.",
-            "education": "Bachelor's in Business Administration (USP), MBA in Commercial Management (FGV).",
-            "experience": "10+ years in B2B consultative sales and pipeline management.",
-            "curriculum": [
-              "Bachelor's in Business Administration (USP)",
-              "MBA in Commercial Management (FGV)",
-              "10+ years in B2B consultative sales",
-              "Specialist in prospecting and closing",
-              "Pipeline management and forecasting"
-            ]
+        },
+        "comercial": {
+          "name": "💼 Commercial",
+          "description": "Prospecting, sales, CRM, proposals and client relationship.",
+          "members": {
+            "lucasAlmeida": {
+              "name": "Lucas Almeida",
+              "role": "Account Executive",
+              "initials": "LA",
+              "bio": "Lead qualification, commercial proposals, follow-up and closing. Ensures every lead is handled with agility and professionalism.",
+              "type": "ia",
+              "country": "Brazil",
+              "countryCode": "br",
+              "age": 32,
+              "lifestyle": "Communicative and strategic. Focus on results. Monitors the pipeline weekly with forecasting reports.",
+              "hobbies": "Networking, negotiation reading, soccer, Brazilian music, gastronomy.",
+              "education": "Bachelor's in Business Administration (USP), MBA in Commercial Management (FGV).",
+              "experience": "10+ years in B2B consultative sales and pipeline management.",
+              "curriculum": [
+                "Bachelor's in Business Administration (USP)",
+                "MBA in Commercial Management (FGV)",
+                "10+ years in B2B consultative sales",
+                "Specialist in prospecting and closing",
+                "Pipeline management and forecasting"
+              ]
+            }
           }
-        }
-      },
-      "marketing": {
-        "name": "📣 Marketing & Growth",
-        "description": "Positioning, acquisition, SEO, growth and demand generation.",
-        "members": {
-          "camilleDubois": {
-            "name": "Camille Dubois",
-            "role": "Growth Strategist",
-            "initials": "CD",
-            "bio": "Acquisition strategies, growth experiments, A/B testing and funnel optimization. Discovers high-potential channels to scale leads.",
-            "type": "ia",
-            "country": "France",
-            "countryCode": "fr",
-            "age": 28,
-            "lifestyle": "Creative and data-driven. French from Lyon, passionate about experimentation and metrics. Coffee and croissant every morning.",
-            "hobbies": "French cuisine, data analysis, marketing experiments, cycling.",
-            "education": "Master's in Digital Marketing (HEC Paris), Bachelor's in Statistics (Université Lyon).",
-            "experience": "6+ years in growth marketing and acquisition for SaaS startups.",
-            "curriculum": [
-              "Master's in Digital Marketing (HEC Paris)",
-              "Bachelor's in Statistics (Université Lyon)",
-              "6+ years in growth marketing",
-              "Specialist in A/B experiments and funnel optimization",
-              "Multi-channel acquisition for startups"
-            ]
-          },
-          "diegoMartinez": {
-            "name": "Diego Martínez",
-            "role": "SEO & Content Marketing Specialist",
-            "initials": "DM",
-            "bio": "SEO structuring, keyword research, on-page optimization and link building. Builds organic authority for Dibs Solutions.",
-            "type": "ia",
-            "country": "Uruguay",
-            "countryCode": "uy",
-            "age": 30,
-            "lifestyle": "Analytical and detail-oriented. Uruguayan from Montevideo, studied search engine optimization in the smallest details.",
-            "hobbies": "Technical SEO, competitive analysis, soccer, barbecue, Uruguayan Tannat wine.",
-            "education": "BA in Communications (Universidad de la República), Advanced SEO Certification (Moz Academy).",
-            "experience": "8+ years in SEO and content marketing for technology companies.",
-            "curriculum": [
-              "BA in Communications (Universidad de la República)",
-              "Advanced SEO Certification (Moz Academy)",
-              "8+ years in SEO and content marketing",
-              "Specialist in technical SEO, on-page and link building",
-              "Keyword research and organic content strategy"
-            ]
+        },
+        "marketing": {
+          "name": "📣 Marketing & Growth",
+          "description": "Positioning, acquisition, SEO, growth and demand generation.",
+          "members": {
+            "camilleDubois": {
+              "name": "Camille Dubois",
+              "role": "Growth Strategist",
+              "initials": "CD",
+              "bio": "Acquisition strategies, growth experiments, A/B testing and funnel optimization. Discovers high-potential channels to scale leads.",
+              "type": "ia",
+              "country": "France",
+              "countryCode": "fr",
+              "age": 28,
+              "lifestyle": "Creative and data-driven. French from Lyon, passionate about experimentation and metrics. Coffee and croissant every morning.",
+              "hobbies": "French cuisine, data analysis, marketing experiments, cycling.",
+              "education": "Master's in Digital Marketing (HEC Paris), Bachelor's in Statistics (Université Lyon).",
+              "experience": "6+ years in growth marketing and acquisition for SaaS startups.",
+              "curriculum": [
+                "Master's in Digital Marketing (HEC Paris)",
+                "Bachelor's in Statistics (Université Lyon)",
+                "6+ years in growth marketing",
+                "Specialist in A/B experiments and funnel optimization",
+                "Multi-channel acquisition for startups"
+              ]
+            },
+            "diegoMartinez": {
+              "name": "Diego Martínez",
+              "role": "SEO & Content Marketing Specialist",
+              "initials": "DM",
+              "bio": "SEO structuring, keyword research, on-page optimization and link building. Builds organic authority for Dibs Solutions.",
+              "type": "ia",
+              "country": "Uruguay",
+              "countryCode": "uy",
+              "age": 30,
+              "lifestyle": "Analytical and detail-oriented. Uruguayan from Montevideo, studied search engine optimization in the smallest details.",
+              "hobbies": "Technical SEO, competitive analysis, soccer, barbecue, Uruguayan Tannat wine.",
+              "education": "BA in Communications (Universidad de la República), Advanced SEO Certification (Moz Academy).",
+              "experience": "8+ years in SEO and content marketing for technology companies.",
+              "curriculum": [
+                "BA in Communications (Universidad de la República)",
+                "Advanced SEO Certification (Moz Academy)",
+                "8+ years in SEO and content marketing",
+                "Specialist in technical SEO, on-page and link building",
+                "Keyword research and organic content strategy"
+              ]
+            }
           }
         }
       }
     }
+  },
+  "techStack": {
+    "subtitle": "Tech Stack",
+    "title": "Technologies we master to",
+    "titleAccent": "deliver complete projects",
+    "catLanguages": "Languages",
+    "catFrameworks": "Frameworks",
+    "catDevops": "DevOps & Infra"
+  },
+  "aiLogos": {
+    "subtitle": "Embedded Intelligences",
+    "title": "Solutions powered by",
+    "titleAccent": "top AIs"
+  },
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title": "What our",
+    "titleAccent": "clients say",
+    "items": {
+      "0": {
+        "quote": "Dibs turned my idea into a complete e-book in just 5 days. The quality of design and writing exceeded my expectations.",
+        "name": "Débora Mendonça",
+        "project": "E-Book Home Experience",
+        "tags": "5 days • 42 pages • sales in week 1"
+      },
+      "1": {
+        "quote": "I needed a simple fun game to entertain my clients while they wait. Dibs delivered a complete snake game with phases, power-ups, and ranking in record time.",
+        "name": "Guilherme Amado",
+        "project": "Snake Bonus Game",
+        "tags": "5 phases • power-ups • mobile-first • ranking"
+      },
+      "2": {
+        "quote": "Dibs automated my trading strategy with real financial results. The bot precision and analysis transparency gave me confidence to operate in the market.",
+        "name": "Daniel Dias",
+        "project": "Financial Strategy Automation",
+        "tags": "real automation • measurable results"
+      },
+      "3": {
+        "quote": "We knew Dibs work before the agency even existed. The website they built for Top5Trades was professional and delivered on time — now we are rebuilding with the new structure.",
+        "name": "Top5Trades",
+        "project": "Institutional Website",
+        "tags": "previous project • rebuilding with new identity"
+      }
+    }
   }
-}
 }

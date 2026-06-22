@@ -34,7 +34,7 @@ interface TeamShowcaseProps {
   members: TeamMember[]
 }
 
-export function TeamShowcase({ title = 'Equipe', members }: TeamShowcaseProps) {
+export function TeamShowcase({ title = 'Team', members }: TeamShowcaseProps) {
   const [modalProfile, setModalProfile] = useState<TeamProfile | null>(null)
 
   const openModal = (m: TeamMember) => {

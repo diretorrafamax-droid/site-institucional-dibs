@@ -70,7 +70,7 @@ export function HeroRotator() {
 
       <div className="mt-12 flex flex-wrap justify-center gap-12">
         <div><AnimatedCounter end={60} suffix="+" /><p className="text-sm text-muted">{t('stats.agents')}</p></div>
-        <div><AnimatedCounter end={8} /><p className="text-sm text-muted">{t('stats.departments')}</p></div>
+        <div><AnimatedCounter end={12} /><p className="text-sm text-muted">{t('stats.departments')}</p></div>
         <div><AnimatedCounter end={100} suffix="%" /><p className="text-sm text-muted">{t('stats.delivery')}</p></div>
         <div><AnimatedCounter end={4.9} decimals={1} /><p className="text-sm text-muted">{t('stats.rating')}</p></div>
       </div>
