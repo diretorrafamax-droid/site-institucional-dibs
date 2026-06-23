@@ -10,7 +10,7 @@ import { ceoProfile, leaderProfiles, departmentProfiles, TeamProfile } from '@/d
 import { FlagIcon } from '@/components/FlagIcon'
 
 const leaderKeys = ['einstein', 'daniel', 'andre', 'heitor', 'thor', 'ives', 'jhon', 'samuel', 'lucas', 'amanda']
-const deptKeys = ['desenvolvimento', 'design', 'conteudo', 'orquestracao', 'seguranca', 'blockchain', 'consultoriaMemoria', 'quantTrading', 'comercial', 'marketing']
+const deptKeys = ['desenvolvimento', 'design', 'conteudo', 'orquestracao', 'seguranca', 'governanca', 'blockchain', 'consultoriaMemoria', 'comercial', 'marketing', 'quantTrading']
 const memberKeys: string[][] = [
   ['sofia', 'carlos', 'alan', 'arthur', 'igor', 'felipe', 'miguel'],
   ['cesarJunior', 'marioReis'],

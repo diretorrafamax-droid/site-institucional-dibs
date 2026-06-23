@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { SectionTitle } from '@/components/SectionTitle'
+import { ConsultingIllustration } from '@/components/illustrations'
 
 export default async function Sobre() {
   const t = await getTranslations("sobre")
@@ -12,6 +13,9 @@ export default async function Sobre() {
   return (
     <section className="py-20">
       <div className="mx-auto max-w-6xl px-6">
+        <div className="mb-12 flex justify-center">
+          <ConsultingIllustration className="h-48 w-48 md:h-64 md:w-64" />
+        </div>
         <SectionTitle label={t("pageTitle.label")} title={t("pageTitle.title")} subtitle={t("pageTitle.subtitle")} />
 
         <div className="mb-20 rounded-xl border border-border bg-surface p-8 md:p-12">

@@ -9,12 +9,11 @@ import { HeroBackground } from '@/components/HeroBackground'
 import { AiLogos } from '@/components/AiLogos'
 import { TechStack } from '@/components/TechStack'
 
-const caseKeys = [0, 1, 2, 3]
-const homeCaseImages = [
-  '/assets/cases/ebook-experiencia-do-lar.webp',
-  '/assets/cases/landing-page-deborabelha.webp',
-  '/assets/cases/game-snake-bonus.webp',
-  '/assets/cases/timetracker-pro.webp',
+const caseMeta = [
+  { image: '/assets/cases/ebook-experiencia-do-lar.svg', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
+  { image: '/assets/cases/landing-page-deborabelha.svg', metric: 'Design System', techs: ['Figma', 'Next.js', 'Tailwind', 'UX Writing'] },
+  { image: '/assets/cases/game-snake-bonus.svg', metric: '5 fases', techs: ['Canvas API', 'Mobile-first', 'Ranking'] },
+  { image: '/assets/cases/timetracker-pro.svg', metric: 'Gestão de Tempo', techs: ['Next.js', 'Dashboard', 'Simulação'] },
 ]
 
 export default async function Home() {
@@ -36,13 +35,15 @@ export default async function Home() {
             subtitle={t('cases.sectionTitle.subtitle')}
           />
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {caseKeys.map(i => (
+            {caseMeta.map((c, i) => (
               <CaseCard
                 key={i}
                 category={t(`cases.${i}.category`)}
                 title={t(`cases.${i}.title`)}
                 description={t(`cases.${i}.description`)}
-                image={homeCaseImages[i]}
+                image={c.image}
+                metric={c.metric}
+                techs={c.techs}
               />
             ))}
           </div>
