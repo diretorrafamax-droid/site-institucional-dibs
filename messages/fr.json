@@ -3061,7 +3061,13 @@
             }
           }
         },
-        "governanca": {\n          "name": "🛡️ Governança & Compliance",\n          "description": "Auditoria de conformidade, validação de entregas e garantia de qualidade organizacional.",\n          "members": {}\n        },\n        "blockchain" & Web3",
+        "governanca": {
+          "name": "🛡️ Governança & Compliance",
+          "description": "Auditoria de conformidade, validação de entregas e garantia de qualidade organizacional.",
+          "members": {}
+        },
+        "blockchain": {
+          "name": "⛓️ Blockchain & Web3",
           "description": "Smart contracts, DeFi, tokenisation, DAO et sécurité on-chain.",
           "members": {
             "gavin": {
