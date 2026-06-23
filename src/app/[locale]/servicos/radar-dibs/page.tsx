@@ -12,7 +12,7 @@ const painIllustrations = [PainCosts, PainPerformance, PainTime, PainTarget, Pai
 const teamMeta = [
   { initials: 'SF', color: '#95A5A6', photo: '/assets/team/samuel-farias.png', countryCode: 'br', type: 'ia' as const },
   { initials: 'DM', color: '#3498DB', photo: '/assets/team/daniel-monteiro.png', countryCode: 'pt', type: 'ia' as const },
-  { initials: 'ET', color: '#2C3E50', photo: '/assets/team/einstein-tavares.png', countryCode: 'br', type: 'ia' as const },
+  { initials: 'ES', color: '#2C3E50', photo: '/assets/team/elias-soares.png', countryCode: 'br', type: 'ia' as const },
 ]
 
 export default function RadarDibsPage() {
