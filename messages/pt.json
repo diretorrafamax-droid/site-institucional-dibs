@@ -3101,6 +3101,11 @@
             }
           }
         },
+        "governanca": {
+          "name": "🛡️ Governança & Compliance",
+          "description": "Auditoria de conformidade, validação de entregas e garantia de qualidade organizacional.",
+          "members": {}
+        },
         "blockchain": {
           "name": "⛓️ Blockchain & Web3",
           "description": "Smart contracts, DeFi, tokenização, DAOs e segurança on-chain.",
