@@ -59,20 +59,20 @@ export function CaseModal({ detail, onClose }: CaseModalProps) {
       aria-modal="true"
       aria-label={detail.title}
     >
-      <div
-        ref={modalRef}
-        className="relative mx-auto flex w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-2xl"
-        onClick={e => e.stopPropagation()}
-      >
-        <button
-          onClick={onClose}
-          aria-label="Fechar"
-          className="absolute right-4 top-4 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-black/40 text-white transition-colors hover:bg-accent"
+        <div
+          ref={modalRef}
+          className="relative mx-auto flex w-full max-w-2xl flex-col rounded-2xl border border-border bg-surface shadow-2xl max-h-[95vh]"
+          onClick={e => e.stopPropagation()}
         >
-          ✕
-        </button>
+          <button
+            onClick={onClose}
+            aria-label="Fechar"
+            className="absolute right-3 top-3 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/60 text-white shadow-lg transition-colors hover:bg-accent"
+          >
+            ✕
+          </button>
 
-        <div className="relative h-56 overflow-hidden md:h-72">
+          <div className="relative h-40 shrink-0 overflow-hidden md:h-72">
           {detail.image && (
             detail.image.endsWith('.webp') ? (
               <picture>
@@ -92,7 +92,7 @@ export function CaseModal({ detail, onClose }: CaseModalProps) {
           )}
         </div>
 
-        <div className="flex flex-col gap-4 p-6 md:p-8">
+        <div className="flex flex-col gap-4 overflow-y-auto p-6 md:p-8">
           <div>
             <p className="mb-1 text-xs font-semibold uppercase tracking-[1px] text-accent">{detail.category}</p>
             <h3 className="text-xl font-bold">{detail.title}</h3>
