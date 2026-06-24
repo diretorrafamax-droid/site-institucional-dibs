@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl'
+import { SectionTitle } from '@/components/SectionTitle'
 
 interface TechItemProps {
   name: string
@@ -68,12 +69,7 @@ export function TechStack() {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface/30 to-surface/60" />
       <div className="absolute left-1/2 top-0 h-px w-1/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
       <div className="relative mx-auto max-w-6xl px-6">
-        <div className="mb-12 text-center">
-          <p className="mb-2 text-sm text-muted">{t('subtitle')}</p>
-          <h2 className="text-3xl font-extrabold md:text-4xl">
-            {t('title')} <span className="text-accent">{t('titleAccent')}</span>
-          </h2>
-        </div>
+        <SectionTitle label={t('subtitle')} title={t('title')} titleAccent={t('titleAccent')} />
         <div className="space-y-10">
           {categories.map(cat => (
             <div key={cat.label}>

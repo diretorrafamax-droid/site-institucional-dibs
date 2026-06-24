@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import { SectionTitle } from '@/components/SectionTitle'
 import {
   SoftwareIllustration,
   DesignIllustration,
@@ -36,10 +37,7 @@ export function ServiceCarousel() {
       <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-32 bg-gradient-to-l from-surface to-transparent" />
 
       <div className="mx-auto mb-10 max-w-6xl px-6">
-        <p className="mb-2 text-sm text-muted">{t('label')}</p>
-        <h2 className="text-3xl font-extrabold md:text-4xl">
-          {t('title')} <span className="text-accent">{t('titleHighlight')}</span>
-        </h2>
+        <SectionTitle label={t('label')} title={t('title')} titleAccent={t('titleHighlight')} />
       </div>
 
       <div className="flex animate-carousel-left gap-6" style={{ width: 'max-content' }}>
