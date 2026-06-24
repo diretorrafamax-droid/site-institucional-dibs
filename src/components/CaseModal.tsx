@@ -61,18 +61,18 @@ export function CaseModal({ detail, onClose }: CaseModalProps) {
     >
         <div
           ref={modalRef}
-          className="relative mx-auto flex w-full max-w-2xl flex-col rounded-2xl border border-border bg-surface shadow-2xl max-h-[95vh]"
+          className="relative mx-auto flex w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-2xl max-h-[90vh] md:max-h-[85vh]"
           onClick={e => e.stopPropagation()}
         >
           <button
             onClick={onClose}
             aria-label="Fechar"
-            className="absolute right-3 top-3 z-20 flex h-8 w-8 items-center justify-center rounded-full bg-black/60 text-white shadow-lg transition-colors hover:bg-accent"
+            className="absolute right-3 top-3 z-20 flex h-7 w-7 items-center justify-center rounded-full bg-black/60 text-white shadow-lg transition-colors hover:bg-accent md:h-8 md:w-8"
           >
             ✕
           </button>
 
-          <div className="relative h-40 shrink-0 overflow-hidden md:h-72">
+          <div className="relative h-32 shrink-0 overflow-hidden md:h-72">
           {detail.image && (
             detail.image.endsWith('.webp') ? (
               <picture>
