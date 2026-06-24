@@ -10,16 +10,21 @@ interface CaseCardProps {
 }
 
 export function CaseCard({ category, title, description, image, metric, techs }: CaseCardProps) {
+  const isWebp = image?.endsWith('.webp')
   return (
     <div className="group flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-border bg-surface transition-all hover:-translate-y-1 hover:border-accent hover:shadow-lg">
       <div className="relative h-48 overflow-hidden bg-muted/20">
         {image ? (
           <>
-            <picture>
-              <source srcSet={image} type="image/webp" />
-              <source srcSet={image.replace(/\.\w+$/, '.png')} type="image/png" />
+            {isWebp ? (
+              <picture>
+                <source srcSet={image} type="image/webp" />
+                <source srcSet={image.replace(/\.\w+$/, '.png')} type="image/png" />
+                <img src={image} alt={title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
+              </picture>
+            ) : (
               <img src={image} alt={title} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110" />
-            </picture>
+            )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
           </>
         ) : (

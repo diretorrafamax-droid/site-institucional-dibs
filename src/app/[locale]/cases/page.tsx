@@ -7,10 +7,10 @@ import { CaseCard } from '@/components/CaseCard'
 import { CaseModal } from '@/components/CaseModal'
 
 const caseMeta = [
-  { image: '/assets/cases/ebook-experiencia-do-lar.webp', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
+  { image: '/assets/cases/ebook-experiencia-do-lar.jpg', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
   { image: '/assets/cases/landing-page-experiencia-do-lar.webp', metric: '12 telas', techs: ['Figma', 'Next.js', 'Tailwind', 'UX Writing'] },
-  { image: '/assets/cases/game-snake-bonus.webp', metric: '+500 jogadores', techs: ['Canvas API', 'Mobile-first', 'Ranking'] },
-  { image: '/assets/cases/timetracker-pro.webp', metric: '30% economia', techs: ['Next.js', 'Dashboard', 'Simulação'] },
+  { image: '/assets/cases/game-snake-bonus.jpg', metric: '+500 jogadores', techs: ['Canvas API', 'Mobile-first', 'Ranking'] },
+  { image: '/assets/cases/timetracker-pro.jpg', metric: '30% economia', techs: ['Next.js', 'Dashboard', 'Simulação'] },
   { image: '/assets/cases/gestcash.webp', metric: 'Smart Contract', techs: ['Smart Contract', 'Tokenização', 'Finanças'] },
   { image: '/assets/cases/top5traders.webp', metric: '73% acerto', techs: ['Laravel', 'React', 'MQL5', 'Telegram Bot'] },
 ]
