@@ -120,24 +120,34 @@
         "description": "E-book complet de A à Z : recherche, rédaction, design éditorial, mise en page et publication sur Amazon KDP. Projet livré en 15 jours."
       },
       "1": {
-        "category": "🎨 Design",
-        "title": "Landing Page Deborabelha",
-        "description": "Design System exclusif, prototypage sur Figma, développement frontend avec Next.js et Tailwind. Identité visuelle qui communique artisanat et convivialité."
+        "category": "🎨 Webdesign",
+        "title": "Landing Page Expérience du Foyer",
+        "description": "Le client avait besoin d'une identité visuelle transmettant artisanat et chaleur. Nous avons créé un Design System complet de Figma à Next.js. Résultat : présence numérique cohérente sur tous les écrans."
       },
       "2": {
         "category": "🎮 Jeux",
         "title": "Game Snake Bonus",
-        "description": "Jeu interactif avec 5 niveaux, power-ups, système de vies et classement. Mécaniques de bonus et progression avec une expérience mobile-first."
+        "description": "Nous avions besoin d'un outil d'engagement pour maintenir les utilisateurs actifs. Nous avons développé un jeu à 5 niveaux avec power-ups et classement. Résultat : des centaines de joueurs engagés."
       },
       "3": {
         "category": "📊 Conseil",
         "title": "TimeTracker Pro",
-        "description": "Plateforme interne de gestion du temps avec suivi par projet, calculs de coûts, simulation de budgets et intelligence tarifaire."
+        "description": "L'équipe perdait des heures sans suivre les coûts par projet. Nous avons créé une plateforme interne de gestion du temps avec calcul automatique des coûts. Résultat : réduction significative des dépassements budgétaires."
       },
       "sectionTitle": {
         "label": "Portfolio",
         "title": "Des projets qui ont transformé des idées en résultats",
         "subtitle": "Chaque réalisation représente un véritable partenariat. Des clients qui ont fait confiance à Dibs pour concrétiser leurs idées."
+      },
+      "4": {
+        "category": "💻 Software",
+        "title": "GestCash",
+        "description": "Les investisseurs manquaient de visibilité unifiée sur leurs actifs. Nous avons développé un système complet avec tokenisation, smart contract et profils multi-niveaux. Résultat : première plateforme du segment avec gestion intégrée."
+      },
+      "5": {
+        "category": "💻 Software",
+        "title": "Top 5 Traders",
+        "description": "Plateforme complète de signaux de trading avec tableau de bord, EA MetaTrader, bot Telegram et système d'abonnement. +2.300 membres et 73% de taux de réussite."
       }
     },
     "cta": {
@@ -152,6 +162,14 @@
       "title": "Des projets qui ont transformé des idées en résultats",
       "subtitle": "Chaque réalisation représente un véritable partenariat avec des clients qui ont fait confiance à Dibs pour concrétiser leurs idées."
     },
+    "stats": {
+      "items": {
+        "0": { "value": "11", "label": "Projets livrés" },
+        "1": { "value": "60+", "label": "Agents spécialisés" },
+        "2": { "value": "100%", "label": "Projets dans les délais" },
+        "3": { "value": "4.9", "label": "Note de satisfaction" }
+      }
+    },
     "filter": {
       "all": "Tous"
     },
@@ -162,25 +180,38 @@
         "description": "E-book complet de A à Z : étude de marché, rédaction créative, design éditorial, mise en page professionnelle et publication sur Amazon KDP. Projet livré en 15 jours avec des ventes dès la première semaine."
       },
       "1": {
-        "category": "Design",
-        "title": "Landing Page Deborabelha",
-        "description": "Design System exclusif avec prototypage sur Figma, développement frontend avec Next.js et Tailwind, et identité visuelle qui communique artisanat et convivialité."
+        "category": "Webdesign",
+        "title": "Landing Page Expérience du Foyer",
+        "description": "Le client avait besoin d'une identité visuelle communiquant artisanat, chaleur et qualité artisanale. Nous avons créé un Design System exclusif avec prototypage sur Figma, développement frontend avec Next.js et Tailwind, et naming aligné sur l'essence de la marque. Résultat : présence numérique cohérente avec une identité visuelle qui convertit les visiteurs en clients."
       },
       "2": {
         "category": "Jeux",
         "title": "Game Snake Bonus",
-        "description": "Jeu interactif avec 5 niveaux thématiques (Forêt, Désert, Espace, Ville, Château), power-ups spéciaux, système de 3 vies et classement des scores. Expérience mobile-first avec des mécaniques progressives."
+        "description": "Le défi était de créer un outil d'engagement pour maintenir les utilisateurs actifs dans l'écosystème de la plateforme. Nous avons développé un jeu interactif avec 5 niveaux thématiques (Forêt, Désert, Espace, Ville, Château), power-ups spéciaux, système de 3 vies et classement. Résultat : des centaines de joueurs engagés avec expérience mobile-first et mécaniques progressives."
       },
       "3": {
         "category": "Conseil",
         "title": "TimeTracker Pro",
-        "description": "Plateforme interne de gestion du temps avec suivi par projet et étape, calcul automatique des coûts, simulation de budgets et intelligence tarifaire basée sur l'historique."
+        "description": "L'équipe perdait des heures de travail sans pouvoir suivre les coûts par projet et par étape, générant des dépassements budgétaires récurrents. Nous avons créé une plateforme interne de gestion du temps avec suivi par projet et étape, calcul automatique des coûts, simulation budgétaire et intelligence de tarification. Résultat : réduction significative des dépassements budgétaires et prévisibilité financière."
       },
       "4": {
         "category": "Software",
         "title": "GestCash",
-        "description": "Système complet de gestion d'investissements avec profils multi-niveaux (investisseur, initiateur, administrateur), tokenisation de projets, contrat intelligent et tableau de bord financier."
+        "description": "Les investisseurs et initiateurs de projets n'avaient pas de visibilité unifiée sur les actifs, rendant la gestion et le suivi difficiles. Nous avons développé un système complet de gestion d'investissements avec profils multi-niveaux (investisseur, initiateur, administrateur), tokenisation de projets, contrat intelligent et tableau de bord financier en temps réel. Résultat : la première plateforme du segment à intégrer la tokenisation avec la gestion financière multi-profil."
+      },
+      "5": {
+        "category": "Software",
+        "title": "Top 5 Traders",
+        "description": "Plateforme complète de signaux de trading multi-marchés (Forex, Crypto, Binaires) avec tableau de bord en temps réel, EA propriétaire Top5 Trend Engine v4, bot Telegram et système d'abonnements récurrents avec 3 formules."
       }
+    },
+    "technologies": "Technologies",
+    "customPrice": "Investissement sur mesure — demandez un devis",
+    "cta": "Je veux un projet comme celui-ci →",
+    "testimonial": {
+      "text": "Dibs Solutions a transformé notre présence numérique. Ils ont livré un e-book complet en 15 jours et le résultat a dépassé nos attentes. Professionnalisme et qualité exceptionnels.",
+      "author": "Débora Mendonça",
+      "role": "Client — Expérience du Foyer"
     }
   },
   "sobre": {
@@ -2333,6 +2364,22 @@
     },
     "leadersTitle": "Responsables par Département",
     "departmentsTitle": "Équipes par Département",
+    "stats": {
+      "items": {
+        "0": { "value": "63", "label": "Agents IA" },
+        "1": { "value": "11", "label": "Départements" },
+        "2": { "value": "8", "label": "Nationalités" },
+        "3": { "value": "1", "label": "Humain (CEO)" }
+      }
+    },
+    "searchPlaceholder": "Rechercher par nom, poste ou département...",
+    "clearSearch": "Effacer la recherche",
+    "noResults": "Aucun agent trouvé",
+    "cta": {
+      "title": "Vous avez découvert notre équipe ?",
+      "description": "Chaque membre de Dibs est prêt à contribuer à votre projet. Demandez un devis et découvrez comment notre orchestration de talents peut transformer votre idée.",
+      "button": "Demander un devis →"
+    },
     "profiles": {
       "ceo": {
         "name": "Rafael Mendonça",

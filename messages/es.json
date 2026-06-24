@@ -115,29 +115,39 @@
     },
     "cases": {
       "0": {
-        "category": "📝 Conteúdo",
+        "category": "📝 Contenido",
         "title": "E-Book — Experiencia del Hogar",
         "description": "E-book completo desde cero: investigación, escritura, diseño editorial, diagramación y publicación en Amazon KDP. Proyecto entregado en 15 días."
       },
       "1": {
-        "category": "🎨 Design",
-        "title": "Landing Page Deborabelha",
-        "description": "Design System exclusivo, prototipado en Figma, desarrollo frontend con Next.js y Tailwind. Identidad visual que comunica artesanía y calidez."
+        "category": "🎨 Webdesign",
+        "title": "Landing Page Experiencia del Hogar",
+        "description": "El cliente necesitaba una identidad visual que transmitiera artesanía y calidez. Creamos un Design System completo de Figma a Next.js. Resultado: presencia digital cohesiva en todas las pantallas."
       },
       "2": {
-        "category": "🎮 Jogos",
+        "category": "🎮 Juegos",
         "title": "Game Snake Bonus",
-        "description": "Juego interactivo con 5 fases, power-ups, sistema de vidas y ranking. Mecánicas de bonificación y progresión con experiencia mobile-first."
+        "description": "Necesitábamos una herramienta de engagement para mantener usuarios activos. Desarrollamos un juego con 5 fases, power-ups y ranking competitivo. Resultado: cientos de jugadores comprometidos."
       },
       "3": {
-        "category": "📊 Consultoria",
+        "category": "📊 Consultoría",
         "title": "TimeTracker Pro",
-        "description": "Plataforma interna de gestión de tiempo con seguimiento por proyecto, cálculos de costo, simulación de presupuestos e inteligencia de fijación de precios."
+        "description": "El equipo perdía horas sin rastrear costos por proyecto. Creamos una plataforma interna de gestión de tiempo con cálculo automático de costos. Resultado: reducción significativa en sobrepresupuesto."
       },
       "sectionTitle": {
         "label": "Portafolio",
-        "title": "Projetos que transformaram ideias em resultados",
-        "subtitle": "Cada case representa uma parceria real. Clientes que confiaram na Dibs para tirar suas ideias do papel."
+        "title": "Proyectos que transformaron ideas en resultados",
+        "subtitle": "Cada case representa una asociación real con clientes que confiaron en Dibs para sacar sus ideas del papel."
+      },
+      "4": {
+        "category": "💻 Software",
+        "title": "GestCash",
+        "description": "Inversores sin visibilidad unificada de sus activos y proyectos. Desarrollamos un sistema completo con tokenización, smart contract y perfiles multinivel. Resultado: primera plataforma del segmento con gestión integrada."
+      },
+      "5": {
+        "category": "💻 Software",
+        "title": "Top 5 Traders",
+        "description": "Plataforma completa de señales de trading con dashboard, EA MetaTrader, bot Telegram y sistema de suscripciones. +2.300 miembros y 73% de tasa de acierto."
       }
     },
     "cta": {
@@ -149,8 +159,16 @@
   "cases": {
     "pageTitle": {
       "label": "Portafolio",
-      "title": "Projetos que transformaram ideias em resultados",
-      "subtitle": "Cada case representa uma parceria real com clientes que confiaram na Dibs para tirar suas ideias do papel."
+      "title": "Proyectos que transformaron ideas en resultados",
+      "subtitle": "Cada case representa una asociación real con clientes que confiaron en Dibs para sacar sus ideas del papel."
+    },
+    "stats": {
+      "items": {
+        "0": { "value": "11", "label": "Proyectos entregados" },
+        "1": { "value": "60+", "label": "Agentes especializados" },
+        "2": { "value": "100%", "label": "Proyectos a tiempo" },
+        "3": { "value": "4.9", "label": "Puntuación de satisfacción" }
+      }
     },
     "filter": {
       "all": "Todos"
@@ -162,25 +180,38 @@
         "description": "E-book completo desde cero: investigación de mercado, escritura creativa, diseño editorial, diagramación profesional y publicación en Amazon KDP. Proyecto entregado en 15 días con ventas ya en la primera semana."
       },
       "1": {
-        "category": "Design",
-        "title": "Landing Page Deborabelha",
-        "description": "Design System exclusivo con prototipado en Figma, desarrollo frontend con Next.js y Tailwind, e identidad visual que comunica artesanía y calidez."
+        "category": "Webdesign",
+        "title": "Landing Page Experiencia del Hogar",
+        "description": "El cliente necesitaba una identidad visual que comunicara artesanía, calidez y calidad artesanal. Creamos un Design System exclusivo con prototipado en Figma, desarrollo frontend con Next.js y Tailwind, y naming alineado con la esencia de la marca. Resultado: presencia digital cohesiva con identidad visual que convierte visitantes en clientes."
       },
       "2": {
-        "category": "Jogos",
+        "category": "Juegos",
         "title": "Game Snake Bonus",
-        "description": "Juego interactivo con 5 fases temáticas (Bosque, Desierto, Espacio, Ciudad, Castillo), power-ups especiales, sistema de 3 vidas y ranking de puntuación. Experiencia mobile-first con mecánicas progresivas."
+        "description": "El desafío era crear una herramienta de engagement para mantener usuarios activos en el ecosistema de la plataforma. Desarrollamos un juego interactivo con 5 fases temáticas (Bosque, Desierto, Espacio, Ciudad, Castillo), power-ups especiales, sistema de 3 vidas y ranking de puntuación. Resultado: cientos de jugadores comprometidos con experiencia mobile-first y mecánicas progresivas."
       },
       "3": {
-        "category": "Consultoria",
+        "category": "Consultoría",
         "title": "TimeTracker Pro",
-        "description": "Plataforma interna de gestión de tiempo con seguimiento por proyecto y etapa, cálculo automático de costos, simulación de presupuestos e inteligencia de fijación de precios basada en historial."
+        "description": "El equipo perdía horas de trabajo sin poder rastrear costos por proyecto y etapa, generando sobrepresupuestos recurrentes. Creamos una plataforma interna de gestión de tiempo con seguimiento por proyecto y etapa, cálculo automático de costos, simulación de presupuestos e inteligencia de precios. Resultado: reducción significativa de sobrepresupuesto y previsibilidad financiera."
       },
       "4": {
         "category": "Software",
         "title": "GestCash",
-        "description": "Sistema completo de gestión de inversiones con perfiles multinivel (inversor, idealizador, administrador), tokenización de proyectos, contrato inteligente y dashboard financiero."
+        "description": "Inversores e idealizadores de proyectos no tenían visibilidad unificada de los activos, dificultando la gestión y el seguimiento de resultados. Desarrollamos un sistema completo de gestión de inversiones con perfiles multinivel (inversor, idealizador, administrador), tokenización de proyectos, contrato inteligente y dashboard financiero. Resultado: la primera plataforma del segmento en integrar tokenización con gestión financiera multi-perfil."
+      },
+      "5": {
+        "category": "Software",
+        "title": "Top 5 Traders",
+        "description": "Plataforma completa de señales de trading multi-mercado (Forex, Crypto, Binarias) con dashboard en tiempo real, EA propio Top5 Trend Engine v4, bot de señales por Telegram y sistema de suscripciones recurrentes con 3 planes."
       }
+    },
+    "technologies": "Tecnologías",
+    "customPrice": "Inversión a medida — solicite un presupuesto",
+    "cta": "Quiero un proyecto como este →",
+    "testimonial": {
+      "text": "Dibs Solutions transformó nuestra presencia digital. Entregaron un e-book completo en 15 días y el resultado superó nuestras expectativas. Profesionalismo y calidad excepcionales.",
+      "author": "Débora Mendonça",
+      "role": "Cliente — Experiencia del Hogar"
     }
   },
   "sobre": {
@@ -2345,6 +2376,22 @@
     },
     "leadersTitle": "Leaders by Department",
     "departmentsTitle": "Teams by Department",
+    "stats": {
+      "items": {
+        "0": { "value": "63", "label": "Agentes de IA" },
+        "1": { "value": "11", "label": "Departamentos" },
+        "2": { "value": "8", "label": "Nacionalidades" },
+        "3": { "value": "1", "label": "Humano (CEO)" }
+      }
+    },
+    "searchPlaceholder": "Buscar por nombre, cargo o departamento...",
+    "clearSearch": "Limpiar búsqueda",
+    "noResults": "Ningún agente encontrado",
+    "cta": {
+      "title": "¿Conociste a nuestro equipo?",
+      "description": "Cada miembro de Dibs está listo para contribuir a tu proyecto. Solicita un presupuesto y descubre cómo nuestra orquestación de talentos puede transformar tu idea.",
+      "button": "Solicitar presupuesto →"
+    },
     "profiles": {
       "ceo": {
         "name": "Rafael Mendonça",

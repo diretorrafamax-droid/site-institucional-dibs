@@ -120,24 +120,34 @@
         "description": "Complete e-book from scratch: research, writing, editorial design, layout and publishing on Amazon KDP. Project delivered in 15 days."
       },
       "1": {
-        "category": "🎨 Design",
-        "title": "Deborabelha Landing Page",
-        "description": "Exclusive Design System, prototyping in Figma, frontend development with Next.js and Tailwind. Visual identity that communicates craftsmanship and warmth."
+        "category": "🎨 Webdesign",
+        "title": "Home Experience Landing Page",
+        "description": "Client needed a visual identity that conveyed craftsmanship and warmth. We built a complete Design System from Figma to Next.js. Result: cohesive digital presence across all screens."
       },
       "2": {
         "category": "🎮 Games",
         "title": "Snake Bonus Game",
-        "description": "Interactive game with 5 phases, power-ups, lives system and ranking. Bonus mechanics and progression with mobile-first experience."
+        "description": "We needed an engagement tool to keep users active in the ecosystem. Built a 5-phase game with power-ups and competitive ranking. Result: hundreds of engaged players."
       },
       "3": {
         "category": "📊 Consulting",
         "title": "TimeTracker Pro",
-        "description": "Internal time management platform with project tracking, cost calculations, budget simulation, and pricing intelligence."
+        "description": "Team lost hours without tracking project costs. Built an internal time management platform with auto cost calculation and budget simulation. Result: significant reduction in budget overruns."
       },
       "sectionTitle": {
         "label": "Portfolio",
         "title": "Projects that turned ideas into results",
         "subtitle": "Each case represents a real partnership. Clients who trusted Dibs to bring their ideas to life."
+      },
+      "4": {
+        "category": "💻 Software",
+        "title": "GestCash",
+        "description": "Investors lacked unified visibility of their assets and projects. Built a complete system with tokenization, smart contracts and multi-level profiles. Result: first platform in the segment with integrated management."
+      },
+      "5": {
+        "category": "💻 Software",
+        "title": "Top 5 Traders",
+        "description": "Complete trading signals platform with dashboard, MetaTrader EA, Telegram bot and subscription system. +2,300 members and 73% accuracy rate."
       }
     },
     "cta": {
@@ -152,6 +162,14 @@
       "title": "Projects that turned ideas into results",
       "subtitle": "Each case represents a real partnership with clients who trusted Dibs to bring their ideas to life."
     },
+    "stats": {
+      "items": {
+        "0": { "value": "11", "label": "Projects delivered" },
+        "1": { "value": "60+", "label": "Specialized agents" },
+        "2": { "value": "100%", "label": "On-time delivery" },
+        "3": { "value": "4.9", "label": "Satisfaction score" }
+      }
+    },
     "filter": {
       "all": "All"
     },
@@ -162,25 +180,38 @@
         "description": "Complete e-book from scratch: market research, creative writing, editorial design, professional layout and publishing on Amazon KDP. Project delivered in 15 days with sales already in the first week."
       },
       "1": {
-        "category": "Design",
-        "title": "Deborabelha Landing Page",
-        "description": "Exclusive Design System with prototyping in Figma, frontend development with Next.js and Tailwind, and visual identity that communicates craftsmanship and warmth."
+        "category": "Webdesign",
+        "title": "Home Experience Landing Page",
+        "description": "Client needed a visual identity that communicated craftsmanship, warmth and artisanal quality. We created an exclusive Design System with prototyping in Figma, frontend development with Next.js and Tailwind, and naming aligned with the brand essence. Result: cohesive digital presence with a visual identity that converts visitors into customers."
       },
       "2": {
         "category": "Games",
         "title": "Snake Bonus Game",
-        "description": "Interactive game with 5 themed phases (Forest, Desert, Space, City, Castle), special power-ups, 3-life system and high score ranking. Mobile-first experience with progressive mechanics."
+        "description": "The challenge was creating an engagement tool to keep users active in the platform ecosystem. We developed an interactive game with 5 themed phases (Forest, Desert, Space, City, Castle), special power-ups, 3-life system and high score ranking. Result: hundreds of engaged players with mobile-first experience and progressive mechanics."
       },
       "3": {
         "category": "Consulting",
         "title": "TimeTracker Pro",
-        "description": "Internal time management platform with per-project and per-stage tracking, automatic cost calculation, budget simulation, and pricing intelligence based on historical data."
+        "description": "The team lost work hours without being able to track costs per project and stage, causing recurring budget overruns. We created an internal time management platform with per-project and per-stage tracking, automatic cost calculation, budget simulation, and pricing intelligence based on historical data. Result: significant reduction in budget overruns and financial predictability."
       },
       "4": {
         "category": "Software",
         "title": "GestCash",
-        "description": "Complete investment management system with multi-level profiles (investor, creator, administrator), project tokenization, smart contract and financial dashboard."
+        "description": "Investors and project creators lacked unified visibility of assets, making management and results tracking difficult. We developed a complete investment management system with multi-level profiles (investor, creator, administrator), project tokenization, smart contract and real-time financial dashboard. Result: the first platform in the segment to integrate tokenization with multi-profile financial management."
+      },
+      "5": {
+        "category": "Software",
+        "title": "Top 5 Traders",
+        "description": "Complete multi-market trading signals platform (Forex, Crypto, Binaries) with real-time dashboard, proprietary Top5 Trend Engine v4 EA, Telegram signal bot and recurring subscription system with 3 plans."
       }
+    },
+    "technologies": "Technologies",
+    "customPrice": "Tailored investment — request a quote",
+    "cta": "I want a project like this →",
+    "testimonial": {
+      "text": "Dibs Solutions transformed our digital presence. They delivered a complete e-book in 15 days and the result exceeded our expectations. Exceptional professionalism and quality.",
+      "author": "Débora Mendonça",
+      "role": "Client — Home Experience"
     }
   },
   "sobre": {
@@ -2345,6 +2376,22 @@
     },
     "leadersTitle": "Leaders by Department",
     "departmentsTitle": "Teams by Department",
+    "stats": {
+      "items": {
+        "0": { "value": "63", "label": "AI Agents" },
+        "1": { "value": "11", "label": "Departments" },
+        "2": { "value": "8", "label": "Nationalities" },
+        "3": { "value": "1", "label": "Human (CEO)" }
+      }
+    },
+    "searchPlaceholder": "Search by name, role or department...",
+    "clearSearch": "Clear search",
+    "noResults": "No agents found",
+    "cta": {
+      "title": "Met our team?",
+      "description": "Every member of Dibs is ready to contribute to your project. Request a quote and discover how our talent orchestration can transform your idea.",
+      "button": "Request a quote →"
+    },
     "profiles": {
       "ceo": {
         "name": "Rafael Mendonça",

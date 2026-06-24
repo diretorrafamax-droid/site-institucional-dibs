@@ -120,24 +120,34 @@
         "description": "E-book completo do zero: pesquisa, escrita, design editorial, diagramação e publicação na Amazon KDP. Projeto entregue em 15 dias."
       },
       "1": {
-        "category": "🎨 Design",
-        "title": "Landing Page Deborabelha",
-        "description": "Design System exclusivo, prototipação no Figma, desenvolvimento frontend com Next.js e Tailwind. Identidade visual que comunica artesanato e acolhimento."
+        "category": "🎨 Webdesign",
+        "title": "Landing Page Experiência do Lar",
+        "description": "Cliente precisava de uma identidade visual que transmitisse artesanato e acolhimento. Criamos um Design System completo, do Figma ao Next.js. Resultado: presença digital coesa e profissional em todas as telas."
       },
       "2": {
         "category": "🎮 Jogos",
         "title": "Game Snake Bonus",
-        "description": "Jogo interativo com 5 fases, power-ups, sistema de vidas e ranking. Mecânicas de bônus e progressão com experiência mobile-first."
+        "description": "Precisávamos de uma ferramenta de engajamento que mantivesse usuários ativos no ecossistema. Desenvolvemos um jogo com 5 fases, power-ups e ranking competitivo. Resultado: centenas de jogadores engajados."
       },
       "3": {
         "category": "📊 Consultoria",
         "title": "TimeTracker Pro",
-        "description": "Plataforma interna de gestão de tempo com rastreamento por projeto, cálculos de custo, simulação de orçamentos e inteligência de precificação."
+        "description": "Equipe perdia horas sem rastrear custos por projeto. Criamos uma plataforma interna de gestão de tempo com cálculo automático de custos e simulação de orçamentos. Resultado: redução significativa em estouro de orçamento."
       },
       "sectionTitle": {
         "label": "Portfólio",
         "title": "Projetos que transformaram ideias em resultados",
         "subtitle": "Cada case representa uma parceria real com clientes que confiaram na Dibs para tirar suas ideias do papel. Conheça o que já entregamos."
+      },
+      "4": {
+        "category": "💻 Software",
+        "title": "GestCash",
+        "description": "Investidores sem visibilidade unificada de seus ativos e projetos. Desenvolvemos um sistema completo com tokenização, smart contract e perfis multi-nível. Resultado: primeira plataforma do segmento com gestão integrada."
+      },
+      "5": {
+        "category": "💻 Software",
+        "title": "Top 5 Traders",
+        "description": "Plataforma completa de sinais de trading com dashboard, EA MetaTrader, bot Telegram e sistema de assinaturas. +2.300 membros e 73% de taxa de acerto."
       }
     },
     "cta": {
@@ -152,6 +162,14 @@
       "title": "Projetos que transformaram ideias em resultados",
       "subtitle": "Cada case representa uma parceria real com clientes que confiaram na Dibs para tirar suas ideias do papel."
     },
+    "stats": {
+      "items": {
+        "0": { "value": "11", "label": "Projetos entregues" },
+        "1": { "value": "60+", "label": "Agentes especializados" },
+        "2": { "value": "100%", "label": "Projetos no prazo" },
+        "3": { "value": "4.9", "label": "Nota de satisfação" }
+      }
+    },
     "filter": {
       "all": "Todos"
     },
@@ -162,25 +180,38 @@
         "description": "E-book completo do zero: pesquisa de mercado, escrita criativa, design editorial, diagramação profissional e publicação na Amazon KDP. Projeto entregue em 15 dias com vendas já na primeira semana."
       },
       "1": {
-        "category": "Design",
-        "title": "Landing Page Deborabelha",
-        "description": "Design System exclusivo com prototipação no Figma, desenvolvimento frontend com Next.js e Tailwind, e identidade visual que comunica artesanato e acolhimento."
+        "category": "Webdesign",
+        "title": "Landing Page Experiência do Lar",
+        "description": "Cliente precisava de uma identidade visual que comunicasse artesanato, acolhimento e qualidade artesanal. Criamos um Design System exclusivo com prototipação no Figma, desenvolvimento frontend com Next.js e Tailwind, e naming alinhado à essência da marca. Resultado: presença digital coesa e profissional com identidade visual que converte visitantes em clientes."
       },
       "2": {
         "category": "Jogos",
         "title": "Game Snake Bonus",
-        "description": "Jogo interativo com 5 fases temáticas (Floresta, Deserto, Espaço, Cidade, Castelo), power-ups especiais, sistema de 3 vidas e ranking de pontuação. Experiência mobile-first com mecânicas progressivas."
+        "description": "O desafio era criar uma ferramenta de engajamento que mantivesse os usuários ativos no ecossistema da plataforma. Desenvolvemos um jogo interativo com 5 fases temáticas (Floresta, Deserto, Espaço, Cidade, Castelo), power-ups especiais, sistema de 3 vidas e ranking de pontuação. Resultado: centenas de jogadores engajados com experiência mobile-first e mecânicas progressivas."
       },
       "3": {
         "category": "Consultoria",
         "title": "TimeTracker Pro",
-        "description": "Plataforma interna de gestão de tempo com rastreamento por projeto e etapa, cálculo automático de custos, simulação de orçamentos e inteligência de precificação baseada em histórico."
+        "description": "A equipe perdia horas de trabalho sem conseguir rastrear custos por projeto e etapa, gerando estouros de orçamento recorrentes. Criamos uma plataforma interna de gestão de tempo com rastreamento por projeto e etapa, cálculo automático de custos, simulação de orçamentos e inteligência de precificação baseada em histórico. Resultado: redução significativa de estouro de orçamento e previsibilidade financeira."
       },
       "4": {
         "category": "Software",
         "title": "GestCash",
-        "description": "Sistema completo de gestão de investimentos com perfis multi-nível (investidor, idealizador, administrador), tokenização de projetos, contrato inteligente e dashboard financeiro."
+        "description": "Investidores e idealizadores de projetos não tinham visibilidade unificada dos ativos, dificultando a gestão e o acompanhamento de resultados. Desenvolvemos um sistema completo de gestão de investimentos com perfis multi-nível (investidor, idealizador, administrador), tokenização de projetos, contrato inteligente e dashboard financeiro em tempo real. Resultado: a primeira plataforma do segmento a integrar tokenização com gestão financeira multi-perfil."
+      },
+      "5": {
+        "category": "Software",
+        "title": "Top 5 Traders",
+        "description": "Plataforma completa de sinais de trading multi-mercado (Forex, Crypto, Binárias) com dashboard em tempo real, EA proprietário Top5 Trend Engine v4, bot de sinais via Telegram e sistema de assinaturas recorrentes com 3 planos."
       }
+    },
+    "technologies": "Tecnologias",
+    "customPrice": "Investimento sob medida — solicite um orçamento",
+    "cta": "Quero um projeto como este →",
+    "testimonial": {
+      "text": "A Dibs Solutions transformou nossa presença digital. Entregaram um e-book completo em 15 dias e o resultado superou nossas expectativas. Profissionalismo e qualidade excepcionais.",
+      "author": "Débora Mendonça",
+      "role": "Cliente — Experiência do Lar"
     }
   },
   "sobre": {
@@ -2352,6 +2383,22 @@
     },
     "leadersTitle": "Líderes por Departamento",
     "departmentsTitle": "Equipes por Departamento",
+    "stats": {
+      "items": {
+        "0": { "value": "63", "label": "Agentes de IA" },
+        "1": { "value": "11", "label": "Departamentos" },
+        "2": { "value": "8", "label": "Nacionalidades" },
+        "3": { "value": "1", "label": "Humano (CEO)" }
+      }
+    },
+    "searchPlaceholder": "Buscar por nome, cargo ou departamento...",
+    "clearSearch": "Limpar busca",
+    "noResults": "Nenhum agente encontrado",
+    "cta": {
+      "title": "Conheceu nossa equipe?",
+      "description": "Cada membro da Dibs está pronto para contribuir com seu projeto. Solicite um orçamento e descubra como nossa orquestração de talentos pode transformar sua ideia.",
+      "button": "Solicitar orçamento →"
+    },
     "profiles": {
       "ceo": {
         "name": "Rafael Mendonça",
