@@ -11,6 +11,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Dibs Solutions — Technology Agency",
   description: "Transformamos ideias em soluções digitais que geram impacto. Software, Design, Conteúdo, Blockchain e Automações Financeiras.",
+  icons: { icon: '/favicon.svg', apple: '/favicon.svg' },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
