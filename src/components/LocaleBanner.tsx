@@ -59,13 +59,19 @@ export function LocaleBanner() {
   const [dismissed, setDismissed] = useState(true)
 
   useEffect(() => {
+    localStorage.removeItem('locale-banner-dismissed')
+
     const browserLang = navigator.language || ''
     const detected = LOCALE_MAP[browserLang] || 'en'
     setDetectedLocale(detected)
 
     if (detected !== locale) {
-      const stored = localStorage.getItem('locale-banner-dismissed')
-      if (stored !== 'true') {
+      const preferred = localStorage.getItem('locale-banner-preferred')
+      if (preferred === detected) {
+        setDismissed(true)
+      } else if (sessionStorage.getItem('locale-banner-session') === 'true') {
+        setDismissed(true)
+      } else {
         setDismissed(false)
       }
     }
@@ -77,13 +83,13 @@ export function LocaleBanner() {
 
   const handleSwitch = () => {
     setDismissed(true)
-    localStorage.setItem('locale-banner-dismissed', 'true')
-    router.replace(pathname, { locale: detectedLocale })
+    localStorage.setItem('locale-banner-preferred', detectedLocale!)
+    router.replace(pathname, { locale: detectedLocale! })
   }
 
   const handleDismiss = () => {
     setDismissed(true)
-    localStorage.setItem('locale-banner-dismissed', 'true')
+    sessionStorage.setItem('locale-banner-session', 'true')
   }
 
   return (
