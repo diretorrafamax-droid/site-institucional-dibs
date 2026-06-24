@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
 import { TeamProfile } from '@/data/team-profiles'
@@ -104,7 +103,10 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
             <div className="relative">
               <div className="overflow-hidden rounded-2xl shadow-lg">
                 {profile.photo ? (
-                  <Image src={profile.photo} alt={profile.name} width={200} height={200} className="h-[180px] w-[180px] object-cover md:h-[220px] md:w-[220px]" />
+                  <picture>
+                    <source srcSet={profile.photo.replace(/\.\w+$/, '.webp')} type="image/webp" />
+                    <img src={profile.photo} alt={profile.name} width={200} height={200} className="h-[180px] w-[180px] object-cover md:h-[220px] md:w-[220px]" />
+                  </picture>
                 ) : (
                   <div className="flex h-[180px] w-[180px] items-center justify-center bg-surface md:h-[220px] md:w-[220px]">
                     <svg width="120" height="120" viewBox="0 0 400 400">

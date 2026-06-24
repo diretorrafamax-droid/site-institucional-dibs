@@ -10,13 +10,17 @@ export function Avatar({ initials, color, photo, size = 120, onClick }: AvatarPr
   const Wrapper = onClick ? 'button' : 'div'
 
   if (photo) {
+    const webpSrc = photo.replace(/\.\w+$/, '.webp')
     return (
       <Wrapper
         onClick={onClick}
         className={`overflow-hidden rounded-full shrink-0 ${onClick ? 'cursor-pointer transition-transform hover:scale-105' : ''}`}
         style={{ width: size, height: size }}
       >
-        <img src={photo} alt={initials} width={size} height={size} className="h-full w-full object-cover" />
+        <picture>
+          <source srcSet={webpSrc} type="image/webp" />
+          <img src={photo} alt={initials} width={size} height={size} className="h-full w-full object-cover" />
+        </picture>
       </Wrapper>
     )
   }
