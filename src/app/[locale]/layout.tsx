@@ -32,6 +32,8 @@ export default async function LocaleLayout({
 
   const messages = await getMessages()
 
+  const deployVersion = process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_SHA || 'dev'
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <ThemeProvider>
@@ -41,6 +43,9 @@ export default async function LocaleLayout({
         <CookieConsent />
         <LocaleBanner />
       </ThemeProvider>
+      <script dangerouslySetInnerHTML={{
+        __html: `(function(){try{var k='dibs:v',v='${deployVersion}',c=localStorage.getItem(k);if(c&&c!==v){localStorage.setItem(k,v);location.reload()}else if(!c){localStorage.setItem(k,v)}}catch(e){}})()`
+      }} />
     </NextIntlClientProvider>
   )
 }
