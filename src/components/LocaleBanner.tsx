@@ -59,18 +59,15 @@ export function LocaleBanner() {
   const [dismissed, setDismissed] = useState(true)
 
   useEffect(() => {
-    const stored = localStorage.getItem('locale-banner-dismissed')
-    if (stored === 'true') {
-      setDismissed(true)
-      return
-    }
-
     const browserLang = navigator.language || ''
     const detected = LOCALE_MAP[browserLang] || 'en'
     setDetectedLocale(detected)
 
     if (detected !== locale) {
-      setDismissed(false)
+      const stored = localStorage.getItem('locale-banner-dismissed')
+      if (stored !== 'true') {
+        setDismissed(false)
+      }
     }
   }, [locale])
 
