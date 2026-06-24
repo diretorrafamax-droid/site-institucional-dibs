@@ -10,7 +10,7 @@ import { AiLogos } from '@/components/AiLogos'
 import { TechStack } from '@/components/TechStack'
 
 const caseMeta = [
-  { image: '/assets/cases/ebook-experiencia-do-lar.svg', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
+  { image: '/assets/cases/ebook-experiencia-do-lar.webp', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
   { image: '/assets/cases/landing-page-deborabelha.svg', metric: 'Design System', techs: ['Figma', 'Next.js', 'Tailwind', 'UX Writing'] },
   { image: '/assets/cases/game-snake-bonus.svg', metric: '5 fases', techs: ['Canvas API', 'Mobile-first', 'Ranking'] },
   { image: '/assets/cases/timetracker-pro.svg', metric: 'Gestão de Tempo', techs: ['Next.js', 'Dashboard', 'Simulação'] },
