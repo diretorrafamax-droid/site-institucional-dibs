@@ -20,15 +20,6 @@ function matchesQuery(p: TeamProfile, q: string) {
   return p.name.toLowerCase().includes(lq) || p.role.toLowerCase().includes(lq)
 }
 
-function StatCard({ value, label }: { value: string; label: string }) {
-  return (
-    <div className="flex flex-col items-center rounded-xl border border-border bg-surface p-5 transition-all hover:border-accent">
-      <span className="text-2xl font-bold text-accent">{value}</span>
-      <span className="mt-1 text-center text-xs text-muted">{label}</span>
-    </div>
-  )
-}
-
 const badgeClasses = 'inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold'
 
 export default function Equipe() {
@@ -40,8 +31,6 @@ export default function Equipe() {
 
   const badgeReal = tc("badgeReal")
   const badgeIA = tc("badgeIA")
-
-  const statItems = [0, 1, 2, 3] as const
 
   function Badge({ type }: { type: 'ia' | 'real' }) {
     if (type === 'real') {
@@ -82,12 +71,6 @@ export default function Equipe() {
     <section className="py-20">
       <div className="mx-auto max-w-6xl px-6">
         <SectionTitle label={t("pageTitle.label")} title={t("pageTitle.title")} subtitle={t("pageTitle.subtitle")} />
-
-        <div className="mb-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {statItems.map(i => (
-            <StatCard key={i} value={t(`stats.items.${i}.value`)} label={t(`stats.items.${i}.label`)} />
-          ))}
-        </div>
 
         <div className="relative mx-auto mb-8 max-w-md">
           <svg className="absolute left-3 top-1/2 -translate-y-1/2 text-muted" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

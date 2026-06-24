@@ -2365,14 +2365,6 @@
     },
     "leadersTitle": "Leiter nach Abteilung",
     "departmentsTitle": "Teams nach Abteilung",
-    "stats": {
-      "items": {
-        "0": { "value": "63", "label": "KI-Agenten" },
-        "1": { "value": "11", "label": "Abteilungen" },
-        "2": { "value": "8", "label": "Nationalitäten" },
-        "3": { "value": "1", "label": "Mensch (CEO)" }
-      }
-    },
     "searchPlaceholder": "Suche nach Name, Rolle oder Abteilung...",
     "clearSearch": "Suche löschen",
     "noResults": "Keine Agenten gefunden",

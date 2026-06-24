@@ -2364,14 +2364,6 @@
     },
     "leadersTitle": "Responsables par Département",
     "departmentsTitle": "Équipes par Département",
-    "stats": {
-      "items": {
-        "0": { "value": "63", "label": "Agents IA" },
-        "1": { "value": "11", "label": "Départements" },
-        "2": { "value": "8", "label": "Nationalités" },
-        "3": { "value": "1", "label": "Humain (CEO)" }
-      }
-    },
     "searchPlaceholder": "Rechercher par nom, poste ou département...",
     "clearSearch": "Effacer la recherche",
     "noResults": "Aucun agent trouvé",

@@ -2376,14 +2376,6 @@
     },
     "leadersTitle": "Leaders by Department",
     "departmentsTitle": "Teams by Department",
-    "stats": {
-      "items": {
-        "0": { "value": "63", "label": "Agentes de IA" },
-        "1": { "value": "11", "label": "Departamentos" },
-        "2": { "value": "8", "label": "Nacionalidades" },
-        "3": { "value": "1", "label": "Humano (CEO)" }
-      }
-    },
     "searchPlaceholder": "Buscar por nombre, cargo o departamento...",
     "clearSearch": "Limpiar búsqueda",
     "noResults": "Ningún agente encontrado",
