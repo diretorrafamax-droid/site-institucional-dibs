@@ -36,7 +36,7 @@ export function CaseCarousel() {
         <div className="absolute left-1/2 top-0 h-px w-1/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
         <div className="relative mx-auto max-w-6xl px-6">
           <SectionTitle label={th('cases.sectionTitle.label')} title={th('cases.sectionTitle.title')} subtitle={th('cases.sectionTitle.subtitle')} />
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 justify-items-center md:grid-cols-3">
             {caseKeys.map(k => (
               <div
                 key={k}
