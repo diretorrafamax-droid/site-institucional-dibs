@@ -116,12 +116,12 @@
     "cases": {
       "0": {
         "category": "📝 Content",
-        "title": "E-Book — Zuhause Erlebnis in 7 Tagen",
+        "title": "E-Book — Das Zuhause Erlebnis in 7 Tagen",
         "description": "Kostenloses E-Book als Lead-Generierungsstrategie, inspiriert vom physischen Buch Zuhause Erlebnis: Recherche, Schreiben, Editorial Design, Layout und Veröffentlichung bei Amazon KDP. Projekt in 15 Tagen abgeschlossen."
       },
       "1": {
         "category": "🎨 Webdesign",
-        "title": "Landing Page Zuhause Erlebnis in 7 Tagen",
+        "title": "Landing Page Das Zuhause Erlebnis in 7 Tagen",
         "description": "Lead-Capture-Landingpage inspiriert vom Thema des Buches (Zuhause Erlebnis). Komplettes Design System mit Figma-Prototyping und Next.js-Entwicklung. Ergebnis: professionelle digitale Präsenz, die Besucher in qualifizierte Leads verwandelt."
       },
       "2": {
@@ -176,13 +176,13 @@
     "items": {
       "0": {
         "category": "Content",
-        "title": "E-Book — Zuhause Erlebnis in 7 Tagen",
+        "title": "E-Book — Das Zuhause Erlebnis in 7 Tagen",
         "description": "Kostenloses E-Book als Lead-Generierungsstrategie entwickelt: Marktforschung, kreatives Schreiben, Editorial Design, professionelles Layout und Veröffentlichung bei Amazon KDP. Projekt in 15 Tagen abgeschlossen."
       },
       "1": {
         "category": "Webdesign",
-        "title": "Landing Page Zuhause Erlebnis in 7 Tagen",
-        "description": "Lead-Capture-Landingpage abgestimmt auf die visuelle Identität des E-Books Zuhause Erlebnis in 7 Tagen, inspiriert vom physischen Buch Zuhause Erlebnis. Exklusives Design System mit Figma-Prototyping, Next.js- und Tailwind-Frontend. Ergebnis: professionelle digitale Präsenz, die Besucher in qualifizierte Leads verwandelt."
+        "title": "Landing Page Das Zuhause Erlebnis in 7 Tagen",
+        "description": "Lead-Capture-Landingpage abgestimmt auf die visuelle Identität des E-Books Das Zuhause Erlebnis in 7 Tagen, inspiriert vom physischen Buch Zuhause Erlebnis. Exklusives Design System mit Figma-Prototyping, Next.js- und Tailwind-Frontend. Ergebnis: professionelle digitale Präsenz, die Besucher in qualifizierte Leads verwandelt."
       },
       "2": {
         "category": "Spiele",
@@ -211,7 +211,7 @@
     "testimonial": {
       "text": "Dibs Solutions hat unsere digitale Präsenz transformiert. Sie lieferten ein komplettes E-Book in 15 Tagen und das Ergebnis übertraf unsere Erwartungen. Außergewöhnliche Professionalität und Qualität.",
       "author": "Débora Mendonça",
-      "role": "Kunde — E-Book Zuhause Erlebnis in 7 Tagen"
+      "role": "Kunde — E-Book Das Zuhause Erlebnis in 7 Tagen"
     }
   },
   "sobre": {

@@ -116,12 +116,12 @@
     "cases": {
       "0": {
         "category": "📝 Conteúdo",
-        "title": "E-Book — Experiência do Lar em 7 Dias",
+        "title": "E-Book — A Experiência do Lar em 7 Dias",
         "description": "E-book gratuito criado como estratégia de atração de leads, inspirado no livro físico Experiência do Lar: pesquisa, escrita, design editorial, diagramação e publicação na Amazon KDP. Projeto entregue em 15 dias."
       },
       "1": {
         "category": "🎨 Webdesign",
-        "title": "Landing Page Experiência do Lar em 7 Dias",
+        "title": "Landing Page A Experiência do Lar em 7 Dias",
         "description": "Landing page de captura de leads inspirada no tema do livro (Experiência do Lar). Design System completo com prototipação no Figma e desenvolvimento Next.js. Resultado: presença digital profissional que converte visitantes em leads qualificados."
       },
       "2": {
@@ -176,13 +176,13 @@
     "items": {
       "0": {
         "category": "Conteúdo",
-        "title": "E-Book — Experiência do Lar em 7 Dias",
+        "title": "E-Book — A Experiência do Lar em 7 Dias",
         "description": "E-book gratuito desenvolvido como estratégia de lead generation: pesquisa de mercado, escrita criativa, design editorial, diagramação profissional e publicação na Amazon KDP. Projeto entregue em 15 dias."
       },
       "1": {
         "category": "Webdesign",
-        "title": "Landing Page Experiência do Lar em 7 Dias",
-        "description": "Landing page de captura de leads alinhada à identidade visual do e-book Experiência do Lar em 7 Dias, inspirado no livro físico Experiência do Lar. Design System exclusivo com prototipação no Figma, frontend Next.js e Tailwind. Resultado: presença digital profissional que converte visitantes em leads qualificados."
+        "title": "Landing Page A Experiência do Lar em 7 Dias",
+        "description": "Landing page de captura de leads alinhada à identidade visual do e-book A Experiência do Lar em 7 Dias, inspirado no livro físico Experiência do Lar. Design System exclusivo com prototipação no Figma, frontend Next.js e Tailwind. Resultado: presença digital profissional que converte visitantes em leads qualificados."
       },
       "2": {
         "category": "Jogos",
@@ -211,7 +211,7 @@
     "testimonial": {
       "text": "A Dibs Solutions transformou nossa presença digital. Entregaram um e-book completo em 15 dias e o resultado superou nossas expectativas. Profissionalismo e qualidade excepcionais.",
       "author": "Débora Mendonça",
-      "role": "Cliente — E-Book Experiência do Lar em 7 Dias"
+      "role": "Cliente — E-Book A Experiência do Lar em 7 Dias"
     }
   },
   "sobre": {
@@ -3525,7 +3525,7 @@
       "0": {
         "quote": "A Dibs transformou minha ideia em um e-book completo em apenas 5 dias. A qualidade do design e da escrita superou minhas expectativas.",
         "name": "Débora Mendonça",
-        "project": "E-Book Experiência do Lar em 7 Dias",
+        "project": "E-Book A Experiência do Lar em 7 Dias",
         "tags": "5 dias • 42 páginas • vendas na 1ª semana"
       },
       "1": {

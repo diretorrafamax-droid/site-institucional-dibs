@@ -116,12 +116,12 @@
     "cases": {
       "0": {
         "category": "📝 Contenu",
-        "title": "E-Book — Expérience du Foyer en 7 Jours",
+        "title": "E-Book — L'Expérience du Foyer en 7 Jours",
         "description": "E-book gratuit créé comme stratégie de génération de leads, inspiré du livre physique Expérience du Foyer : recherche, rédaction, design éditorial, mise en page et publication sur Amazon KDP. Projet livré en 15 jours."
       },
       "1": {
         "category": "🎨 Webdesign",
-        "title": "Landing Page Expérience du Foyer en 7 Jours",
+        "title": "Landing Page L'Expérience du Foyer en 7 Jours",
         "description": "Landing page de capture de leads inspirée par le thème du livre (Expérience du Foyer). Design System complet avec prototypage sur Figma et développement Next.js. Résultat : présence numérique professionnelle qui convertit les visiteurs en leads qualifiés."
       },
       "2": {
@@ -176,13 +176,13 @@
     "items": {
       "0": {
         "category": "Contenu",
-        "title": "E-Book — Expérience du Foyer en 7 Jours",
+        "title": "E-Book — L'Expérience du Foyer en 7 Jours",
         "description": "E-book gratuit développé comme stratégie de lead generation : étude de marché, rédaction créative, design éditorial, mise en page professionnelle et publication sur Amazon KDP. Projet livré en 15 jours."
       },
       "1": {
         "category": "Webdesign",
-        "title": "Landing Page Expérience du Foyer en 7 Jours",
-        "description": "Landing page de capture de leads alignée sur l'identité visuelle de l'e-book Expérience du Foyer en 7 Jours, inspiré du livre physique Expérience du Foyer. Design System exclusif avec prototypage sur Figma, frontend Next.js et Tailwind. Résultat : présence numérique professionnelle qui convertit les visiteurs en leads qualifiés."
+        "title": "Landing Page L'Expérience du Foyer en 7 Jours",
+        "description": "Landing page de capture de leads alignée sur l'identité visuelle de l'e-book L'Expérience du Foyer en 7 Jours, inspiré du livre physique Expérience du Foyer. Design System exclusif avec prototypage sur Figma, frontend Next.js et Tailwind. Résultat : présence numérique professionnelle qui convertit les visiteurs en leads qualifiés."
       },
       "2": {
         "category": "Jeux",
@@ -211,7 +211,7 @@
     "testimonial": {
       "text": "Dibs Solutions a transformé notre présence numérique. Ils ont livré un e-book complet en 15 jours et le résultat a dépassé nos attentes. Professionnalisme et qualité exceptionnels.",
       "author": "Débora Mendonça",
-      "role": "Client — E-Book Expérience du Foyer en 7 Jours"
+      "role": "Client — E-Book L'Expérience du Foyer en 7 Jours"
     }
   },
   "sobre": {
@@ -3437,7 +3437,7 @@
       "0": {
         "quote": "Dibs a transformé mon idée en un e-book complet en seulement 5 jours. La qualité du design et de l'écriture a dépassé mes attentes.",
         "name": "Débora Mendonça",
-        "project": "E-Book Expérience du Foyer en 7 Jours",
+        "project": "E-Book L'Expérience du Foyer en 7 Jours",
         "tags": "5 jours • 42 pages • ventes en 1ère semaine"
       },
       "1": {
