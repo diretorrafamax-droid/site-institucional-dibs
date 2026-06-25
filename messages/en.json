@@ -116,13 +116,13 @@
     "cases": {
       "0": {
         "category": "📝 Content",
-        "title": "E-Book — Home Experience",
-        "description": "Free e-book created as a lead generation strategy: research, writing, editorial design, layout and publishing on Amazon KDP. Project delivered in 15 days."
+        "title": "E-Book — Home Experience in 7 Days",
+        "description": "Free e-book created as a lead generation strategy, inspired by the physical book Home Experience: research, writing, editorial design, layout and publishing on Amazon KDP. Project delivered in 15 days."
       },
       "1": {
         "category": "🎨 Webdesign",
-        "title": "Home Experience Landing Page",
-        "description": "Lead capture landing page inspired by the book's theme. Complete Design System with Figma prototyping and Next.js development. Result: professional digital presence that converts visitors into qualified leads."
+        "title": "Home Experience in 7 Days Landing Page",
+        "description": "Lead capture landing page inspired by the physical book Home Experience (Home Experience)'s theme. Complete Design System with Figma prototyping and Next.js development. Result: professional digital presence that converts visitors into qualified leads."
       },
       "2": {
         "category": "🎮 Games",
@@ -176,13 +176,13 @@
     "items": {
       "0": {
         "category": "Content",
-        "title": "E-Book — Home Experience",
+        "title": "E-Book — Home Experience in 7 Days",
         "description": "Free e-book developed as a lead generation strategy: market research, creative writing, editorial design, professional layout and publishing on Amazon KDP. Project delivered in 15 days."
       },
       "1": {
         "category": "Webdesign",
-        "title": "Home Experience Landing Page",
-        "description": "Lead capture landing page aligned with the Home Experience e-book visual identity. Exclusive Design System with Figma prototyping, Next.js and Tailwind frontend. Result: professional digital presence that converts visitors into qualified leads."
+        "title": "Home Experience in 7 Days Landing Page",
+        "description": "Lead capture landing page aligned with the Home Experience in 7 Days e-book, inspired by the physical book Home Experience visual identity. Exclusive Design System with Figma prototyping, Next.js and Tailwind frontend. Result: professional digital presence that converts visitors into qualified leads."
       },
       "2": {
         "category": "Games",
@@ -211,7 +211,7 @@
     "testimonial": {
       "text": "Dibs Solutions transformed our digital presence. They delivered a complete e-book in 15 days and the result exceeded our expectations. Exceptional professionalism and quality.",
       "author": "Débora Mendonça",
-      "role": "Client — Home Experience"
+      "role": "Client — E-Book Home Experience in 7 Days"
     }
   },
   "sobre": {
@@ -3518,7 +3518,7 @@
       "0": {
         "quote": "Dibs turned my idea into a complete e-book in just 5 days. The quality of design and writing exceeded my expectations.",
         "name": "Débora Mendonça",
-        "project": "E-Book Home Experience",
+        "project": "E-Book Home Experience in 7 Days",
         "tags": "5 days • 42 pages • sales in week 1"
       },
       "1": {

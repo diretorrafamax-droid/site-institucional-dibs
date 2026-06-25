@@ -116,13 +116,13 @@
     "cases": {
       "0": {
         "category": "📝 Contenido",
-        "title": "E-Book — Experiencia del Hogar",
-        "description": "E-book gratuito creado como estrategia de atracción de leads: investigación, escritura, diseño editorial, diagramación y publicación en Amazon KDP. Proyecto entregado en 15 días."
+        "title": "E-Book — Experiencia del Hogar en 7 Días",
+        "description": "E-book gratuito creado como estrategia de atracción de leads, inspirado en el libro físico Experiencia del Hogar: investigación, escritura, diseño editorial, diagramación y publicación en Amazon KDP. Proyecto entregado en 15 días."
       },
       "1": {
         "category": "🎨 Webdesign",
-        "title": "Landing Page Experiencia del Hogar",
-        "description": "Landing page de captura de leads inspirada en la temática del libro. Design System completo con prototipado en Figma y desarrollo Next.js. Resultado: presencia digital profesional que convierte visitantes en leads calificados."
+        "title": "Landing Page Experiencia del Hogar en 7 Días",
+        "description": "Landing page de captura de leads inspirada en la temática del libro (Experiencia del Hogar). Design System completo con prototipado en Figma y desarrollo Next.js. Resultado: presencia digital profesional que convierte visitantes en leads calificados."
       },
       "2": {
         "category": "🎮 Juegos",
@@ -176,13 +176,13 @@
     "items": {
       "0": {
         "category": "Contenido",
-        "title": "E-Book — Experiencia del Hogar",
+        "title": "E-Book — Experiencia del Hogar en 7 Días",
         "description": "E-book gratuito desarrollado como estrategia de lead generation: investigación de mercado, escritura creativa, diseño editorial, diagramación profesional y publicación en Amazon KDP. Proyecto entregado en 15 días."
       },
       "1": {
         "category": "Webdesign",
-        "title": "Landing Page Experiencia del Hogar",
-        "description": "Landing page de captura de leads alineada con la identidad visual del e-book Experiencia del Hogar. Design System exclusivo con prototipado en Figma, frontend Next.js y Tailwind. Resultado: presencia digital profesional que convierte visitantes en leads calificados."
+        "title": "Landing Page Experiencia del Hogar en 7 Días",
+        "description": "Landing page de captura de leads alineada con la identidad visual del e-book Experiencia del Hogar en 7 Días, inspirado en el libro físico Experiencia del Hogar. Design System exclusivo con prototipado en Figma, frontend Next.js y Tailwind. Resultado: presencia digital profesional que convierte visitantes en leads calificados."
       },
       "2": {
         "category": "Juegos",
@@ -211,7 +211,7 @@
     "testimonial": {
       "text": "Dibs Solutions transformó nuestra presencia digital. Entregaron un e-book completo en 15 días y el resultado superó nuestras expectativas. Profesionalismo y calidad excepcionales.",
       "author": "Débora Mendonça",
-      "role": "Cliente — Experiencia del Hogar"
+      "role": "Cliente — E-Book Experiencia del Hogar en 7 Días"
     }
   },
   "sobre": {
@@ -3470,7 +3470,7 @@
       "0": {
         "quote": "Dibs transformó mi idea en un e-book completo en solo 5 días. La calidad del diseño y la redacción superaron mis expectativas.",
         "name": "Débora Mendonça",
-        "project": "E-Book Experiencia del Hogar",
+        "project": "E-Book Experiencia del Hogar en 7 Días",
         "tags": "5 días • 42 páginas • ventas en la 1ª semana"
       },
       "1": {
