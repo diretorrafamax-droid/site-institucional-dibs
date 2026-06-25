@@ -117,12 +117,12 @@
       "0": {
         "category": "📝 Contenu",
         "title": "E-Book — Expérience du Foyer",
-        "description": "E-book complet de A à Z : recherche, rédaction, design éditorial, mise en page et publication sur Amazon KDP. Projet livré en 15 jours."
+        "description": "E-book gratuit créé comme stratégie de génération de leads : recherche, rédaction, design éditorial, mise en page et publication sur Amazon KDP. Projet livré en 15 jours."
       },
       "1": {
         "category": "🎨 Webdesign",
         "title": "Landing Page Expérience du Foyer",
-        "description": "Le client avait besoin d'une identité visuelle transmettant artisanat et chaleur. Nous avons créé un Design System complet de Figma à Next.js. Résultat : présence numérique cohérente sur tous les écrans."
+        "description": "Landing page de capture de leads inspirée par le thème du livre. Design System complet avec prototypage sur Figma et développement Next.js. Résultat : présence numérique professionnelle qui convertit les visiteurs en leads qualifiés."
       },
       "2": {
         "category": "🎮 Jeux",
@@ -177,12 +177,12 @@
       "0": {
         "category": "Contenu",
         "title": "E-Book — Expérience du Foyer",
-        "description": "E-book complet de A à Z : étude de marché, rédaction créative, design éditorial, mise en page professionnelle et publication sur Amazon KDP. Projet livré en 15 jours avec des ventes dès la première semaine."
+        "description": "E-book gratuit développé comme stratégie de lead generation : étude de marché, rédaction créative, design éditorial, mise en page professionnelle et publication sur Amazon KDP. Projet livré en 15 jours."
       },
       "1": {
         "category": "Webdesign",
         "title": "Landing Page Expérience du Foyer",
-        "description": "Le client avait besoin d'une identité visuelle communiquant artisanat, chaleur et qualité artisanale. Nous avons créé un Design System exclusif avec prototypage sur Figma, développement frontend avec Next.js et Tailwind, et naming aligné sur l'essence de la marque. Résultat : présence numérique cohérente avec une identité visuelle qui convertit les visiteurs en clients."
+        "description": "Landing page de capture de leads alignée sur l'identité visuelle de l'e-book Expérience du Foyer. Design System exclusif avec prototypage sur Figma, frontend Next.js et Tailwind. Résultat : présence numérique professionnelle qui convertit les visiteurs en leads qualifiés."
       },
       "2": {
         "category": "Jeux",
