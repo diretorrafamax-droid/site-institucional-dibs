@@ -38,16 +38,23 @@ if (-not $cred) {
 $token = $cred.GetNetworkCredential().Password
 
 Write-Host "🚀 Deployando..." -ForegroundColor Cyan
-npx vercel --prod --token $token --yes 2>&1
+$output = npx vercel --prod --token $token --yes 2>&1
 
-if ($LASTEXITCODE -eq 0) {
-  Write-Host ""
-  Write-Host "✅ Deploy concluído!" -ForegroundColor Green
-  Write-Host "🌐 https://dibs.solutions" -ForegroundColor Cyan
-  Write-Host ""
-  Write-Host "💡 Refresh no celular — o script de versão atualiza automaticamente." -ForegroundColor Yellow
-} else {
+if ($LASTEXITCODE -ne 0) {
   Write-Host ""
   Write-Host "❌ Deploy falhou. Verifique o log acima." -ForegroundColor Red
   exit 1
 }
+
+# Extrai a URL de preview do output do Vercel
+$previewUrl = ($output | Select-String -Pattern "https://[a-z0-9-]+\.vercel\.app" | Select-Object -First 1).Matches.Value
+
+# Garante que o alias para dibs.solutions está ativo
+if ($previewUrl) {
+  Write-Host "🔗 Aliasing $previewUrl → dibs.solutions..." -ForegroundColor Cyan
+  npx vercel alias set $previewUrl "dibs.solutions" --token $token 2>&1 | Out-Host
+}
+
+Write-Host ""
+Write-Host "✅ Deploy concluído!" -ForegroundColor Green
+Write-Host "🌐 https://dibs.solutions" -ForegroundColor Cyan
