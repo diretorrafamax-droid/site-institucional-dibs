@@ -86,7 +86,7 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm" onClick={onClose}>
       <div
-        className="relative mx-auto flex w-full max-w-3xl flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-2xl"
+        className="relative mx-auto flex w-full max-w-3xl flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-2xl max-h-[90vh]"
         onClick={e => e.stopPropagation()}
       >
         {/* Close button */}
@@ -105,10 +105,10 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
                 {profile.photo ? (
                   <picture>
                     <source srcSet={profile.photo.replace(/\.\w+$/, '.webp')} type="image/webp" />
-                    <img src={profile.photo} alt={profile.name} width={200} height={200} className="h-[180px] w-[180px] object-cover md:h-[220px] md:w-[220px]" />
+                    <img src={profile.photo} alt={profile.name} width={200} height={200} className="h-[120px] w-[120px] object-cover md:h-[220px] md:w-[220px]" />
                   </picture>
                 ) : (
-                  <div className="flex h-[180px] w-[180px] items-center justify-center bg-surface md:h-[220px] md:w-[220px]">
+                  <div className="flex h-[120px] w-[120px] items-center justify-center bg-surface md:h-[220px] md:w-[220px]">
                     <svg width="120" height="120" viewBox="0 0 400 400">
                       <defs>
                         <linearGradient id={`g-${profile.initials}`} x1="0%" y1="0%" x2="100%" y2="100%">
@@ -131,7 +131,7 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
           </div>
 
           {/* Content column */}
-          <div className="min-w-0 flex-1 overflow-y-auto p-6 pt-4 md:p-8" style={{ maxHeight: '70vh' }}>
+          <div className="min-w-0 flex-1 overflow-y-auto p-6 pt-4 md:p-8">
             {/* Name header */}
             <div className="flex items-center gap-2">
               <h3 className="text-xl font-bold text-foreground">{profile.name}</h3>

@@ -102,7 +102,7 @@ export default function Equipe() {
                 >
                   <div className="flex flex-1 items-center gap-6">
                     <div className="relative shrink-0" onClick={e => { e.stopPropagation(); if (ceoProfile.photo) setLightbox({ src: ceoProfile.photo, name: ceoProfile.name }) }}>
-                      <Avatar initials={ceoProfile.initials} color={ceoProfile.color} photo={ceoProfile.photo} size={120} />
+                      <Avatar initials={ceoProfile.initials} color={ceoProfile.color} photo={ceoProfile.photo} size={80} />
                       <div className="absolute -bottom-1 -right-1"><Badge type={ceoProfile.type} /></div>
                     </div>
                     <div className="min-w-0 flex-1">
