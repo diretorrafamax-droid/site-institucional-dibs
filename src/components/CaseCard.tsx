@@ -35,7 +35,7 @@ export function CaseCard({ category, title, description, image, metric, techs }:
       </div>
       <div className="flex flex-1 flex-col p-5">
         <p className="mb-1.5 text-xs font-semibold uppercase tracking-[1px] text-accent">{category}</p>
-        <h3 className="mb-1.5 text-base font-bold">{title}</h3>
+        <h3 className="mb-1.5 text-sm font-bold truncate" title={title}>{title}</h3>
         <p className="mb-3 text-sm leading-relaxed text-muted line-clamp-2">{description}</p>
         {techs && techs.length > 0 && (
           <div className="mb-4 flex flex-wrap gap-1.5">
