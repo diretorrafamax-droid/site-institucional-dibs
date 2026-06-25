@@ -31,8 +31,10 @@ export function CaseCarousel() {
 
   return (
     <>
-      <section className="border-t border-border bg-surface py-16">
-        <div className="mx-auto max-w-6xl px-6">
+      <section className="relative overflow-hidden py-16">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-surface/30 to-surface/60" />
+        <div className="absolute left-1/2 top-0 h-px w-1/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
+        <div className="relative mx-auto max-w-6xl px-6">
           <SectionTitle label={th('cases.sectionTitle.label')} title={th('cases.sectionTitle.title')} subtitle={th('cases.sectionTitle.subtitle')} />
           <div className="grid gap-6 md:grid-cols-3">
             {caseKeys.map(k => (
