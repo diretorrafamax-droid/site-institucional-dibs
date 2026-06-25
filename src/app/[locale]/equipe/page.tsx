@@ -12,6 +12,17 @@ import { FlagIcon } from '@/components/FlagIcon'
 const leaderKeys = ['einstein', 'daniel', 'andre', 'heitor', 'thor', 'ives', 'jhon', 'samuel', 'lucas', 'amanda']
 const deptKeys = ['desenvolvimento', 'design', 'conteudo', 'orquestracao', 'seguranca', 'governanca', 'blockchain', 'consultoriaMemoria', 'comercial', 'marketing', 'quantTrading']
 
+const memberKeys: string[][] = [
+  ['sofia','carlos','alan','arthur','igor','felipe','miguel'],
+  ['cesarJunior','marioReis'],
+  ['davi','noah','benjamim','celia','tarsila','lis','leila','valerio'],
+  ['atlas','jesus','shakespeare','henry','luciano'],
+  ['helena','bruno','julio','helenaMendes','jamesCarter','sophieMueller','carlosMendoza','emilyChen','robertBlack','mariaSantos','alexanderRisk'],
+  ['gavin','vitalik','hayden','andrew','cronje','willy','illia','brendan','ameen','delton'],
+  ['paulo'],
+  ['duff','otto'],
+]
+
 const deptId = (name: string) => 'dept-' + name.replace(/[^a-z0-9]/gi, '-').toLowerCase().replace(/-+/g, '-').replace(/^-|-$/g, '')
 
 function matchesQuery(p: TeamProfile, q: string) {
@@ -27,10 +38,35 @@ export default function Equipe() {
   const tc = useTranslations("common")
   const [lightbox, setLightbox] = useState<{ src: string; name: string } | null>(null)
   const [modalProfile, setModalProfile] = useState<TeamProfile | null>(null)
+  const [modalTKey, setModalTKey] = useState('')
   const [search, setSearch] = useState('')
+
+  const memberTKeyMap = useMemo(() => {
+    const map = new Map<string, string>()
+    departmentProfiles.forEach((d, di) => {
+      const keys = memberKeys[di] || []
+      d.members.forEach((m, mi) => {
+        const mk = keys[mi] || ''
+        if (mk) map.set(m.name, 'profiles.departments.' + deptKeys[di] + '.members.' + mk)
+      })
+    })
+    return map
+  }, [])
 
   const badgeReal = tc("badgeReal")
   const badgeIA = tc("badgeIA")
+
+  function translateProfile(p: TeamProfile, prefix: string): TeamProfile {
+    const fields: (keyof TeamProfile)[] = ['bio','lifestyle','hobbies','education','experience','country']
+    const out = { ...p }
+    for (const f of fields) {
+      try {
+        const val = t(prefix + '.' + f)
+        if (val && val !== prefix + '.' + f) (out as any)[f] = val
+      } catch {}
+    }
+    return out
+  }
 
   function Badge({ type }: { type: 'ia' | 'real' }) {
     if (type === 'real') {
@@ -97,7 +133,7 @@ export default function Equipe() {
             {showCeo && (
               <div className="mb-16 mx-auto max-w-2xl">
                 <div
-                  onClick={() => setModalProfile(ceoProfile)}
+                  onClick={() => { setModalProfile(ceoProfile); setModalTKey('profiles.ceo') }}
                   className="group flex cursor-pointer flex-col rounded-xl border border-border bg-surface p-6 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-md md:p-8"
                 >
                   <div className="flex flex-1 items-center gap-6">
@@ -151,7 +187,7 @@ export default function Equipe() {
                   {filteredLeaders.map((p, i) => (
                     <div key={p.name}>
                       <div
-                        onClick={() => setModalProfile(p)}
+                        onClick={() => { const idx = leaderProfiles.indexOf(p); setModalProfile(p); setModalTKey('profiles.leaders.' + leaderKeys[idx]) }}
                         className="group flex cursor-pointer flex-col rounded-xl border border-border bg-surface p-5 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-md"
                       >
                         <div className="flex flex-1 items-center gap-5">
@@ -180,7 +216,7 @@ export default function Equipe() {
             )}
 
             {lightbox && <PhotoLightbox src={lightbox.src} alt={lightbox.name} onClose={() => setLightbox(null)} />}
-            {modalProfile && <ProfileModal profile={modalProfile} onClose={() => setModalProfile(null)} />}
+            {modalProfile && <ProfileModal profile={modalProfile} onClose={() => { setModalProfile(null); setModalTKey('') }} tEquipe={t} tPrefix={modalTKey} />}
 
             <h3 className="mb-6 text-center text-lg font-bold">{t("departmentsTitle")}</h3>
 
@@ -203,7 +239,7 @@ export default function Equipe() {
                     {d.members.map(m => (
                       <div key={m.name}>
                         <div
-                          onClick={() => setModalProfile(m)}
+                          onClick={() => { setModalProfile(m); setModalTKey(memberTKeyMap.get(m.name) || '') }}
                           className="group flex cursor-pointer flex-col rounded-xl border border-border bg-surface p-3 transition-all hover:-translate-y-0.5 hover:border-accent hover:shadow-sm"
                         >
                           <div className="flex flex-1 items-center gap-3">

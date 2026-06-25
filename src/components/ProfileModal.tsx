@@ -5,6 +5,15 @@ import { useTranslations } from 'next-intl'
 import { TeamProfile } from '@/data/team-profiles'
 import { FlagIcon } from '@/components/FlagIcon'
 
+function tr(val: string, t: ((key: string) => string) | undefined, prefix: string | undefined, key: string): string {
+  if (t && prefix) {
+    const k = prefix + '.' + key
+    const v = t(k)
+    if (v && v !== k) return v
+  }
+  return val
+}
+
 function Badge({ type, t }: { type: 'ia' | 'real'; t: (key: string) => string }) {
   if (type === 'real') {
     return (
@@ -67,9 +76,11 @@ function Divider() {
 interface ProfileModalProps {
   profile: TeamProfile
   onClose: () => void
+  tEquipe?: (key: string) => string
+  tPrefix?: string
 }
 
-export function ProfileModal({ profile, onClose }: ProfileModalProps) {
+export function ProfileModal({ profile, onClose, tEquipe, tPrefix }: ProfileModalProps) {
   const tc = useTranslations("common")
   const tl = useTranslations("profileModal")
 
@@ -134,14 +145,14 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
           <div className="min-w-0 flex-1 overflow-y-auto p-6 pt-4 md:p-8">
             {/* Name header */}
             <div className="flex items-center gap-2">
-              <h3 className="text-xl font-bold text-foreground">{profile.name}</h3>
+              <h3 className="text-xl font-bold text-foreground">{tr(profile.name, tEquipe, tPrefix, 'name')}</h3>
               <FlagIcon code={profile.countryCode} />
             </div>
-            <p className="mt-0.5 text-sm text-accent">{profile.role}</p>
+            <p className="mt-0.5 text-sm text-accent">{tr(profile.role, tEquipe, tPrefix, 'role')}</p>
             <div className="mt-1 flex items-center gap-3 text-xs text-muted">
               <span>{tc("age", { age: profile.age })}</span>
               <span className="text-border">•</span>
-              <span>{profile.country}</span>
+              <span>{tr(profile.country, tEquipe, tPrefix, 'country')}</span>
             </div>
             {profile.social && (
               <div className="mt-2 flex items-center gap-1.5">
@@ -154,7 +165,7 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
 
             {/* Bio */}
             <div className="mt-4">
-              <p className="text-sm leading-relaxed text-foreground/80">{profile.bio}</p>
+              <p className="text-sm leading-relaxed text-foreground/80">{tr(profile.bio, tEquipe, tPrefix, 'bio')}</p>
             </div>
 
             <Divider />
@@ -163,11 +174,11 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <h4 className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-muted">{tl("labels.lifestyle")}</h4>
-                <p className="text-sm leading-relaxed text-foreground/70">{profile.lifestyle}</p>
+                <p className="text-sm leading-relaxed text-foreground/70">{tr(profile.lifestyle, tEquipe, tPrefix, 'lifestyle')}</p>
               </div>
               <div>
                 <h4 className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-muted">{tl("labels.hobbies")}</h4>
-                <p className="text-sm leading-relaxed text-foreground/70">{profile.hobbies}</p>
+                <p className="text-sm leading-relaxed text-foreground/70">{tr(profile.hobbies, tEquipe, tPrefix, 'hobbies')}</p>
               </div>
             </div>
 
@@ -177,11 +188,11 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <h4 className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-muted">{tl("labels.education")}</h4>
-                <p className="text-sm leading-relaxed text-foreground/70">{profile.education}</p>
+                <p className="text-sm leading-relaxed text-foreground/70">{tr(profile.education, tEquipe, tPrefix, 'education')}</p>
               </div>
               <div>
                 <h4 className="mb-1 text-[11px] font-semibold uppercase tracking-wider text-muted">{tl("labels.experience")}</h4>
-                <p className="text-sm leading-relaxed text-foreground/70">{profile.experience}</p>
+                <p className="text-sm leading-relaxed text-foreground/70">{tr(profile.experience, tEquipe, tPrefix, 'experience')}</p>
               </div>
             </div>
 
@@ -191,12 +202,15 @@ export function ProfileModal({ profile, onClose }: ProfileModalProps) {
             <div>
               <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-muted">{tl("labels.curriculum")}</h4>
               <div className="grid gap-1.5 sm:grid-cols-2">
-                {profile.curriculum.map((item, i) => (
-                  <div key={i} className="flex items-start gap-2 text-sm text-foreground/70">
-                    <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                    {item}
-                  </div>
-                ))}
+                {profile.curriculum.map((item, i) => {
+                  const translated = tEquipe && tPrefix ? tEquipe(tPrefix + '.curriculum.' + i) : ''
+                  return (
+                    <div key={i} className="flex items-start gap-2 text-sm text-foreground/70">
+                      <span className="mt-0.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+                      {translated && translated !== tPrefix + '.curriculum.' + i ? translated : item}
+                    </div>
+                  )
+                })}
               </div>
             </div>
           </div>
