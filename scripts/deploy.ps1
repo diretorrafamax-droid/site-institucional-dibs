@@ -5,6 +5,18 @@ param(
 $Project = "site-institucional-dibs"
 $ManageCred = "C:\DIBS SOLUTIONS\scripts\Manage-Credential.ps1"
 
+function Deploy-Vercel($token, $noBuild) {
+  if ($noBuild) {
+    Write-Host "🏗️  Build local..." -ForegroundColor Cyan
+    npm run build 2>&1 | Out-Host
+    if ($LASTEXITCODE -ne 0) {
+      Write-Host "❌ Build falhou. Deploy cancelado." -ForegroundColor Red
+      exit 1
+    }
+  }
+  npx vercel --prod --token $token --yes $(if ($noBuild) { '--no-build' }) 2>&1
+}
+
 Write-Host "╔══════════════════════════════════════════╗" -ForegroundColor Cyan
 Write-Host "║   Deploy - Site Institucional Dibs     ║" -ForegroundColor Cyan
 Write-Host "╚══════════════════════════════════════════╝" -ForegroundColor Cyan
@@ -37,11 +49,21 @@ if (-not $cred) {
 }
 $token = $cred.GetNetworkCredential().Password
 
-Write-Host "🚀 Deployando para Vercel..." -ForegroundColor Cyan
+if (-not $NoBuild) {
+  Write-Host ""
+  Write-Host "📦 Tipo de deploy:" -ForegroundColor Yellow
+  Write-Host "   [1] Rápido — texto/imagens/detalhes (build local + upload ~10s)" -ForegroundColor Green
+  Write-Host "   [2] Completo — alterações estruturais (build no Vercel ~2min)" -ForegroundColor Cyan
+  $choice = Read-Host "Escolha (1/2)"
+  $NoBuild = ($choice -eq "1")
+}
+
 if ($NoBuild) {
-  npx vercel --prod --token $token --yes --no-build 2>&1
+  Write-Host "🚀 Deploy rápido (build local + --no-build)..." -ForegroundColor Cyan
+  Deploy-Vercel $token $true
 } else {
-  npx vercel --prod --token $token --yes 2>&1
+  Write-Host "🚀 Deploy completo (build no Vercel)..." -ForegroundColor Cyan
+  Deploy-Vercel $token $false
 }
 
 if ($LASTEXITCODE -eq 0) {
@@ -49,8 +71,8 @@ if ($LASTEXITCODE -eq 0) {
   Write-Host "✅ Deploy concluído!" -ForegroundColor Green
   Write-Host "🌐 https://dibs.solutions" -ForegroundColor Cyan
   Write-Host ""
-  Write-Host "💡 Lembrete: Se não enxergar as mudanças, abra uma guia anônima" -ForegroundColor Yellow
-  Write-Host "   ou limpe o cache com Ctrl+Shift+R (Hard Refresh)." -ForegroundColor Yellow
+  Write-Host "💡 O script de versão no site já força atualização automática." -ForegroundColor Yellow
+  Write-Host "   Dê um refresh no celular que as mudanças aparecem." -ForegroundColor Yellow
 } else {
   Write-Host ""
   Write-Host "❌ Deploy falhou. Verifique o log acima." -ForegroundColor Red
