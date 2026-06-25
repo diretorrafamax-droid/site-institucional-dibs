@@ -74,15 +74,7 @@ export function CaseModal({ detail, onClose }: CaseModalProps) {
 
           <div className="relative h-32 shrink-0 overflow-hidden md:h-72">
           {detail.image && (
-            detail.image.endsWith('.webp') ? (
-              <picture>
-                <source srcSet={detail.image} type="image/webp" />
-                <source srcSet={detail.image.replace(/\.\w+$/, '.png')} type="image/png" />
-                <img src={detail.image} alt={detail.title} className="h-full w-full object-cover" />
-              </picture>
-            ) : (
-              <img src={detail.image} alt={detail.title} className="h-full w-full object-cover" />
-            )
+            <img src={detail.image} alt={detail.title} className="h-full w-full object-cover" />
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           {detail.metric && (

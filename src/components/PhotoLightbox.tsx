@@ -35,10 +35,7 @@ export function PhotoLightbox({ src, alt, onClose }: PhotoLightboxProps) {
         ✕
       </button>
       <div className="relative max-h-[85vh] max-w-[85vw] overflow-hidden rounded-2xl shadow-2xl" onClick={e => e.stopPropagation()}>
-        <picture>
-          <source srcSet={src.replace(/\.\w+$/, '.webp')} type="image/webp" />
-          <img src={src} alt={alt} width={800} height={800} className="h-auto w-auto object-contain" style={{ maxHeight: '85vh', maxWidth: '85vw' }} />
-        </picture>
+        <img src={src} alt={alt} width={800} height={800} className="h-auto w-auto object-contain" style={{ maxHeight: '85vh', maxWidth: '85vw' }} />
       </div>
     </div>
   )
