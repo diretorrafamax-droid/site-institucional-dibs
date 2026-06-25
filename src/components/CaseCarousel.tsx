@@ -7,8 +7,8 @@ import { CaseCard } from '@/components/CaseCard'
 import { CaseModal } from '@/components/CaseModal'
 
 const caseMeta = [
-  { image: '/assets/cases/ebook-experiencia-do-lar.png', metric: '15 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
-  { image: '/assets/cases/landing-page-experiencia-do-lar.png', metric: '12 telas', techs: ['Figma', 'Next.js', 'Tailwind', 'UX Writing'] },
+  { image: '/assets/cases/ebook-experiencia-do-lar.png', metric: 'Em 5 dias', techs: ['Pesquisa', 'Copywriting', 'Design Editorial', 'KDP'] },
+  { image: '/assets/cases/landing-page-experiencia-do-lar.png', metric: 'Integração', techs: ['Figma', 'Next.js', 'Tailwind', 'UX Writing'] },
   { image: '/assets/cases/game-snake-bonus.png', metric: '+500 jogadores', techs: ['Canvas API', 'Mobile-first', 'Ranking'] },
   { image: '/assets/cases/timetracker-pro.png', metric: '30% economia', techs: ['Next.js', 'Dashboard', 'Simulação'] },
   { image: '/assets/cases/gestcash.png', metric: 'Smart Contract', techs: ['Smart Contract', 'Tokenização', 'Finanças'] },
