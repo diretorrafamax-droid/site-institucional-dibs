@@ -44,7 +44,7 @@ export default async function LocaleLayout({
         <LocaleBanner />
       </ThemeProvider>
       <script dangerouslySetInnerHTML={{
-        __html: `(function(){try{var k='dibs:v',v='${deployVersion}',c=localStorage.getItem(k);if(c&&c!==v){localStorage.setItem(k,v);location.reload()}else if(!c){localStorage.setItem(k,v)}}catch(e){}})()`
+        __html: `(function(){try{var k='dibs:v',v='${deployVersion}',c=localStorage.getItem(k);if(c&&c!==v){localStorage.setItem(k,v);var u=location.href.replace(/[?&]v=[^&]*/,'');location.href=u+(u.indexOf('?')>-1?'&':'?')+'v='+v}else if(!c){localStorage.setItem(k,v)}}catch(e){}})()`
       }} />
     </NextIntlClientProvider>
   )
